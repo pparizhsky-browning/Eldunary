@@ -36,7 +36,7 @@ const rosterMembers = allArashi
 const quickFacts: Record<string, string | string[]> = {};
 const _rank = d.rank ?? d.arashiRank;
 if (_rank !== undefined && _rank !== null) quickFacts['Arashi Rank'] = `#${_rank}`;
-const _worldRank = d.power_rank ?? (d as any).worldPowerRank;
+const _worldRank = d.power_rank ?? d.worldPowerRank;
 if (_worldRank !== undefined && _worldRank !== null) quickFacts['World Power Rank'] = `#${_worldRank}`;
 if (d.race) quickFacts['Race'] = d.race;
 const _class = d.power_class ?? d.powerClass;
