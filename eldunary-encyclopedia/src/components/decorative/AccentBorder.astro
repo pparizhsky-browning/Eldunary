@@ -1,0 +1,23 @@
+---
+interface Props {
+  accentColor?: string;
+}
+const { accentColor } = Astro.props;
+---
+
+{accentColor && (
+  <div
+    class="accent-border"
+    style={`background: ${accentColor};`}
+    aria-hidden="true"
+  ></div>
+)}
+
+<style>
+  .accent-border {
+    height: 3px;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+</style>

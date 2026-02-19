@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import FullWidthLayout from '../layouts/FullWidthLayout.astro';
+import WorldMap from '../components/interactive/WorldMap';
+
+const cities = await getCollection('cities');
+const kingdoms = await getCollection('kingdoms');
+
+const markers = [
+  ...cities
+    .filter((c) => Array.isArray(c.data.mapCoordinates) && c.data.mapCoordinates.length >= 2)
+    .map((c) => ({
+      slug: c.slug,
+      name: c.data.name,
+      type: 'city',
+      x: (c.data.mapCoordinates as number[])[0],
+      y: (c.data.mapCoordinates as number[])[1],
+      accentColor: c.data.accentColor,
+    })),
+  ...kingdoms
+    .filter((k) => Array.isArray(k.data.mapCoordinates) && k.data.mapCoordinates.length >= 2)
+    .map((k) => ({
+      slug: k.slug,
+      name: k.data.name,
+      type: 'kingdom',
+      x: (k.data.mapCoordinates as number[])[0],
+      y: (k.data.mapCoordinates as number[])[1],
+      accentColor: k.data.accentColor,
+    })),
+];
+---
+<FullWidthLayout title="World Map — Eldunary" description="Interactive world map of Eldunary" noPadding>
+  <div class="map-page">
+    <header class="map-header">
+      <h1 class="map-title">World Map</h1>
+      <p class="map-desc">
+        {markers.length} locations mapped · Click a marker for details
+      </p>
+    </header>
+    <div class="map-container">
+      <WorldMap markers={markers} client:load />
+    </div>
+  </div>
+</FullWidthLayout>
+
+<style>
+  .map-page { display: flex; flex-direction: column; height: calc(100vh - 64px); }
+  .map-header { padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0; }
+  .map-title { font-family: var(--font-cinzel), serif; font-size: 1.5rem; color: var(--text-primary); margin: 0 0 0.25rem; }
+  .map-desc { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
+  .map-container { flex: 1; min-height: 0; }
+  .map-container > * { height: 100% !important; }
+</style>

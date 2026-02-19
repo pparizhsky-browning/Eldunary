@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+import FullWidthLayout from '../../layouts/FullWidthLayout.astro';
+import EntityCard from '../../components/cards/EntityCard.astro';
+
+const languages = await getCollection('languages');
+const sorted = languages.sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+<FullWidthLayout title="Languages of Eldunary" description="Tongues and scripts of Eldunary">
+  <div class="listing-page">
+    <header class="listing-header">
+      <span class="listing-eyebrow">Tongues & Scripts</span>
+      <h1 class="listing-title">Languages of Eldunary</h1>
+      <div class="header-accent"></div>
+      <p class="listing-desc">The tongues, dialects, and writing systems spoken across the world of Eldunary.</p>
+    </header>
+    <div class="listing-grid">
+      {sorted.map((l) => (
+        <EntityCard name={l.data.name} slug={l.slug} type="language" summary={l.data.summary} accentColor={l.data.accentColor} meta={l.data.spoken_by?.[0]} />
+      ))}
+    </div>
+  </div>
+</FullWidthLayout>
+<style>
+  .listing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1.5rem 4rem;
+    animation: grid-fade-up 0.7s ease both;
+  }
+  @keyframes grid-fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .listing-header { margin-bottom: 3.5rem; }
+  .listing-eyebrow {
+    display: block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #5C89C4;
+    font-family: var(--font-inter), sans-serif;
+    margin-bottom: 0.75rem;
+  }
+  .listing-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--text-primary);
+    margin: 0 0 1rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+  .header-accent {
+    width: 60px;
+    height: 3px;
+    background: #5C89C4;
+    border-radius: 2px;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 0 12px #5C89C4;
+  }
+  .listing-desc {
+    color: var(--text-secondary);
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    max-width: 560px;
+    line-height: 1.7;
+    margin: 0;
+  }
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

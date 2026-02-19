@@ -1,0 +1,52 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('kingdoms');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('kingdoms', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+if (d.capital) quickFacts['Capital'] = d.capital;
+const _gov = d.government_type ?? d.governmentType;
+if (_gov) quickFacts['Government'] = String(_gov);
+if (d.population) quickFacts['Population'] = String(d.population);
+const _race = d.primary_race ?? d.mainRaces;
+if (_race) quickFacts['Main Race(s)'] = Array.isArray(_race) ? _race : [String(_race)];
+if (d.biome) quickFacts['Biome'] = d.biome;
+if (d.languages) quickFacts['Languages'] = d.languages;
+if (d.currency) quickFacts['Currency'] = d.currency;
+if (d.military_strength) quickFacts['Military'] = d.military_strength;
+if (d.stability) quickFacts['Stability'] = d.stability;
+
+const _cities = d.notable_cities ?? [...(d.otherCities ?? []), ...(d.capital ? [d.capital] : [])];
+const relatedEntities = [
+  ..._cities.map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.related_organizations ?? d.relatedOrganizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="kingdom"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.tagline}
+>
+  <Content />
+</EntityLayout>

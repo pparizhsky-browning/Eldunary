@@ -1,0 +1,47 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('families');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('families', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+if (d.race) quickFacts['Race'] = d.race;
+const _seat = d.seat_of_power ?? d.location;
+if (_seat) quickFacts['Location'] = String(_seat);
+if (d.kingdom) quickFacts['Kingdom'] = d.kingdom;
+if (d.status) quickFacts['Status'] = d.status;
+
+const _relKingdom = d.kingdom ? [d.kingdom] : [];
+const relatedEntities = [
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.notableMembers ?? d.notable_members) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.related_kingdoms ?? d.relatedKingdoms ?? _relKingdom)).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="family"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.motto}
+>
+  <Content />
+</EntityLayout>

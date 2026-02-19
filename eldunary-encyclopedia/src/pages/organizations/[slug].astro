@@ -1,0 +1,51 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('organizations');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('organizations', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+const _orgType = d.orgType;
+if (_orgType) quickFacts['Type'] = String(_orgType);
+if (d.founded) quickFacts['Founded'] = d.founded;
+const _hq = d.headquarters ?? d.hq;
+if (_hq) quickFacts['Headquarters'] = String(_hq);
+if (d.purpose) quickFacts['Purpose'] = d.purpose;
+const _leader = d.leader;
+if (_leader) quickFacts['Leader'] = String(_leader);
+const _enemies = d.enemies;
+if (_enemies && Array.isArray(_enemies) && _enemies.length) quickFacts['Enemies'] = _enemies;
+
+const relatedEntities = [
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.related_kingdoms ?? d.relatedKingdoms) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="organization"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.motto}
+>
+  <Content />
+</EntityLayout>

@@ -1,0 +1,51 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('races');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('races', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+if (d.lifespan) quickFacts['Lifespan'] = d.lifespan;
+const _height = d.typical_height ?? d.height;
+if (_height) quickFacts['Height'] = String(_height);
+const _build = d.build;
+if (_build) quickFacts['Build'] = String(_build);
+const _homeland = d.origin_region ?? d.homeland;
+if (_homeland) quickFacts['Homeland'] = String(_homeland);
+const _lang = d.primary_languages ?? d.language;
+if (_lang) quickFacts['Language'] = String(_lang);
+if (d.status) quickFacts['Status'] = d.status;
+if (d.endonym) quickFacts['Endonym'] = d.endonym;
+
+const relatedEntities = [
+  ...((d.related_kingdoms ?? d.relatedKingdoms) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+  ...(d.notableFigures ?? []).map((f: {slug: string; label: string}) => ({ name: f.label, slug: f.slug, type: 'character' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="race"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.tagline}
+>
+  <Content />
+</EntityLayout>

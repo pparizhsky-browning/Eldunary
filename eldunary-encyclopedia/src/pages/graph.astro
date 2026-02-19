@@ -1,0 +1,33 @@
+---
+import FullWidthLayout from '../layouts/FullWidthLayout.astro';
+import RelationshipGraph from '../components/interactive/RelationshipGraph';
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
+
+const graphFile = join(process.cwd(), 'generated', 'graph-data.json');
+const graphData = existsSync(graphFile)
+  ? JSON.parse(readFileSync(graphFile, 'utf-8'))
+  : { nodes: [], edges: [] };
+---
+<FullWidthLayout title="Connection Graph — Eldunary" description="D3 relationship graph of all Eldunary entities" noPadding>
+  <div class="graph-page">
+    <header class="graph-header">
+      <h1 class="graph-title">Connection Graph</h1>
+      <p class="graph-desc">
+        {graphData.nodes.length} entities · {graphData.edges.length} connections · drag, zoom, click to navigate
+      </p>
+    </header>
+    <div class="graph-container">
+      <RelationshipGraph data={graphData} client:load />
+    </div>
+  </div>
+</FullWidthLayout>
+
+<style>
+  .graph-page { display: flex; flex-direction: column; height: calc(100vh - 64px); }
+  .graph-header { padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0; }
+  .graph-title { font-family: var(--font-cinzel), serif; font-size: 1.5rem; color: var(--text-primary); margin: 0 0 0.25rem; }
+  .graph-desc { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
+  .graph-container { flex: 1; min-height: 0; }
+  .graph-container > * { height: 100% !important; }
+</style>

@@ -1,0 +1,47 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('magic');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('magic', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+if (d.percentage) quickFacts['% of Magi'] = d.percentage;
+const _practitioners = d.practitioners ?? d.knownPractitioners;
+if (_practitioners) quickFacts['Known Practitioners'] = Array.isArray(_practitioners) ? _practitioners : [String(_practitioners)];
+if (d.rarity) quickFacts['Rarity'] = d.rarity;
+if (d.subtypes && Array.isArray(d.subtypes) && d.subtypes.length) quickFacts['Sub-types'] = d.subtypes;
+const _banned = d.bannedIn;
+if (_banned && Array.isArray(_banned) && _banned.length) quickFacts['Banned In'] = _banned;
+
+const relatedEntities = [
+  ...((d.related_characters ?? d.relatedCharacters ?? d.knownPractitioners) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.related_races ?? d.relatedRaces) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="magic"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.tagline}
+>
+  <Content />
+</EntityLayout>

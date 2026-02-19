@@ -1,0 +1,140 @@
+---
+interface Props {
+  name: string;
+  slug: string;
+  race?: string;
+  powerRank?: number;
+  powerClass?: string;
+  summary?: string;
+  accentColor?: string;
+}
+const { name, slug, race, powerRank, powerClass, summary, accentColor } = Astro.props;
+---
+<a href={`/characters/${slug}`} class="character-card" style={accentColor ? `--card-accent: ${accentColor}` : ''}>
+  <div class="card-glow" aria-hidden="true" style={accentColor ? `background: radial-gradient(circle at 50% 0%, ${accentColor}15, transparent 70%)` : ''}></div>
+  <div class="card-header">
+    <span class="card-type">Character</span>
+    {powerRank !== undefined && <span class="power-rank">Rank #{powerRank}</span>}
+  </div>
+  <h3 class="card-name">{name}</h3>
+  <div class="card-meta">
+    {race && <span class="race-tag">{race}</span>}
+    {powerClass && <span class="class-tag">{powerClass}</span>}
+  </div>
+  {summary && <p class="card-summary">{summary}</p>}
+  <div class="card-footer">
+    <span class="view-profile">View Profile</span>
+  </div>
+</a>
+
+<style>
+  .character-card {
+    display: flex; flex-direction: column;
+    background: rgba(20, 20, 25, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.75rem;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+  }
+  .card-glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    opacity: 0.5;
+  }
+  .character-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--card-accent, var(--accent));
+    background: rgba(26, 26, 32, 0.9);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px color-mix(in srgb, var(--card-accent, var(--accent)), transparent 85%);
+  }
+  .character-card::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: var(--card-accent, var(--accent));
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+    transform-origin: left;
+  }
+  .character-card:hover::after { transform: scaleX(1); }
+  .character-card:hover .card-glow { opacity: 1; }
+
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; position: relative; z-index: 1; }
+  .card-type {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--card-accent, var(--accent));
+    background: color-mix(in srgb, var(--card-accent, var(--accent)), transparent 92%);
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid color-mix(in srgb, var(--card-accent, var(--accent)), transparent 80%);
+  }
+  .power-rank {
+    font-size: 0.8rem;
+    color: #fff;
+    font-family: var(--font-cinzel), serif;
+    font-weight: 700;
+    text-shadow: 0 0 10px var(--card-accent, var(--accent));
+  }
+  .card-name {
+    font-family: var(--font-cinzel), serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease;
+  }
+  .character-card:hover .card-name { color: var(--card-accent, var(--accent)); }
+  .card-meta { display: flex; gap: 0.6rem; margin-bottom: 1.25rem; flex-wrap: wrap; position: relative; z-index: 1; }
+  .race-tag, .class-tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.04);
+    color: #a1a1aa;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .card-summary {
+    font-family: var(--font-lora), serif;
+    font-size: 0.95rem;
+    color: #8a8a9a;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-style: italic;
+  }
+  .card-footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+    z-index: 1;
+  }
+  .view-profile {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #666;
+    transition: all 0.3s ease;
+  }
+  .character-card:hover .view-profile { color: var(--card-accent, var(--accent)); padding-left: 5px; }
+</style>

@@ -1,0 +1,152 @@
+---
+import FullWidthLayout from '../layouts/FullWidthLayout.astro';
+---
+<FullWidthLayout title="Search — Eldunary" description="Search the Eldunary encyclopedia">
+  <div class="search-page">
+    <header class="search-header">
+      <h1 class="search-title">Search</h1>
+      <p class="search-desc">Find anything in the Eldunary encyclopedia</p>
+    </header>
+
+    <!-- Entity type filter strip -->
+    <div class="filter-strip" id="type-filters">
+      <button class="filter-btn active" data-filter="">All</button>
+      <button class="filter-btn" data-filter="character">Characters</button>
+      <button class="filter-btn" data-filter="arashi">Arashi</button>
+      <button class="filter-btn" data-filter="race">Races</button>
+      <button class="filter-btn" data-filter="kingdom">Kingdoms</button>
+      <button class="filter-btn" data-filter="city">Cities</button>
+      <button class="filter-btn" data-filter="family">Families</button>
+      <button class="filter-btn" data-filter="organization">Organizations</button>
+      <button class="filter-btn" data-filter="history">History</button>
+      <button class="filter-btn" data-filter="magic">Magic</button>
+      <button class="filter-btn" data-filter="language">Languages</button>
+    </div>
+
+    <div id="pagefind-search-container"></div>
+  </div>
+</FullWidthLayout>
+
+<script is:inline>
+  var pagefindUI = null;
+
+  function initSearch() {
+    var el = document.getElementById('pagefind-search-container');
+    if (!el) return;
+
+    var cssLink = document.createElement('link');
+    cssLink.rel = 'stylesheet';
+    cssLink.href = '/pagefind/pagefind-ui.css';
+    document.head.appendChild(cssLink);
+
+    var s = document.createElement('script');
+    s.src = '/pagefind/pagefind-ui.js';
+    s.onload = function() {
+      if (window.PagefindUI) {
+        pagefindUI = new window.PagefindUI({
+          element: '#pagefind-search-container',
+          showImages: false,
+          filters: { type: true }
+        });
+      }
+    };
+    document.head.appendChild(s);
+
+    // Wire up filter buttons
+    var filterStrip = document.getElementById('type-filters');
+    if (filterStrip) {
+      filterStrip.addEventListener('click', function(e) {
+        var btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        // Update active state
+        filterStrip.querySelectorAll('.filter-btn').forEach(function(b) {
+          b.classList.remove('active');
+        });
+        btn.classList.add('active');
+        // Apply filter to PagefindUI via input event simulation
+        var filterVal = btn.dataset.filter;
+        var input = document.querySelector('#pagefind-search-container .pagefind-ui__search-input');
+        if (input) {
+          // Trigger a re-search with current query + type filter
+          var currentQuery = input.value || (filterVal ? filterVal + 's' : ' ');
+          // Use Pagefind JS API directly if available
+          if (window.__pagefind__) {
+            window.__pagefind__.filters({ type: filterVal || undefined }).then(function(results) {
+              console.log('Filter applied', filterVal, results);
+            });
+          }
+          // Visually trigger search if pagefindUI supports it
+          if (pagefindUI && typeof pagefindUI.triggerSearch === 'function') {
+            pagefindUI.triggerSearch( input.value );
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', initSearch);
+</script>
+
+<style>
+  .search-page { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .search-header { margin-bottom: 1.5rem; }
+  .search-title { font-family: var(--font-cinzel, 'Cinzel'), serif; font-size: 2rem; color: var(--text-primary, #F5F0E8); margin: 0 0 0.5rem; }
+  .search-desc { color: var(--text-muted, #6A6A7A); margin: 0; }
+
+  .filter-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .filter-btn {
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(196,155,92,0.3);
+    background: transparent;
+    color: var(--text-secondary, #9A9A9A);
+    font-family: var(--font-inter, 'Inter'), sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.18s ease;
+  }
+  .filter-btn:hover {
+    border-color: rgba(196,155,92,0.7);
+    color: var(--text-primary, #F5F0E8);
+    background: rgba(196,155,92,0.08);
+  }
+  .filter-btn.active {
+    background: rgba(196,155,92,0.18);
+    border-color: #C49B5C;
+    color: #C49B5C;
+    font-weight: 600;
+  }
+
+  /* Pagefind UI dark theme overrides */
+  #pagefind-search-container :global(.pagefind-ui) {
+    --pagefind-ui-scale: 0.9;
+    --pagefind-ui-primary: #C49B5C;
+    --pagefind-ui-text: #F5F0E8;
+    --pagefind-ui-background: var(--bg-card, #12121A);
+    --pagefind-ui-border: rgba(196,155,92,0.3);
+    --pagefind-ui-tag: #1E1E2C;
+  }
+  #pagefind-search-container :global(.pagefind-ui__search-input) {
+    background: var(--bg-card, #12121A) !important;
+    border: 1px solid rgba(196,155,92,0.3) !important;
+    color: var(--text-primary, #F5F0E8) !important;
+    border-radius: 8px !important;
+    font-family: var(--font-inter, 'Inter'), sans-serif !important;
+  }
+  #pagefind-search-container :global(.pagefind-ui__result) {
+    border-color: rgba(196,155,92,0.15) !important;
+  }
+  #pagefind-search-container :global(.pagefind-ui__result-title a) {
+    color: #C49B5C !important;
+    font-family: var(--font-cinzel, 'Cinzel'), serif !important;
+  }
+  #pagefind-search-container :global(.pagefind-ui__filter-panel) {
+    background: var(--bg-card, #12121A) !important;
+    border-color: rgba(196,155,92,0.2) !important;
+  }
+</style>

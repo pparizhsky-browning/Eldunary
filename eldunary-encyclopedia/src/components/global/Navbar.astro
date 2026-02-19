@@ -1,0 +1,245 @@
+---
+const navLinks = [
+  { label: 'Races', href: '/races' },
+  { label: 'Kingdoms', href: '/kingdoms' },
+  { label: 'Cities', href: '/cities' },
+  { label: 'Characters', href: '/characters' },
+  { label: 'Arashi', href: '/arashi' },
+  { label: 'Organizations', href: '/organizations' },
+  { label: 'Families', href: '/families' },
+  { label: 'History', href: '/history' },
+  { label: 'Magic', href: '/magic' },
+  { label: 'Languages', href: '/languages' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="navbar">
+  <nav class="navbar-inner">
+    <a href="/" class="navbar-brand">
+      <span class="brand-icon">⚔</span>
+      <span class="brand-text">Eldunary</span>
+    </a>
+
+    <ul class="navbar-links">
+      {navLinks.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class:list={['nav-link', { active: currentPath.startsWith(link.href) }]}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="navbar-actions">
+      <a href="/map" class="nav-action-link" title="World Map">🗺</a>
+      <a href="/graph" class="nav-action-link" title="Relation Graph">🕸</a>
+      <a href="/power-rank" class="nav-action-link" title="Power Rankings">⚡</a>
+      <button
+        id="search-trigger"
+        class="nav-search-btn"
+        aria-label="Search (Cmd+K)"
+        title="Search (Cmd+K)"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <kbd>⌘K</kbd>
+      </button>
+    </div>
+
+    <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      {navLinks.map((link) => (
+        <li><a href={link.href} class="mobile-nav-link">{link.label}</a></li>
+      ))}
+      <li><a href="/map" class="mobile-nav-link">World Map</a></li>
+      <li><a href="/graph" class="mobile-nav-link">Relation Graph</a></li>
+      <li><a href="/power-rank" class="mobile-nav-link">Power Rankings</a></li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => menu?.classList.toggle('open'));
+
+  // Cmd+K to open search
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      document.getElementById('search-modal')?.classList.add('open');
+    }
+  });
+  document.getElementById('search-trigger')?.addEventListener('click', () => {
+    document.getElementById('search-modal')?.classList.add('open');
+  });
+</script>
+
+<style>
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(10, 10, 12, 0.85);
+    backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  }
+  .navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 72px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-cinzel), serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  .navbar-brand:hover {
+    color: var(--accent);
+    text-shadow: 0 0 15px rgba(196, 155, 92, 0.5);
+  }
+  .brand-icon {
+    font-size: 1.5rem;
+    filter: drop-shadow(0 0 5px var(--accent));
+  }
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: #9a9a9a;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: var(--font-inter), sans-serif;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: right;
+  }
+  .nav-link:hover { color: #fff; }
+  .nav-link.active { color: var(--accent); }
+  .nav-link.active::after { transform: scaleX(1); transform-origin: left; }
+  .nav-link:hover::after { transform: scaleX(1); transform-origin: left; }
+
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .nav-action-link {
+    font-size: 1.25rem;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+  .nav-action-link:hover { opacity: 1; transform: scale(1.1); }
+  
+  .nav-search-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #888;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .nav-search-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .nav-search-btn kbd {
+    font-family: inherit;
+    font-size: 0.7rem;
+    background: rgba(0,0,0,0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #666;
+  }
+
+  .mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: auto;
+  }
+  .mobile-menu-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--text-secondary);
+    border-radius: 2px;
+  }
+  .mobile-menu {
+    display: none;
+    background: rgba(10,10,15,0.98);
+    border-top: 1px solid rgba(196, 155, 92, 0.15);
+  }
+  .mobile-menu.open { display: block; }
+  .mobile-menu ul { list-style: none; margin: 0; padding: 0.5rem 0; }
+  .mobile-nav-link {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .mobile-nav-link:hover { color: var(--accent); }
+  @media (max-width: 1200px) {
+    .navbar-links { display: none; }
+  }
+  @media (max-width: 900px) {
+    .navbar-actions .nav-search-btn { display: none; }
+    .mobile-menu-btn { display: flex; }
+  }
+</style>

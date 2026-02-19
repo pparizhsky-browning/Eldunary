@@ -1,0 +1,95 @@
+---
+interface Props {
+  title: string;
+  entityType: string;
+  tagline?: string;
+  accentColor?: string;
+}
+const { title, entityType, tagline, accentColor } = Astro.props;
+
+const typeLabels: Record<string, string> = {
+  race: 'Race', kingdom: 'Kingdom', city: 'City', character: 'Character',
+  arashi: 'Arashi Rank', organization: 'Organization', family: 'Family',
+  history: 'Historical Event', magic: 'Magic System', language: 'Language',
+};
+const typeLabel = typeLabels[entityType] ?? entityType;
+
+function hexToRgb(hex: string): string {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result
+    ? `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}`
+    : '196, 155, 92';
+}
+const accentRgb = accentColor?.startsWith('#') ? hexToRgb(accentColor) : '196, 155, 92';
+---
+
+<div
+  class="hero-banner"
+  style={accentColor ? `--hero-accent: ${accentColor}; --hero-accent-rgb: ${accentRgb}` : ''}
+>
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-content">
+    <span class="hero-type">{typeLabel}</span>
+    <h1 class="hero-title">{title}</h1>
+    {tagline && <p class="hero-tagline">{tagline}</p>}
+  </div>
+</div>
+
+<style>
+  .hero-banner {
+    position: relative;
+    padding: 6rem 1.5rem 4rem;
+    background: var(--bg-primary);
+    overflow: hidden;
+  }
+  .hero-banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      circle at 20% 50%,
+      rgba(var(--hero-accent-rgb, var(--accent-rgb)), 0.15) 0%,
+      transparent 50%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .hero-type {
+    display: inline-block;
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: var(--hero-accent, var(--accent));
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(var(--hero-accent-rgb, var(--accent-rgb)), 0.3);
+  }
+  .hero-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 900;
+    color: var(--text-primary);
+    margin: 0 0 1rem;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.8);
+  }
+  .hero-tagline {
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+    max-width: 600px;
+    opacity: 0.8;
+  }
+</style>

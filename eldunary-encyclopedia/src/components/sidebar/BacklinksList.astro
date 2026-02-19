@@ -1,0 +1,87 @@
+---
+interface Backlink {
+  name: string;
+  slug: string;
+  type: string;
+}
+interface Props {
+  backlinks: Backlink[];
+}
+const { backlinks } = Astro.props;
+const typeToPath: Record<string, string> = {
+  race: 'races', kingdom: 'kingdoms', city: 'cities',
+  character: 'characters', arashi: 'arashi', organization: 'organizations',
+  family: 'families', history: 'history', magic: 'magic', language: 'languages',
+};
+---
+
+{backlinks.length > 0 && (
+  <div class="backlinks">
+    <h3 class="bl-title">Referenced By</h3>
+    <ul class="bl-list">
+      {backlinks.map((bl) => {
+        const path = typeToPath[bl.type] ?? bl.type;
+        return (
+          <li>
+            <a href={`/${path}/${bl.slug}`} class="bl-link">
+              <span class="bl-type">{bl.type}</span>
+              <span class="bl-name">{bl.name}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+)}
+
+<style>
+  .backlinks {
+    background: var(--bg-secondary);
+    border: 1px solid rgba(var(--accent-rgb, 196, 155, 92), 0.15);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  .bl-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .bl-title::after {
+    content: ''; flex: 1; height: 1px;
+    background: linear-gradient(to right, rgba(255,255,255,0.08), transparent);
+  }
+  .bl-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.25rem; }
+  .bl-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+  .bl-link:last-child { border-bottom: none; }
+  .bl-link:hover { padding-left: 0.2rem; }
+  .bl-link:hover .bl-name { color: var(--text-primary); }
+  .bl-type {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.06);
+    border-radius: 2px;
+    padding: 1px 5px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  .bl-name { font-size: 0.85rem; color: var(--text-muted); transition: color 0.2s; line-height: 1.2; }
+</style>

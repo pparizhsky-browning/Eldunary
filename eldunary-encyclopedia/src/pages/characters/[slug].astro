@@ -1,0 +1,53 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('characters');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('characters', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+if (d.race) quickFacts['Race'] = d.race;
+if (d.age) quickFacts['Age'] = String(d.age);
+if (d.gender) quickFacts['Gender'] = d.gender;
+const _rank = d.power_rank ?? d.powerRank;
+if (_rank !== undefined && _rank !== null) quickFacts['Power Rank'] = `#${_rank}`;
+const _class = d.power_class ?? d.powerClass;
+if (_class) quickFacts['Power Class'] = String(_class);
+const _affiliation = d.affiliation ?? d.organization ?? d.kingdom;
+if (_affiliation) quickFacts['Affiliation'] = Array.isArray(_affiliation) ? _affiliation : [String(_affiliation)];
+const _loc = d.current_location ?? d.location;
+if (_loc) quickFacts['Location'] = String(_loc);
+if (d.status) quickFacts['Status'] = d.status;
+if (d.magiType) quickFacts['Magic Type'] = d.magiType;
+
+const relatedEntities = [
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.related_organizations ?? d.relatedOrganizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="character"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.title}
+>
+  <Content />
+</EntityLayout>

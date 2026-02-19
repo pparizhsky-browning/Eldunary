@@ -1,0 +1,105 @@
+---
+interface Entity {
+  name: string;
+  slug: string;
+  type: string;
+  summary?: string;
+}
+
+interface Props {
+  entities: Entity[];
+}
+
+const { entities } = Astro.props;
+
+const typeToPath: Record<string, string> = {
+  race: 'races', kingdom: 'kingdoms', city: 'cities',
+  character: 'characters', arashi: 'arashi', organization: 'organizations',
+  family: 'families', history: 'history', magic: 'magic', language: 'languages',
+};
+---
+
+{entities.length > 0 && (
+  <div class="related-entities">
+    <h3 class="re-title">Related</h3>
+    <ul class="re-list">
+      {entities.map((e) => {
+        const path = typeToPath[e.type] ?? e.type;
+        return (
+          <li>
+            <a href={`/${path}/${e.slug}`} class="re-link">
+              <span class="re-type">{e.type}</span>
+              <span class="re-name">{e.name}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+)}
+
+<style>
+  .related-entities {
+    background: var(--bg-card);
+    border: 1px solid rgba(var(--accent-rgb, 196, 155, 92), 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  .related-entities::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(var(--accent-rgb, 196, 155, 92), 0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .re-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .re-title::after {
+    content: ''; flex: 1; height: 1px;
+    background: linear-gradient(to right, rgba(var(--accent-rgb, 196, 155, 92), 0.3), transparent);
+  }
+  .re-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; position: relative; z-index: 1; }
+  .re-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: all 0.2s ease;
+  }
+  .re-link:last-child { border-bottom: none; }
+  .re-link:hover { padding-left: 0.25rem; }
+  .re-link:hover .re-name { color: var(--accent-light); }
+  .re-type {
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.12);
+    border-radius: 2px;
+    padding: 2px 6px;
+    flex-shrink: 0;
+    border: 1px solid rgba(var(--accent-rgb), 0.15);
+  }
+  .re-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: color 0.15s;
+    line-height: 1.2;
+  }
+</style>

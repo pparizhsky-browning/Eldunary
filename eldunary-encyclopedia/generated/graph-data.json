@@ -1,0 +1,2539 @@
+{
+  "nodes": [
+    {
+      "id": "darkmane-elves",
+      "name": "Darkmane Elves",
+      "type": "race",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "folkwynd",
+      "name": "Folkwynd",
+      "type": "race",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "goldhelms",
+      "name": "Goldhelms",
+      "type": "race",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "golems",
+      "name": "Golems",
+      "type": "race",
+      "accentColor": "#6B6B6B",
+      "val": 3
+    },
+    {
+      "id": "ipadoras",
+      "name": "Ipadoras",
+      "type": "race",
+      "accentColor": "#1A7A7A",
+      "val": 3
+    },
+    {
+      "id": "sharkai",
+      "name": "Shar'kai",
+      "type": "race",
+      "accentColor": "#2C4A6E",
+      "val": 3
+    },
+    {
+      "id": "tharnex",
+      "name": "Tharnex",
+      "type": "race",
+      "accentColor": "#2D5A27",
+      "val": 3
+    },
+    {
+      "id": "goldhelm-kingdom",
+      "name": "Goldhelm Kingdom",
+      "type": "kingdom",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "ipadora-kingdom",
+      "name": "Ipadora Kingdom",
+      "type": "kingdom",
+      "accentColor": "#1A7A7A",
+      "val": 3
+    },
+    {
+      "id": "kingdom-of-fodon",
+      "name": "Kingdom of Fodon",
+      "type": "kingdom",
+      "accentColor": "#C4A35A",
+      "val": 3
+    },
+    {
+      "id": "kingdom-of-iyhago",
+      "name": "Kingdom of Iyhago",
+      "type": "kingdom",
+      "accentColor": "#7A6BAE",
+      "val": 3
+    },
+    {
+      "id": "kingdom-of-vacron",
+      "name": "Kingdom of Vacron",
+      "type": "kingdom",
+      "accentColor": "#8B5E3C",
+      "val": 3
+    },
+    {
+      "id": "nikolem-kingdom",
+      "name": "Nikolem Kingdom",
+      "type": "kingdom",
+      "accentColor": "#5A5A5A",
+      "val": 3
+    },
+    {
+      "id": "republic-of-frada",
+      "name": "Republic of Frada",
+      "type": "kingdom",
+      "accentColor": "#4A6741",
+      "val": 3
+    },
+    {
+      "id": "republic-of-oredsy",
+      "name": "Republic of Oredsy",
+      "type": "kingdom",
+      "accentColor": "#5A7A8B",
+      "val": 3
+    },
+    {
+      "id": "state-of-akison",
+      "name": "State of Akison",
+      "type": "kingdom",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "warring-darkmane-realm",
+      "name": "Warring Darkmane Realm",
+      "type": "kingdom",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "adlens",
+      "name": "Adlens",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "akison",
+      "name": "Akison",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "andport",
+      "name": "Andport",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "anehull",
+      "name": "Anehull",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "clocester",
+      "name": "Clocester",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "cridbury",
+      "name": "Cridbury",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "fodon",
+      "name": "Fodon",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "frada",
+      "name": "Frada",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "glaril",
+      "name": "Glaril",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "grousea",
+      "name": "Grousea",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "hiypolis",
+      "name": "Hiypolis",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "ibeson",
+      "name": "Ibeson",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "icogas",
+      "name": "Icogas",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "imuton",
+      "name": "Imuton",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "ipadora-sanctuary",
+      "name": "Ipadora Sanctuary",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "iyhago-prime",
+      "name": "Iyhago Prime",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "klanron",
+      "name": "Klanron",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "klosdon",
+      "name": "Klosdon",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "kusamori",
+      "name": "Kusamori",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "mayson",
+      "name": "Mayson",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "neruvalis",
+      "name": "Neruvalis",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "okbridge",
+      "name": "Okbridge",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "oniofast",
+      "name": "Oniofast",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "oredsy",
+      "name": "Oredsy",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "ovodon",
+      "name": "Ovodon",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "phaaross",
+      "name": "Phaaross",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "plodrough",
+      "name": "Plodrough",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "skellmoor",
+      "name": "Skellmoor",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "sloumont",
+      "name": "Sloumont",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "suudon",
+      "name": "Suudon",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "ubraamore",
+      "name": "Ubraamore",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "uyrand",
+      "name": "Uyrand",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "vacron",
+      "name": "Vacron",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "vlurg",
+      "name": "Vlurg",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "wrediff",
+      "name": "Wrediff",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "wrofast",
+      "name": "Wrofast",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "zhuiburn",
+      "name": "Zhuiburn",
+      "type": "city",
+      "accentColor": "#4CAF50",
+      "val": 3
+    },
+    {
+      "id": "azaraith",
+      "name": "Azaraith",
+      "type": "character",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "crimson-knight",
+      "name": "Crimson Knight",
+      "type": "character",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "fluffy",
+      "name": "Fluffy",
+      "type": "character",
+      "accentColor": "#FFFFFF",
+      "val": 3
+    },
+    {
+      "id": "golem-king",
+      "name": "Golem King",
+      "type": "character",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "king-aldric",
+      "name": "King Aldric",
+      "type": "character",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "princess-seraphina",
+      "name": "Princess Seraphina",
+      "type": "character",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "queen-nayele",
+      "name": "Queen Nayele",
+      "type": "character",
+      "accentColor": "#006994",
+      "val": 3
+    },
+    {
+      "id": "selvarin",
+      "name": "Selvarin",
+      "type": "character",
+      "accentColor": "#C0C0C0",
+      "val": 3
+    },
+    {
+      "id": "sunlee",
+      "name": "Sunlee",
+      "type": "character",
+      "accentColor": "#4A90D9",
+      "val": 3
+    },
+    {
+      "id": "vaelith-the-hollow",
+      "name": "Vaelith the Hollow",
+      "type": "character",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "varnokh",
+      "name": "Varnokh",
+      "type": "character",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "veles",
+      "name": "Veles",
+      "type": "character",
+      "accentColor": "#7B68EE",
+      "val": 3
+    },
+    {
+      "id": "vorryn",
+      "name": "Vorryn",
+      "type": "character",
+      "accentColor": "#2D5A27",
+      "val": 3
+    },
+    {
+      "id": "vorvax",
+      "name": "Vorvax",
+      "type": "character",
+      "accentColor": "#2D5A27",
+      "val": 3
+    },
+    {
+      "id": "vulkran",
+      "name": "Vulkran",
+      "type": "character",
+      "accentColor": "#FF6B35",
+      "val": 3
+    },
+    {
+      "id": "zunarorth",
+      "name": "Zunarorth",
+      "type": "character",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "biruda",
+      "name": "Biruda",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "dark-paladin",
+      "name": "Dark Paladin",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "kaboom",
+      "name": "Kaboom",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "lucifer",
+      "name": "Lucifer",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "nebbio",
+      "name": "Nebbio",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "oto",
+      "name": "Oto",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "rabuka",
+      "name": "Rabuka",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "ryobik",
+      "name": "Ryobik",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "spector",
+      "name": "Spector",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "unknown-0",
+      "name": "Unknown",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "velho",
+      "name": "Velho",
+      "type": "arashi",
+      "accentColor": "#9B5CC4",
+      "val": 3
+    },
+    {
+      "id": "ace",
+      "name": "Ace",
+      "type": "organization",
+      "accentColor": "#FFD700",
+      "val": 3
+    },
+    {
+      "id": "arashi",
+      "name": "Arashi",
+      "type": "organization",
+      "accentColor": "#FF4444",
+      "val": 3
+    },
+    {
+      "id": "butterfly",
+      "name": "Butterfly",
+      "type": "organization",
+      "accentColor": "#4FC3F7",
+      "val": 3
+    },
+    {
+      "id": "crimson-rooks",
+      "name": "Crimson Rooks",
+      "type": "organization",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "magic-societies",
+      "name": "Magic Societies",
+      "type": "organization",
+      "accentColor": "#9B59B6",
+      "val": 3
+    },
+    {
+      "id": "pegasus",
+      "name": "Pegasus",
+      "type": "organization",
+      "accentColor": "#E8E8FF",
+      "val": 3
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "type": "organization",
+      "accentColor": "#FF6B9D",
+      "val": 3
+    },
+    {
+      "id": "darkmane-family",
+      "name": "Darkmane Family",
+      "type": "family",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "goldhelm-family",
+      "name": "Goldhelm Family",
+      "type": "family",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "ipadora-family",
+      "name": "Ipadora Family",
+      "type": "family",
+      "accentColor": "#006994",
+      "val": 3
+    },
+    {
+      "id": "crimson-convergence",
+      "name": "The Crimson Convergence",
+      "type": "history",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "equinox-of-power",
+      "name": "The Equinox of Power",
+      "type": "history",
+      "accentColor": "#7B68EE",
+      "val": 3
+    },
+    {
+      "id": "first-great-war",
+      "name": "The First Great War",
+      "type": "history",
+      "accentColor": "#CD7F32",
+      "val": 3
+    },
+    {
+      "id": "golden-war",
+      "name": "The Golden War",
+      "type": "history",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "war-of-fodon",
+      "name": "War of Fodon",
+      "type": "history",
+      "accentColor": "#2D5A27",
+      "val": 3
+    },
+    {
+      "id": "corrupted-runes",
+      "name": "Corrupted Runes",
+      "type": "magic",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "holotech",
+      "name": "Holotech",
+      "type": "magic",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "malefici",
+      "name": "Malefici",
+      "type": "magic",
+      "accentColor": "#7B68EE",
+      "val": 3
+    },
+    {
+      "id": "metas",
+      "name": "Metas",
+      "type": "magic",
+      "accentColor": "#FFFFFF",
+      "val": 3
+    },
+    {
+      "id": "runestones",
+      "name": "Runestones",
+      "type": "magic",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "common",
+      "name": "Common",
+      "type": "language",
+      "accentColor": "#888888",
+      "val": 3
+    },
+    {
+      "id": "karthrun",
+      "name": "Karthrun",
+      "type": "language",
+      "accentColor": "#8B7355",
+      "val": 3
+    },
+    {
+      "id": "katorr",
+      "name": "Ka'torr",
+      "type": "language",
+      "accentColor": "#1E90FF",
+      "val": 3
+    },
+    {
+      "id": "kotoba",
+      "name": "Kōtoba",
+      "type": "language",
+      "accentColor": "#7B68EE",
+      "val": 3
+    },
+    {
+      "id": "nualthyr",
+      "name": "Nualthyr",
+      "type": "language",
+      "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "pyrrhith",
+      "name": "Pyrrhith",
+      "type": "language",
+      "accentColor": "#FF6B35",
+      "val": 3
+    },
+    {
+      "id": "sailor-speak",
+      "name": "Sailor Speak",
+      "type": "language",
+      "accentColor": "#1E90FF",
+      "val": 3
+    },
+    {
+      "id": "shayathi",
+      "name": "Shayathi",
+      "type": "language",
+      "accentColor": "#7B68EE",
+      "val": 3
+    },
+    {
+      "id": "solaran",
+      "name": "Solaran",
+      "type": "language",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "sylvaren",
+      "name": "Sylvaren",
+      "type": "language",
+      "accentColor": "#228B22",
+      "val": 3
+    },
+    {
+      "id": "tharnexi",
+      "name": "Tharnexi",
+      "type": "language",
+      "accentColor": "#2D5A27",
+      "val": 3
+    },
+    {
+      "id": "tharnic",
+      "name": "Tharnic",
+      "type": "language",
+      "accentColor": "#C0C0C0",
+      "val": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "darkmane-elves",
+      "target": "grousea"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "grousea"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "grousea"
+    },
+    {
+      "source": "first-great-war",
+      "target": "grousea"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "wrediff"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "wrediff"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "wrediff"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "vlurg"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "vlurg"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "adlens"
+    },
+    {
+      "source": "golems",
+      "target": "adlens"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "adlens"
+    },
+    {
+      "source": "ace",
+      "target": "adlens"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "adlens"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "goldhelms",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "golems",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "ipadoras",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "sharkai",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "tharnex",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "frada",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "veles",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "lucifer",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "velho",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "golden-war",
+      "target": "crimson-convergence"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "warring-darkmane-realm"
+    },
+    {
+      "source": "azaraith",
+      "target": "warring-darkmane-realm"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "warring-darkmane-realm"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "warring-darkmane-realm"
+    },
+    {
+      "source": "darkmane-elves",
+      "target": "vaelith-the-hollow"
+    },
+    {
+      "source": "grousea",
+      "target": "vaelith-the-hollow"
+    },
+    {
+      "source": "azaraith",
+      "target": "vaelith-the-hollow"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "vaelith-the-hollow"
+    },
+    {
+      "source": "nualthyr",
+      "target": "vaelith-the-hollow"
+    },
+    {
+      "source": "folkwynd",
+      "target": "vacron"
+    },
+    {
+      "source": "kingdom-of-vacron",
+      "target": "vacron"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "vacron"
+    },
+    {
+      "source": "crimson-convergence",
+      "target": "vacron"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "vacron"
+    },
+    {
+      "source": "first-great-war",
+      "target": "vacron"
+    },
+    {
+      "source": "folkwynd",
+      "target": "frada"
+    },
+    {
+      "source": "republic-of-frada",
+      "target": "frada"
+    },
+    {
+      "source": "andport",
+      "target": "frada"
+    },
+    {
+      "source": "hiypolis",
+      "target": "frada"
+    },
+    {
+      "source": "first-great-war",
+      "target": "frada"
+    },
+    {
+      "source": "golden-war",
+      "target": "frada"
+    },
+    {
+      "source": "folkwynd",
+      "target": "oredsy"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "oredsy"
+    },
+    {
+      "source": "imuton",
+      "target": "oredsy"
+    },
+    {
+      "source": "wrofast",
+      "target": "oredsy"
+    },
+    {
+      "source": "pegasus",
+      "target": "oredsy"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "oredsy"
+    },
+    {
+      "source": "first-great-war",
+      "target": "oredsy"
+    },
+    {
+      "source": "folkwynd",
+      "target": "akison"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "akison"
+    },
+    {
+      "source": "kusamori",
+      "target": "akison"
+    },
+    {
+      "source": "okbridge",
+      "target": "akison"
+    },
+    {
+      "source": "arashi",
+      "target": "akison"
+    },
+    {
+      "source": "pegasus",
+      "target": "akison"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "kingdom-of-vacron",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "akison",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "andport",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "anehull",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "frada",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "hiypolis",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "okbridge",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "oredsy",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "ubraamore",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "wrofast",
+      "target": "crimson-rooks"
+    },
+    {
+      "source": "folkwynd",
+      "target": "kingdom-of-vacron"
+    },
+    {
+      "source": "anehull",
+      "target": "kingdom-of-vacron"
+    },
+    {
+      "source": "clocester",
+      "target": "kingdom-of-vacron"
+    },
+    {
+      "source": "klanron",
+      "target": "kingdom-of-vacron"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "kingdom-of-vacron"
+    },
+    {
+      "source": "folkwynd",
+      "target": "republic-of-frada"
+    },
+    {
+      "source": "hiypolis",
+      "target": "republic-of-frada"
+    },
+    {
+      "source": "folkwynd",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "sharkai",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "kusamori",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "neruvalis",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "okbridge",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "oniofast",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "sunlee",
+      "target": "state-of-akison"
+    },
+    {
+      "source": "folkwynd",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "icogas",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "imuton",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "wrofast",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "selvarin",
+      "target": "republic-of-oredsy"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "vacron",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "fluffy",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "golem-king",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "selvarin",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "lucifer",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "ace",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "rose",
+      "target": "crimson-knight"
+    },
+    {
+      "source": "folkwynd",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "goldhelms",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "ovodon",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "king-aldric",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "solaran",
+      "target": "princess-seraphina"
+    },
+    {
+      "source": "goldhelms",
+      "target": "ovodon"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "ovodon"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "ovodon"
+    },
+    {
+      "source": "golden-war",
+      "target": "ovodon"
+    },
+    {
+      "source": "goldhelms",
+      "target": "ibeson"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "ibeson"
+    },
+    {
+      "source": "arashi",
+      "target": "ibeson"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "ibeson"
+    },
+    {
+      "source": "golden-war",
+      "target": "ibeson"
+    },
+    {
+      "source": "goldhelms",
+      "target": "golden-war"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "golden-war"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "golden-war"
+    },
+    {
+      "source": "golem-king",
+      "target": "golden-war"
+    },
+    {
+      "source": "king-aldric",
+      "target": "golden-war"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "golden-war"
+    },
+    {
+      "source": "varnokh",
+      "target": "golden-war"
+    },
+    {
+      "source": "zunarorth",
+      "target": "golden-war"
+    },
+    {
+      "source": "helm",
+      "target": "golden-war"
+    },
+    {
+      "source": "kaboom",
+      "target": "golden-war"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "golden-war"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "golden-war"
+    },
+    {
+      "source": "first-great-war",
+      "target": "golden-war"
+    },
+    {
+      "source": "holotech",
+      "target": "golden-war"
+    },
+    {
+      "source": "runestones",
+      "target": "golden-war"
+    },
+    {
+      "source": "goldhelms",
+      "target": "goldhelm-kingdom"
+    },
+    {
+      "source": "king-aldric",
+      "target": "goldhelm-kingdom"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "goldhelm-kingdom"
+    },
+    {
+      "source": "goldhelms",
+      "target": "king-aldric"
+    },
+    {
+      "source": "ovodon",
+      "target": "king-aldric"
+    },
+    {
+      "source": "helm",
+      "target": "king-aldric"
+    },
+    {
+      "source": "kaboom",
+      "target": "king-aldric"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "king-aldric"
+    },
+    {
+      "source": "solaran",
+      "target": "king-aldric"
+    },
+    {
+      "source": "golems",
+      "target": "suudon"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "suudon"
+    },
+    {
+      "source": "arashi",
+      "target": "suudon"
+    },
+    {
+      "source": "golems",
+      "target": "cridbury"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "cridbury"
+    },
+    {
+      "source": "golems",
+      "target": "klosdon"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "klosdon"
+    },
+    {
+      "source": "golems",
+      "target": "phaaross"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "phaaross"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "phaaross"
+    },
+    {
+      "source": "golems",
+      "target": "nikolem-kingdom"
+    },
+    {
+      "source": "golem-king",
+      "target": "nikolem-kingdom"
+    },
+    {
+      "source": "varnokh",
+      "target": "nikolem-kingdom"
+    },
+    {
+      "source": "zunarorth",
+      "target": "nikolem-kingdom"
+    },
+    {
+      "source": "golems",
+      "target": "golem-king"
+    },
+    {
+      "source": "suudon",
+      "target": "golem-king"
+    },
+    {
+      "source": "fluffy",
+      "target": "golem-king"
+    },
+    {
+      "source": "varnokh",
+      "target": "golem-king"
+    },
+    {
+      "source": "zunarorth",
+      "target": "golem-king"
+    },
+    {
+      "source": "nebbio",
+      "target": "golem-king"
+    },
+    {
+      "source": "karthrun",
+      "target": "golem-king"
+    },
+    {
+      "source": "ipadoras",
+      "target": "ipadora-sanctuary"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "ipadora-sanctuary"
+    },
+    {
+      "source": "glaril",
+      "target": "ipadora-sanctuary"
+    },
+    {
+      "source": "hiypolis",
+      "target": "ipadora-sanctuary"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "ipadora-sanctuary"
+    },
+    {
+      "source": "ipadoras",
+      "target": "glaril"
+    },
+    {
+      "source": "sharkai",
+      "target": "glaril"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "glaril"
+    },
+    {
+      "source": "neruvalis",
+      "target": "glaril"
+    },
+    {
+      "source": "arashi",
+      "target": "glaril"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "glaril"
+    },
+    {
+      "source": "ipadoras",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "tharnex",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "republic-of-frada",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "fodon",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "vorryn",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "vorvax",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "first-great-war",
+      "target": "war-of-fodon"
+    },
+    {
+      "source": "ipadoras",
+      "target": "ipadora-kingdom"
+    },
+    {
+      "source": "sharkai",
+      "target": "ipadora-kingdom"
+    },
+    {
+      "source": "queen-nayele",
+      "target": "ipadora-kingdom"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "ipadora-kingdom"
+    },
+    {
+      "source": "ipadoras",
+      "target": "queen-nayele"
+    },
+    {
+      "source": "ipadora-sanctuary",
+      "target": "queen-nayele"
+    },
+    {
+      "source": "rabuka",
+      "target": "queen-nayele"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "queen-nayele"
+    },
+    {
+      "source": "sharkai",
+      "target": "neruvalis"
+    },
+    {
+      "source": "okbridge",
+      "target": "neruvalis"
+    },
+    {
+      "source": "rose",
+      "target": "neruvalis"
+    },
+    {
+      "source": "sharkai",
+      "target": "arashi"
+    },
+    {
+      "source": "tharnex",
+      "target": "arashi"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "arashi"
+    },
+    {
+      "source": "andport",
+      "target": "arashi"
+    },
+    {
+      "source": "fodon",
+      "target": "arashi"
+    },
+    {
+      "source": "icogas",
+      "target": "arashi"
+    },
+    {
+      "source": "skellmoor",
+      "target": "arashi"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "arashi"
+    },
+    {
+      "source": "sharkai",
+      "target": "rabuka"
+    },
+    {
+      "source": "glaril",
+      "target": "rabuka"
+    },
+    {
+      "source": "arashi",
+      "target": "rabuka"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "rabuka"
+    },
+    {
+      "source": "katorr",
+      "target": "rabuka"
+    },
+    {
+      "source": "sailor-speak",
+      "target": "rabuka"
+    },
+    {
+      "source": "tharnex",
+      "target": "fodon"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "fodon"
+    },
+    {
+      "source": "tharnex",
+      "target": "kingdom-of-fodon"
+    },
+    {
+      "source": "mayson",
+      "target": "kingdom-of-fodon"
+    },
+    {
+      "source": "plodrough",
+      "target": "kingdom-of-fodon"
+    },
+    {
+      "source": "sloumont",
+      "target": "kingdom-of-fodon"
+    },
+    {
+      "source": "vulkran",
+      "target": "kingdom-of-fodon"
+    },
+    {
+      "source": "tharnex",
+      "target": "vorryn"
+    },
+    {
+      "source": "vorvax",
+      "target": "vorryn"
+    },
+    {
+      "source": "tharnexi",
+      "target": "vorryn"
+    },
+    {
+      "source": "tharnex",
+      "target": "vorvax"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "vorvax"
+    },
+    {
+      "source": "fodon",
+      "target": "vorvax"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "kaboom"
+    },
+    {
+      "source": "ibeson",
+      "target": "kaboom"
+    },
+    {
+      "source": "helm",
+      "target": "kaboom"
+    },
+    {
+      "source": "arashi",
+      "target": "kaboom"
+    },
+    {
+      "source": "solaran",
+      "target": "kaboom"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "helm"
+    },
+    {
+      "source": "ibeson",
+      "target": "helm"
+    },
+    {
+      "source": "arashi",
+      "target": "helm"
+    },
+    {
+      "source": "solaran",
+      "target": "helm"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "ipadoras"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "ipadoras"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "azaraith"
+    },
+    {
+      "source": "fodon",
+      "target": "azaraith"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "azaraith"
+    },
+    {
+      "source": "nualthyr",
+      "target": "azaraith"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "varnokh"
+    },
+    {
+      "source": "fodon",
+      "target": "varnokh"
+    },
+    {
+      "source": "karthrun",
+      "target": "varnokh"
+    },
+    {
+      "source": "fodon",
+      "target": "vulkran"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "lucifer"
+    },
+    {
+      "source": "fodon",
+      "target": "lucifer"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "lucifer"
+    },
+    {
+      "source": "arashi",
+      "target": "lucifer"
+    },
+    {
+      "source": "pyrrhith",
+      "target": "lucifer"
+    },
+    {
+      "source": "war-of-fodon",
+      "target": "mayson"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "folkwynd"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "folkwynd"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "veles"
+    },
+    {
+      "source": "iyhago-prime",
+      "target": "veles"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "veles"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "veles"
+    },
+    {
+      "source": "selvarin",
+      "target": "veles"
+    },
+    {
+      "source": "sunlee",
+      "target": "veles"
+    },
+    {
+      "source": "biruda",
+      "target": "veles"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "veles"
+    },
+    {
+      "source": "butterfly",
+      "target": "veles"
+    },
+    {
+      "source": "magic-societies",
+      "target": "veles"
+    },
+    {
+      "source": "rose",
+      "target": "veles"
+    },
+    {
+      "source": "kotoba",
+      "target": "veles"
+    },
+    {
+      "source": "shayathi",
+      "target": "veles"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "akison",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "ipadora-sanctuary",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "iyhago-prime",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "oniofast",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "azaraith",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "fluffy",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "golem-king",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "king-aldric",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "queen-nayele",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "selvarin",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "sunlee",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "veles",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "vorryn",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "berserk",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "biruda",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "helm",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "lucifer",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "nebbio",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "oto",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "rabuka",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "ryobik",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "spector",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "war-of-fodon",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "corrupted-runes",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "holotech",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "malefici",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "metas",
+      "target": "equinox-of-power"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "first-great-war"
+    },
+    {
+      "source": "kingdom-of-vacron",
+      "target": "first-great-war"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "first-great-war"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "first-great-war"
+    },
+    {
+      "source": "akison",
+      "target": "first-great-war"
+    },
+    {
+      "source": "icogas",
+      "target": "first-great-war"
+    },
+    {
+      "source": "skellmoor",
+      "target": "first-great-war"
+    },
+    {
+      "source": "azaraith",
+      "target": "first-great-war"
+    },
+    {
+      "source": "golem-king",
+      "target": "first-great-war"
+    },
+    {
+      "source": "selvarin",
+      "target": "first-great-war"
+    },
+    {
+      "source": "sunlee",
+      "target": "first-great-war"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "first-great-war"
+    },
+    {
+      "source": "varnokh",
+      "target": "first-great-war"
+    },
+    {
+      "source": "vorvax",
+      "target": "first-great-war"
+    },
+    {
+      "source": "vulkran",
+      "target": "first-great-war"
+    },
+    {
+      "source": "zunarorth",
+      "target": "first-great-war"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "first-great-war"
+    },
+    {
+      "source": "velho",
+      "target": "first-great-war"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "first-great-war"
+    },
+    {
+      "source": "corrupted-runes",
+      "target": "first-great-war"
+    },
+    {
+      "source": "malefici",
+      "target": "first-great-war"
+    },
+    {
+      "source": "runestones",
+      "target": "first-great-war"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "rose"
+    },
+    {
+      "source": "kingdom-of-vacron",
+      "target": "rose"
+    },
+    {
+      "source": "andport",
+      "target": "rose"
+    },
+    {
+      "source": "anehull",
+      "target": "rose"
+    },
+    {
+      "source": "clocester",
+      "target": "rose"
+    },
+    {
+      "source": "frada",
+      "target": "rose"
+    },
+    {
+      "source": "glaril",
+      "target": "rose"
+    },
+    {
+      "source": "hiypolis",
+      "target": "rose"
+    },
+    {
+      "source": "ipadora-sanctuary",
+      "target": "rose"
+    },
+    {
+      "source": "iyhago-prime",
+      "target": "rose"
+    },
+    {
+      "source": "oredsy",
+      "target": "rose"
+    },
+    {
+      "source": "uyrand",
+      "target": "rose"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "andport"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "uyrand"
+    },
+    {
+      "source": "andport",
+      "target": "uyrand"
+    },
+    {
+      "source": "ubraamore",
+      "target": "uyrand"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "ubraamore"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "iyhago-prime"
+    },
+    {
+      "source": "uyrand",
+      "target": "iyhago-prime"
+    },
+    {
+      "source": "butterfly",
+      "target": "iyhago-prime"
+    },
+    {
+      "source": "magic-societies",
+      "target": "iyhago-prime"
+    },
+    {
+      "source": "kingdom-of-vacron",
+      "target": "butterfly"
+    },
+    {
+      "source": "icogas",
+      "target": "butterfly"
+    },
+    {
+      "source": "ipadora-sanctuary",
+      "target": "butterfly"
+    },
+    {
+      "source": "klanron",
+      "target": "butterfly"
+    },
+    {
+      "source": "uyrand",
+      "target": "butterfly"
+    },
+    {
+      "source": "magic-societies",
+      "target": "klanron"
+    },
+    {
+      "source": "butterfly",
+      "target": "anehull"
+    },
+    {
+      "source": "magic-societies",
+      "target": "anehull"
+    },
+    {
+      "source": "crimson-convergence",
+      "target": "anehull"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "nebbio"
+    },
+    {
+      "source": "suudon",
+      "target": "nebbio"
+    },
+    {
+      "source": "zunarorth",
+      "target": "nebbio"
+    },
+    {
+      "source": "arashi",
+      "target": "nebbio"
+    },
+    {
+      "source": "golden-war",
+      "target": "hiypolis"
+    },
+    {
+      "source": "oredsy",
+      "target": "selvarin"
+    },
+    {
+      "source": "sunlee",
+      "target": "selvarin"
+    },
+    {
+      "source": "spector",
+      "target": "selvarin"
+    },
+    {
+      "source": "pegasus",
+      "target": "selvarin"
+    },
+    {
+      "source": "tharnic",
+      "target": "selvarin"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "pegasus"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "pegasus"
+    },
+    {
+      "source": "oniofast",
+      "target": "pegasus"
+    },
+    {
+      "source": "ubraamore",
+      "target": "pegasus"
+    },
+    {
+      "source": "wrofast",
+      "target": "pegasus"
+    },
+    {
+      "source": "imuton",
+      "target": "wrofast"
+    },
+    {
+      "source": "akison",
+      "target": "sunlee"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "sunlee"
+    },
+    {
+      "source": "berserk",
+      "target": "sunlee"
+    },
+    {
+      "source": "biruda",
+      "target": "sunlee"
+    },
+    {
+      "source": "lucifer",
+      "target": "sunlee"
+    },
+    {
+      "source": "pegasus",
+      "target": "sunlee"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "biruda"
+    },
+    {
+      "source": "akison",
+      "target": "biruda"
+    },
+    {
+      "source": "arashi",
+      "target": "biruda"
+    },
+    {
+      "source": "kotoba",
+      "target": "biruda"
+    },
+    {
+      "source": "ace",
+      "target": "kusamori"
+    },
+    {
+      "source": "arashi",
+      "target": "oniofast"
+    },
+    {
+      "source": "ace",
+      "target": "okbridge"
+    },
+    {
+      "source": "imuton",
+      "target": "ace"
+    },
+    {
+      "source": "andport",
+      "target": "spector"
+    },
+    {
+      "source": "arashi",
+      "target": "spector"
+    },
+    {
+      "source": "icogas",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "berserk",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "oto",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "ryobik",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "unknown-0",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "velho",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "arashi",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "butterfly",
+      "target": "dark-paladin"
+    },
+    {
+      "source": "uyrand",
+      "target": "magic-societies"
+    },
+    {
+      "source": "oniofast",
+      "target": "berserk"
+    },
+    {
+      "source": "arashi",
+      "target": "berserk"
+    },
+    {
+      "source": "pegasus",
+      "target": "berserk"
+    },
+    {
+      "source": "skellmoor",
+      "target": "independent"
+    },
+    {
+      "source": "azaraith",
+      "target": "fluffy"
+    },
+    {
+      "source": "king-aldric",
+      "target": "fluffy"
+    },
+    {
+      "source": "queen-nayele",
+      "target": "fluffy"
+    },
+    {
+      "source": "selvarin",
+      "target": "fluffy"
+    },
+    {
+      "source": "sunlee",
+      "target": "fluffy"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "fluffy"
+    },
+    {
+      "source": "veles",
+      "target": "fluffy"
+    },
+    {
+      "source": "vorryn",
+      "target": "fluffy"
+    },
+    {
+      "source": "vorvax",
+      "target": "fluffy"
+    },
+    {
+      "source": "vulkran",
+      "target": "fluffy"
+    },
+    {
+      "source": "berserk",
+      "target": "fluffy"
+    },
+    {
+      "source": "biruda",
+      "target": "fluffy"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "fluffy"
+    },
+    {
+      "source": "helm",
+      "target": "fluffy"
+    },
+    {
+      "source": "kaboom",
+      "target": "fluffy"
+    },
+    {
+      "source": "lucifer",
+      "target": "fluffy"
+    },
+    {
+      "source": "nebbio",
+      "target": "fluffy"
+    },
+    {
+      "source": "oto",
+      "target": "fluffy"
+    },
+    {
+      "source": "rabuka",
+      "target": "fluffy"
+    },
+    {
+      "source": "ryobik",
+      "target": "fluffy"
+    },
+    {
+      "source": "spector",
+      "target": "fluffy"
+    },
+    {
+      "source": "unknown-0",
+      "target": "fluffy"
+    },
+    {
+      "source": "velho",
+      "target": "fluffy"
+    },
+    {
+      "source": "varnokh",
+      "target": "zunarorth"
+    },
+    {
+      "source": "karthrun",
+      "target": "zunarorth"
+    },
+    {
+      "source": "arashi",
+      "target": "velho"
+    },
+    {
+      "source": "arashi",
+      "target": "oto"
+    },
+    {
+      "source": "arashi",
+      "target": "ryobik"
+    },
+    {
+      "source": "arashi",
+      "target": "unknown-0"
+    }
+  ]
+}

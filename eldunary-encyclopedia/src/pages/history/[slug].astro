@@ -1,0 +1,53 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('history');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('history', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+const quickFacts: Record<string, string | string[]> = {};
+const _date = d.approximate_date ?? d.date;
+if (_date) quickFacts['Date'] = String(_date);
+if (d.duration) quickFacts['Duration'] = d.duration;
+if (d.location) quickFacts['Location'] = Array.isArray(d.location) ? d.location as string[] : [String(d.location)];
+const _factions = d.factionsInvolved ?? d.factions_involved ?? d.kingdomsInvolved;
+if (_factions && Array.isArray(_factions)) quickFacts['Factions Involved'] = _factions;
+if (d.outcome) quickFacts['Outcome'] = d.outcome;
+if (d.casualties) quickFacts['Casualties'] = d.casualties;
+const _races = d.racesAffected;
+if (_races && Array.isArray(_races) && _races.length) quickFacts['Races Affected'] = _races;
+if (d.era) quickFacts['Era'] = d.era;
+
+const _keyChars = d.keyCharacters ?? d.relatedCharacters ?? d.related_characters ?? [];
+const _keyOrgs = d.relatedOrganizations ?? d.related_organizations ?? d.factionsInvolved ?? [];
+const relatedEntities = [
+  ..._keyChars.map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ..._keyOrgs.filter((s: string) => !_keyChars.includes(s)).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="history"
+  slug={entry.slug}
+  accentColor={d.accentColor}
+  theme={d.theme}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.tagline}
+>
+  <Content />
+</EntityLayout>

@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import FullWidthLayout from '../../layouts/FullWidthLayout.astro';
+import EntityCard from '../../components/cards/EntityCard.astro';
+
+const events = await getCollection('history');
+const sorted = events.sort((a, b) => {
+  const aNum = parseInt((a.data.approximate_date ?? '').replace(/\D/g, '')) || 0;
+  const bNum = parseInt((b.data.approximate_date ?? '').replace(/\D/g, '')) || 0;
+  return aNum - bNum;
+});
+---
+<FullWidthLayout title="History of Eldunary" description="Major historical events of Eldunary">
+  <div class="listing-page">
+    <header class="listing-header">
+      <div class="header-content">
+        <span class="listing-type">Echoes of the Past</span>
+        <h1 class="listing-title">History & Events</h1>
+        <p class="listing-desc">From the tragedy of the First Great War to the shifting tides of the Golden War—explore the events that scarred the world.</p>
+      </div>
+      <div class="header-accent" style="background: #C4895C; box-shadow: 0 0 15px #C4895C;"></div>
+    </header>
+    <div class="listing-grid">
+      {sorted.map((e) => (
+        <EntityCard name={e.data.name} slug={e.slug} type="history" summary={e.data.summary} accentColor={e.data.accentColor} meta={e.data.approximate_date} />
+      ))}
+    </div>
+  </div>
+</FullWidthLayout>
+<style>
+  .listing-page { max-width: 1400px; margin: 0 auto; padding: 6rem 2rem; }
+  .listing-header {
+    margin-bottom: 5rem;
+    position: relative;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .header-content { max-width: 800px; position: relative; z-index: 1; }
+  .listing-type {
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #C4895C;
+    display: block;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+  .listing-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+  .listing-desc {
+    font-family: var(--font-lora), serif;
+    color: #9a9a9a;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  .header-accent {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+  }
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    animation: grid-fade-up 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @keyframes grid-fade-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>

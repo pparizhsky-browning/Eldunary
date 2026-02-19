@@ -1,0 +1,81 @@
+---
+interface Props {
+  facts: Record<string, string | string[]>;
+}
+const { facts } = Astro.props;
+---
+
+<div class="quick-facts">
+  <h3 class="qf-title">Quick Facts</h3>
+  <dl class="qf-list">
+    {Object.entries(facts).map(([key, val]) => (
+      <div class="qf-row">
+        <dt class="qf-key">{key}</dt>
+        <dd class="qf-val">
+          {Array.isArray(val) ? val.join(', ') : val}
+        </dd>
+      </div>
+    ))}
+  </dl>
+</div>
+
+<style>
+  .quick-facts {
+    background: var(--bg-card);
+    border: 1px solid rgba(var(--accent-rgb, 196, 155, 92), 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  .quick-facts::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(var(--accent-rgb, 196, 155, 92), 0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .qf-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin: 0 0 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .qf-title::after {
+    content: ''; flex: 1; height: 1px; 
+    background: linear-gradient(to right, rgba(var(--accent-rgb, 196, 155, 92), 0.3), transparent);
+  }
+  .qf-list { margin: 0; padding: 0; position: relative; z-index: 1; }
+  .qf-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    gap: 1rem;
+  }
+  .qf-row:last-child { border-bottom: none; }
+  .qf-key {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    padding-top: 0.1rem;
+  }
+  .qf-val {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: right;
+    margin: 0;
+    line-height: 1.4;
+  }
+</style>

@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import FullWidthLayout from '../layouts/FullWidthLayout.astro';
+import Timeline from '../components/interactive/Timeline';
+
+const events = await getCollection('history');
+const eventData = events.map((e) => ({
+  slug: e.slug,
+  name: e.data.name,
+  approximate_date: e.data.approximate_date,
+  summary: e.data.summary,
+  accentColor: e.data.accentColor,
+}));
+---
+<FullWidthLayout title="Timeline — Eldunary" description="Chronological history of Eldunary">
+  <div class="timeline-page">
+    <header class="timeline-header">
+      <span class="tl-type">History</span>
+      <h1 class="timeline-title">Chronicle of Eldunary</h1>
+      <p class="timeline-desc">The major wars, events, and turning points that shaped the world, in chronological order.</p>
+    </header>
+    <div class="timeline-container">
+      <Timeline events={eventData} client:visible />
+    </div>
+  </div>
+</FullWidthLayout>
+
+<style>
+  .timeline-page { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .timeline-header { margin-bottom: 3rem; }
+  .tl-type { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent); }
+  .timeline-title { font-family: var(--font-cinzel), serif; font-size: clamp(1.8rem, 4vw, 2.5rem); color: var(--text-primary); margin: 0.5rem 0; }
+  .timeline-desc { color: var(--text-muted); margin: 0; }
+  .timeline-container { padding-left: 0.5rem; }
+</style>

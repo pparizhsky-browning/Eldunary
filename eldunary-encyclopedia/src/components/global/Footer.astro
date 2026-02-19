@@ -1,0 +1,107 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">⚔ Tales of Eldunary</span>
+      <p class="footer-tagline">The complete encyclopedia of Criozevan.</p>
+    </div>
+    <nav class="footer-nav">
+      <div class="footer-col">
+        <h4>Peoples</h4>
+        <a href="/races">Races</a>
+        <a href="/characters">Characters</a>
+        <a href="/arashi">The Arashi</a>
+        <a href="/families">Families</a>
+      </div>
+      <div class="footer-col">
+        <h4>Places</h4>
+        <a href="/kingdoms">Kingdoms</a>
+        <a href="/cities">Cities</a>
+        <a href="/map">World Map</a>
+      </div>
+      <div class="footer-col">
+        <h4>Knowledge</h4>
+        <a href="/magic">Magic</a>
+        <a href="/languages">Languages</a>
+        <a href="/history">History</a>
+        <a href="/organizations">Organizations</a>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <a href="/graph">Relation Graph</a>
+        <a href="/timeline">Timeline</a>
+        <a href="/power-rank">Power Rankings</a>
+        <a href="/search">Search</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <p>© {currentYear} Tales of Eldunary. All lore is fictional.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid rgba(196, 155, 92, 0.15);
+    margin-top: 4rem;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 3rem;
+  }
+  .footer-logo {
+    font-family: var(--font-cinzel), serif;
+    font-size: 1.1rem;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .footer-tagline {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0;
+  }
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .footer-col h4 {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+  }
+  .footer-col a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--text-primary); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 1rem 1.5rem;
+    text-align: center;
+  }
+  .footer-bottom p { margin: 0; font-size: 0.8rem; color: var(--text-muted); }
+  @media (max-width: 900px) {
+    .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .footer-nav { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

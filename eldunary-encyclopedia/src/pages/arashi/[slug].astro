@@ -1,0 +1,166 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import EntityLayout from '../../layouts/EntityLayout.astro';
+import registry from '@generated/entity-registry.json';
+
+const _nameMap = new Map((registry as any[]).map((e) => [e.slug, e.name]));
+const _sn = (s: string) => _nameMap.get(s) ?? s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+export async function getStaticPaths() {
+  const entries = await getCollection('arashi');
+  return entries.map((e) => ({ params: { slug: e.slug } }));
+}
+
+const { slug } = Astro.params;
+const entry = await getEntry('arashi', slug as string);
+if (!entry) return Astro.redirect('/404');
+
+const { Content } = await entry.render();
+const d = entry.data;
+
+// Load all arashi members for the roster bar
+const allArashi = await getCollection('arashi');
+const rosterMembers = allArashi
+  .sort((a, b) => {
+    const ra = a.data.rank ?? a.data.arashiRank ?? 99;
+    const rb = b.data.rank ?? b.data.arashiRank ?? 99;
+    return ra - rb;
+  })
+  .map((a) => ({
+    slug: a.slug,
+    name: a.data.name,
+    rank: a.data.rank ?? a.data.arashiRank ?? '?',
+    accentColor: a.data.accentColor ?? '#DC143C',
+  }));
+
+const quickFacts: Record<string, string | string[]> = {};
+const _rank = d.rank ?? d.arashiRank;
+if (_rank !== undefined && _rank !== null) quickFacts['Arashi Rank'] = `#${_rank}`;
+const _worldRank = d.power_rank ?? (d as any).worldPowerRank;
+if (_worldRank !== undefined && _worldRank !== null) quickFacts['World Power Rank'] = `#${_worldRank}`;
+if (d.race) quickFacts['Race'] = d.race;
+const _class = d.power_class ?? d.powerClass;
+if (_class) quickFacts['Power Class'] = String(_class);
+const _loc = d.current_location ?? d.location;
+if (_loc) quickFacts['Location'] = String(_loc);
+if (d.status) quickFacts['Status'] = d.status;
+if (d.affiliation) quickFacts['Affiliation'] = Array.isArray(d.affiliation) ? d.affiliation : [d.affiliation];
+// Arashi trait info
+const _trait = d.trait ?? d.arashiTrait;
+if (_trait) {
+  if (_trait.type) quickFacts['Trait Type'] = String(_trait.type);
+  if (_trait.name) quickFacts['Trait Name'] = String(_trait.name);
+}
+if (d.power) quickFacts['Power'] = String(d.power);
+
+const relatedEntities = [
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.relatedOrganizations ?? d.related_organizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+];
+---
+<EntityLayout
+  title={d.name}
+  description={d.summary ?? ''}
+  entityType="arashi"
+  slug={entry.slug}
+  accentColor={d.accentColor ?? '#DC143C'}
+  theme={d.theme ?? 'arashi'}
+  quickFacts={quickFacts}
+  relatedEntities={relatedEntities}
+  bannerTagline={d.epithet ?? d.title ?? d.power_class}
+>
+  <Content />
+</EntityLayout>
+
+<!-- Arashi Roster Bar -->
+<div class="arashi-roster-section" data-pagefind-ignore>
+  <div class="arashi-roster-inner">
+    <span class="roster-label">Arashi Members</span>
+    <div class="arashi-roster">
+      {rosterMembers.map((m) => (
+        <a
+          href={`/arashi/${m.slug}`}
+          class:list={['roster-member', { 'roster-member--current': m.slug === slug }]}
+          style={`--member-accent: ${m.accentColor}`}
+          title={m.name}
+        >
+          <span class="roster-rank">#{m.rank}</span>
+          <span class="roster-name">{m.name}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .arashi-roster-section {
+    background: rgba(220, 20, 60, 0.06);
+    border-top: 1px solid rgba(220, 20, 60, 0.2);
+    padding: 1rem 0;
+  }
+  .arashi-roster-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .roster-label {
+    display: block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #DC143C;
+    margin-bottom: 0.6rem;
+    font-family: var(--font-cinzel), serif;
+  }
+  .arashi-roster {
+    display: flex;
+    gap: 0.4rem;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(220,20,60,0.3) transparent;
+  }
+  .roster-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    background: rgba(220, 20, 60, 0.08);
+    border: 1px solid rgba(220, 20, 60, 0.15);
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, transform 0.15s;
+    flex-shrink: 0;
+    min-width: 70px;
+    text-align: center;
+  }
+  .roster-member:hover {
+    background: rgba(220, 20, 60, 0.15);
+    border-color: rgba(220, 20, 60, 0.4);
+    transform: translateY(-2px);
+  }
+  .roster-member--current {
+    background: rgba(220, 20, 60, 0.22);
+    border-color: #DC143C;
+    box-shadow: 0 0 10px rgba(220, 20, 60, 0.3);
+  }
+  .roster-rank {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #DC143C;
+  }
+  .roster-name {
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+  }
+  .roster-member--current .roster-name {
+    color: var(--text-primary);
+  }
+</style>

@@ -1,0 +1,379 @@
+---
+import { getCollection } from 'astro:content';
+import FullWidthLayout from '../layouts/FullWidthLayout.astro';
+import EntityCard from '../components/cards/EntityCard.astro';
+import CharacterCard from '../components/cards/CharacterCard.astro';
+
+const characters = await getCollection('characters');
+const featuredChars = characters
+  .sort((a, b) => (a.data.powerRank ?? a.data.power_rank ?? 999) - (b.data.powerRank ?? b.data.power_rank ?? 999))
+  .slice(0, 6);
+
+const categories = [
+  { label: 'Races', href: '/races', count: 7, description: 'The peoples & species of Eldunary', icon: '🧬', accentColor: '#C49B5C' },
+  { label: 'Kingdoms', href: '/kingdoms', count: 10, description: 'Nations, realms & states', icon: '👑', accentColor: '#5C9BC4' },
+  { label: 'Cities', href: '/cities', count: 37, description: 'Settlements & urban centres', icon: '🏙', accentColor: '#4CAF50' },
+  { label: 'Characters', href: '/characters', count: 16, description: 'Heroes, villains & legends', icon: '⚔️', accentColor: '#E05C5C' },
+  { label: 'Arashi', href: '/arashi', count: 13, description: 'The power-ranked elite', icon: '🌩️', accentColor: '#9B5CC4' },
+  { label: 'Organizations', href: '/organizations', count: 7, description: 'Factions & orders', icon: '🛡️', accentColor: '#C4A05C' },
+  { label: 'Families', href: '/families', count: 3, description: 'Great houses & dynasties', icon: '🏰', accentColor: '#5CC4B9' },
+  { label: 'History', href: '/history', count: 5, description: 'Wars, events & turning points', icon: '📜', accentColor: '#C4895C' },
+  { label: 'Magic', href: '/magic', count: 5, description: 'Powers & supernatural forces', icon: '✨', accentColor: '#895CC4' },
+  { label: 'Languages', href: '/languages', count: 12, description: 'Tongues & scripts', icon: '🗣️', accentColor: '#5C89C4' },
+];
+---
+<FullWidthLayout title="Tales of Eldunary — Encyclopedia" description="The definitive knowledge base for the world of Eldunary" noPadding showParticles>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Tales of Eldunary</p>
+      <h1 class="hero-title">The Living Encyclopedia</h1>
+      <p class="hero-subtitle">
+        Every race, kingdom, city, character, and event from the world of Eldunary —<br>
+        interconnected, searchable, and alive.
+      </p>
+      <div class="hero-actions">
+        <a href="/races" class="btn-primary">Explore the World</a>
+        <a href="/map" class="btn-secondary">View World Map</a>
+        <a href="/graph" class="btn-secondary">Connection Graph</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Grid -->
+  <section class="section categories-section">
+    <div class="section-inner">
+      <h2 class="section-title">Browse by Category</h2>
+      <div class="categories-grid">
+        {categories.map((cat) => (
+          <a href={cat.href} class="category-card" style={`--cat-accent: ${cat.accentColor}`}>
+            <span class="cat-icon">{cat.icon}</span>
+            <div class="cat-body">
+              <div class="cat-label">{cat.label}</div>
+              <div class="cat-desc">{cat.description}</div>
+              <div class="cat-count">{cat.count} entries</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Characters -->
+  <section class="section chars-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title">Notable Characters</h2>
+        <a href="/characters" class="section-link">View all →</a>
+      </div>
+      <div class="chars-grid">
+        {featuredChars.map((c) => (
+          <CharacterCard
+            name={c.data.name}
+            slug={c.slug}
+            race={c.data.race}
+            powerRank={c.data.powerRank ?? c.data.power_rank}
+            powerClass={c.data.powerClass ?? c.data.power_class}
+            summary={c.data.summary}
+            accentColor={c.data.accentColor}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools quick-links -->
+  <section class="section tools-section">
+    <div class="section-inner">
+      <h2 class="section-title">Interactive Tools</h2>
+      <div class="tools-grid">
+        <a href="/map" class="tool-card">
+          <span class="tool-icon">🗺</span>
+          <div>
+            <div class="tool-name">World Map</div>
+            <div class="tool-desc">Explore cities and kingdoms geographically</div>
+          </div>
+        </a>
+        <a href="/graph" class="tool-card">
+          <span class="tool-icon">🕸</span>
+          <div>
+            <div class="tool-name">Connection Graph</div>
+            <div class="tool-desc">Visualize relationships between all entities</div>
+          </div>
+        </a>
+        <a href="/timeline" class="tool-card">
+          <span class="tool-icon">⏳</span>
+          <div>
+            <div class="tool-name">Timeline</div>
+            <div class="tool-desc">Browse history in chronological order</div>
+          </div>
+        </a>
+        <a href="/power-rank" class="tool-card">
+          <span class="tool-icon">⚡</span>
+          <div>
+            <div class="tool-name">Power Rankings</div>
+            <div class="tool-desc">View the full Arashi power tier list</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</FullWidthLayout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8rem 2rem;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 50%, rgba(20, 20, 25, 0.4) 0%, #0a0a0c 100%);
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.15;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(196,155,92,0.18) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 80%, rgba(92, 92, 196, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 20% 40%, rgba(196, 92, 92, 0.05) 0%, transparent 40%);
+    filter: blur(80px);
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 850px; }
+  .hero-eyebrow {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+  }
+  .hero-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    line-height: 0.95;
+    margin-bottom: 2rem;
+    background: linear-gradient(to bottom, #fff 40%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 30px rgba(196,155,92,0.2));
+  }
+  .hero-subtitle {
+    font-family: var(--font-lora), serif;
+    font-size: clamp(1.1rem, 1.5vw, 1.4rem);
+    line-height: 1.6;
+    color: #9a9a9a;
+    max-width: 650px;
+    margin: 0 auto 3rem;
+    font-style: italic;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #000 !important;
+    padding: 1rem 2.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(196,155,92,0.3);
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 30px rgba(196,155,92,0.5);
+    background: #d4ab6c;
+    opacity: 1 !important;
+  }
+  .btn-secondary {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #fff !important;
+    padding: 1rem 2.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+  }
+  .btn-secondary:hover {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+  }
+
+  /* Grid Redesign */
+  .section { padding: 8rem 2rem; }
+  .section-inner { max-width: 1400px; margin: 0 auto; }
+  .section-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1.5rem;
+    color: #fff;
+  }
+  .section-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+  }
+  .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem; }
+  .section-link {
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.2s;
+  }
+  .section-link:hover { opacity: 0.8; letter-spacing: 0.15em; }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .category-card {
+    background: rgba(20, 20, 25, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  .category-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 0%, var(--cat-accent), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .category-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--cat-accent);
+    background: rgba(30, 30, 35, 0.8);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px color-mix(in srgb, var(--cat-accent), transparent 85%);
+  }
+  .category-card:hover::before { opacity: 0.15; }
+
+  .cat-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 10px var(--cat-accent));
+    transition: transform 0.3s ease;
+  }
+  .category-card:hover .cat-icon { transform: scale(1.1); }
+  .cat-label {
+    font-family: var(--font-cinzel), serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }
+  .cat-desc {
+    font-family: var(--font-lora), serif;
+    color: #9a9a9a;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  .cat-count {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--cat-accent);
+    font-weight: 800;
+    padding: 0.4rem 1rem;
+    background: color-mix(in srgb, var(--cat-accent), transparent 92%);
+    border: 1px solid color-mix(in srgb, var(--cat-accent), transparent 80%);
+    border-radius: 4px;
+  }
+
+  /* Characters redo */
+  .chars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
+
+  /* Tools redo */
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .tool-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.03), transparent);
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+  }
+  .tool-card:hover {
+    background: rgba(255,255,255,0.05);
+    border-color: var(--accent);
+    transform: scale(1.02) translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  .tool-icon {
+    font-size: 2.5rem;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  .tool-card:hover .tool-icon { opacity: 1; }
+  .tool-name {
+    font-family: var(--font-cinzel), serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .tool-desc {
+    font-size: 0.95rem;
+    color: #9a9a9a;
+    line-height: 1.5;
+  }
+</style>

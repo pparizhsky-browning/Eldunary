@@ -1,0 +1,85 @@
+---
+import '../styles/global.css';
+import '../styles/entity-themes.css';
+import { ViewTransitions } from 'astro:transitions';
+import TooltipProvider from '../components/interactive/TooltipProvider';
+import SearchModal from '../components/global/SearchModal';
+import AmbientParticles from '../components/decorative/AmbientParticles';
+
+interface Props {
+  title: string;
+  description?: string;
+  accentColor?: string;
+  theme?: string;
+  ogImage?: string;
+  showParticles?: boolean;
+}
+
+const {
+  title,
+  description = 'The complete encyclopedia of the Tales of Eldunary universe.',
+  accentColor,
+  theme,
+  ogImage,
+  showParticles = false,
+} = Astro.props;
+
+const siteTitle = title === 'Home' ? 'Tales of Eldunary Encyclopedia' : `${title} | Eldunary Encyclopedia`;
+---
+
+<!doctype html>
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{siteTitle}</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Pagefind UI styles — only present after production build -->
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+
+    {accentColor && (
+      <style define:vars={{ accentColor }}>
+        :root { --accent: var(--accentColor); }
+      </style>
+    )}
+
+    <ViewTransitions />
+  </head>
+  <body>
+    <slot />
+
+    <!-- React islands mounted at the body level -->
+    <TooltipProvider client:load />
+    <SearchModal client:load />
+    {showParticles && <AmbientParticles client:idle />}
+
+    <!-- Pagefind JS — loaded lazily so it doesn't error in dev (file only exists post-build) -->
+    <script is:inline>
+      (function () {
+        if (typeof window === 'undefined') return;
+        // Only attempt to load pagefind after the DOM is interactive
+        window.addEventListener('DOMContentLoaded', function () {
+          var link = document.createElement('link');
+          link.rel = 'prefetch';
+          link.href = '/pagefind/pagefind-ui.js';
+          document.head.appendChild(link);
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "cd ${workspaceFolder}/eldunary-encyclopedia && npx astro dev --port 4322",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
