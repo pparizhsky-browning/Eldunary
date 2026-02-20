@@ -8,11 +8,12 @@ ruler: null
 mainRaces: ["folkwynd"]
 biome: "River Valley, Plains"
 governmentType: "The Bronze Chain (Senate + Command Council)"
-accentColor: "#4A6741"
-accentColorLight: "#6B8F5E"
+accentColor: "#FF7F00"
+accentColorLight: "#FFA040"
 relatedOrganizations: []
 relatedEvents: ["war-of-fodon"]
 relatedCharacters: []
+mapCoordinates: [200, 480]
 summary: "Military republic producing holotech weapons. Universal service, pragmatic governance. Only trade partner of the Goldhelm Kingdom."
 ---
 

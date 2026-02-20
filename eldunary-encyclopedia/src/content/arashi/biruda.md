@@ -2,6 +2,7 @@
 type: arashi
 name: "Biruda"
 slug: "biruda"
+rank: 7
 arashiRank: 7
 aliases: ["Rank Seven", "The Oni Samurai", "Akison's Black Blade"]
 race: "Folkwynd (Human)"

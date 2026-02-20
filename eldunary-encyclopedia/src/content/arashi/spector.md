@@ -2,6 +2,7 @@
 type: arashi
 name: "Spector"
 slug: "spector"
+rank: 11
 arashiRank: 11
 aliases: ["Rank Eleven", "The Andport Ghost", "Visible Threat"]
 race: "Folkwynd (Human)"

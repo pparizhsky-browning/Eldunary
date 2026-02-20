@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["folkwynd", "ipadoras"]
 biome: "Plains, Forest, Island"
 governmentType: "The Quiet Harmonic (Religious Theocracy)"
-accentColor: "#7A6BAE"
-accentColorLight: "#A08FD0"
+accentColor: "#FF66FF"
+accentColorLight: "#FF99FF"
 relatedOrganizations: ["rose", "crimson-rooks"]
 relatedEvents: ["equinox-of-power", "first-great-war"]
 relatedCharacters: ["veles"]
+mapCoordinates: [380, 400]
 summary: "Silent theocracy where prayer is movement and speech is sacred. Ruled by Veles, Master of Magic. Rose HQ in Uyrand."
 ---
 

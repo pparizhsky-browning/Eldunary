@@ -2,6 +2,7 @@
 type: arashi
 name: "Kaboom"
 slug: "kaboom"
+rank: 9
 arashiRank: 9
 aliases: ["Rank Nine", "The Ibeson Runaway", "Blast Engineer"]
 race: "Goldhelm"

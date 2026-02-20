@@ -2,6 +2,7 @@
 type: arashi
 name: "Dark Paladin"
 slug: "dark-paladin"
+rank: 1
 arashiRank: 1
 aliases: ["Rank One", "The Icogas Hermit", "The Black Vow"]
 race: "Unknown"

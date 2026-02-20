@@ -8,11 +8,12 @@ ruler: null
 mainRaces: ["folkwynd", "tharnex"]
 biome: "Desert, Plains"
 governmentType: "The Dune Accord (Council)"
-accentColor: "#C4A35A"
-accentColorLight: "#D4B96E"
+accentColor: "#FF0000"
+accentColorLight: "#FF5555"
 relatedOrganizations: ["arashi"]
 relatedEvents: ["war-of-fodon", "crimson-convergence"]
 relatedCharacters: ["vorvax", "azaraith", "varnokh", "vulkran", "lucifer"]
+mapCoordinates: [320, 750]
 summary: "Desert kingdom. Four historic war-torn districts unified after Lucifer killed all four district leaders. Harsh but stable."
 ---
 

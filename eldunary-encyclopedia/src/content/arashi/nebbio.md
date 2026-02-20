@@ -2,6 +2,7 @@
 type: arashi
 name: "Nebbio"
 slug: "nebbio"
+rank: 3
 arashiRank: 3
 aliases: ["Rank Three", "The Swamp Ghost", "Mist Walker"]
 race: "Folkwynd (Human)"

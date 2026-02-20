@@ -2,6 +2,7 @@
 type: arashi
 name: "Rabuka"
 slug: "rabuka"
+rank: 4
 arashiRank: 4
 aliases: ["Rank Four", "The Glaril Shark", "Blood Current"]
 race: "Sharkai"

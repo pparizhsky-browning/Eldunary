@@ -2,6 +2,7 @@
 type: arashi
 name: "Lucifer"
 slug: "lucifer"
+rank: 6
 arashiRank: 6
 aliases: ["Rank Six", "The Fodon Butcher", "Zhuiburn's Child"]
 race: "Folkwynd (Human)"

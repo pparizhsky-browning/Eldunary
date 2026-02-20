@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["goldhelms"]
 biome: "Hilly, Light Forest"
 governmentType: "Technocratic Monarchy"
-accentColor: "#C9A84C"
-accentColorLight: "#E8D48B"
+accentColor: "#FFD700"
+accentColorLight: "#FFE444"
 relatedOrganizations: []
 relatedEvents: ["golden-war", "crimson-convergence"]
 relatedCharacters: ["king-aldric", "princess-seraphina", "kaboom", "helm"]
+mapCoordinates: [900, 920]
 summary: "Isolated northwestern technocracy. Magic banned, replaced by holotech. Rules by King Aldric from the Gilded Cradle."
 ---
 

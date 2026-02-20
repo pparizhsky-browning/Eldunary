@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["folkwynd"]
 biome: "River Valley"
 governmentType: "Strict Legal Democracy"
-accentColor: "#8B5E3C"
-accentColorLight: "#B87D4A"
+accentColor: "#00FFFF"
+accentColorLight: "#66FFFF"
 relatedOrganizations: ["crimson-rooks", "rose", "butterfly"]
 relatedEvents: ["first-great-war"]
 relatedCharacters: ["crimson-knight"]
+mapCoordinates: [580, 450]
 summary: "Largest city on the continent at its center. Strict law, diverse population. Crimson Rooks HQ. Continental trade nexus."
 ---
 

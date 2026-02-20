@@ -2,6 +2,7 @@
 type: arashi
 name: "Velho"
 slug: "velho"
+rank: 5
 arashiRank: 5
 aliases: ["Rank Five", "The Patient One", "Old World"]
 race: "Unknown (appears Folkwynd)"

@@ -18,7 +18,7 @@ export default defineConfig({
   },
   vite: {
     optimizeDeps: {
-      exclude: ['leaflet'],
+      include: ['leaflet'],
     },
   },
 });

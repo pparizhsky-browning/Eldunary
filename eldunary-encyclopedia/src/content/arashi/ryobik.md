@@ -2,6 +2,7 @@
 type: arashi
 name: "Ryobik"
 slug: "ryobik"
+rank: 10
 arashiRank: 10
 aliases: ["Rank Ten", "The Chainmaker", "Binding Rank"]
 race: "Folkwynd (Human)"

@@ -2,6 +2,7 @@
 type: arashi
 name: "Unknown"
 slug: "unknown-0"
+rank: 0
 arashiRank: 0
 aliases: ["Rank Zero", "The One Above"]
 race: "Unknown"

@@ -34,11 +34,11 @@ const markers = [
     <header class="map-header">
       <h1 class="map-title">World Map</h1>
       <p class="map-desc">
-        {markers.length} locations mapped · Click a marker for details
+        Interactive world map of Criozevan · Kingdoms &amp; Cities views
       </p>
     </header>
     <div class="map-container">
-      <WorldMap markers={markers} client:load />
+      <WorldMap markers={markers} client:only="react" />
     </div>
   </div>
 </FullWidthLayout>
@@ -50,4 +50,67 @@ const markers = [
   .map-desc { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
   .map-container { flex: 1; min-height: 0; }
   .map-container > * { height: 100% !important; }
+</style>
+
+<style is:global>
+  /* Base map image — cinematic treatment matching --bg-primary dark theme */
+  .criozevan-map-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    filter: brightness(1.0) saturate(0.78) contrast(1.08) hue-rotate(8deg);
+  }
+
+  /* Leaflet popup dark styling */
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: #13131A !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.7) !important;
+    color: #E8E6E3 !important;
+    border-radius: 6px !important;
+  }
+  .leaflet-popup-content { margin: 0 !important; }
+
+  /* Leaflet zoom controls dark styling */
+  .leaflet-bar a {
+    background: #13131A !important;
+    color: #9A9A9A !important;
+    border-color: rgba(255,255,255,0.08) !important;
+  }
+  .leaflet-bar a:hover {
+    background: #1A1A25 !important;
+    color: #E8E6E3 !important;
+  }
+
+  /* Kingdom polygon tooltip — strip default Leaflet tooltip chrome */
+  .kingdom-tooltip {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  .kingdom-tooltip::before {
+    display: none !important;
+  }
+
+  /* Kingdom polygons — pointer cursor for click navigation */
+  .kingdom-polygon {
+    cursor: pointer !important;
+  }
+
+  /* Permanent capital city labels */
+  .capital-label {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    transition: filter 0.18s ease, opacity 0.18s ease;
+  }
+  .capital-label:hover,
+  .capital-label--hover {
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.85)) drop-shadow(0 0 12px rgba(255,255,255,0.5));
+    opacity: 1 !important;
+  }
+  .capital-label:hover > div,
+  .capital-label--hover > div {
+    background: rgba(10,10,28,0.92) !important;
+  }
 </style>

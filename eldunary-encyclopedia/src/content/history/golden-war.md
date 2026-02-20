@@ -5,7 +5,7 @@ slug: "golden-war"
 aliases: ["The Goldhelm Conflict", "The Isolation War", "Expansion Stopped"]
 era: "Early Modern History"
 approximate_date: "~300 years before present"
-accentColor: "#C9A84C"
+accentColor: "#FFD700"
 causedBy: ["goldhelm-expansion", "anti-magic-technology-spread"]
 outcome: "Goldhelm Kingdom retreated to defensible borders and adopted isolationism. Frada emerged with holotech adaptation knowledge. Magic-tech conflict established as defining tension."
 factionsInvolved: ["goldhelm-kingdom", "republic-of-frada", "kingdom-of-vacron"]

@@ -2,6 +2,7 @@
 type: arashi
 name: "Berserk"
 slug: "berserk"
+rank: 2
 arashiRank: 2
 aliases: ["Rank Two", "The Alpine Blade", "Mountain's Edge"]
 race: "Folkwynd (Human)"

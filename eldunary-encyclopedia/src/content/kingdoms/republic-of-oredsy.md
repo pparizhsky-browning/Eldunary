@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["folkwynd"]
 biome: "Plains, Forest"
 governmentType: "The Free Assembly"
-accentColor: "#5A7A8B"
-accentColorLight: "#7A9FAB"
+accentColor: "#0000FF"
+accentColorLight: "#4466FF"
 relatedOrganizations: ["pegasus"]
 relatedEvents: ["equinox-of-power", "first-great-war"]
 relatedCharacters: ["selvarin"]
+mapCoordinates: [500, 220]
 summary: "Sword-philosophy republic controlled by Pegasus. Duels resolve civic disputes. Master of Swords Selvarin rules."
 ---
 

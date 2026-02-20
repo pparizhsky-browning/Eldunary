@@ -2,6 +2,7 @@
 type: arashi
 name: "Oto"
 slug: "oto"
+rank: 8
 arashiRank: 8
 aliases: ["Rank Eight", "The Frequency", "Resonance"]
 race: "Folkwynd (Human)"

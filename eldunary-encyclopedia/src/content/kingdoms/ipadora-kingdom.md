@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["ipadoras", "sharkai"]
 biome: "Island, Underwater"
 governmentType: "Matriarchal Monarchy"
-accentColor: "#1A7A7A"
-accentColorLight: "#2EB8B8"
+accentColor: "#FFFF00"
+accentColorLight: "#FFFF66"
 relatedOrganizations: []
 relatedEvents: ["war-of-fodon"]
 relatedCharacters: ["queen-nayele"]
+mapCoordinates: [100, 850]
 summary: "Mostly underwater kingdom controlling all of Criozevan's waterways. Near-zero crime sanctuary above, vast fortress below."
 ---
 

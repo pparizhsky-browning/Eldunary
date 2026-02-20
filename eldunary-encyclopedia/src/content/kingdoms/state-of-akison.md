@@ -10,11 +10,12 @@ ruler:
 mainRaces: ["folkwynd", "sharkai", "ipadoras"]
 biome: "Jungle, Island, Underwater"
 governmentType: "The Iron Path"
-accentColor: "#8B0000"
-accentColorLight: "#C41E3A"
+accentColor: "#DC143C"
+accentColorLight: "#FF3355"
 relatedOrganizations: ["pegasus", "crimson-rooks"]
 relatedEvents: ["first-great-war", "equinox-of-power"]
 relatedCharacters: ["sunlee", "biruda"]
+mapCoordinates: [780, 280]
 summary: "Island city and jungle mainland. Ruled by Sunlee, Master of Martial Arts. Japanese-inspired cherry blossom architecture."
 ---
 

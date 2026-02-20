@@ -52,70 +52,70 @@
     "slug": "goldhelm-kingdom",
     "type": "kingdom",
     "name": "Goldhelm Kingdom",
-    "accentColor": "#C9A84C",
+    "accentColor": "#FFD700",
     "summary": "Isolated northwestern technocracy. Magic banned, replaced by holotech. Rules by King Aldric from the Gilded Cradle."
   },
   {
     "slug": "ipadora-kingdom",
     "type": "kingdom",
     "name": "Ipadora Kingdom",
-    "accentColor": "#1A7A7A",
+    "accentColor": "#FFFF00",
     "summary": "Mostly underwater kingdom controlling all of Criozevan's waterways. Near-zero crime sanctuary above, vast fortress below."
   },
   {
     "slug": "kingdom-of-fodon",
     "type": "kingdom",
     "name": "Kingdom of Fodon",
-    "accentColor": "#C4A35A",
+    "accentColor": "#FF0000",
     "summary": "Desert kingdom. Four historic war-torn districts unified after Lucifer killed all four district leaders. Harsh but stable."
   },
   {
     "slug": "kingdom-of-iyhago",
     "type": "kingdom",
     "name": "Kingdom of Iyhago",
-    "accentColor": "#7A6BAE",
+    "accentColor": "#FF66FF",
     "summary": "Silent theocracy where prayer is movement and speech is sacred. Ruled by Veles, Master of Magic. Rose HQ in Uyrand."
   },
   {
     "slug": "kingdom-of-vacron",
     "type": "kingdom",
     "name": "Kingdom of Vacron",
-    "accentColor": "#8B5E3C",
+    "accentColor": "#00FFFF",
     "summary": "Largest city on the continent at its center. Strict law, diverse population. Crimson Rooks HQ. Continental trade nexus."
   },
   {
     "slug": "nikolem-kingdom",
     "type": "kingdom",
     "name": "Nikolem Kingdom",
-    "accentColor": "#5A5A5A",
+    "accentColor": "#9932CC",
     "summary": "Mountain and swamp kingdom ruled by the immortal Golem King. Rich in rune magic. Vast underground tunnel network."
   },
   {
     "slug": "republic-of-frada",
     "type": "kingdom",
     "name": "Republic of Frada",
-    "accentColor": "#4A6741",
+    "accentColor": "#FF7F00",
     "summary": "Military republic producing holotech weapons. Universal service, pragmatic governance. Only trade partner of the Goldhelm Kingdom."
   },
   {
     "slug": "republic-of-oredsy",
     "type": "kingdom",
     "name": "Republic of Oredsy",
-    "accentColor": "#5A7A8B",
+    "accentColor": "#0000FF",
     "summary": "Sword-philosophy republic controlled by Pegasus. Duels resolve civic disputes. Master of Swords Selvarin rules."
   },
   {
     "slug": "state-of-akison",
     "type": "kingdom",
     "name": "State of Akison",
-    "accentColor": "#8B0000",
+    "accentColor": "#DC143C",
     "summary": "Island city and jungle mainland. Ruled by Sunlee, Master of Martial Arts. Japanese-inspired cherry blossom architecture."
   },
   {
     "slug": "warring-darkmane-realm",
     "type": "kingdom",
     "name": "Warring Darkmane Realm",
-    "accentColor": "#4A2D6B",
+    "accentColor": "#008000",
     "summary": "A fractured dark elf realm of warring tribes. No central government. Ancient forest scarred by generations of internal conflict."
   },
   {
@@ -828,7 +828,7 @@
       "The Isolation War",
       "Expansion Stopped"
     ],
-    "accentColor": "#C9A84C",
+    "accentColor": "#FFD700",
     "summary": "The Goldhelm Kingdom's expansionist phase ended by coalition resistance. Frada adapted holotech from captured equipment. King Aldric's isolationism is a direct result. The conflict that defined the magic-vs-technology divide."
   },
   {

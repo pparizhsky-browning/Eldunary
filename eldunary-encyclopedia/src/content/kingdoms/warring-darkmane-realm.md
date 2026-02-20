@@ -8,11 +8,12 @@ ruler: null
 mainRaces: ["darkmane-elves"]
 biome: "Dense Forest"
 governmentType: "Tribal Warbands (no central authority)"
-accentColor: "#4A2D6B"
-accentColorLight: "#7B52A0"
+accentColor: "#008000"
+accentColorLight: "#00AA00"
 relatedOrganizations: []
 relatedEvents: ["crimson-convergence"]
 relatedCharacters: ["vaelith-the-hollow"]
+mapCoordinates: [740, 680]
 summary: "A fractured dark elf realm of warring tribes. No central government. Ancient forest scarred by generations of internal conflict."
 ---
 

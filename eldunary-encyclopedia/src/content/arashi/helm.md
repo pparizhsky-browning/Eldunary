@@ -2,6 +2,7 @@
 type: arashi
 name: "Helm"
 slug: "helm"
+rank: 12
 arashiRank: 12
 aliases: ["Rank Twelve", "The Analyst", "Ibeson's Second Runaway"]
 race: "Goldhelm"
