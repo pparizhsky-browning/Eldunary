@@ -18,7 +18,7 @@ export default defineConfig({
   },
   vite: {
     optimizeDeps: {
-      include: ['leaflet'],
+      include: ['leaflet', 'd3'],
     },
   },
 });

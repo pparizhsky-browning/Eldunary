@@ -53,70 +53,70 @@
       "id": "goldhelm-kingdom",
       "name": "Goldhelm Kingdom",
       "type": "kingdom",
-      "accentColor": "#C9A84C",
+      "accentColor": "#FFD700",
       "val": 3
     },
     {
       "id": "ipadora-kingdom",
       "name": "Ipadora Kingdom",
       "type": "kingdom",
-      "accentColor": "#1A7A7A",
+      "accentColor": "#FFFF00",
       "val": 3
     },
     {
       "id": "kingdom-of-fodon",
       "name": "Kingdom of Fodon",
       "type": "kingdom",
-      "accentColor": "#C4A35A",
+      "accentColor": "#FF0000",
       "val": 3
     },
     {
       "id": "kingdom-of-iyhago",
       "name": "Kingdom of Iyhago",
       "type": "kingdom",
-      "accentColor": "#7A6BAE",
+      "accentColor": "#FF66FF",
       "val": 3
     },
     {
       "id": "kingdom-of-vacron",
       "name": "Kingdom of Vacron",
       "type": "kingdom",
-      "accentColor": "#8B5E3C",
+      "accentColor": "#00FFFF",
       "val": 3
     },
     {
       "id": "nikolem-kingdom",
       "name": "Nikolem Kingdom",
       "type": "kingdom",
-      "accentColor": "#5A5A5A",
+      "accentColor": "#9932CC",
       "val": 3
     },
     {
       "id": "republic-of-frada",
       "name": "Republic of Frada",
       "type": "kingdom",
-      "accentColor": "#4A6741",
+      "accentColor": "#FF7F00",
       "val": 3
     },
     {
       "id": "republic-of-oredsy",
       "name": "Republic of Oredsy",
       "type": "kingdom",
-      "accentColor": "#5A7A8B",
+      "accentColor": "#0000FF",
       "val": 3
     },
     {
       "id": "state-of-akison",
       "name": "State of Akison",
       "type": "kingdom",
-      "accentColor": "#8B0000",
+      "accentColor": "#DC143C",
       "val": 3
     },
     {
       "id": "warring-darkmane-realm",
       "name": "Warring Darkmane Realm",
       "type": "kingdom",
-      "accentColor": "#4A2D6B",
+      "accentColor": "#008000",
       "val": 3
     },
     {
@@ -495,91 +495,104 @@
       "name": "Berserk",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 2
     },
     {
       "id": "biruda",
       "name": "Biruda",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 7
     },
     {
       "id": "dark-paladin",
       "name": "Dark Paladin",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 1
     },
     {
       "id": "helm",
       "name": "Helm",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 12
     },
     {
       "id": "kaboom",
       "name": "Kaboom",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 9
     },
     {
       "id": "lucifer",
       "name": "Lucifer",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 6
     },
     {
       "id": "nebbio",
       "name": "Nebbio",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 3
     },
     {
       "id": "oto",
       "name": "Oto",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 8
     },
     {
       "id": "rabuka",
       "name": "Rabuka",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 4
     },
     {
       "id": "ryobik",
       "name": "Ryobik",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 10
     },
     {
       "id": "spector",
       "name": "Spector",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 11
     },
     {
       "id": "unknown-0",
       "name": "Unknown",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 0
     },
     {
       "id": "velho",
       "name": "Velho",
       "type": "arashi",
       "accentColor": "#9B5CC4",
-      "val": 3
+      "val": 3,
+      "rank": 5
     },
     {
       "id": "ace",
@@ -676,7 +689,7 @@
       "id": "golden-war",
       "name": "The Golden War",
       "type": "history",
-      "accentColor": "#C9A84C",
+      "accentColor": "#FFD700",
       "val": 3
     },
     {
@@ -808,1732 +821,2214 @@
   ],
   "edges": [
     {
-      "source": "darkmane-elves",
-      "target": "grousea"
-    },
-    {
       "source": "warring-darkmane-realm",
-      "target": "grousea"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "grousea"
-    },
-    {
-      "source": "first-great-war",
-      "target": "grousea"
+      "target": "darkmane-elves",
+      "type": "race-of"
     },
     {
       "source": "darkmane-elves",
-      "target": "wrediff"
-    },
-    {
-      "source": "warring-darkmane-realm",
-      "target": "wrediff"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "wrediff"
+      "target": "grousea",
+      "type": "lives-in"
     },
     {
       "source": "darkmane-elves",
-      "target": "vlurg"
-    },
-    {
-      "source": "warring-darkmane-realm",
-      "target": "vlurg"
+      "target": "wrediff",
+      "type": "lives-in"
     },
     {
       "source": "darkmane-elves",
-      "target": "adlens"
-    },
-    {
-      "source": "golems",
-      "target": "adlens"
-    },
-    {
-      "source": "warring-darkmane-realm",
-      "target": "adlens"
-    },
-    {
-      "source": "ace",
-      "target": "adlens"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "adlens"
+      "target": "vlurg",
+      "type": "lives-in"
     },
     {
       "source": "darkmane-elves",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "folkwynd",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "goldhelms",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "golems",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "ipadoras",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "sharkai",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "tharnex",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "nikolem-kingdom",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "warring-darkmane-realm",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "frada",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "zhuiburn",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "veles",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "lucifer",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "velho",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "crimson-convergence"
-    },
-    {
-      "source": "golden-war",
-      "target": "crimson-convergence"
+      "target": "adlens",
+      "type": "lives-in"
     },
     {
       "source": "darkmane-elves",
-      "target": "warring-darkmane-realm"
-    },
-    {
-      "source": "azaraith",
-      "target": "warring-darkmane-realm"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "warring-darkmane-realm"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "warring-darkmane-realm"
+      "target": "crimson-convergence",
+      "type": "related"
     },
     {
       "source": "darkmane-elves",
-      "target": "vaelith-the-hollow"
-    },
-    {
-      "source": "grousea",
-      "target": "vaelith-the-hollow"
-    },
-    {
-      "source": "azaraith",
-      "target": "vaelith-the-hollow"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "vaelith-the-hollow"
-    },
-    {
-      "source": "nualthyr",
-      "target": "vaelith-the-hollow"
-    },
-    {
-      "source": "folkwynd",
-      "target": "vacron"
+      "target": "vaelith-the-hollow",
+      "type": "related"
     },
     {
       "source": "kingdom-of-vacron",
-      "target": "vacron"
-    },
-    {
-      "source": "crimson-rooks",
-      "target": "vacron"
-    },
-    {
-      "source": "crimson-convergence",
-      "target": "vacron"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "vacron"
-    },
-    {
-      "source": "first-great-war",
-      "target": "vacron"
-    },
-    {
-      "source": "folkwynd",
-      "target": "frada"
+      "target": "folkwynd",
+      "type": "race-of"
     },
     {
       "source": "republic-of-frada",
-      "target": "frada"
+      "target": "folkwynd",
+      "type": "race-of"
     },
     {
-      "source": "andport",
-      "target": "frada"
-    },
-    {
-      "source": "hiypolis",
-      "target": "frada"
-    },
-    {
-      "source": "first-great-war",
-      "target": "frada"
-    },
-    {
-      "source": "golden-war",
-      "target": "frada"
-    },
-    {
-      "source": "folkwynd",
-      "target": "oredsy"
+      "source": "state-of-akison",
+      "target": "folkwynd",
+      "type": "race-of"
     },
     {
       "source": "republic-of-oredsy",
-      "target": "oredsy"
-    },
-    {
-      "source": "imuton",
-      "target": "oredsy"
-    },
-    {
-      "source": "wrofast",
-      "target": "oredsy"
-    },
-    {
-      "source": "pegasus",
-      "target": "oredsy"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "oredsy"
-    },
-    {
-      "source": "first-great-war",
-      "target": "oredsy"
+      "target": "folkwynd",
+      "type": "race-of"
     },
     {
       "source": "folkwynd",
-      "target": "akison"
+      "target": "vacron",
+      "type": "lives-in"
+    },
+    {
+      "source": "folkwynd",
+      "target": "frada",
+      "type": "lives-in"
+    },
+    {
+      "source": "folkwynd",
+      "target": "oredsy",
+      "type": "lives-in"
+    },
+    {
+      "source": "folkwynd",
+      "target": "akison",
+      "type": "lives-in"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-rooks",
+      "type": "related"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "folkwynd",
+      "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "folkwynd",
+      "target": "princess-seraphina",
+      "type": "related"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "goldhelms",
+      "type": "race-of"
+    },
+    {
+      "source": "goldhelms",
+      "target": "ovodon",
+      "type": "lives-in"
+    },
+    {
+      "source": "goldhelms",
+      "target": "ibeson",
+      "type": "lives-in"
+    },
+    {
+      "source": "goldhelms",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "goldhelms",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "goldhelms",
+      "target": "king-aldric",
+      "type": "related"
+    },
+    {
+      "source": "goldhelms",
+      "target": "princess-seraphina",
+      "type": "related"
+    },
+    {
+      "source": "nikolem-kingdom",
+      "target": "golems",
+      "type": "race-of"
+    },
+    {
+      "source": "golems",
+      "target": "suudon",
+      "type": "lives-in"
+    },
+    {
+      "source": "golems",
+      "target": "cridbury",
+      "type": "lives-in"
+    },
+    {
+      "source": "golems",
+      "target": "klosdon",
+      "type": "lives-in"
+    },
+    {
+      "source": "golems",
+      "target": "phaaross",
+      "type": "lives-in"
+    },
+    {
+      "source": "golems",
+      "target": "adlens",
+      "type": "lives-in"
+    },
+    {
+      "source": "golems",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "golems",
+      "target": "golem-king",
+      "type": "related"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "ipadoras",
+      "type": "race-of"
+    },
+    {
+      "source": "ipadoras",
+      "target": "ipadora-sanctuary",
+      "type": "lives-in"
+    },
+    {
+      "source": "ipadoras",
+      "target": "glaril",
+      "type": "lives-in"
+    },
+    {
+      "source": "ipadoras",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "ipadoras",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "ipadoras",
+      "target": "queen-nayele",
+      "type": "related"
     },
     {
       "source": "state-of-akison",
-      "target": "akison"
+      "target": "sharkai",
+      "type": "race-of"
     },
     {
-      "source": "kusamori",
-      "target": "akison"
+      "source": "ipadora-kingdom",
+      "target": "sharkai",
+      "type": "race-of"
     },
     {
-      "source": "okbridge",
-      "target": "akison"
+      "source": "sharkai",
+      "target": "glaril",
+      "type": "lives-in"
     },
     {
-      "source": "arashi",
-      "target": "akison"
+      "source": "sharkai",
+      "target": "neruvalis",
+      "type": "lives-in"
     },
     {
-      "source": "pegasus",
-      "target": "akison"
+      "source": "sharkai",
+      "target": "arashi",
+      "type": "related"
     },
     {
-      "source": "folkwynd",
-      "target": "crimson-rooks"
+      "source": "sharkai",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "sharkai",
+      "target": "rabuka",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "tharnex",
+      "type": "race-of"
+    },
+    {
+      "source": "tharnex",
+      "target": "fodon",
+      "type": "lives-in"
+    },
+    {
+      "source": "tharnex",
+      "target": "arashi",
+      "type": "related"
+    },
+    {
+      "source": "tharnex",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "tharnex",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "tharnex",
+      "target": "vorryn",
+      "type": "related"
+    },
+    {
+      "source": "tharnex",
+      "target": "vorvax",
+      "type": "related"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "ovodon",
+      "type": "capital-of"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "ibeson",
+      "type": "contains"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "king-aldric",
+      "type": "ruled-by"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "goldhelm-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "kaboom",
+      "type": "related"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "helm",
+      "type": "related"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "goldhelm-kingdom",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "ipadora-sanctuary",
+      "type": "capital-of"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "glaril",
+      "type": "contains"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "queen-nayele",
+      "type": "ruled-by"
+    },
+    {
+      "source": "ipadora-kingdom",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "fodon",
+      "type": "capital-of"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "mayson",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "plodrough",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "sloumont",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "folkwynd",
+      "type": "race-of"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "arashi",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "vorvax",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "azaraith",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "varnokh",
+      "type": "related"
+    },
+    {
+      "source": "vulkran",
+      "target": "kingdom-of-fodon",
+      "type": "located-in"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "lucifer",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-fodon",
+      "target": "crimson-convergence",
+      "type": "related"
     },
     {
       "source": "kingdom-of-iyhago",
-      "target": "crimson-rooks"
+      "target": "iyhago-prime",
+      "type": "capital-of"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "andport",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "uyrand",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "ubraamore",
+      "type": "contains"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "veles",
+      "type": "ruled-by"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "folkwynd",
+      "type": "race-of"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "ipadoras",
+      "type": "race-of"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "rose",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "crimson-rooks",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-iyhago",
+      "target": "first-great-war",
+      "type": "related"
     },
     {
       "source": "kingdom-of-vacron",
-      "target": "crimson-rooks"
+      "target": "vacron",
+      "type": "capital-of"
     },
     {
-      "source": "state-of-akison",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "clocester",
+      "type": "contains"
     },
     {
-      "source": "akison",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "klanron",
+      "type": "contains"
     },
     {
-      "source": "andport",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "anehull",
+      "type": "contains"
     },
     {
-      "source": "anehull",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "crimson-knight",
+      "type": "ruled-by"
     },
     {
-      "source": "frada",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "crimson-rooks",
+      "type": "related"
     },
     {
-      "source": "hiypolis",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "rose",
+      "type": "related"
     },
     {
-      "source": "okbridge",
-      "target": "crimson-rooks"
+      "source": "kingdom-of-vacron",
+      "target": "butterfly",
+      "type": "related"
     },
     {
-      "source": "oredsy",
-      "target": "crimson-rooks"
-    },
-    {
-      "source": "ubraamore",
-      "target": "crimson-rooks"
-    },
-    {
-      "source": "wrofast",
-      "target": "crimson-rooks"
-    },
-    {
-      "source": "folkwynd",
-      "target": "kingdom-of-vacron"
-    },
-    {
-      "source": "anehull",
-      "target": "kingdom-of-vacron"
-    },
-    {
-      "source": "clocester",
-      "target": "kingdom-of-vacron"
-    },
-    {
-      "source": "klanron",
-      "target": "kingdom-of-vacron"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "kingdom-of-vacron"
-    },
-    {
-      "source": "folkwynd",
-      "target": "republic-of-frada"
-    },
-    {
-      "source": "hiypolis",
-      "target": "republic-of-frada"
-    },
-    {
-      "source": "folkwynd",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "sharkai",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "kusamori",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "neruvalis",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "okbridge",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "oniofast",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "sunlee",
-      "target": "state-of-akison"
-    },
-    {
-      "source": "folkwynd",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "icogas",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "imuton",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "wrofast",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "zhuiburn",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "selvarin",
-      "target": "republic-of-oredsy"
-    },
-    {
-      "source": "folkwynd",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "vacron",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "fluffy",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "golem-king",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "princess-seraphina",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "selvarin",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "lucifer",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "ace",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "crimson-rooks",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "rose",
-      "target": "crimson-knight"
-    },
-    {
-      "source": "folkwynd",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "goldhelms",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "ovodon",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "king-aldric",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "solaran",
-      "target": "princess-seraphina"
-    },
-    {
-      "source": "goldhelms",
-      "target": "ovodon"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "ovodon"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "ovodon"
-    },
-    {
-      "source": "golden-war",
-      "target": "ovodon"
-    },
-    {
-      "source": "goldhelms",
-      "target": "ibeson"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "ibeson"
-    },
-    {
-      "source": "arashi",
-      "target": "ibeson"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "ibeson"
-    },
-    {
-      "source": "golden-war",
-      "target": "ibeson"
-    },
-    {
-      "source": "goldhelms",
-      "target": "golden-war"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "golden-war"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "golden-war"
-    },
-    {
-      "source": "golem-king",
-      "target": "golden-war"
-    },
-    {
-      "source": "king-aldric",
-      "target": "golden-war"
-    },
-    {
-      "source": "princess-seraphina",
-      "target": "golden-war"
-    },
-    {
-      "source": "varnokh",
-      "target": "golden-war"
-    },
-    {
-      "source": "zunarorth",
-      "target": "golden-war"
-    },
-    {
-      "source": "helm",
-      "target": "golden-war"
-    },
-    {
-      "source": "kaboom",
-      "target": "golden-war"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "golden-war"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "golden-war"
-    },
-    {
-      "source": "first-great-war",
-      "target": "golden-war"
-    },
-    {
-      "source": "holotech",
-      "target": "golden-war"
-    },
-    {
-      "source": "runestones",
-      "target": "golden-war"
-    },
-    {
-      "source": "goldhelms",
-      "target": "goldhelm-kingdom"
-    },
-    {
-      "source": "king-aldric",
-      "target": "goldhelm-kingdom"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "goldhelm-kingdom"
-    },
-    {
-      "source": "goldhelms",
-      "target": "king-aldric"
-    },
-    {
-      "source": "ovodon",
-      "target": "king-aldric"
-    },
-    {
-      "source": "helm",
-      "target": "king-aldric"
-    },
-    {
-      "source": "kaboom",
-      "target": "king-aldric"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "king-aldric"
-    },
-    {
-      "source": "solaran",
-      "target": "king-aldric"
-    },
-    {
-      "source": "golems",
-      "target": "suudon"
+      "source": "kingdom-of-vacron",
+      "target": "first-great-war",
+      "type": "related"
     },
     {
       "source": "nikolem-kingdom",
-      "target": "suudon"
-    },
-    {
-      "source": "arashi",
-      "target": "suudon"
-    },
-    {
-      "source": "golems",
-      "target": "cridbury"
+      "target": "suudon",
+      "type": "capital-of"
     },
     {
       "source": "nikolem-kingdom",
-      "target": "cridbury"
-    },
-    {
-      "source": "golems",
-      "target": "klosdon"
+      "target": "cridbury",
+      "type": "contains"
     },
     {
       "source": "nikolem-kingdom",
-      "target": "klosdon"
-    },
-    {
-      "source": "golems",
-      "target": "phaaross"
+      "target": "klosdon",
+      "type": "contains"
     },
     {
       "source": "nikolem-kingdom",
-      "target": "phaaross"
+      "target": "phaaross",
+      "type": "contains"
     },
     {
-      "source": "crimson-rooks",
-      "target": "phaaross"
+      "source": "nikolem-kingdom",
+      "target": "golem-king",
+      "type": "ruled-by"
     },
     {
-      "source": "golems",
-      "target": "nikolem-kingdom"
+      "source": "nikolem-kingdom",
+      "target": "nebbio",
+      "type": "related"
     },
     {
-      "source": "golem-king",
-      "target": "nikolem-kingdom"
-    },
-    {
-      "source": "varnokh",
-      "target": "nikolem-kingdom"
-    },
-    {
-      "source": "zunarorth",
-      "target": "nikolem-kingdom"
-    },
-    {
-      "source": "golems",
-      "target": "golem-king"
-    },
-    {
-      "source": "suudon",
-      "target": "golem-king"
-    },
-    {
-      "source": "fluffy",
-      "target": "golem-king"
-    },
-    {
-      "source": "varnokh",
-      "target": "golem-king"
-    },
-    {
-      "source": "zunarorth",
-      "target": "golem-king"
-    },
-    {
-      "source": "nebbio",
-      "target": "golem-king"
-    },
-    {
-      "source": "karthrun",
-      "target": "golem-king"
-    },
-    {
-      "source": "ipadoras",
-      "target": "ipadora-sanctuary"
-    },
-    {
-      "source": "ipadora-kingdom",
-      "target": "ipadora-sanctuary"
-    },
-    {
-      "source": "glaril",
-      "target": "ipadora-sanctuary"
-    },
-    {
-      "source": "hiypolis",
-      "target": "ipadora-sanctuary"
-    },
-    {
-      "source": "ipadora-family",
-      "target": "ipadora-sanctuary"
-    },
-    {
-      "source": "ipadoras",
-      "target": "glaril"
-    },
-    {
-      "source": "sharkai",
-      "target": "glaril"
-    },
-    {
-      "source": "ipadora-kingdom",
-      "target": "glaril"
-    },
-    {
-      "source": "neruvalis",
-      "target": "glaril"
-    },
-    {
-      "source": "arashi",
-      "target": "glaril"
-    },
-    {
-      "source": "ipadora-family",
-      "target": "glaril"
-    },
-    {
-      "source": "ipadoras",
-      "target": "war-of-fodon"
-    },
-    {
-      "source": "tharnex",
-      "target": "war-of-fodon"
-    },
-    {
-      "source": "ipadora-kingdom",
-      "target": "war-of-fodon"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "war-of-fodon"
+      "source": "nikolem-kingdom",
+      "target": "crimson-convergence",
+      "type": "related"
     },
     {
       "source": "republic-of-frada",
-      "target": "war-of-fodon"
+      "target": "frada",
+      "type": "capital-of"
     },
     {
-      "source": "fodon",
-      "target": "war-of-fodon"
+      "source": "republic-of-frada",
+      "target": "hiypolis",
+      "type": "contains"
     },
     {
-      "source": "vorryn",
-      "target": "war-of-fodon"
+      "source": "republic-of-frada",
+      "target": "war-of-fodon",
+      "type": "related"
     },
     {
-      "source": "vorvax",
-      "target": "war-of-fodon"
+      "source": "republic-of-oredsy",
+      "target": "oredsy",
+      "type": "capital-of"
     },
     {
-      "source": "first-great-war",
-      "target": "war-of-fodon"
+      "source": "republic-of-oredsy",
+      "target": "wrofast",
+      "type": "contains"
     },
     {
-      "source": "ipadoras",
-      "target": "ipadora-kingdom"
+      "source": "republic-of-oredsy",
+      "target": "imuton",
+      "type": "contains"
     },
     {
-      "source": "sharkai",
-      "target": "ipadora-kingdom"
+      "source": "republic-of-oredsy",
+      "target": "icogas",
+      "type": "contains"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "zhuiburn",
+      "type": "contains"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "selvarin",
+      "type": "ruled-by"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "pegasus",
+      "type": "related"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "republic-of-oredsy",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "akison",
+      "type": "capital-of"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "kusamori",
+      "type": "contains"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "oniofast",
+      "type": "contains"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "okbridge",
+      "type": "contains"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "neruvalis",
+      "type": "contains"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "sunlee",
+      "type": "ruled-by"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "ipadoras",
+      "type": "race-of"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "pegasus",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "crimson-rooks",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "biruda",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "grousea",
+      "type": "capital-of"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "vlurg",
+      "type": "contains"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "adlens",
+      "type": "contains"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "wrediff",
+      "type": "contains"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "warring-darkmane-realm",
+      "type": "located-in"
+    },
+    {
+      "source": "warring-darkmane-realm",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "warring-darkmane-realm",
+      "type": "located-in"
+    },
+    {
+      "source": "azaraith",
+      "target": "darkmane-family",
+      "type": "member-of"
+    },
+    {
+      "source": "azaraith",
+      "target": "vaelith-the-hollow",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "wrediff",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "crimson-rooks",
+      "type": "member-of"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "veles",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "selvarin",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "sunlee",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "golem-king",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "vacron",
+      "type": "located-in"
+    },
+    {
+      "source": "fluffy",
+      "target": "golem-king",
+      "type": "related"
+    },
+    {
+      "source": "fluffy",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "zunarorth",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "nebbio",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "golem-king",
+      "target": "suudon",
+      "type": "located-in"
+    },
+    {
+      "source": "king-aldric",
+      "target": "goldhelm-family",
+      "type": "member-of"
+    },
+    {
+      "source": "king-aldric",
+      "target": "princess-seraphina",
+      "type": "related"
+    },
+    {
+      "source": "king-aldric",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "king-aldric",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "king-aldric",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "king-aldric",
+      "target": "ovodon",
+      "type": "located-in"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "goldhelm-family",
+      "type": "member-of"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "veles",
+      "type": "related"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "princess-seraphina",
+      "target": "ovodon",
+      "type": "located-in"
     },
     {
       "source": "queen-nayele",
-      "target": "ipadora-kingdom"
+      "target": "ipadora-family",
+      "type": "member-of"
     },
     {
-      "source": "ipadora-family",
-      "target": "ipadora-kingdom"
+      "source": "queen-nayele",
+      "target": "rabuka",
+      "type": "related"
     },
     {
-      "source": "ipadoras",
-      "target": "queen-nayele"
+      "source": "queen-nayele",
+      "target": "fluffy",
+      "type": "related"
     },
     {
-      "source": "ipadora-sanctuary",
-      "target": "queen-nayele"
+      "source": "queen-nayele",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "queen-nayele",
+      "target": "ipadora-sanctuary",
+      "type": "located-in"
+    },
+    {
+      "source": "selvarin",
+      "target": "veles",
+      "type": "related"
+    },
+    {
+      "source": "selvarin",
+      "target": "sunlee",
+      "type": "related"
+    },
+    {
+      "source": "selvarin",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "selvarin",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "selvarin",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "selvarin",
+      "target": "oredsy",
+      "type": "located-in"
+    },
+    {
+      "source": "sunlee",
+      "target": "biruda",
+      "type": "related"
+    },
+    {
+      "source": "sunlee",
+      "target": "veles",
+      "type": "related"
+    },
+    {
+      "source": "sunlee",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "sunlee",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "sunlee",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "sunlee",
+      "target": "akison",
+      "type": "located-in"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "darkmane-family",
+      "type": "member-of"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "vaelith-the-hollow",
+      "target": "grousea",
+      "type": "located-in"
+    },
+    {
+      "source": "varnokh",
+      "target": "nikolem-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "varnokh",
+      "target": "golem-king",
+      "type": "related"
+    },
+    {
+      "source": "varnokh",
+      "target": "zunarorth",
+      "type": "related"
+    },
+    {
+      "source": "varnokh",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "varnokh",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "varnokh",
+      "target": "cridbury",
+      "type": "located-in"
+    },
+    {
+      "source": "veles",
+      "target": "magic-societies",
+      "type": "member-of"
+    },
+    {
+      "source": "veles",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "veles",
+      "target": "biruda",
+      "type": "related"
+    },
+    {
+      "source": "veles",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "veles",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "veles",
+      "target": "iyhago-prime",
+      "type": "located-in"
+    },
+    {
+      "source": "vorryn",
+      "target": "vorvax",
+      "type": "related"
+    },
+    {
+      "source": "vorryn",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "vorryn",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "vorryn",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "vorvax",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "vorvax",
+      "target": "war-of-fodon",
+      "type": "related"
+    },
+    {
+      "source": "vorvax",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "vulkran",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "vulkran",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "vulkran",
+      "target": "plodrough",
+      "type": "located-in"
+    },
+    {
+      "source": "zunarorth",
+      "target": "nikolem-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "zunarorth",
+      "target": "nebbio",
+      "type": "related"
+    },
+    {
+      "source": "zunarorth",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "zunarorth",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "zunarorth",
+      "target": "suudon",
+      "type": "located-in"
+    },
+    {
+      "source": "berserk",
+      "target": "oniofast",
+      "type": "located-in"
+    },
+    {
+      "source": "berserk",
+      "target": "sunlee",
+      "type": "related"
+    },
+    {
+      "source": "berserk",
+      "target": "dark-paladin",
+      "type": "related"
+    },
+    {
+      "source": "berserk",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "berserk",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "berserk",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "biruda",
+      "target": "akison",
+      "type": "located-in"
+    },
+    {
+      "source": "biruda",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "biruda",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "biruda",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "icogas",
+      "type": "located-in"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "veles",
+      "type": "related"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "dark-paladin",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "helm",
+      "target": "ibeson",
+      "type": "located-in"
+    },
+    {
+      "source": "helm",
+      "target": "kaboom",
+      "type": "related"
+    },
+    {
+      "source": "helm",
+      "target": "king-aldric",
+      "type": "related"
+    },
+    {
+      "source": "helm",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "helm",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "helm",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "helm",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "kaboom",
+      "target": "ibeson",
+      "type": "located-in"
+    },
+    {
+      "source": "kaboom",
+      "target": "king-aldric",
+      "type": "related"
+    },
+    {
+      "source": "kaboom",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "kaboom",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "kaboom",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "lucifer",
+      "target": "zhuiburn",
+      "type": "located-in"
+    },
+    {
+      "source": "lucifer",
+      "target": "sunlee",
+      "type": "related"
+    },
+    {
+      "source": "lucifer",
+      "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "lucifer",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "lucifer",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "lucifer",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "lucifer",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "nebbio",
+      "target": "suudon",
+      "type": "located-in"
+    },
+    {
+      "source": "nebbio",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "nebbio",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "nebbio",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "oto",
+      "target": "dark-paladin",
+      "type": "related"
+    },
+    {
+      "source": "oto",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "oto",
+      "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "oto",
+      "target": "arashi",
+      "type": "member-of"
     },
     {
       "source": "rabuka",
-      "target": "queen-nayele"
+      "target": "glaril",
+      "type": "located-in"
     },
     {
-      "source": "ipadora-family",
-      "target": "queen-nayele"
+      "source": "rabuka",
+      "target": "fluffy",
+      "type": "related"
     },
     {
-      "source": "sharkai",
-      "target": "neruvalis"
+      "source": "rabuka",
+      "target": "equinox-of-power",
+      "type": "related"
     },
     {
-      "source": "okbridge",
-      "target": "neruvalis"
+      "source": "rabuka",
+      "target": "arashi",
+      "type": "member-of"
     },
     {
-      "source": "rose",
-      "target": "neruvalis"
+      "source": "ryobik",
+      "target": "dark-paladin",
+      "type": "related"
     },
     {
-      "source": "sharkai",
-      "target": "arashi"
+      "source": "ryobik",
+      "target": "fluffy",
+      "type": "related"
     },
     {
-      "source": "tharnex",
-      "target": "arashi"
+      "source": "ryobik",
+      "target": "equinox-of-power",
+      "type": "related"
     },
     {
-      "source": "kingdom-of-fodon",
-      "target": "arashi"
+      "source": "ryobik",
+      "target": "arashi",
+      "type": "member-of"
     },
     {
-      "source": "andport",
-      "target": "arashi"
+      "source": "spector",
+      "target": "andport",
+      "type": "located-in"
     },
     {
-      "source": "fodon",
-      "target": "arashi"
+      "source": "spector",
+      "target": "selvarin",
+      "type": "related"
     },
     {
-      "source": "icogas",
-      "target": "arashi"
+      "source": "spector",
+      "target": "fluffy",
+      "type": "related"
     },
     {
-      "source": "skellmoor",
-      "target": "arashi"
+      "source": "spector",
+      "target": "equinox-of-power",
+      "type": "related"
     },
     {
-      "source": "zhuiburn",
-      "target": "arashi"
+      "source": "spector",
+      "target": "arashi",
+      "type": "member-of"
     },
     {
-      "source": "sharkai",
-      "target": "rabuka"
+      "source": "unknown-0",
+      "target": "fluffy",
+      "type": "related"
     },
     {
-      "source": "glaril",
-      "target": "rabuka"
+      "source": "unknown-0",
+      "target": "dark-paladin",
+      "type": "related"
+    },
+    {
+      "source": "unknown-0",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "velho",
+      "target": "dark-paladin",
+      "type": "related"
+    },
+    {
+      "source": "velho",
+      "target": "fluffy",
+      "type": "related"
+    },
+    {
+      "source": "velho",
+      "target": "first-great-war",
+      "type": "related"
+    },
+    {
+      "source": "velho",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "velho",
+      "target": "arashi",
+      "type": "member-of"
+    },
+    {
+      "source": "ace",
+      "target": "crimson-knight",
+      "type": "member-of"
+    },
+    {
+      "source": "ace",
+      "target": "adlens",
+      "type": "located-in"
+    },
+    {
+      "source": "ace",
+      "target": "kusamori",
+      "type": "located-in"
+    },
+    {
+      "source": "ace",
+      "target": "okbridge",
+      "type": "located-in"
+    },
+    {
+      "source": "ace",
+      "target": "first-great-war",
+      "type": "founded-in"
     },
     {
       "source": "arashi",
-      "target": "rabuka"
+      "target": "icogas",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "oniofast",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "suudon",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "glaril",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "zhuiburn",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "akison",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "andport",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "ibeson",
+      "type": "located-in"
+    },
+    {
+      "source": "arashi",
+      "target": "equinox-of-power",
+      "type": "founded-in"
+    },
+    {
+      "source": "butterfly",
+      "target": "veles",
+      "type": "member-of"
+    },
+    {
+      "source": "butterfly",
+      "target": "dark-paladin",
+      "type": "member-of"
+    },
+    {
+      "source": "butterfly",
+      "target": "klanron",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly",
+      "target": "iyhago-prime",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly",
+      "target": "icogas",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly",
+      "target": "anehull",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly",
+      "target": "equinox-of-power",
+      "type": "founded-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "vacron",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "phaaross",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "okbridge",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "ubraamore",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "anehull",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "hiypolis",
+      "type": "located-in"
+    },
+    {
+      "source": "crimson-rooks",
+      "target": "crimson-convergence",
+      "type": "founded-in"
+    },
+    {
+      "source": "magic-societies",
+      "target": "klanron",
+      "type": "located-in"
+    },
+    {
+      "source": "magic-societies",
+      "target": "iyhago-prime",
+      "type": "located-in"
+    },
+    {
+      "source": "magic-societies",
+      "target": "anehull",
+      "type": "located-in"
+    },
+    {
+      "source": "magic-societies",
+      "target": "equinox-of-power",
+      "type": "founded-in"
+    },
+    {
+      "source": "pegasus",
+      "target": "selvarin",
+      "type": "member-of"
+    },
+    {
+      "source": "pegasus",
+      "target": "sunlee",
+      "type": "member-of"
+    },
+    {
+      "source": "pegasus",
+      "target": "berserk",
+      "type": "member-of"
+    },
+    {
+      "source": "pegasus",
+      "target": "oniofast",
+      "type": "located-in"
+    },
+    {
+      "source": "pegasus",
+      "target": "oredsy",
+      "type": "located-in"
+    },
+    {
+      "source": "pegasus",
+      "target": "akison",
+      "type": "located-in"
+    },
+    {
+      "source": "pegasus",
+      "target": "first-great-war",
+      "type": "founded-in"
+    },
+    {
+      "source": "rose",
+      "target": "veles",
+      "type": "member-of"
+    },
+    {
+      "source": "rose",
+      "target": "crimson-knight",
+      "type": "member-of"
+    },
+    {
+      "source": "rose",
+      "target": "uyrand",
+      "type": "located-in"
+    },
+    {
+      "source": "rose",
+      "target": "andport",
+      "type": "located-in"
+    },
+    {
+      "source": "rose",
+      "target": "neruvalis",
+      "type": "located-in"
+    },
+    {
+      "source": "rose",
+      "target": "anehull",
+      "type": "located-in"
+    },
+    {
+      "source": "rose",
+      "target": "clocester",
+      "type": "located-in"
+    },
+    {
+      "source": "rose",
+      "target": "crimson-convergence",
+      "type": "founded-in"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "grousea",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "grousea",
+      "type": "mentioned"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "wrediff",
+      "type": "mentioned"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "adlens",
+      "type": "mentioned"
+    },
+    {
+      "source": "frada",
+      "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "zhuiburn",
+      "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "golden-war",
+      "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "darkmane-family",
+      "target": "warring-darkmane-realm",
+      "type": "mentioned"
+    },
+    {
+      "source": "nualthyr",
+      "target": "vaelith-the-hollow",
+      "type": "mentioned"
+    },
+    {
+      "source": "crimson-convergence",
+      "target": "vacron",
+      "type": "mentioned"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "vacron",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "vacron",
+      "type": "mentioned"
+    },
+    {
+      "source": "andport",
+      "target": "frada",
+      "type": "mentioned"
+    },
+    {
+      "source": "hiypolis",
+      "target": "frada",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "frada",
+      "type": "mentioned"
+    },
+    {
+      "source": "golden-war",
+      "target": "frada",
+      "type": "mentioned"
+    },
+    {
+      "source": "imuton",
+      "target": "oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "wrofast",
+      "target": "oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "kusamori",
+      "target": "akison",
+      "type": "mentioned"
+    },
+    {
+      "source": "okbridge",
+      "target": "akison",
+      "type": "mentioned"
+    },
+    {
+      "source": "akison",
+      "target": "crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "andport",
+      "target": "crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "frada",
+      "target": "crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "oredsy",
+      "target": "crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "wrofast",
+      "target": "crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "solaran",
+      "target": "princess-seraphina",
+      "type": "mentioned"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "ovodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "golden-war",
+      "target": "ovodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "golden-war",
+      "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "holotech",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "runestones",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "goldhelm-family",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "solaran",
+      "target": "king-aldric",
+      "type": "mentioned"
+    },
+    {
+      "source": "karthrun",
+      "target": "golem-king",
+      "type": "mentioned"
+    },
+    {
+      "source": "glaril",
+      "target": "ipadora-sanctuary",
+      "type": "mentioned"
+    },
+    {
+      "source": "hiypolis",
+      "target": "ipadora-sanctuary",
+      "type": "mentioned"
     },
     {
       "source": "ipadora-family",
-      "target": "rabuka"
+      "target": "ipadora-sanctuary",
+      "type": "mentioned"
+    },
+    {
+      "source": "neruvalis",
+      "target": "glaril",
+      "type": "mentioned"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "glaril",
+      "type": "mentioned"
+    },
+    {
+      "source": "fodon",
+      "target": "war-of-fodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "war-of-fodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "ipadora-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "okbridge",
+      "target": "neruvalis",
+      "type": "mentioned"
+    },
+    {
+      "source": "fodon",
+      "target": "arashi",
+      "type": "mentioned"
+    },
+    {
+      "source": "skellmoor",
+      "target": "arashi",
+      "type": "mentioned"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "rabuka",
+      "type": "mentioned"
     },
     {
       "source": "katorr",
-      "target": "rabuka"
+      "target": "rabuka",
+      "type": "mentioned"
     },
     {
       "source": "sailor-speak",
-      "target": "rabuka"
-    },
-    {
-      "source": "tharnex",
-      "target": "fodon"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "fodon"
-    },
-    {
-      "source": "tharnex",
-      "target": "kingdom-of-fodon"
-    },
-    {
-      "source": "mayson",
-      "target": "kingdom-of-fodon"
-    },
-    {
-      "source": "plodrough",
-      "target": "kingdom-of-fodon"
-    },
-    {
-      "source": "sloumont",
-      "target": "kingdom-of-fodon"
-    },
-    {
-      "source": "vulkran",
-      "target": "kingdom-of-fodon"
-    },
-    {
-      "source": "tharnex",
-      "target": "vorryn"
-    },
-    {
-      "source": "vorvax",
-      "target": "vorryn"
+      "target": "rabuka",
+      "type": "mentioned"
     },
     {
       "source": "tharnexi",
-      "target": "vorryn"
-    },
-    {
-      "source": "tharnex",
-      "target": "vorvax"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "vorvax"
+      "target": "vorryn",
+      "type": "mentioned"
     },
     {
       "source": "fodon",
-      "target": "vorvax"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "kaboom"
-    },
-    {
-      "source": "ibeson",
-      "target": "kaboom"
-    },
-    {
-      "source": "helm",
-      "target": "kaboom"
-    },
-    {
-      "source": "arashi",
-      "target": "kaboom"
+      "target": "vorvax",
+      "type": "mentioned"
     },
     {
       "source": "solaran",
-      "target": "kaboom"
-    },
-    {
-      "source": "goldhelm-kingdom",
-      "target": "helm"
-    },
-    {
-      "source": "ibeson",
-      "target": "helm"
-    },
-    {
-      "source": "arashi",
-      "target": "helm"
+      "target": "kaboom",
+      "type": "mentioned"
     },
     {
       "source": "solaran",
-      "target": "helm"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "ipadoras"
-    },
-    {
-      "source": "state-of-akison",
-      "target": "ipadoras"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "azaraith"
+      "target": "helm",
+      "type": "mentioned"
     },
     {
       "source": "fodon",
-      "target": "azaraith"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "azaraith"
+      "target": "azaraith",
+      "type": "mentioned"
     },
     {
       "source": "nualthyr",
-      "target": "azaraith"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "varnokh"
+      "target": "azaraith",
+      "type": "mentioned"
     },
     {
       "source": "fodon",
-      "target": "varnokh"
+      "target": "varnokh",
+      "type": "mentioned"
     },
     {
       "source": "karthrun",
-      "target": "varnokh"
+      "target": "varnokh",
+      "type": "mentioned"
     },
     {
       "source": "fodon",
-      "target": "vulkran"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "lucifer"
+      "target": "vulkran",
+      "type": "mentioned"
     },
     {
       "source": "fodon",
-      "target": "lucifer"
-    },
-    {
-      "source": "zhuiburn",
-      "target": "lucifer"
-    },
-    {
-      "source": "arashi",
-      "target": "lucifer"
+      "target": "lucifer",
+      "type": "mentioned"
     },
     {
       "source": "pyrrhith",
-      "target": "lucifer"
+      "target": "lucifer",
+      "type": "mentioned"
     },
     {
       "source": "war-of-fodon",
-      "target": "mayson"
-    },
-    {
-      "source": "kingdom-of-fodon",
-      "target": "folkwynd"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "folkwynd"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "veles"
-    },
-    {
-      "source": "iyhago-prime",
-      "target": "veles"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "veles"
-    },
-    {
-      "source": "princess-seraphina",
-      "target": "veles"
-    },
-    {
-      "source": "selvarin",
-      "target": "veles"
-    },
-    {
-      "source": "sunlee",
-      "target": "veles"
-    },
-    {
-      "source": "biruda",
-      "target": "veles"
-    },
-    {
-      "source": "dark-paladin",
-      "target": "veles"
-    },
-    {
-      "source": "butterfly",
-      "target": "veles"
-    },
-    {
-      "source": "magic-societies",
-      "target": "veles"
-    },
-    {
-      "source": "rose",
-      "target": "veles"
+      "target": "mayson",
+      "type": "mentioned"
     },
     {
       "source": "kotoba",
-      "target": "veles"
+      "target": "veles",
+      "type": "mentioned"
     },
     {
       "source": "shayathi",
-      "target": "veles"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "republic-of-oredsy",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "state-of-akison",
-      "target": "equinox-of-power"
+      "target": "veles",
+      "type": "mentioned"
     },
     {
       "source": "akison",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "ipadora-sanctuary",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "iyhago-prime",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "oniofast",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "zhuiburn",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "azaraith",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "fluffy",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "golem-king",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "king-aldric",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "queen-nayele",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "selvarin",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "sunlee",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "veles",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "vorryn",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "berserk",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "biruda",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "helm",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "lucifer",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "nebbio",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "oto",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "rabuka",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "ryobik",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "spector",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "darkmane-family",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "goldhelm-family",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "ipadora-family",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "war-of-fodon",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "corrupted-runes",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "holotech",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "malefici",
-      "target": "equinox-of-power"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "metas",
-      "target": "equinox-of-power"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "first-great-war"
-    },
-    {
-      "source": "kingdom-of-vacron",
-      "target": "first-great-war"
-    },
-    {
-      "source": "republic-of-oredsy",
-      "target": "first-great-war"
-    },
-    {
-      "source": "state-of-akison",
-      "target": "first-great-war"
+      "target": "equinox-of-power",
+      "type": "mentioned"
     },
     {
       "source": "akison",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "icogas",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "skellmoor",
-      "target": "first-great-war"
-    },
-    {
-      "source": "azaraith",
-      "target": "first-great-war"
-    },
-    {
-      "source": "golem-king",
-      "target": "first-great-war"
-    },
-    {
-      "source": "selvarin",
-      "target": "first-great-war"
-    },
-    {
-      "source": "sunlee",
-      "target": "first-great-war"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "first-great-war"
-    },
-    {
-      "source": "varnokh",
-      "target": "first-great-war"
-    },
-    {
-      "source": "vorvax",
-      "target": "first-great-war"
-    },
-    {
-      "source": "vulkran",
-      "target": "first-great-war"
-    },
-    {
-      "source": "zunarorth",
-      "target": "first-great-war"
-    },
-    {
-      "source": "dark-paladin",
-      "target": "first-great-war"
-    },
-    {
-      "source": "velho",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "darkmane-family",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "corrupted-runes",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "malefici",
-      "target": "first-great-war"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "runestones",
-      "target": "first-great-war"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "rose"
-    },
-    {
-      "source": "kingdom-of-vacron",
-      "target": "rose"
-    },
-    {
-      "source": "andport",
-      "target": "rose"
-    },
-    {
-      "source": "anehull",
-      "target": "rose"
-    },
-    {
-      "source": "clocester",
-      "target": "rose"
+      "target": "first-great-war",
+      "type": "mentioned"
     },
     {
       "source": "frada",
-      "target": "rose"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "glaril",
-      "target": "rose"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "hiypolis",
-      "target": "rose"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "ipadora-sanctuary",
-      "target": "rose"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "iyhago-prime",
-      "target": "rose"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "oredsy",
-      "target": "rose"
-    },
-    {
-      "source": "uyrand",
-      "target": "rose"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "andport"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "uyrand"
+      "target": "rose",
+      "type": "mentioned"
     },
     {
       "source": "andport",
-      "target": "uyrand"
+      "target": "uyrand",
+      "type": "mentioned"
     },
     {
       "source": "ubraamore",
-      "target": "uyrand"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "ubraamore"
-    },
-    {
-      "source": "kingdom-of-iyhago",
-      "target": "iyhago-prime"
+      "target": "uyrand",
+      "type": "mentioned"
     },
     {
       "source": "uyrand",
-      "target": "iyhago-prime"
-    },
-    {
-      "source": "butterfly",
-      "target": "iyhago-prime"
-    },
-    {
-      "source": "magic-societies",
-      "target": "iyhago-prime"
-    },
-    {
-      "source": "kingdom-of-vacron",
-      "target": "butterfly"
-    },
-    {
-      "source": "icogas",
-      "target": "butterfly"
+      "target": "iyhago-prime",
+      "type": "mentioned"
     },
     {
       "source": "ipadora-sanctuary",
-      "target": "butterfly"
-    },
-    {
-      "source": "klanron",
-      "target": "butterfly"
+      "target": "butterfly",
+      "type": "mentioned"
     },
     {
       "source": "uyrand",
-      "target": "butterfly"
-    },
-    {
-      "source": "magic-societies",
-      "target": "klanron"
-    },
-    {
-      "source": "butterfly",
-      "target": "anehull"
-    },
-    {
-      "source": "magic-societies",
-      "target": "anehull"
+      "target": "butterfly",
+      "type": "mentioned"
     },
     {
       "source": "crimson-convergence",
-      "target": "anehull"
-    },
-    {
-      "source": "nikolem-kingdom",
-      "target": "nebbio"
-    },
-    {
-      "source": "suudon",
-      "target": "nebbio"
-    },
-    {
-      "source": "zunarorth",
-      "target": "nebbio"
-    },
-    {
-      "source": "arashi",
-      "target": "nebbio"
+      "target": "anehull",
+      "type": "mentioned"
     },
     {
       "source": "golden-war",
-      "target": "hiypolis"
-    },
-    {
-      "source": "oredsy",
-      "target": "selvarin"
-    },
-    {
-      "source": "sunlee",
-      "target": "selvarin"
-    },
-    {
-      "source": "spector",
-      "target": "selvarin"
-    },
-    {
-      "source": "pegasus",
-      "target": "selvarin"
+      "target": "hiypolis",
+      "type": "mentioned"
     },
     {
       "source": "tharnic",
-      "target": "selvarin"
-    },
-    {
-      "source": "republic-of-oredsy",
-      "target": "pegasus"
-    },
-    {
-      "source": "state-of-akison",
-      "target": "pegasus"
-    },
-    {
-      "source": "oniofast",
-      "target": "pegasus"
+      "target": "selvarin",
+      "type": "mentioned"
     },
     {
       "source": "ubraamore",
-      "target": "pegasus"
+      "target": "pegasus",
+      "type": "mentioned"
     },
     {
       "source": "wrofast",
-      "target": "pegasus"
+      "target": "pegasus",
+      "type": "mentioned"
     },
     {
       "source": "imuton",
-      "target": "wrofast"
-    },
-    {
-      "source": "akison",
-      "target": "sunlee"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "sunlee"
-    },
-    {
-      "source": "berserk",
-      "target": "sunlee"
-    },
-    {
-      "source": "biruda",
-      "target": "sunlee"
-    },
-    {
-      "source": "lucifer",
-      "target": "sunlee"
-    },
-    {
-      "source": "pegasus",
-      "target": "sunlee"
-    },
-    {
-      "source": "state-of-akison",
-      "target": "biruda"
-    },
-    {
-      "source": "akison",
-      "target": "biruda"
-    },
-    {
-      "source": "arashi",
-      "target": "biruda"
+      "target": "wrofast",
+      "type": "mentioned"
     },
     {
       "source": "kotoba",
-      "target": "biruda"
-    },
-    {
-      "source": "ace",
-      "target": "kusamori"
-    },
-    {
-      "source": "arashi",
-      "target": "oniofast"
-    },
-    {
-      "source": "ace",
-      "target": "okbridge"
+      "target": "biruda",
+      "type": "mentioned"
     },
     {
       "source": "imuton",
-      "target": "ace"
-    },
-    {
-      "source": "andport",
-      "target": "spector"
-    },
-    {
-      "source": "arashi",
-      "target": "spector"
-    },
-    {
-      "source": "icogas",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "berserk",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "oto",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "ryobik",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "unknown-0",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "velho",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "arashi",
-      "target": "dark-paladin"
-    },
-    {
-      "source": "butterfly",
-      "target": "dark-paladin"
+      "target": "ace",
+      "type": "mentioned"
     },
     {
       "source": "uyrand",
-      "target": "magic-societies"
-    },
-    {
-      "source": "oniofast",
-      "target": "berserk"
-    },
-    {
-      "source": "arashi",
-      "target": "berserk"
-    },
-    {
-      "source": "pegasus",
-      "target": "berserk"
-    },
-    {
-      "source": "skellmoor",
-      "target": "independent"
-    },
-    {
-      "source": "azaraith",
-      "target": "fluffy"
-    },
-    {
-      "source": "king-aldric",
-      "target": "fluffy"
-    },
-    {
-      "source": "queen-nayele",
-      "target": "fluffy"
-    },
-    {
-      "source": "selvarin",
-      "target": "fluffy"
-    },
-    {
-      "source": "sunlee",
-      "target": "fluffy"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "fluffy"
-    },
-    {
-      "source": "veles",
-      "target": "fluffy"
-    },
-    {
-      "source": "vorryn",
-      "target": "fluffy"
-    },
-    {
-      "source": "vorvax",
-      "target": "fluffy"
-    },
-    {
-      "source": "vulkran",
-      "target": "fluffy"
-    },
-    {
-      "source": "berserk",
-      "target": "fluffy"
-    },
-    {
-      "source": "biruda",
-      "target": "fluffy"
-    },
-    {
-      "source": "dark-paladin",
-      "target": "fluffy"
-    },
-    {
-      "source": "helm",
-      "target": "fluffy"
-    },
-    {
-      "source": "kaboom",
-      "target": "fluffy"
-    },
-    {
-      "source": "lucifer",
-      "target": "fluffy"
-    },
-    {
-      "source": "nebbio",
-      "target": "fluffy"
-    },
-    {
-      "source": "oto",
-      "target": "fluffy"
-    },
-    {
-      "source": "rabuka",
-      "target": "fluffy"
-    },
-    {
-      "source": "ryobik",
-      "target": "fluffy"
-    },
-    {
-      "source": "spector",
-      "target": "fluffy"
-    },
-    {
-      "source": "unknown-0",
-      "target": "fluffy"
-    },
-    {
-      "source": "velho",
-      "target": "fluffy"
-    },
-    {
-      "source": "varnokh",
-      "target": "zunarorth"
+      "target": "magic-societies",
+      "type": "mentioned"
     },
     {
       "source": "karthrun",
-      "target": "zunarorth"
-    },
-    {
-      "source": "arashi",
-      "target": "velho"
-    },
-    {
-      "source": "arashi",
-      "target": "oto"
-    },
-    {
-      "source": "arashi",
-      "target": "ryobik"
-    },
-    {
-      "source": "arashi",
-      "target": "unknown-0"
+      "target": "zunarorth",
+      "type": "mentioned"
     }
   ]
 }
