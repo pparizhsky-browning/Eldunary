@@ -234,6 +234,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "characters": {
+"anton.md": {
+	id: "anton.md";
+  slug: "anton";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
 "azaraith.md": {
 	id: "azaraith.md";
   slug: "azaraith";
@@ -248,6 +255,13 @@ declare module 'astro:content' {
   collection: "characters";
   data: InferEntrySchema<"characters">
 } & { render(): Render[".md"] };
+"elric.md": {
+	id: "elric.md";
+  slug: "elric";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
 "fluffy.md": {
 	id: "fluffy.md";
   slug: "fluffy";
@@ -258,6 +272,13 @@ declare module 'astro:content' {
 "golem-king.md": {
 	id: "golem-king.md";
   slug: "golem-king";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
+"isolde.md": {
+	id: "isolde.md";
+  slug: "isolde";
   body: string;
   collection: "characters";
   data: InferEntrySchema<"characters">
@@ -635,6 +656,13 @@ declare module 'astro:content' {
 "crimson-convergence.md": {
 	id: "crimson-convergence.md";
   slug: "crimson-convergence";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"dragon-era.md": {
+	id: "dragon-era.md";
+  slug: "dragon-era";
   body: string;
   collection: "history";
   data: InferEntrySchema<"history">

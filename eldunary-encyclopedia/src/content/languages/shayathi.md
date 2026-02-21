@@ -12,8 +12,8 @@ relatedCharacters: ["veles"]
 summary: "The Iyhago Kingdom language. Harmonic Script encodes tonal resonance — written text has acoustic properties. Used in magical ritual contexts. Veles prefers Kōtoba but Shayathi is the kingdom's official language."
 ---
 
-**Shayathi** is the official language of the **Iyhago Kingdom** and the primary language of its governmental and cultural institutions, though it exists in permanent dialogue with **Kōtoba** — the language Veles prefers — which has significant prestige within the kingdom's magical scholarly community. The two languages coexist in Iyhago cultural life with Shayathi dominant in civic and formal contexts and Kōtoba dominant in academic and spiritual ones.
+**Shayathi**: sacred language of the Kingdom of Iyhago. Used in worship, law, and magical casting. Built on tone, breath, posture, and silence as much as vocabulary.
 
-The **Harmonic Script** writing system encodes not just semantic content but acoustic resonance — documents in Harmonic Script, when read aloud correctly, produce specific sound patterns that have both communicative meaning and (in magical contexts) operational significance. This makes Shayathi written texts functional in ritual contexts in a way that most written languages are not: a Shayathi-scripted ritual instruction is itself part of the ritual when vocalized, not merely a description of one.
+Key terms: *sha* (balance), *thi* (form), *vala* (voice), *yunai* (silence), *eshar* (erasure).
 
-The practical effect for non-native speakers learning Shayathi is that the written and spoken forms must be learned simultaneously — reading the script without understanding the resonance properties produces malformed pronunciation that affects both comprehension and, in magical contexts, outcome. The Butterfly organization's scholarship programs require Shayathi literacy for practitioners working in Iyhago territory, and the literacy standard includes the resonance training that makes the script functional rather than merely legible.
+**Kōtoba** is a refined form of Shayathi used only by the Resonant Guard. Unauthorized use of advanced Shayathi is forbidden and spiritually dangerous.

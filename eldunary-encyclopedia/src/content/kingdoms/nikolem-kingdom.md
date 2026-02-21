@@ -19,30 +19,25 @@ mapCoordinates: [630, 580]
 summary: "Mountain and swamp kingdom ruled by the immortal Golem King. Rich in rune magic. Vast underground tunnel network."
 ---
 
-*Suudon appears from a distance as a smudge of grey-on-grey: stone city wrapped in perpetual mist, in a swamp that glows faintly blue where the rune veins in the soil are closest to the surface.*
-
-The **Nikolem Kingdom** is ancient, stable, and utterly strange to visitors who have not encountered Golems before. It is not hostile, exactly — but the mountainous terrain, the eternal mist of the Golem Swamp, and the knowledge that every significant decision here flows from a single immortal being who has been awake for longer than recorded history tends to make non-Golems uncomfortable.
-
 ## Capital & Settlements
 
-**Suudon** (Capital) sits in the Golem Swamp, the home city of the Golem King. Not hostile to visitors but deeply unfriendly. The mist that shrouds it year-round is not weather — it is the ambient magical discharge of concentrated rune energy. A vast underground network is rumored to extend beneath the Great Lake; a secret underground city may exist below Suudon's foundations. No outsider has confirmed this.
+- Suudon (Capital): City in the Golem Swamp, home of the Golem King. Not hostile but unfriendly to visitors. Shrouded in mist. Houses a vast underground network rumored to extend beneath the Great Lake. A secret underground city is rumored to exist below.
+- Cridbury: Built into the foothills of the Jagged Mountains. Home to many Golems and miners. Famous for strong metal and rare minerals. Training center for heavy weapon users. Outsiders without a guide often get 'lost' in the tunnels.
+- Klosdon: Forest rest stop in the middle of Nikolem. Golems live peacefully here. Few visitors, fewer rules. Known for strange glowing plants at night.
+- Phaaross: Bridge city into Vacron. Strong Golem military presence. Stone wall facing Vacron. Watchtowers on all sides. Trade hub connecting northwest to northeast.
 
-**Cridbury** is built into the foothills of the Jagged Mountains — home to many Golems and the miners (mostly non-Golem; the Golems themselves rarely need to mine, but they supervise and protect those who do). Famous for strong metal and rare minerals unavailable anywhere else on the continent. Serves as a training center for heavy weapon users. Outsiders arriving without a Golem guide tend to get "lost" in the tunnels — this is understood to be deliberate.
+## Geography & Environment
 
-**Klosdon** is a forest rest stop in the middle of the kingdom. Peaceful, minimal rules, few visitors. Known for strange glowing plants that illuminate the forest at night by absorbing ambient rune energy during the day.
+Mostly mountainous terrain — steep, jagged cliffs and deep caverns. Some tunnels are rumored to reach the core of Eldunary. Swamps surround Suudon.
 
-**Phaaross** is the bridge city connecting Nikolem to the Kingdom of Vacron to the east — Golem military presence is strong here, facing a stone wall toward Vacron. Watchtowers on all sides. A trade hub connecting northwest and northeast Criozevan.
+## Government & Politics
 
-## Geography
+The Golem King resides in the largest, most isolated mountain. Difficult to reach due to natural defenses and elevation. The kingdom effectively operates under his will. Golems actively monitor the entire kingdom — acting as both sentries and enforcers.
 
-Mostly mountainous — steep, jagged cliffs, deep caverns, tunnels. Some tunnels are rumored to reach the core of Eldunary itself. The swamps surrounding Suudon are chemically and magically unusual: the water conducts rune energy, making it mildly disorienting to races without innate rune affinity.
+## Magic & Technology
 
-## Government
+The kingdom is rich in rune magic. Known for their forges where rune users train, acquire Runestones, and craft infused gear.
 
-The Golem King resides in the largest, most isolated mountain. The kingdom operates under his will — not through active tyranny, but because the Golems are loyal, and most decisions that require escalation simply reach him eventually. He is not absent; he is simply slow. His timescale is geological.
+## Infrastructure
 
-## Magic & Infrastructure
-
-The kingdom is saturated in rune magic. Forge-training sites where rune users from any kingdom can come to train, acquire Runestones, and craft infused gear are openly operated (for a price).
-
-The vast underground tunnel network connecting the northernmost mountains to Suudon near the Great Lake is one of the engineering wonders of Criozevan. It is not publicly mapped.
+Contains a vast underground tunnel network connecting the northernmost mountains to Suudon near the Great Lake.
