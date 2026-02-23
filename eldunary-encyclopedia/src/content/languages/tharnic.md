@@ -7,9 +7,9 @@ nativeSpeakers: ["oredsy-native-humans"]
 currentSpeakers: ["republic-of-oredsy", "swordfighters"]
 status: "Active (regional)"
 usedIn: ["oredsy", "wrofast", "imuton"]
-script: "Edge Script (angular, decisive strokes)"
+script: "Unknown"
 relatedCharacters: ["selvarin"]
-summary: "The Oredsy Republic language. Edge Script is angular and decisive — each stroke is committed with no revision marks. Grammatically structured around action and result rather than description. Selvarin's native tongue."
+summary: "The Oredsy Republic language. Selvarin's native tongue."
 ---
 
 **Tharnic**: sacred civic language of Oredsy. Built for clarity, strength, and moral alignment. Used in courts, military orders, and oaths. Spoken with firm tone and minimal ambiguity.

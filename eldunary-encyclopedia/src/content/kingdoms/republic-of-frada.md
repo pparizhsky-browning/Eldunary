@@ -59,3 +59,19 @@ Praises utility, loyalty, and sacrifice. Civilian life revolves around work assi
 - The Glass Bastion: Transparent dome of reinforced crystal surrounding the Senate; reflects incoming spells or projectiles.
 - The Foundry Belt: Industrial district where holo-tech blueprints are updated daily and combat suits are pressure-forged.
 - The Spine Track: Super-long stone pathway between Frada and Hiypolis, used for honor marches, war games, and public exile.
+
+## Founding History *(715 ACC)*
+
+The Republic of Frada was not founded through popular revolution or gradual political consolidation. It was the deliberate creation of a single individual: the man later known as the **Dark Paladin**, who at the time of Frada's founding was known as the **Azure Paladin** — a Folkwynd warrior born in Vacron in 692, childhood companion of the man who would become the Crimson Knight.
+
+The two had grown up together in the same district of Vacron, training and sparring through adolescence. Both wanted to change the world. In 712, the Crimson Knight's answer to that desire was the founding of the Crimson Rooks — peacekeeping through diplomacy, consent, and the cultivation of trust. The Azure Paladin's answer was different. He believed the continent's violence and disorder could only be ended through unification under a single governing authority. Where the Crimson Knight sought to bring kingdoms into conversation, the Azure Paladin intended to bring them to heel.
+
+In 715 ACC, he founded the Republic of Frada — the military republic structure, the universal service mandate, and the Bronze Chain governing system — with an explicit long-term goal of continental conquest in the name of peace. He was not wrong about the disorder of the continent. He was wrong about the remedy.
+
+Frada's early military campaigns were successful. By **730 ACC**, the republic had conquered the **Eshar-Thi** — a small union nation occupying the territory around Uyrand and Andport, which at the time had not yet come under Iyhago's governance.
+
+In **732 ACC**, Fluffy gifted the Crimson Knight the indestructible crimson blazer — a public recognition of the Rooks' peacekeeping work. The Azure Paladin, who had spent seventeen years fighting wars he framed as necessary, watched his childhood friend receive a gift from the most powerful being in the world for choosing a different path. The Crimson Knight had asked him to stop, repeatedly, and he had not listened. The blazer was the moment something in him broke toward a different kind of answer. He turned to dark magic — not as a last resort but as a statement. He gave himself power beyond what any mortal had a right to and, in doing so, put himself permanently beyond the path he and the Crimson Knight had once walked together.
+
+The Republic of Frada outlasted him. After his departure from its governance, Frada evolved from a conquest-oriented military state into the military republic it is today — still disciplined, still militarized, still organized around the structures he built, but no longer pursuing his original goal. The Azure Paladin's founding ideology was not preserved in Frada's institutional memory; it was buried under the practical needs of a state that had to govern what it already controlled. What remained was the architecture without the intent.
+
+The Azure Paladin became the **Dark Paladin**. He eventually joined the Arashi as its #1 ranked active member. He has not aged since his corruption.

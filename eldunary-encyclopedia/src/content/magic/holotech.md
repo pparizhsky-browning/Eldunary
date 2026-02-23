@@ -4,7 +4,6 @@ name: "Holotech"
 slug: "holotech"
 aliases: []
 accentColor: "#C9A84C"
-practitioners: ["king-aldric", "princess-seraphina"]
 relatedKingdoms: ["goldhelm-kingdom", "republic-of-frada"]
 relatedCities: ["ovodon", "ibeson", "hiypolis"]
 summary: "Technology that mimics magic. Developed solely by the Goldhelm Kingdom. Used in place of magic for everyday life, warfare, and industry. Frada also produces holotech, exported to Goldhelm and Oredsy."

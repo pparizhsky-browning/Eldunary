@@ -9,9 +9,9 @@ outsiderFriendliness: "Dangerous"
 organizationsPresent: ["butterfly", "arashi"]
 magicPolicy: "Uncontrolled"
 charactersPresent: ["dark-paladin"]
-relatedEvents: ["first-great-war"]
+relatedEvents: []
 mapCoordinates: [490, 420]
-summary: "Ancient magic nexus with uncontrolled magical field fluctuations. Butterfly maintains monitoring stations. Dark Paladin (#1 Arashi) is known to be here. Most powerful individuals in Criozevan have worked through this site."
+summary: "Ancient magic site under the town square. Magic is unstable inside town — rumored to be cursed. Holotech and runestones do not function here. Secret Butterfly monitoring station."
 ---
 
 Town in the Republic of Oredsy. Ancient magic site under the town square. Magic is unstable inside town — rumored to be cursed. Holotech and runestones do not function here. Secret Butterfly monitoring station.

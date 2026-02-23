@@ -10,10 +10,12 @@ memberCount: "Unknown"
 publicFacing: true
 relatedCharacters: ["crimson-knight"]
 relatedCities: ["vacron", "ubraamore", "anehull"]
-summary: "World peacekeeping organization. Also known as OMWPOD. HQ in Vacron. Outpost in Ubraamore. Keeps Anehull under constant surveillance. Many citizens see them as both protectors and watchers."
+summary: "World peacekeeping organization. HQ in Vacron. Outpost in Ubraamore. Keeps Anehull under constant surveillance. Many citizens see them as both protectors and watchers."
 ---
 
-Purpose: To keep order throughout the world of Eldunary. Also known as OMWPOD — The Organization of Monitoring World Peace Order Division.
+Purpose: To keep order throughout the world of Eldunary.
+
+Founded in **Year 712 ACC**, the same year as the formal establishment of the Kingdom of Vacron — the two institutions grew together from their earliest days and remain deeply intertwined. Grew over the following centuries into the world's primary peacekeeping force.
 
 Act as world peacekeepers, often enforcing order where governments collapse. Operate independently but are deeply rooted in Vacron's political system.
 

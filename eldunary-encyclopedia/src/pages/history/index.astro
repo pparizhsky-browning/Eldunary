@@ -5,8 +5,8 @@ import EntityCard from '../../components/cards/EntityCard.astro';
 
 const events = await getCollection('history');
 const sorted = events.sort((a, b) => {
-  const aNum = parseInt((a.data.approximate_date ?? '').replace(/\D/g, '')) || 0;
-  const bNum = parseInt((b.data.approximate_date ?? '').replace(/\D/g, '')) || 0;
+  const aNum = a.data.dateSortKey ?? 9999;
+  const bNum = b.data.dateSortKey ?? 9999;
   return aNum - bNum;
 });
 ---
@@ -22,7 +22,7 @@ const sorted = events.sort((a, b) => {
     </header>
     <div class="listing-grid">
       {sorted.map((e) => (
-        <EntityCard name={e.data.name} slug={e.slug} type="history" summary={e.data.summary} accentColor={e.data.accentColor} meta={e.data.approximate_date} />
+        <EntityCard name={e.data.name} slug={e.slug} type="history" summary={e.data.summary} accentColor={e.data.accentColor} meta={e.data.date} />
       ))}
     </div>
   </div>

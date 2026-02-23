@@ -13,4 +13,4 @@ mapCoordinates: [150, 430]
 summary: "The Glass Bastion. Military republic capital. Grid-street city built for logistics. Senate sits here. Universal military service required of all citizens."
 ---
 
-Capital of the Republic of Frada. Diverse population. Weak government. Medium crime. Doesn't prioritize outsiders.
+Capital of the Republic of Frada. Diverse population. Weak government. Not much value in terms of trade. Medium crime. Doesn't care about outsiders.

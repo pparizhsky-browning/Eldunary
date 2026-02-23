@@ -10,7 +10,7 @@ biome: "Dense Forest"
 governmentType: "Tribal Warbands (no central authority)"
 accentColor: "#008000"
 accentColorLight: "#00AA00"
-relatedOrganizations: []
+relatedOrganizations: ["arashi"]
 relatedEvents: ["crimson-convergence"]
 relatedCharacters: ["vaelith-the-hollow"]
 mapCoordinates: [740, 680]
@@ -22,7 +22,7 @@ summary: "A fractured dark elf realm of warring tribes. No central government. A
 - Grousea (informal capital): Extremely shady and dangerous city. Considered the de facto capital despite no formal designation. A major criminal hub.
 - Vlurg: Black market capital. Town centered around its market. Dark elf population speaks Nualthyr when they don't want to be understood.
 - Wrediff: Hidden training ground for dark elf warriors. Shielded by dark elf magic — rarely seen or entered by outsiders. No markets or trade — only forges, shrines, and poison-makers. Locals speak only Nualthyr.
-- Adlens: Diverse town of peaceful people — dark elves who reject violence, Golems who defected from the Golem King, and Goldhelms who fled corruption. Large port. Trade hub from GK to the southeast by boat. Peace treaty signed here.
+- Adlens: Diverse town of peaceful people — dark elves who reject violence, Golems who defected from the Golem King, and Goldhelms who fled corruption. Large port. Trade hub from GK to the southeast by boat. Peace treaty signed here. Many rules enforced regularly by the Aces, hired by the local government.
 
 ## Geography & Environment
 

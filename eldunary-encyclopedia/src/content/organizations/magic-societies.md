@@ -10,9 +10,17 @@ memberCount: "Unknown"
 publicFacing: true
 relatedCharacters: []
 relatedCities: ["klanron"]
-summary: "Societies of the most powerful and influential magic users in each kingdom (except the Goldhelm Kingdom, where magic is banned). Function as part of each kingdom's government. Meeting point for all societies is Klanron."
+summary: "Official Magic Societies exist in every kingdom in Criozevan except the Goldhelm Kingdom (where magic is prohibited under penalty of death). Named after their host kingdom. Function as part of each kingdom's formal government. All hold continental meetings in Klanron. Work with the Butterfly organization on cross-kingdom magical coordination."
 ---
 
-Societies of the most powerful and influential magic users in each kingdom (except the Goldhelm Kingdom, where magic is banned). Function as part of each kingdom's government.
+Each kingdom in Criozevan — with the exception of the **Goldhelm Kingdom**, where magic is prohibited under penalty of death — maintains an official **Magic Society** that functions as part of the kingdom's formal government. These societies are named simply after their host kingdom:
 
-Meeting point for all Magic Societies is Klanron (Kingdom of Vacron).
+- Vacron Magic Society
+- Oredsy Magic Society
+- Fodon Magic Society
+- Iyhago Magic Society
+- Ipadora Magic Society
+- Akison Magic Society
+- Nikolem Magic Society
+
+Each society operates independently within its own kingdom's legal and political structure, but all hold their continental meetings in **Klanron** (Kingdom of Vacron) — the continent's primary gathering point for magic users and the headquarters of the Butterfly organization. The Butterfly organization works directly with each society to forge cross-kingdom alliances and coordinate responses to magical threats.

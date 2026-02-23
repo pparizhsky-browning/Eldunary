@@ -7,7 +7,7 @@ cityType: "De Facto Capital"
 climate: "Dense Forest, Damp"
 outsiderFriendliness: "Hostile"
 organizationsPresent: []
-charactersPresent: ["vaelith-the-hollow"]
+charactersPresent: []
 relatedEvents: []
 mapCoordinates: [200, 150]
 summary: "De facto capital of the Warring Darkmane Realm. Extremely dangerous. The criminal hub of the northwest."

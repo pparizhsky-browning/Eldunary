@@ -10,7 +10,7 @@ organizationsPresent: []
 charactersPresent: ["veles"]
 relatedEvents: []
 mapCoordinates: [460, 420]
-summary: "The Sanctum Spiral. The Quiet Harmonic theocracy's capital, built on the island of Vehalo. Three sacred bridges connect it to outer districts. Veles, Master of Magic, resides here."
+summary: "The Sanctum Spiral. The Quiet Harmonic theocracy's capital, built on the north end of Vehalo (Iyhago Island). Three sacred bridges connect it to outer districts. Veles, Master of Magic, resides here."
 ---
 
-Island capital of the Kingdom of Iyhago. Located on the southern island called Vehalo, accessible by three sacred bridges. Port city and sea trade hub. Friendly to outsiders.
+Island capital of the Kingdom of Iyhago. A spiraling sanctuary where each district represents an aspect of the Quiet Harmonic. The highest point houses the Sanctum Spiral where the ruler resides. Access requires ritual purification and a silence oath. Located on the north end of the southern island called Vehalo (also known as Iyhago Island). Port city and sea trade hub between kingdoms. Friendly to outsiders.

@@ -6,7 +6,7 @@ kingdom: "independent"
 cityType: "Largest Underwater City"
 climate: "Mid-Ocean Depth"
 outsiderFriendliness: "Neutral"
-organizationsPresent: ["rose", "arashi"]
+organizationsPresent: ["arashi"]
 charactersPresent: ["rabuka"]
 relatedCities: ["ipadora-sanctuary", "neruvalis"]
 mapCoordinates: [300, 500]

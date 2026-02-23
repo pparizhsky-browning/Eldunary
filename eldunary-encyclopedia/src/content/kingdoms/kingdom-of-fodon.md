@@ -37,7 +37,7 @@ Northwestern region of Criozevan. Harsh desert with dry plains, jagged cliffs, a
 
 ## Government — The Dune Accord
 
-A unique governing system born from the civil war. Named after the survival pact signed at the site where Fire District Leader Vulkran erupted in death — melting a canyon into Ashglass Hall. Ashglass Hall: Made of black obsidian and lava glass, glowing with heat veins and scorched stone. Council debates happen beneath molten-stone pillars and hanging lava-stained stalactites.
+A unique governing system born from the civil war. Named after the survival pact signed at the site where Fire District Leader Vulkran erupted in death — melting a canyon into Ashglass Hall. Ashglass Hall: Made of black obsidian and lava glass, glowing with heat veins and scorched stone. Council debates happen beneath molten-stone pillars and hanging lava-stained stalactites. Ashglass Hall itself is a physical reminder of past destruction and the cost of disunity.
 
 - Four High Seats: Each representing a former district (Bug, Magic, Death, Fire). Elected by district population and surrounding towns. All four seats hold equal voting power.
 - Voice of Sand: A fifth seat elected by the entire kingdom every five years. Holds power to break ties, pass emergency orders, and represent Fodon internationally. Known as 'the Will of the Wastes' — one who speaks not for a city, but for the land. Traditionally seen as a symbol of national unity beyond the fractured district lines.
@@ -46,4 +46,4 @@ The Dune Accord governs all of Fodon, including remote desert outposts and crypt
 
 ## Historical Conflicts
 
-Allied with Frada in a massive war against Ipadora. Drove Ipadora off the mainland and seized former Ipadora territory. Cut a manmade river to divide Fodon from its defeated foe. This conquest remains a source of national identity and pride.
+Allied with Frada in a massive war against Ipadora. The trigger: a criminal from Ipadora killed a Fodon Bug District Tharnex, and Fodon interpreted the act as deliberate aggression by the Ipadora state, declaring war. Ipadora \u2014 whose military was designed around sea and underwater combat \u2014 was poorly equipped for land warfare and was driven off the mainland. Fodon seized the former Ipadora territory. A manmade river was deliberately cut to divide Fodon from its defeated foe. This conquest remains a source of national identity and pride.

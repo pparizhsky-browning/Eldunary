@@ -6,7 +6,7 @@ kingdom: "republic-of-oredsy"
 cityType: "Maritime Port"
 climate: "Coastal"
 outsiderFriendliness: "Open"
-organizationsPresent: ["pegasus", "crimson-rooks"]
+organizationsPresent: ["pegasus"]
 charactersPresent: []
 relatedCities: ["oredsy"]
 mapCoordinates: [520, 360]

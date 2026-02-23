@@ -2,6 +2,7 @@
 type: city
 name: "Adlens"
 slug: "adlens"
+aliases: ["Andlens"]
 kingdom: "warring-darkmane-realm"
 cityType: "Peaceful Trade Town"
 climate: "Forest, Coastal"

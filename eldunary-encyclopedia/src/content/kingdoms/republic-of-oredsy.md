@@ -13,7 +13,7 @@ governmentType: "The Free Assembly"
 accentColor: "#0000FF"
 accentColorLight: "#4466FF"
 relatedOrganizations: ["pegasus"]
-relatedEvents: ["equinox-of-power", "first-great-war"]
+relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
 relatedCharacters: ["selvarin"]
 mapCoordinates: [500, 220]
 summary: "Sword-philosophy republic controlled by Pegasus. Duels resolve civic disputes. Master of Swords Selvarin rules."
@@ -59,6 +59,10 @@ Swordcraft is a foundational discipline tied to moral philosophy and civic law. 
 ## Economy & Trade
 
 Exports masterwork blades, armour, and steel. Markets operate under civic guild charters ratified by the Free Assembly. Contracts signed in both Common and formal Tharnic. Known for its binding contracts.
+
+## Notable History
+
+**Selvarin and the Golden War (795–800 ACC):** Before the Golden War, the territory that is now the Republic of Oredsy was a collection of small, independent entities with no unified government. Selvarin joined the Northern Goldhelm faction during the war — not out of political conviction, but because the Goldhelm Kingdom had been helping him forge a sword, and he honored that working relationship. When the war ended with the Equinox of Power, Selvarin founded the Republic of Oredsy by uniting those formerly independent territories under a single flag and the principles of the Free Assembly.
 
 ## Language — Tharnic
 

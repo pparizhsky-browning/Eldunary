@@ -3,7 +3,6 @@ import '../styles/global.css';
 import '../styles/entity-themes.css';
 import { ViewTransitions } from 'astro:transitions';
 import TooltipProvider from '../components/interactive/TooltipProvider';
-import SearchModal from '../components/global/SearchModal';
 import AmbientParticles from '../components/decorative/AmbientParticles';
 
 interface Props {
@@ -65,7 +64,6 @@ const siteTitle = title === 'Home' ? 'Tales of Eldunary Encyclopedia' : `${title
 
     <!-- React islands mounted at the body level -->
     <TooltipProvider client:load />
-    <SearchModal client:load />
     {showParticles && <AmbientParticles client:idle />}
 
     <!-- Pagefind JS — loaded lazily so it doesn't error in dev (file only exists post-build) -->

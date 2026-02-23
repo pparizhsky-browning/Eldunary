@@ -13,7 +13,7 @@ governmentType: "The Iron Path"
 accentColor: "#DC143C"
 accentColorLight: "#FF3355"
 relatedOrganizations: ["pegasus", "crimson-rooks"]
-relatedEvents: ["first-great-war", "equinox-of-power"]
+relatedEvents: ["golden-war", "first-great-war", "equinox-of-power"]
 relatedCharacters: ["sunlee", "biruda"]
 mapCoordinates: [780, 280]
 summary: "Island city and jungle mainland. Ruled by Sunlee, Master of Martial Arts. Japanese-inspired cherry blossom architecture."
@@ -42,9 +42,11 @@ Okbridge (Mainland): Checkpoint city connecting the mainland to Akison island. T
 
 Neruvalis (Mainland): The 'Disappearing City' — built on a slope into the water, sometimes submerged by tides. Midway port to Glaril. Underwater tech salvage point.
 
-## Geography & Environment
+## Notable History
 
-Split between a dense jungle mainland (wild jungles, brackish rivers, towering canopies, and hidden labs) and a mountain-and-blossom island (political and cultural heart of the kingdom).
+**The Golden War and Renaming (795–800 ACC):** The State of Akison was formerly known as the **Republic of Shimaguni**. Shimaguni backed the South Goldhelm faction during the Golden War, believing in the southern territories' cause for autonomy. When the war ended with the Equinox of Power, the South had been defeated. The people of Shimaguni elected **Sunlee** as its new head. He renamed the nation the **State of Akison** and established the **Iron Path** doctrine — the governing philosophy of discipline, clarity, and personal strength that defines the kingdom today.
+
+ (wild jungles, brackish rivers, towering canopies, and hidden labs) and a mountain-and-blossom island (political and cultural heart of the kingdom).
 
 ## Government — The Iron Path
 

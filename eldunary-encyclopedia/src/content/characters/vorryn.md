@@ -10,7 +10,7 @@ family: null
 magiType: null
 accentColor: "#2D5A27"
 location: "Unknown"
-relatedCharacters: ["vorvax"]
+relatedCharacters: ["vorvax", "zunarorth"]
 relatedEvents: ["war-of-fodon"]
 summary: "The last living Tharnex. His race was destroyed in the War of Fodon. Has special armor that detects people moving from a distance and can self-destruct and regrow."
 ---

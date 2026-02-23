@@ -9,7 +9,7 @@ outsiderFriendliness: "Selective"
 organizationsPresent: ["pegasus"]
 magicPolicy: "Banned"
 charactersPresent: ["berserk"]
-relatedEvents: ["equinox-of-power"]
+relatedEvents: []
 mapCoordinates: [370, 290]
 summary: "Pegasus' hidden operational HQ. No magic practitioners, no Rose, no Butterfly allowed. Home of the Signal Harvest collection ritual."
 ---

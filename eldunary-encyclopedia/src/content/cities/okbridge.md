@@ -6,7 +6,7 @@ kingdom: "state-of-akison"
 cityType: "Checkpoint Port"
 climate: "Tropical Coast"
 outsiderFriendliness: "Bureaucratic"
-organizationsPresent: ["crimson-rooks", "ace"]
+organizationsPresent: []
 charactersPresent: []
 relatedCities: ["akison", "neruvalis"]
 mapCoordinates: [400, 350]

@@ -18,7 +18,7 @@
     "type": "race",
     "name": "Goldhelms",
     "accentColor": "#C9A84C",
-    "summary": "Tall, golden-eyed technocrats who banned magic and developed holotech in its place. Rulers of the isolated northwestern peninsula."
+    "summary": "Tall, golden-eyed technocrats who banned magic and developed holotech in its place. Rulers of the isolated northeastern peninsula."
   },
   {
     "slug": "golems",
@@ -53,7 +53,7 @@
     "type": "kingdom",
     "name": "Goldhelm Kingdom",
     "accentColor": "#FFD700",
-    "summary": "Isolated northwestern technocracy. Magic banned, replaced by holotech. Rules by King Aldric from the Gilded Cradle."
+    "summary": "Isolated northeastern technocracy. Magic banned, replaced by holotech. Ruled by King Aldric from the Gilded Cradle."
   },
   {
     "slug": "ipadora-kingdom",
@@ -122,6 +122,9 @@
     "slug": "adlens",
     "type": "city",
     "name": "Adlens",
+    "aliases": [
+      "Andlens"
+    ],
     "summary": "The rare peaceful settlement in the Darkmane Realm. Dark elves who reject violence, defector Golems, and refugee Goldhelms coexist here."
   },
   {
@@ -134,7 +137,7 @@
     "slug": "andport",
     "type": "city",
     "name": "Andport",
-    "summary": "Iyhago's western gate and primary trade hub. The famous bridge to Frada. Ritual oath-walking tradition. Spector (#11 Arashi) based here."
+    "summary": "Iyhago's western gate and primary trade hub. The famous bridge to Frada. Ritual oath-walking tradition. Birthplace of Spector (#11 Arashi)."
   },
   {
     "slug": "anehull",
@@ -155,10 +158,17 @@
     "summary": "Mountain foothills mining town. Famous for rare minerals. Outsiders get 'lost' in tunnels without Golem guides."
   },
   {
+    "slug": "eshar-thi",
+    "type": "city",
+    "name": "Eshar-Thi",
+    "accentColor": "#7A6642",
+    "summary": "A small independent union nation that occupied the territory now held by Uyrand and Andport in the Kingdom of Iyhago. Conquered by the Azure Paladin's Republic of Frada in 730 ACC. Dissolved following his corruption and departure from Frada. Its territory was eventually absorbed into Iyhago. The name derives from eshar (erasure) and thi (form) — a people whose architecture and philosophy centered on the extensive use of mirrored surfaces to dissolve the boundaries of visible form."
+  },
+  {
     "slug": "fodon",
     "type": "city",
     "name": "Fodon",
-    "summary": "Second largest city in Criozevan. Four war-torn districts unified by Lucifer killing all district leaders. Desert. Tense but functional."
+    "summary": "Capital of the Kingdom of Fodon. Second largest city in Criozevan. Four war-torn districts unified by Lucifer killing all district leaders. Arid desert next to the sea. Extremely diverse."
   },
   {
     "slug": "frada",
@@ -188,31 +198,31 @@
     "slug": "ibeson",
     "type": "city",
     "name": "Ibeson",
-    "summary": "Scientific capital of all Criozevan. Public labs above, secret government installations below. Birthplace of Kaboom."
+    "summary": "Scientific capital of all Criozevan. Built above the crater from the Equinox of Power (795 ACC). Public labs above, secret government installations in the caverns below. The underground facility — run by the Department of Holometric Advancement — has produced the majority of modern holotech advancements across all fields. Birthplace of Kaboom."
   },
   {
     "slug": "icogas",
     "type": "city",
     "name": "Icogas",
-    "summary": "Ancient magic nexus with uncontrolled magical field fluctuations. Butterfly maintains monitoring stations. Dark Paladin (#1 Arashi) is known to be here. Most powerful individuals in Criozevan have worked through this site."
+    "summary": "Ancient magic site under the town square. Magic is unstable inside town — rumored to be cursed. Holotech and runestones do not function here. Secret Butterfly monitoring station."
   },
   {
     "slug": "imuton",
     "type": "city",
     "name": "Imuton",
-    "summary": "Ancient forest city where residents live inside tree-trunk hollows. No new construction allowed — the city grows only as the forest grows."
+    "summary": "Forest town surrounded by grand trees. Residents live inside enormous tree trunks."
   },
   {
     "slug": "ipadora-sanctuary",
     "type": "city",
     "name": "Ipadora Sanctuary",
-    "summary": "Near-zero crime rate. The most peaceful city in Criozevan by every measure. Welcomes all races and nations. Ipadora Royal Family governs. Underwater palace, bioluminescent gardens."
+    "summary": "True sanctuary — almost no crime. Welcomes outsiders, refugees, and peaceful travelers. Surface and underwater city. The Ipadora Palace lies beneath the island in a heavily secured cavern."
   },
   {
     "slug": "iyhago-prime",
     "type": "city",
     "name": "Iyhago Prime",
-    "summary": "The Sanctum Spiral. The Quiet Harmonic theocracy's capital, built on the island of Vehalo. Three sacred bridges connect it to outer districts. Veles, Master of Magic, resides here."
+    "summary": "The Sanctum Spiral. The Quiet Harmonic theocracy's capital, built on the north end of Vehalo (Iyhago Island). Three sacred bridges connect it to outer districts. Veles, Master of Magic, resides here."
   },
   {
     "slug": "klanron",
@@ -230,7 +240,7 @@
     "slug": "kusamori",
     "type": "city",
     "name": "Kusamori",
-    "summary": "Built on platforms above an ancient canopy. Specializes in medicine, herbs, and poisons. Connected by tram. Most educated healers in Criozevan trained here."
+    "summary": "Center of medicine, poison, and herbs. Built on platforms above the forest canopy. People travel by tram-type vehicles. Extends across the whole peninsula."
   },
   {
     "slug": "mayson",
@@ -242,7 +252,7 @@
     "slug": "neruvalis",
     "type": "city",
     "name": "Neruvalis",
-    "summary": "The Disappearing City. Submerged partially during high tide. Sea-gate port to the underwater city of Glaril. The only reliable connection point to Ipadora waters."
+    "summary": "The Disappearing City — built on a slope into the water, sometimes submerged by tides. Midway port to Glaril. Underwater tech salvage point."
   },
   {
     "slug": "okbridge",
@@ -266,7 +276,7 @@
     "slug": "ovodon",
     "type": "city",
     "name": "Ovodon",
-    "summary": "Capital of the Goldhelm Kingdom. Home of the Gilded Cradle castle. Hostile to outsiders. Every resident is monitored."
+    "summary": "Capital of the Goldhelm Kingdom. Home of the Gilded Cradle castle. Hostile to outsiders."
   },
   {
     "slug": "phaaross",
@@ -284,7 +294,7 @@
     "slug": "skellmoor",
     "type": "city",
     "name": "Skellmoor",
-    "summary": "The floating city with no laws. Criminals, exiles, and outlaws live in harmony under a crude social contract. The black market for advanced technology. Multiple Arashi members have ties here."
+    "summary": "A floating steampunk city suspended above the cloud layer over the northern sea. Permanently invisible. No laws — governed by competing interests, informal contracts, and mutual deterrence. Home to the most comprehensive technology black market on the continent. Officially: does not exist. The Crimson Rooks have investigated seven times and confirmed nothing."
   },
   {
     "slug": "sloumont",
@@ -308,7 +318,7 @@
     "slug": "uyrand",
     "type": "city",
     "name": "Uyrand",
-    "summary": "Rose HQ. Vertical skyscraper city with memory archive towers storing thousands of years of magical records. The administrative capital where Iyhago's governmental operations run."
+    "summary": "Plains town with memory archives and mirrored halls in skyscraper-like buildings. Rose HQ."
   },
   {
     "slug": "vacron",
@@ -338,619 +348,595 @@
     "slug": "zhuiburn",
     "type": "city",
     "name": "Zhuiburn",
-    "summary": "Perpetual flames from volcanic vents. Hostile to outsiders. Pyrrhith language spoken exclusively. Lucifer (#6 Arashi) was born here. The city where the Crimson Convergence's most destructive phase began."
+    "summary": "Surrounded by perpetual flames. Extremely hostile to outsiders. Pyrrhith language spoken exclusively. Lucifer (#6 Arashi) was born here."
+  },
+  {
+    "slug": "anton",
+    "type": "character",
+    "name": "Anton",
+    "accentColor": "#8B0000",
+    "summary": "The Scarlet Mage. Active since at least 885 ACC — over 115 years old but appearing no older than thirty. Participated in and likely led the Wizard Uprising. Spent over a century in hiding, assembling knowledge via a Butterfly archive operative from the Uprising. His goal: trigger a second Crimson Convergence using Princess Seraphina as a living catalyst. He found out what caused the original Convergence. He died before anyone could ask him."
   },
   {
     "slug": "azaraith",
     "type": "character",
     "name": "Azaraith",
     "aliases": [
-      "First of the Fallen",
-      "The Rune-Breaker",
-      "Darkmane's Ruin and Salvation"
+      "the Nightweaver"
     ],
     "accentColor": "#4A2D6B",
-    "summary": "Power Rank #7. The First of the Fallen — the original Darkmane Elf who made contact with the void that corrupted the Darkmane rune practice. Has lived with corrupted runes longer than any other."
+    "summary": "Former ruler of the Magic District of Fodon. Cloaked in shifting darkness, she bent arcane forces with her staff. No one knows what lies behind her mask. Killed by Lucifer (#6 Arashi)."
+  },
+  {
+    "slug": "azure-paladin",
+    "type": "character",
+    "name": "The Azure Paladin",
+    "aliases": [
+      "Azure Paladin"
+    ],
+    "accentColor": "#4A90C4",
+    "summary": "The man who became the Dark Paladin. Born in Vacron in 692 ACC. Childhood companion of the Crimson Knight. Founded the Republic of Frada in 715 with the goal of ending the continent's disorder through centralized conquest. Turned to dark magic in 732 ACC after watching Fluffy gift the Crimson Knight the indestructible blazer. He stopped aging at that moment. He has not been the Azure Paladin since."
+  },
+  {
+    "slug": "butterfly-scholar",
+    "type": "character",
+    "name": "Ossivael",
+    "accentColor": "#3D7A3D",
+    "summary": "Ipadora scholar within the Butterfly organization, Klanron chapter. Has spent years studying a single pre-Convergence text fragment about 'the hungry ones.' Developed a partial theory connecting it to anomalous magical phenomena near the Goldhelm border across centuries. Cannot prove it. Has not been able to stop."
   },
   {
     "slug": "crimson-knight",
     "type": "character",
     "name": "Crimson Knight",
-    "aliases": [
-      "The Red",
-      "Vakros Eld (rumored true name)"
-    ],
     "accentColor": "#8B0000",
-    "summary": "Power Rank #2. Folkwynd human. Leader of the Crimson Rooks. Governs Vacron from shadow. Has met Fluffy and survived. The most politically powerful individual in surface Criozevan."
+    "summary": "Power Rank #2. Folkwynd — born in Vacron. Founder and leader of the Crimson Rooks. Wields the indestructible Crimson Blazer (gift from Fluffy) and the Crimson Greatsword (steel gifted by the Golem King). No magic — pure combat mastery and legendary charisma. True name never publicly revealed."
+  },
+  {
+    "slug": "elric",
+    "type": "character",
+    "name": "Sir Elric",
+    "accentColor": "#C9A84C",
+    "summary": "Captain of the Goldhelm Royal Guard. King Aldric's most trusted military officer and personal protector of the royal family. Mentor to Princess Seraphina."
   },
   {
     "slug": "fluffy",
     "type": "character",
     "name": "Fluffy",
-    "aliases": [
-      "The Meta",
-      "The Unnamed One",
-      "Power Rank Zero"
-    ],
     "accentColor": "#FFFFFF",
-    "summary": "The most powerful entity in Criozevan. Power Rank #0. A Meta — the only category above the five power classes. Nothing confirmed about appearance, motivation, or current location."
+    "summary": "Power Rank #1. The most powerful known being in Eldunary. Primordial entity — predates the Crimson Convergence by thousands of years. Regarded as the god of all magic users. Publicly sighted exactly five times in the thousand years since the Convergence. Non-interventionist by consistent practice — though the fourth appearance (Ipadora Atrocities, 901 ACC) remains the deepest source of controversy among magic users."
   },
   {
     "slug": "golem-king",
     "type": "character",
     "name": "Golem King",
-    "aliases": [
-      "The Stone King",
-      "Karthrun's Voice",
-      "Realm-Forger"
-    ],
     "accentColor": "#8B7355",
-    "summary": "Power Rank #4. Creator of the Golem race. Ruler of the Nikolem Kingdom. The oldest confirmed living entity in Criozevan. His Realm Expansion converts a battlefield to pure stone terrain."
+    "summary": "Power Rank #4. Creator of all Golems. Primordial entity — approximately 100 feet tall, covered in thousands of runes. Resides in the largest, most isolated mountain in Nikolem. Has never left it since the Crimson Convergence. Believed equal in power to Fluffy but chooses never to exercise it fully."
+  },
+  {
+    "slug": "isolde",
+    "type": "character",
+    "name": "Lady Isolde",
+    "accentColor": "#C9A84C",
+    "summary": "Royal Archmedic of Holometric Sciences. Senior advisor to King Aldric. Personal mentor and protector to Princess Seraphina. One of the most accomplished holotech specialists in the Goldhelm Kingdom."
   },
   {
     "slug": "king-aldric",
     "type": "character",
     "name": "King Aldric",
-    "aliases": [
-      "The Golden Monarch",
-      "Goldhelm's Last Defender",
-      "The Isolationist"
-    ],
     "accentColor": "#C9A84C",
-    "summary": "Power Rank #7. Goldhelm monarch. Rules from Ovodon's Gilded Cradle. Enforces absolute magic ban and isolationist foreign policy. Extended the Auric Vanguard's reach after the Golden War."
+    "summary": "King of the Goldhelm Kingdom. Resides in Ovodon. Head of the Goldhelm Family. Ideology: Technocratic Isolationism. Governs with a council of advisors from each sector."
+  },
+  {
+    "slug": "new-goldhelm-general",
+    "type": "character",
+    "name": "The New Goldhelm General",
+    "accentColor": "#C9A84C",
+    "summary": "A senior military general serving under King Aldric. Title unknown; referred to as the General."
+  },
+  {
+    "slug": "prince-vaelen",
+    "type": "character",
+    "name": "Prince Vaelen",
+    "accentColor": "#006994",
+    "summary": "Governor of Glaril — the largest underwater city in Criozevan. Younger brother of Queen Nayele. Appointed by his sister upon her ascension in 996 ACC. Governs as a just and considered monarch with a representative democratic structure. Commands one of the most diverse and smallest military forces on the continent."
   },
   {
     "slug": "princess-seraphina",
     "type": "character",
     "name": "Princess Seraphina",
-    "aliases": [
-      "The Golden Heir",
-      "Seraphina Aurical",
-      "The One Who Asks Why"
-    ],
     "accentColor": "#C9A84C",
-    "summary": "Power Rank #8. Goldhelm heir. Daughter of King Aldric. Privately questions the Kingdom's isolationist policy. The most likely agent of change if the Goldhelm Kingdom ever opens its borders."
+    "summary": "Princess of the Goldhelm Kingdom. Daughter of King Aldric. Heir to the Goldhelm throne. Carries the full re-expression of the Goldhelm bloodline's Devourer ability — the first in centuries. She is not aware of this."
   },
   {
     "slug": "queen-nayele",
     "type": "character",
     "name": "Queen Nayele",
-    "aliases": [
-      "The Deep Mother's Voice",
-      "Nayele the Still",
-      "First Tide"
-    ],
     "accentColor": "#006994",
-    "summary": "Power Rank #6. Ipadora Queen. Rules the underwater kingdom with zero recorded criminal violations in her Sanctuary. The continent's finest diplomat. The Deep Mother's living representative."
+    "summary": "Queen of the Ipadora Kingdom. Head of House Nereval. Ascended in 996 ACC. Genuinely compassionate — not as a political style but as a sincere orientation toward the world. Has restructured Ipadora's waterway tax system and expanded the Ipadora Justice System's continental reputation. Appointed her brother Prince Vaelen to govern Glaril upon taking power."
+  },
+  {
+    "slug": "sael",
+    "type": "character",
+    "name": "Sael",
+    "accentColor": "#4A2D6B",
+    "summary": "Leader of the main branch Darkmane warrior order. Granddaughter of Vaelith the Hollow. Known for brokering protection deals with travelers crossing the Warring Darkmane Realm. Seeks to reunify the Darkmane as a single kingdom."
   },
   {
     "slug": "selvarin",
     "type": "character",
     "name": "Selvarin",
-    "aliases": [
-      "Master of Swords",
-      "The Unguarded",
-      "Edge of the Free Assembly"
-    ],
     "accentColor": "#C0C0C0",
-    "summary": "Power Rank #5. Master of Swords. Oredsy's sword-philosophy leader. Carries Vaelrin's Edge. Has never lost a recorded duel. His doors are unlocked."
+    "summary": "Power Rank #5. Master of Swords. Leader of the Republic of Oredsy."
   },
   {
     "slug": "sunlee",
     "type": "character",
     "name": "Sunlee",
-    "aliases": [
-      "The Iron Path Master",
-      "First Flame",
-      "The Unbroken"
-    ],
     "accentColor": "#4A90D9",
-    "summary": "Power Rank #5. Master of Martial Arts. Ruler of Akison's Iron Path government. The Black Root Staff grows stronger every time it is struck. Has never lost a fight recorded in Akison's history."
+    "summary": "Power Rank #5. Master of Martial Arts. Leader of the State of Akison. Carries only the Black Root. No armor, no magic."
   },
   {
     "slug": "vaelith-the-hollow",
     "type": "character",
     "name": "Vaelith the Hollow",
-    "aliases": [
-      "The Hollow",
-      "Grousea's Shadow",
-      "The Unbound Elf"
-    ],
     "accentColor": "#4A2D6B",
-    "summary": "Power Rank #7. Darkmane Elf. De facto ruler of Grousea. Criminal network operator. The most dangerous Darkmane in Criozevan. Her Hollow Void ability has no known counter."
+    "summary": "Former head of the Darkmane Family (896–938 ACC). Sael's grandfather. Sold his own brother Thalrith to a Goldhelm scientist in 937 ACC, creating the first of the Fallen. His betrayal fractured the Darkmane Family and collapsed the unified Darkmane Realm into the warring tribes that persist today."
   },
   {
     "slug": "varnokh",
     "type": "character",
     "name": "Varnokh",
-    "aliases": [
-      "The Forge Father",
-      "Karthrun's Living Dictionary",
-      "The Stone Patriarch"
-    ],
+    "aliases": [],
     "accentColor": "#8B7355",
-    "summary": "Power Rank #7. The Golem master-crafter. Keeper of Karthrun inscription knowledge. Lives in Cridbury mining town. Every functional Golem in Criozevan has runes that trace their lineage to Varnokh's workshop."
+    "summary": "Former Death District leader of Fodon. A towering armored construct powered by a magenta arcane core. Ruled without emotion through death rituals and executions. His core was destroyed by Lucifer (#6 Arashi). His body was never recovered."
   },
   {
     "slug": "veles",
     "type": "character",
     "name": "Veles",
-    "aliases": [
-      "Master of Magic",
-      "The Spiral Voice",
-      "Kōtoba-Keeper"
-    ],
     "accentColor": "#7B68EE",
-    "summary": "Power Rank #5. Master of Magic. Governs from Iyhago Prime in the Sanctum Spiral. Speaks only Kōtoba by preference. The largest accumulated spell knowledge of any living practitioner."
+    "summary": "Power Rank #5. Master of Magic. Leader of the Kingdom of Iyhago. Speaks only through harmonic pulses interpreted by chosen attendants."
   },
   {
     "slug": "vorryn",
     "type": "character",
     "name": "Vorryn",
-    "aliases": [
-      "The Last Drone",
-      "End of the Tharnex",
-      "The Walking Extinction"
-    ],
     "accentColor": "#2D5A27",
-    "summary": "Power Rank #8. The last living Tharnex. His race was destroyed in the War of Fodon. Being the sole survivor of an extinct race has given him enhanced abilities that defy standard power classification."
+    "summary": "The last living Tharnex. His race was destroyed in the War of Fodon. Has special armor that detects people moving from a distance and can self-destruct and regrow."
   },
   {
     "slug": "vorvax",
     "type": "character",
     "name": "Vorvax",
-    "aliases": [
-      "The False God",
-      "X'zel's Opposite",
-      "The Corruptor"
-    ],
+    "aliases": [],
     "accentColor": "#2D5A27",
-    "summary": "Power Rank #1. Divine-class entity. Responsible for the War of Fodon — its influence drove X'zel from Criozevan and destroyed the Tharnex. Currently unlocated. Only Fluffy is ranked above it."
+    "summary": "Former Bug District leader of Fodon. Rumored to be the last matriarch of the Tharnex. Ruled from the shadows with shifting armor that sensed incoming danger. Killed by Lucifer (#6 Arashi) during the fall of the Fodon districts. Once she was killed, the rest of the Tharnex race perished."
   },
   {
     "slug": "vulkran",
     "type": "character",
     "name": "Vulkran",
-    "aliases": [
-      "The Warm Remains",
-      "Dragon of Plodrough",
-      "The Last Scale"
-    ],
+    "aliases": [],
     "accentColor": "#FF6B35",
-    "summary": "Power Rank #7. Ancient dragon entity. Dormant in the canyon beneath Plodrough. His body heat keeps the entire canyon town warm. Has not been fully active since the First Great War."
+    "summary": "Former Fire District leader of Fodon. A knight of molten steel and volcanic power. Slain by Lucifer (#6 Arashi) during the collapse of the Warring Districts. Born in Zhuiburn. Remains lie entombed in a fire-cracked canyon near Plodrough — still warm to this day."
   },
   {
     "slug": "zunarorth",
     "type": "character",
     "name": "Zunarorth",
-    "aliases": [
-      "The Buried Giant",
-      "Stone King's Left Hand"
-    ],
+    "aliases": [],
     "accentColor": "#8B7355",
-    "summary": "Power Rank #6. One of the oldest Golems in Criozevan. Golem King's most trusted lieutenant. Operates in the Suudon swamp. The only Golem capable of rewriting another Golem's rune-mind."
+    "summary": "Power Rank #3. Dragon — the last surviving dragon. Has not been reliably seen in hundreds of years. Sightings reported roughly every 100 years. Ancient and feared."
   },
   {
     "slug": "berserk",
     "type": "arashi",
     "name": "Berserk",
     "aliases": [
-      "Rank Two",
-      "The Alpine Blade",
-      "Mountain's Edge"
+      "The Devil's Advocate"
     ],
-    "summary": "Arashi Rank #2. Folkwynd human. Lives in Oniofast. Domain ability converts incoming damage into amplified power. The most consistently aggressive Arashi member. Trained briefly under Sunlee before the Arashi."
+    "summary": "Arashi #2. A savage warrior who made a pact with the devil to become stronger."
   },
   {
     "slug": "biruda",
     "type": "arashi",
     "name": "Biruda",
     "aliases": [
-      "Rank Seven",
-      "The Oni Samurai",
-      "Akison's Black Blade"
+      "The Cybernetic Oni"
     ],
-    "summary": "Arashi Rank #7. Folkwynd human. Born in Akison. Trained under Sunlee before joining the Arashi. Oni Form Domain transforms him into a mythological warrior with dark energy that disrupts nearby magic."
+    "summary": "Arashi #7. Born on Akison and learned the way of the Oni Samurai. An outcast as a child, he left to learn forging and engineering. Upgraded himself by attaching parts of his metallic creations directly to his body."
   },
   {
     "slug": "dark-paladin",
     "type": "arashi",
     "name": "Dark Paladin",
     "aliases": [
-      "Rank One",
-      "The Icogas Hermit",
-      "The Black Vow"
+      "The Dark Avenger",
+      "Dark Avenger"
     ],
-    "summary": "Arashi Rank #1. The most powerful operational villain in Criozevan. Lives in Icogas, the unstable magic nexus city. Death Eye ability identifies fatal vulnerabilities in any observed target."
+    "summary": "Arashi #1. Born in Vacron in 692 ACC under the name Azure Paladin — childhood companion of the Crimson Knight. Founded the Republic of Frada in 715 with the goal of continental unification through conquest. Turned to dark magic in 732 after Fluffy gifted the Crimson Knight the crimson blazer. Has not aged since his corruption. Holds the #1 rank in the Arashi by virtue of being the most dangerous active member by a significant margin."
   },
   {
     "slug": "helm",
     "type": "arashi",
     "name": "Helm",
-    "aliases": [
-      "Rank Twelve",
-      "The Analyst",
-      "Ibeson's Second Runaway"
-    ],
-    "summary": "Arashi Rank #12. Goldhelm. Left Ibeson's research program alongside Kaboom. Strategic Domain processes all observable information into real-time optimal tactical analysis. The Arashi's analytical infrastructure."
+    "summary": "Arashi #12. A scientist at a large potion and pharmaceutical company. Had a mental disorder and could not speak. In an accident, two different chemicals spilled on him — burning his arms and fusing two poison globs into them (gas form and gloop form)."
   },
   {
     "slug": "kaboom",
     "type": "arashi",
     "name": "Kaboom",
-    "aliases": [
-      "Rank Nine",
-      "The Ibeson Runaway",
-      "Blast Engineer"
-    ],
-    "summary": "Arashi Rank #9. Goldhelm. Left the Goldhelm Kingdom's scientific research program to join the Arashi. Detonation Domain charges any touched material with explosive potential. Partner of Helm (#12)."
+    "summary": "Arashi #9. Created by the Goldhelm government in Ibeson as a destructive weapon. Escaped the facility and found Arashi members, who recognized his potential and recruited him."
   },
   {
     "slug": "lucifer",
     "type": "arashi",
     "name": "Lucifer",
-    "aliases": [
-      "Rank Six",
-      "The Fodon Butcher",
-      "Zhuiburn's Child"
-    ],
-    "summary": "Arashi Rank #6. Human. Born in Zhuiburn. Incineration Domain produces fire hot enough to burn through magical barriers. Responsible for killing all of Fodon's original leadership structure."
+    "summary": "Arashi #6. Created a new type of magic called 'Magic Cancellation' — temporarily extracts a target's magic and transfers it to himself while rendering the target's magic useless for a period. Killed all four district leaders of Fodon."
   },
   {
     "slug": "nebbio",
     "type": "arashi",
     "name": "Nebbio",
     "aliases": [
-      "Rank Three",
-      "The Swamp Ghost",
-      "Mist Walker"
+      "The Assassin of the Mist"
     ],
-    "summary": "Arashi Rank #3. Folkwynd human. Operates in Suudon's mist swamps. Mist Domain makes them physically intangible at will. The most surveillance-resistant Arashi member. Has a working relationship with Golem King's territory."
+    "summary": "Arashi #3. Born into the Mist family — a Folkwynd noble line that served as Wrofast's de facto ruling family. Rejected in childhood for being too weak. Returned in 993 ACC and killed every member of the household. Wrofast has had no formal noble leadership since."
   },
   {
     "slug": "oto",
     "type": "arashi",
     "name": "Oto",
-    "aliases": [
-      "Rank Eight",
-      "The Frequency",
-      "Resonance"
-    ],
-    "summary": "Arashi Rank #8. Unknown location. Resonance Domain perceives and controls sound frequencies. Can shatter any material by finding its resonant frequency. Most communications-capable Arashi member."
+    "summary": "Arashi #8. A crime boss who was kidnapped by the Arashi twice before finally complying. In public life, he is a famous music star."
   },
   {
     "slug": "rabuka",
     "type": "arashi",
     "name": "Rabuka",
     "aliases": [
-      "Rank Four",
-      "The Glaril Shark",
-      "Blood Current"
+      "Demon Shark"
     ],
-    "summary": "Arashi Rank #4. Sharkai. Lives in Glaril. Blood Current Domain detects all living organisms by blood and manipulates liquid currents. The Arashi's primary maritime threat."
+    "summary": "Arashi #4. Born in Glaril, an underwater city off the coast of Akison. Left on the streets and became a bloodthirsty killer. Learned swordsmanship and magic through unknown means. Has killed over 1,000 people. Arrested by the Crimson Rooks multiple times."
   },
   {
     "slug": "ryobik",
     "type": "arashi",
     "name": "Ryobik",
-    "aliases": [
-      "Rank Ten",
-      "The Chainmaker",
-      "Binding Rank"
-    ],
-    "summary": "Arashi Rank #10. Unknown location. Chain Domain generates gravitational force chains capable of binding entities far larger and more powerful than the user. The containment specialist of the Arashi."
+    "summary": "Arashi #10. Given to #0 by his father when young. Has been operational for hundreds of years. Manages logistics — assigns missions to Arashi members and directs them according to #0's will."
   },
   {
     "slug": "spector",
     "type": "arashi",
     "name": "Spector",
-    "aliases": [
-      "Rank Eleven",
-      "The Andport Ghost",
-      "Visible Threat"
-    ],
-    "summary": "Arashi Rank #11. Lives openly in Andport. Phantom Domain creates perfect physical duplicates of the user. Does not conceal Arashi affiliations in his home city. The most publicly known Arashi member."
+    "summary": "Arashi #11. Born in Andport. As an infant, his family was attacked by a hell malefici. During the attack, he was thrown into a mirror and impaled from all sides. The only way to save him was to fuse the mirror shards into his body, combining it with his innate meta power of teleportation. Now uses his amplified mirror powers to teleport Arashi members to their assignment locations."
   },
   {
     "slug": "unknown-0",
     "type": "arashi",
     "name": "Unknown",
-    "aliases": [
-      "Rank Zero",
-      "The One Above"
-    ],
-    "summary": "Arashi Rank #0. Identity unknown. No confirmed sighting. Theorized to be an entity operating at Meta-level power, above even Arashi #1 Dark Paladin."
+    "summary": "Arashi #0. Currently under investigation. Identity and motives are classified."
   },
   {
     "slug": "velho",
     "type": "arashi",
     "name": "Velho",
     "aliases": [
-      "Rank Five",
-      "The Patient One",
-      "Old World"
+      "The Abyssal Monarch",
+      "Former Master of Magic"
     ],
-    "summary": "Arashi Rank #5. Unknown location. Realm Expansion ability ages the surrounding environment into a ruined ancient state. The most ancient-seeming Arashi member. May have been present at the First Great War."
+    "summary": "Arashi #5. Former Master of Magic (846–889 ACC). Killed during the Wizard Uprising by a mob of over one hundred revolutionary Malefici after offering them a compromise peace. His death accelerated the Uprising's collapse. Resurrected under unknown circumstances. Has not visibly aged since his death. Now holds the #5 rank in the Arashi."
   },
   {
     "slug": "ace",
     "type": "organization",
     "name": "Ace",
-    "aliases": [
-      "The One Card",
-      "Wild Card"
-    ],
     "accentColor": "#FFD700",
-    "summary": "Small elite covert organization. Enforces the peace in Adlens — the neutral coalition town. No stated ideology. Acts as a wild card in Criozevan's political conflicts. Led by a single figure also called Ace."
+    "summary": "Elite mercenary organization of exactly 52 members divided into four Suits (Spades, Diamonds, Hearts, Clubs) of 13 ranked members each. Led by the Ace of Spades. Every member wears a mask and suit displaying their card designation. First confirmed appearance: War of Fodon (820–847 ACC), hired to protect the Bug District. Currently holds a law enforcement contract in Adlens. Less publicly documented than even the Arashi."
   },
   {
     "slug": "arashi",
     "type": "organization",
     "name": "Arashi",
-    "aliases": [
-      "The Storm",
-      "The Thirteen",
-      "The Ranked"
-    ],
     "accentColor": "#FF4444",
-    "summary": "The 13 ranked most dangerous villains in Criozevan. Ranked by power from 0 (unknown) to 12 (Helm). No fixed headquarters. Each member operates independently with loose organizational affiliation. The primary existential threat benchmark."
+    "summary": "A powerful criminal organization with hidden underlying goals beyond ordinary crime. Has 13 ranked members (#0–#12). Officially designated a terrorist entity approximately 50 years before the current era. The identity and origins of #0 remain completely unknown."
   },
   {
     "slug": "butterfly",
     "type": "organization",
     "name": "Butterfly",
-    "aliases": [
-      "The Blue Wing",
-      "Magic's Keepers"
-    ],
     "accentColor": "#4FC3F7",
-    "summary": "Magic oversight and balance organization. Klanron headquarters. 90% magic practitioners in membership. Monitors dangerous magical sites including Icogas. Philosophically aligned with Iyhago's Quiet Harmonic."
+    "summary": "Organization of the most powerful Metas. Fights against corruption and crime syndicates — Rose, Pegasus, and Arashi. Helps forge alliances between magic societies. HQ in Klanron, secret monitoring station in Icogas."
   },
   {
     "slug": "crimson-rooks",
     "type": "organization",
     "name": "Crimson Rooks",
-    "aliases": [
-      "The Rooks",
-      "The Red Guard",
-      "Vacron's Teeth"
-    ],
     "accentColor": "#8B0000",
-    "summary": "The Crimson Knight's organization. Controls Vacron openly. Military, intelligence, and enforcement capabilities. The largest openly-acknowledged organization in Criozevan. Maintains presences in every major city."
+    "summary": "World peacekeeping organization. HQ in Vacron. Outpost in Ubraamore. Keeps Anehull under constant surveillance. Many citizens see them as both protectors and watchers."
   },
   {
     "slug": "magic-societies",
     "type": "organization",
     "name": "Magic Societies",
-    "aliases": [
-      "The Societies",
-      "The Compact",
-      "Magic Council"
-    ],
     "accentColor": "#9B59B6",
-    "summary": "The formal governing body for magical practice and research sharing across Criozevan. Klanron and Iyhago Prime meeting points. Veles holds de facto philosophical authority. No legal power but massive practitioner consensus."
+    "summary": "Official Magic Societies exist in every kingdom in Criozevan except the Goldhelm Kingdom (where magic is prohibited under penalty of death). Named after their host kingdom. Function as part of each kingdom's formal government. All hold continental meetings in Klanron. Work with the Butterfly organization on cross-kingdom magical coordination."
   },
   {
     "slug": "pegasus",
     "type": "organization",
     "name": "Pegasus",
-    "aliases": [
-      "The White Wing",
-      "The Invisible Hand"
-    ],
     "accentColor": "#E8E8FF",
-    "summary": "The intelligence-first covert organization. Controls Akison and Oredsy from shadow. Signal Harvest annual intelligence collection. No magic practitioners, no Rose, no Butterfly allowed in HQ."
+    "summary": "Founded in Year 738 with a genuinely idealistic purpose: to unite warring independent territories and broker lasting peace. Succeeded for ~30 years before internal corruption collapsed it. Now operates as a vigilante group. Controls or heavily influences the Republic of Oredsy. Covert HQ in Oniofast, State of Akison."
   },
   {
     "slug": "rose",
     "type": "organization",
     "name": "Rose",
-    "aliases": [
-      "The Red Flower",
-      "The Neutral Party"
-    ],
     "accentColor": "#FF6B9D",
-    "summary": "The diplomatic and intelligence-neutral organization. No territorial ambitions. Headquarters in Uyrand. The only organization with standing diplomatic relations with every major faction including Ipadora underground kingdoms."
+    "summary": "Founded in Year 780 by ex-Pegasus members to specifically destroy Pegasus. A crime syndicate in method but ideological in origin. HQ in Uyrand. Covert meetings in Anehull. Protects the neutral forge in Clocester. Currently at war with Pegasus — strikes almost weekly."
   },
   {
     "slug": "darkmane-family",
     "type": "family",
     "name": "Darkmane Family",
-    "aliases": [
-      "The Shadow Bloodline",
-      "The Hollowed Throne"
-    ],
     "accentColor": "#4A2D6B",
-    "summary": "The oldest Darkmane lineage. No formal throne — the Realm has no central government. Vaelith the Hollow and Azaraith are the two most powerful members. Their relationship defines the Darkmane Realm's political future."
+    "summary": "Once unified the dark elf realm under their rule. The treachery of Vaelith the Hollow — who sold his own brother Thalrith to a Goldhelm scientist in 937 ACC — fractured the family and triggered the collapse of the Darkmane Realm into warring tribes. Notable figures: Vaelith the Hollow (former head, 896–938 ACC) and Sael (warrior leader, granddaughter of Vaelith, seeks to reunify the Darkmane realm)."
   },
   {
     "slug": "goldhelm-family",
     "type": "family",
     "name": "Goldhelm Family",
-    "aliases": [
-      "The Golden Line",
-      "Auric Dynasty"
-    ],
     "accentColor": "#C9A84C",
-    "summary": "The ruling family of the Goldhelm Kingdom. King Aldric governs with absolute isolationist policy. Princess Seraphina is heir and likely agent of change. The family's internal generational disagreement is the most consequential domestic tension in Goldhelm."
+    "summary": "The royal and only family of the Goldhelm race. All Goldhelms descend from this line. King Aldric is head and ruler. Princess Seraphina is the heir."
+  },
+  {
+    "slug": "house-abyrath",
+    "type": "family",
+    "name": "House Abyrath",
+    "accentColor": "#006994",
+    "summary": "A cadet branch of House Nereval (the Ipadora royal family), established in 996 ACC when Queen Nayele appointed her younger brother Prince Vaelen to govern Glaril. Operates under Ipadora's broader political umbrella but governs Glaril with significant autonomy. The relationship between Abyrath and the main Nereval line is cooperative rather than subordinate in practice."
   },
   {
     "slug": "ipadora-family",
     "type": "family",
     "name": "Ipadora Family",
-    "aliases": [
-      "The Tidal Throne",
-      "Deep Mother's Line"
-    ],
     "accentColor": "#006994",
-    "summary": "The ruling family of the Ipadora Kingdom. Queen Nayele is current head. Governs Ipadora Sanctuary (direct) and Glaril (through branch faction). Rabuka is a distant family member who became Arashi Rank #4."
+    "summary": "Formally known as House Nereval — the ruling family of the Ipadora Kingdom. The throne passes through the female line. Queen Nayele is current head. A cadet branch — House Abyrath — governs Glaril under Prince Vaelen, Nayele's younger brother."
+  },
+  {
+    "slug": "age-of-elves",
+    "type": "history",
+    "name": "The Age of Elves",
+    "aliases": [],
+    "accentColor": "#2E8B57",
+    "summary": "The long era before the Crimson Convergence, when elves dominated Criozevan with a vast, advanced civilization. The Golem King slept dormant in the Jagged Mountains throughout this period. The Convergence destroyed elf civilization in 40 days."
   },
   {
     "slug": "crimson-convergence",
     "type": "history",
     "name": "The Crimson Convergence",
-    "aliases": [
-      "The Red Event",
-      "Vacron's Birth Crisis"
-    ],
+    "aliases": [],
     "accentColor": "#8B0000",
-    "summary": "The political crisis that established the current Criozevan power structure. The Crimson Knight's rise to dominance. Rose organization's founding motivation. Vacuum left by collapsing factions filled by Crimson Rooks."
+    "summary": "The defining cosmological event of Eldunary — the moment from which all years are measured (ACC = After Crimson Convergence). A red star appeared for exactly 40 days, drew magic out of the earth, and caused millions of years of evolution to occur."
+  },
+  {
+    "slug": "dragon-era",
+    "type": "history",
+    "name": "The Dragon Era",
+    "aliases": [
+      "Pre-Convergence Era"
+    ],
+    "accentColor": "#4A0E0E",
+    "summary": "The era before the Crimson Convergence, when dragons dominated Eldunary. Ended when a mysterious entity known as The Shadow exterminated every dragon — except Zunarorth, the sole survivor."
   },
   {
     "slug": "equinox-of-power",
     "type": "history",
     "name": "The Equinox of Power",
-    "aliases": [
-      "The Great Revealing",
-      "The Day the Ranks Were Set"
-    ],
+    "aliases": [],
     "accentColor": "#7B68EE",
-    "summary": "The event that established the current power rankings and crystallized Criozevan's political balance. The Arashi's existence became publicly documented. Major figures demonstrated capabilities that set the benchmark for the current era."
+    "summary": "The battle between the three Masters — Sunlee, Selvarin, and Veles — that ended the Golden War. 500,000 soldiers killed total. The crater formed by the battle became the foundation beneath Ibeson. All three chose peace when they saw the destruction. The definitive proof of the Masters' equal power."
   },
   {
     "slug": "first-great-war",
     "type": "history",
     "name": "The First Great War",
     "aliases": [
-      "The Old War",
-      "The Founding Conflict",
-      "The War Before Maps"
+      "The Golden War"
     ],
     "accentColor": "#CD7F32",
-    "summary": "The foundational conflict that established Criozevan's current territorial and political structure. Pre-dates current organizations but created the conditions from which they emerged. The border map of Criozevan is the First Great War's primary legacy."
+    "summary": "Alternate name for the Golden War (795–800 ACC) — the civil war in the Goldhelm Kingdom that drew in all three Masters and ended with the Equinox of Power stalemate. See: The Golden War."
+  },
+  {
+    "slug": "five-appearances-of-fluffy",
+    "type": "history",
+    "name": "The Five Public Appearances of Fluffy",
+    "aliases": [],
+    "accentColor": "#FFFFFF",
+    "summary": "In the one thousand years since the Crimson Convergence, Fluffy has been publicly sighted exactly five times. Each appearance is treated as a sacred historical event — witnessed with reverence and inadequacy. The accounts survive in fragments, folktales, and institutional archives that often contradict in detail while agreeing on the essential fact: Fluffy appeared, and then it was gone."
+  },
+  {
+    "slug": "formation-of-kingdoms",
+    "type": "history",
+    "name": "The Formation of Kingdoms",
+    "aliases": [],
+    "accentColor": "#8B6914",
+    "summary": "c. 500–700 ACC. For the first five centuries after the Convergence, Criozevan had no centralized governments. The Goldhelms were the first to consolidate, around Year 700, acting as a catalyst for every other kingdom to follow."
+  },
+  {
+    "slug": "formation-of-pegasus-and-rose",
+    "type": "history",
+    "name": "The Formation of Pegasus and Rose",
+    "aliases": [],
+    "accentColor": "#9370DB",
+    "summary": "Pegasus was founded in Year 738 with a genuinely idealistic purpose and succeeded for ~30 years before collapsing through internal theft. Rose was founded in Year 780 by ex-Pegasus members specifically to destroy it. The two organizations have been at war ever since."
+  },
+  {
+    "slug": "founding-of-crimson-rooks",
+    "type": "history",
+    "name": "The Founding of the Crimson Rooks",
+    "aliases": [],
+    "accentColor": "#8B0000",
+    "summary": "The Crimson Rooks were founded in Year 712 ACC, at the same time as the formal establishment of the Kingdom of Vacron. Over three centuries they grew into the continent's primary peacekeeping institution."
   },
   {
     "slug": "golden-war",
     "type": "history",
     "name": "The Golden War",
-    "aliases": [
-      "The Goldhelm Conflict",
-      "The Isolation War",
-      "Expansion Stopped"
-    ],
+    "aliases": [],
     "accentColor": "#FFD700",
-    "summary": "The Goldhelm Kingdom's expansionist phase ended by coalition resistance. Frada adapted holotech from captured equipment. King Aldric's isolationism is a direct result. The conflict that defined the magic-vs-technology divide."
+    "summary": "Civil war fought 795–800 ACC between the North and South of the Goldhelm Kingdom. Ended with the Equinox of Power — the three-way battle of the Masters. 500,000 soldiers killed. Led to the reshaping of three kingdoms."
+  },
+  {
+    "slug": "goldhelm-exodus",
+    "type": "history",
+    "name": "The Goldhelm Exodus",
+    "aliases": [],
+    "accentColor": "#C9A84C",
+    "summary": "In the years immediately following the Crimson Convergence, a family of Folkwynd discovered they carried a hereditary power to passively drain magic from living sources. Terrified of the harm this caused those they loved, they fled and founded what became the Goldhelm Kingdom. This is the true origin of the anti-magic ban and holotech."
+  },
+  {
+    "slug": "ipadora-land-war",
+    "type": "history",
+    "name": "The Ipadora Land War",
+    "aliases": [],
+    "accentColor": "#1A6DC0",
+    "summary": "c. 900 ACC. A war triggered when a criminal in Ipadora territory killed a Fodon Bug District Tharnex. Fodon and Frada drove Ipadora off the mainland. Ipadora's military — built for sea combat — was ill-suited for land defence. The manmade river dividing the territories remains as a permanent monument to the conflict."
+  },
+  {
+    "slug": "mist-family-massacre",
+    "type": "history",
+    "name": "The Mist Family Massacre",
+    "aliases": [
+      "Wrofast Noble Killing"
+    ],
+    "accentColor": "#708090",
+    "summary": "In 993 ACC, every member of the Mist family — the Folkwynd noble line that served as Wrofast's de facto ruling family — was killed in a single night by Nebbio, the individual who would later become #3 in the Arashi organization. Nebbio had been born into the family and rejected as too weak in childhood. He returned with power the family had no framework to understand. Wrofast has had no formal noble leadership since."
   },
   {
     "slug": "war-of-fodon",
     "type": "history",
     "name": "War of Fodon",
-    "aliases": [
-      "The Tharnex Extinction War",
-      "Vorvax War",
-      "The Last Hive Conflict"
-    ],
+    "aliases": [],
     "accentColor": "#2D5A27",
-    "summary": "The ancient war that destroyed the Tharnex civilization. Vorvax's influence corrupted the X'zel spiritual connection the Tharnex depended on. The divine conflict that left Vorryn as the last of his race."
+    "summary": "Civil conflict within the Kingdom of Fodon (820–847 ACC) between four warring districts. Drove the Tharnex race to near-extinction. Ended when Lucifer (#6 Arashi) killed all four district leaders, allowing the Dune Accord to be formed."
+  },
+  {
+    "slug": "wizard-uprising",
+    "type": "history",
+    "name": "The Wizard Uprising",
+    "aliases": [
+      "Wizard Uprising"
+    ],
+    "accentColor": "#8B0000",
+    "summary": "Ideological insurgency (c. 880–890 ACC) by radical Malefici and Metas seeking to eliminate all non-magical inhabitants and rule the continent. Six million dead. Ended through attrition and the intervention of the three Masters. Marked by the death of the Master of Magic Velho (889 ACC) and the first confirmed appearance of Anton (885 ACC)."
   },
   {
     "slug": "corrupted-runes",
     "type": "magic",
     "name": "Corrupted Runes",
-    "aliases": [
-      "The Fallen Way",
-      "Void Inscription",
-      "Dark Runes"
-    ],
+    "aliases": [],
     "accentColor": "#4A2D6B",
-    "summary": "The Darkmane Elf-specific corrupted version of standard runestone practice. Draws from void energy rather than natural magical substrate. More powerful than standard runes but unstable and dangerous to practitioner. The Fallen Way."
+    "summary": "Massive, unstable runes left by the Golem King in the Warring Darkmane Realm forests. Became unstable after the Golem King stopped maintaining them. Prone to explosions. Emit dark magic that can infect the mind — often fatal. Dark elves draw corrupted energy from them."
+  },
+  {
+    "slug": "devourers",
+    "type": "magic",
+    "name": "Devourers",
+    "aliases": [
+      "the hungry ones",
+      "those who remember what the world was before magic had a shape"
+    ],
+    "accentColor": "#C9A84C",
+    "summary": "An extraordinarily rare hereditary magi classification. Devourers do not cast, channel, or store magic — they absorb it from living sources passively and involuntarily. The only confirmed Devourer bloodline is the Goldhelm royal line. One known active carrier: Princess Seraphina."
+  },
+  {
+    "slug": "hell",
+    "type": "magic",
+    "name": "Hell",
+    "accentColor": "#1a0000",
+    "summary": "Hell is a separate dimension — not a metaphor or theological construct, but a real place physically distinct from Eldunary that can be accessed through specific dark magical practices. Hell Malefici (approximately 2% of Dark Malefici) specialize in opening connections to this dimension for summoning purposes. What governs it and what its inhabitants want are unknown. Berserk (#2 Arashi) made a direct pact with a being from this dimension."
   },
   {
     "slug": "holotech",
     "type": "magic",
     "name": "Holotech",
-    "aliases": [
-      "Holographic Technology",
-      "Goldhelm Science",
-      "Anti-Magic Engineering"
-    ],
+    "aliases": [],
     "accentColor": "#C9A84C",
-    "summary": "The Goldhelm technological system. No magic — electromagnetic and photonic engineering. Deliberately designed to counter magic systems. Frada adapted and distributed it post-Golden War. Monopoly broken but Goldhelm retains highest-tier capability."
+    "summary": "Technology that mimics magic. Developed solely by the Goldhelm Kingdom. Used in place of magic for everyday life, warfare, and industry. Frada also produces holotech, exported to Goldhelm and Oredsy."
   },
   {
     "slug": "malefici",
     "type": "magic",
     "name": "Malefici",
-    "aliases": [
-      "The Dark Draw",
-      "Internal Magic",
-      "Will-Force"
-    ],
+    "aliases": [],
     "accentColor": "#7B68EE",
-    "summary": "The internal magic system. Draws power from the practitioner's own life force — mana generated internally. Mastery requires will development alongside technical training. The most widely practiced formal magic system."
+    "summary": "Magic users whose powers are split into Scarlets, Dark Malefici, and Mages. Total 27.5% of all Magi."
   },
   {
     "slug": "metas",
     "type": "magic",
     "name": "Metas",
-    "aliases": [
-      "Meta Abilities",
-      "The Transcendent Class",
-      "Power-Law Abilities"
-    ],
+    "aliases": [],
     "accentColor": "#FFFFFF",
-    "summary": "The rarest ability class. Transcends normal magic law. Cannot be taught, trained, or systematically developed. Emerges through conditions that are not fully understood. Fluffy is the primary known practitioner."
+    "summary": "People born with a specific innate power — e.g., talking to animals, super strength. 27.5% of all Magi."
   },
   {
     "slug": "runestones",
     "type": "magic",
     "name": "Runestones",
-    "aliases": [
-      "Rune Magic",
-      "The Carved Path",
-      "Karthrun Application"
-    ],
+    "aliases": [],
     "accentColor": "#8B7355",
-    "summary": "The external inscription-based magic system. Power stored in carved runes rather than generated internally. Golems use it as their entire biology. Karthrun is the primary runestone language. Permanent and accumulative."
+    "summary": "People who can only control their power through a runestone, weapon, or item. The most common magi type at 45% of all Magi. Golems have high affinity to rune magic."
   },
   {
     "slug": "common",
     "type": "language",
     "name": "Common",
     "accentColor": "#888888",
-    "summary": "The continental trade and diplomatic language. Spoken as first or second language by every race. No native advantage — Folkwynd humans developed it as a neutral trade medium. The default language of government, commerce, and inter-faction communication."
+    "summary": "The continental trade and diplomatic language. Spoken as first or second language by every race. The default language of government, commerce, and inter-faction communication."
   },
   {
     "slug": "karthrun",
     "type": "language",
     "name": "Karthrun",
     "accentColor": "#8B7355",
-    "summary": "The Golem language and the inscription system for runestone magic. The written form is the spoken form — Karthrun exists primarily as inscription. Varnokh is the primary living linguistic authority."
+    "summary": "The Golem language. Inscribed in chiseled glyph-code."
   },
   {
     "slug": "katorr",
     "type": "language",
     "name": "Ka'torr",
     "accentColor": "#1E90FF",
-    "summary": "The Sharkai language. Tide-Script is pressure-carved and reads differently at different water depths due to compression effects. Maritime trade register widely used. Rabuka speaks it natively."
+    "summary": "The Sharkai language. Guttural, gesture-based, and used underwater. Rabuka speaks it natively."
   },
   {
     "slug": "kotoba",
     "type": "language",
     "name": "Kōtoba",
     "accentColor": "#7B68EE",
-    "summary": "The ancient scholarly language of magical theory. Preferred by Veles. Spoken Kōtoba amplifies malefici casting. The Spiral Script is used for the most complex magical notation. High-prestige in Iyhago; uncommon everywhere else."
+    "summary": "A refined form of Shayathi used only by the Resonant Guard. High-prestige in Iyhago; uncommon everywhere else. Unauthorized use is forbidden and spiritually dangerous."
   },
   {
     "slug": "nualthyr",
     "type": "language",
     "name": "Nualthyr",
     "accentColor": "#4A2D6B",
-    "summary": "The Darkmane Elf language. Shadow Script visible only in low-light. Used by criminal networks for information concealment. The written form is physically encoded to be invisible in daylight."
+    "summary": "The Darkmane Elf language. Clan-dialects with tonal variance. Spoken secretly among elves who do not wish to be understood."
   },
   {
     "slug": "pyrrhith",
     "type": "language",
     "name": "Pyrrhith",
     "accentColor": "#FF6B35",
-    "summary": "The Zhuiburn volcanic city language. Hard consonants, breath management required. Ash Script uses volcanic dust — documents are impermanent by design. Almost never natively spoken outside Zhuiburn."
+    "summary": "Spoken language of Zhuiburn — spoken by no other community and voluntarily taught to no outsider. Origins unknown. No structural ancestry with Common, Sylvaren, Tharnic, or any documented language in Criozevan. Built almost entirely from fricatives and plosives. Minimal vowels. Written form exists but is not shared."
   },
   {
     "slug": "sailor-speak",
     "type": "language",
     "name": "Sailor Speak",
     "accentColor": "#1E90FF",
-    "summary": "The maritime pidgin language. No native speakers, no script, oral tradition only. Originated in Wrofast harbor. Used wherever ships meet. Covers maritime, trade, and emergency communication. The most geographically distributed language in Criozevan."
+    "summary": "Maritime creole spoken natively in Wrofast and understood functionally by experienced sea traders from Glaril, Neruvalis, and Ipadora Sanctuary. Parent languages are Common and Sylvaren. Belongs fully to neither. No written form. Trust currency among sailors."
   },
   {
     "slug": "shayathi",
@@ -964,27 +950,27 @@
     "type": "language",
     "name": "Solaran",
     "accentColor": "#C9A84C",
-    "summary": "The Goldhelm technical language. Circuit Script is modular and assembly-based — ideal for engineering documentation. Restricted export alongside holotech. Kaboom and Helm brought it outside Goldhelm borders."
+    "summary": "The Goldhelm technical language. Circuit Script is modular and assembly-based — ideal for engineering documentation."
   },
   {
     "slug": "sylvaren",
     "type": "language",
     "name": "Sylvaren",
     "accentColor": "#228B22",
-    "summary": "The forest Folkwynd dialect/language. Branch-Script echoes natural growth patterns. Primary language of Imuton's tree-dwelling communities. Used for ecological documentation and forest knowledge transmission."
+    "summary": "The Ipadora language. Fluid-script and voicewave dialect. Spoken throughout the Ipadora Kingdom."
   },
   {
     "slug": "tharnexi",
     "type": "language",
     "name": "Tharnexi",
     "accentColor": "#2D5A27",
-    "summary": "The Tharnex hive language. Now spoken only by Vorryn, the last Tharnex. Primarily pheromone-based with a secondary written notation. The only externally accessible form is the written notation."
+    "summary": "The Tharnex hive language. Now spoken only by Vorryn, the last Tharnex. Written in spiral claw-glyphs etched into carapace plates."
   },
   {
     "slug": "tharnic",
     "type": "language",
     "name": "Tharnic",
     "accentColor": "#C0C0C0",
-    "summary": "The Oredsy Republic language. Edge Script is angular and decisive — each stroke is committed with no revision marks. Grammatically structured around action and result rather than description. Selvarin's native tongue."
+    "summary": "The Oredsy Republic language. Selvarin's native tongue."
   }
 ]

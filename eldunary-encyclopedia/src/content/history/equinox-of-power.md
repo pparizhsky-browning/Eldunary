@@ -4,13 +4,33 @@ name: "The Equinox of Power"
 slug: "equinox-of-power"
 aliases: []
 era: "Recent History"
+date: "795 ACC"
+dateSortKey: 800
 accentColor: "#7B68EE"
-factionsInvolved: ["state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+factionsInvolved: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
 keyCharacters: ["sunlee", "selvarin", "veles"]
-relatedEvents: ["first-great-war"]
-summary: "The battle between the Three Masters — Sunlee (Martial Arts), Selvarin (Swords), and Veles (Magic) — that ended in a total stalemate. Upon witnessing the destruction around them, they chose peace. Recorded as the defining demonstration of the Masters' equal power level."
+relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+relatedCities: ["ibeson"]
+relatedEvents: ["golden-war", "first-great-war"]
+summary: "The battle between the three Masters — Sunlee, Selvarin, and Veles — that ended the Golden War. 500,000 soldiers killed total. The crater formed by the battle became the foundation beneath Ibeson. All three chose peace when they saw the destruction. The definitive proof of the Masters' equal power."
 ---
 
-The **Equinox of Power** is the recorded battle in which the three Masters — **Sunlee** (Master of Martial Arts), **Selvarin** (Master of Swords), and **Veles** (Master of Magic) — fought one another during the First Great War. The battle ended in a complete stalemate. Upon witnessing the destruction around them, they chose peace.
+The **Equinox of Power** is the climactic three-way battle of the **Golden War** (795–800 ACC), in which the three Masters — **Sunlee** (Master of Martial Arts), **Selvarin** (Master of Swords), and **Veles** (Master of Magic) — fought one another simultaneously.
 
-This event established that all three Masters hold a roughly equal power level at Rank #5, and is cited as the reason the current era's political balance has held.
+## The Battle
+
+- **Sunlee** fought both Selvarin and Veles in an attempt to end the war, having failed to stop it through diplomacy.
+- **Selvarin** fought for the North Goldhelm faction he had committed to.
+- **Veles** fought for the South Goldhelm faction whose cause he believed in.
+
+The battle ended in a complete stalemate. No Master could overcome the others.
+
+## Casualties and the Crater
+
+Approximately **500,000 soldiers** were killed across the Golden War, with the Equinox of Power as its devastating climax. The battle left an enormous **crater** in the region. The Goldhelm government subsequently built **Ibeson** above and around it — constructing their most sensitive underground research laboratories in the caverns beneath.
+
+## Aftermath
+
+Upon witnessing the total destruction around them, all three Masters chose peace. They have never fought each other again.
+
+This event established that all three Masters hold a roughly equal power level at **Rank #5**, and is cited as the primary reason the current era's political balance has held. It also triggered the reshaping of three kingdoms: the founding of the State of Akison, the founding of the Republic of Oredsy, and Veles' ascension to the throne of Iyhago. See: **The Golden War** (History).

@@ -25,6 +25,8 @@ summary: "Humanoid aquatics with tentacle limbs and chromatophores. Control all 
 
 Ancient deep-sea dwellers. Built reef cities and traded with surface-dwellers long before kingdoms formed.
 
+**Features:** Tentacle limbs (octopus-type), chromatophores, flexible joints, beaked mouths. Also includes shark-people and squid-people sub-types.
+
 **Culture:** Matriarchal. Values flow, intuition, and oceanic balance. Known for Tidal Harmony rites, ink-sigil messages, and coral festivals.
 
 **Social Structure:** Matron-led clans. Lineage traced through sea rites.

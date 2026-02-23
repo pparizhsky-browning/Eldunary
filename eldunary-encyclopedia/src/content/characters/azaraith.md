@@ -2,7 +2,7 @@
 type: character
 name: "Azaraith"
 slug: "azaraith"
-aliases: []
+aliases: ["the Nightweaver"]
 race: "Unknown"
 status: "Deceased"
 kingdom: "kingdom-of-fodon"

@@ -7,7 +7,7 @@ accentColor: "#7B68EE"
 percentage: "27.5% of all Magi"
 subtypes: ["Scarlets (0.275%)", "Hell Dark Malefici (~0.27%)", "Pure Dark Malefici (~13.3%)", "Mage (~13.6%)"]
 bannedIn: ["goldhelm-kingdom"]
-practitioners: ["veles"]
+practitioners: []
 governedBy: ["magic-societies", "butterfly"]
 summary: "Magic users whose powers are split into Scarlets, Dark Malefici, and Mages. Total 27.5% of all Magi."
 ---

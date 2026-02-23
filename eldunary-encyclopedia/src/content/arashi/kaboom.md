@@ -12,7 +12,7 @@ power: "Explosion"
 trait:
   name: "Nuke"
   type: "Death Eye"
-relatedCharacters: ["king-aldric"]
+relatedCharacters: []
 relatedEvents: []
 summary: "Arashi #9. Created by the Goldhelm government in Ibeson as a destructive weapon. Escaped the facility and found Arashi members, who recognized his potential and recruited him."
 ---

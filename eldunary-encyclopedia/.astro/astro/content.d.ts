@@ -248,6 +248,20 @@ declare module 'astro:content' {
   collection: "characters";
   data: InferEntrySchema<"characters">
 } & { render(): Render[".md"] };
+"azure-paladin.md": {
+	id: "azure-paladin.md";
+  slug: "azure-paladin";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
+"butterfly-scholar.md": {
+	id: "butterfly-scholar.md";
+  slug: "butterfly-scholar";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
 "crimson-knight.md": {
 	id: "crimson-knight.md";
   slug: "crimson-knight";
@@ -290,6 +304,20 @@ declare module 'astro:content' {
   collection: "characters";
   data: InferEntrySchema<"characters">
 } & { render(): Render[".md"] };
+"new-goldhelm-general.md": {
+	id: "new-goldhelm-general.md";
+  slug: "new-goldhelm-general";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
+"prince-vaelen.md": {
+	id: "prince-vaelen.md";
+  slug: "prince-vaelen";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
 "princess-seraphina.md": {
 	id: "princess-seraphina.md";
   slug: "princess-seraphina";
@@ -300,6 +328,13 @@ declare module 'astro:content' {
 "queen-nayele.md": {
 	id: "queen-nayele.md";
   slug: "queen-nayele";
+  body: string;
+  collection: "characters";
+  data: InferEntrySchema<"characters">
+} & { render(): Render[".md"] };
+"sael.md": {
+	id: "sael.md";
+  slug: "sael";
   body: string;
   collection: "characters";
   data: InferEntrySchema<"characters">
@@ -407,6 +442,13 @@ declare module 'astro:content' {
 "cridbury.md": {
 	id: "cridbury.md";
   slug: "cridbury";
+  body: string;
+  collection: "cities";
+  data: InferEntrySchema<"cities">
+} & { render(): Render[".md"] };
+"eshar-thi.md": {
+	id: "eshar-thi.md";
+  slug: "eshar-thi";
   body: string;
   collection: "cities";
   data: InferEntrySchema<"cities">
@@ -644,6 +686,13 @@ declare module 'astro:content' {
   collection: "families";
   data: InferEntrySchema<"families">
 } & { render(): Render[".md"] };
+"house-abyrath.md": {
+	id: "house-abyrath.md";
+  slug: "house-abyrath";
+  body: string;
+  collection: "families";
+  data: InferEntrySchema<"families">
+} & { render(): Render[".md"] };
 "ipadora-family.md": {
 	id: "ipadora-family.md";
   slug: "ipadora-family";
@@ -653,6 +702,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "history": {
+"age-of-elves.md": {
+	id: "age-of-elves.md";
+  slug: "age-of-elves";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
 "crimson-convergence.md": {
 	id: "crimson-convergence.md";
   slug: "crimson-convergence";
@@ -681,6 +737,34 @@ declare module 'astro:content' {
   collection: "history";
   data: InferEntrySchema<"history">
 } & { render(): Render[".md"] };
+"five-appearances-of-fluffy.md": {
+	id: "five-appearances-of-fluffy.md";
+  slug: "five-appearances-of-fluffy";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"formation-of-kingdoms.md": {
+	id: "formation-of-kingdoms.md";
+  slug: "formation-of-kingdoms";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"formation-of-pegasus-and-rose.md": {
+	id: "formation-of-pegasus-and-rose.md";
+  slug: "formation-of-pegasus-and-rose";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"founding-of-crimson-rooks.md": {
+	id: "founding-of-crimson-rooks.md";
+  slug: "founding-of-crimson-rooks";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
 "golden-war.md": {
 	id: "golden-war.md";
   slug: "golden-war";
@@ -688,9 +772,37 @@ declare module 'astro:content' {
   collection: "history";
   data: InferEntrySchema<"history">
 } & { render(): Render[".md"] };
+"goldhelm-exodus.md": {
+	id: "goldhelm-exodus.md";
+  slug: "goldhelm-exodus";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"ipadora-land-war.md": {
+	id: "ipadora-land-war.md";
+  slug: "ipadora-land-war";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"mist-family-massacre.md": {
+	id: "mist-family-massacre.md";
+  slug: "mist-family-massacre";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
 "war-of-fodon.md": {
 	id: "war-of-fodon.md";
   slug: "war-of-fodon";
+  body: string;
+  collection: "history";
+  data: InferEntrySchema<"history">
+} & { render(): Render[".md"] };
+"wizard-uprising.md": {
+	id: "wizard-uprising.md";
+  slug: "wizard-uprising";
   body: string;
   collection: "history";
   data: InferEntrySchema<"history">
@@ -858,6 +970,20 @@ declare module 'astro:content' {
 "corrupted-runes.md": {
 	id: "corrupted-runes.md";
   slug: "corrupted-runes";
+  body: string;
+  collection: "magic";
+  data: InferEntrySchema<"magic">
+} & { render(): Render[".md"] };
+"devourers.md": {
+	id: "devourers.md";
+  slug: "devourers";
+  body: string;
+  collection: "magic";
+  data: InferEntrySchema<"magic">
+} & { render(): Render[".md"] };
+"hell.md": {
+	id: "hell.md";
+  slug: "hell";
   body: string;
   collection: "magic";
   data: InferEntrySchema<"magic">

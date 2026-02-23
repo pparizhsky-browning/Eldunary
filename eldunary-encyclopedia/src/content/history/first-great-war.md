@@ -2,11 +2,16 @@
 type: history
 name: "The First Great War"
 slug: "first-great-war"
-aliases: []
+aliases: ["The Golden War"]
 accentColor: "#CD7F32"
+date: "795–800 ACC"
+dateSortKey: 795
 keyCharacters: ["sunlee", "selvarin", "veles"]
-relatedEvents: ["equinox-of-power"]
-summary: "The war during which the Three Masters fought one another — ending in the Equinox of Power stalemate."
+relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+relatedEvents: ["golden-war", "equinox-of-power"]
+summary: "Alternate name for the Golden War (795–800 ACC) — the civil war in the Goldhelm Kingdom that drew in all three Masters and ended with the Equinox of Power stalemate. See: The Golden War."
 ---
 
-The **First Great War** is the conflict during which the three Masters — **Sunlee** (Master of Martial Arts), **Selvarin** (Master of Swords), and **Veles** (Master of Magic) — fought one another. That battle ended in a total stalemate, recorded as the **Equinox of Power**. Upon witnessing the destruction around them, they chose peace.
+The **First Great War** is an alternate name for **The Golden War** (795–800 ACC) — the Goldhelm civil war during which the three Masters fought one another in the Equinox of Power.
+
+See: **The Golden War** (History) for the full account.

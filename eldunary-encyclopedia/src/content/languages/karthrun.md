@@ -9,7 +9,7 @@ status: "Active (specialized)"
 usedIn: ["suudon", "cridbury", "klosdon"]
 script: "Rune-Script (the inscribed form IS the language)"
 relatedCharacters: ["golem-king"]
-summary: "The Golem language and the inscription system for runestone magic. The written form is the spoken form — Karthrun exists primarily as inscription. Varnokh is the primary living linguistic authority."
+summary: "The Golem language. Inscribed in chiseled glyph-code."
 ---
 
 **Karthrun**: chiseled glyph-code. Language of the Golems.

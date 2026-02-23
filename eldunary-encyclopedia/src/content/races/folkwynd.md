@@ -35,7 +35,7 @@ The most widespread race in Criozevan. Evolved from humans during the Crimson Co
 
 **Magic / Tech:** Balanced use of magi and tech. Often bridge gaps between races in diplomacy.
 
-**Combat:** Region-dependent: swordsmanship in Oredsy, tech arms in Frada. Generally adaptable.
+**Combat:** Region-dependent: swordsmanship in Oredsy, tech arms in Frada. Generally adaptable — mix of ranged and melee.
 
 **Relations:** Serve as diplomats, commoners, elites, rebels, and mercenaries. Known for rapid social mobility.
 

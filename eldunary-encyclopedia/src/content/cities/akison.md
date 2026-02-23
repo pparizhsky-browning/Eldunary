@@ -29,7 +29,7 @@ districts:
     description: "Cultural and spiritual heart: blossom-viewing temples, ink halls, ancestral gardens. Paper lanterns, spirit drums, performance arenas at night."
 organizationsPresent: ["pegasus", "crimson-rooks"]
 charactersPresent: ["sunlee", "biruda"]
-relatedEvents: ["first-great-war", "equinox-of-power"]
+relatedEvents: ["golden-war", "first-great-war", "equinox-of-power"]
 mapCoordinates: [380, 310]
 summary: "The cherry blossom capital that encompasses its whole island. Five petal-districts. Trade hub to other continents. Ruled from the Iron Bloom."
 ---

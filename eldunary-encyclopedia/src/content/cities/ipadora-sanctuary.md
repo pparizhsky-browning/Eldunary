@@ -10,7 +10,7 @@ organizationsPresent: []
 charactersPresent: ["queen-nayele"]
 relatedEvents: []
 mapCoordinates: [280, 520]
-summary: "Near-zero crime rate. The most peaceful city in Criozevan by every measure. Welcomes all races and nations. Ipadora Royal Family governs. Underwater palace, bioluminescent gardens."
+summary: "True sanctuary — almost no crime. Welcomes outsiders, refugees, and peaceful travelers. Surface and underwater city. The Ipadora Palace lies beneath the island in a heavily secured cavern."
 ---
 
-Capital of the Ipadora Kingdom. Located on the western side of the Ipadora island. A true sanctuary — almost no crime. Welcomes outsiders, refugees, and peaceful travelers. Has both a surface island city and a vast underwater complex. The Ipadora Palace lies beneath the island in a heavily secured cavern.
+Capital of the Ipadora Kingdom. Located on the western side of the Ipadora island. A true sanctuary — almost no crime. Welcomes outsiders, refugees, and peaceful travelers. Has both a surface island city and a vast underwater complex. The Ipadora Palace lies beneath the island in a heavily secured cavern. Entire capital is heavily patrolled, especially underwater.

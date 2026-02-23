@@ -7,9 +7,9 @@ nativeSpeakers: ["tharnex"]
 currentSpeakers: ["vorryn"]
 status: "Near-Extinct (one fluent speaker)"
 usedIn: []
-script: "Hive-Pattern Script (circular, radiating)"
+script: "Spiral claw-glyph script (etched into carapace plates)"
 relatedCharacters: ["vorryn"]
-summary: "The Tharnex hive language. Now spoken only by Vorryn, the last Tharnex. Primarily pheromone-based with a secondary written notation. The only externally accessible form is the written notation."
+summary: "The Tharnex hive language. Now spoken only by Vorryn, the last Tharnex. Written in spiral claw-glyphs etched into carapace plates."
 ---
 
 **Tharnexi**: clicks and pulses. Written in spiral claw-glyphs etched into carapace plates. Language of the Tharnex — spoken only by Vorryn, the sole known survivor.
