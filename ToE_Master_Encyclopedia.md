@@ -171,7 +171,7 @@ The following races inhabit the world of Eldunary. Each entry details their phys
 ### **Sailor Speak**
 
 - **Type:** Pidgin trade language
-- **Parent Languages:** Katorr (Shar'kai), Common (Folkwynd), loanwords from Shayathi (Iyhago), Pyrrhith (Darkmane), and various coastal dialects
+- **Parent Languages:** Katorr (Shar'kai), Common (Folkwynd), loanwords from Sylvaren (Ipadoras/Shar'kai), Pyrrhith, and various coastal dialects
 - **Primary Users:** Sailors, dock workers, coastal merchants, pirates, port city populations
 - **Geographic Spread:** All coastal settlements and trade ports on Criozevan; dominant at sea
 - **Script:** None. Entirely oral. Occasionally written phonetically using Common script by literate speakers.
@@ -188,16 +188,16 @@ Sailor Speak emerged from the need for fast, reliable communication across ships
 
 ### **Pyrrhith**
 
-- **Type:** Living language (endangered)
-- **Speaker Population:** Darkmane Elves — concentrated in surviving Darkmane settlements; diaspora communities in Grousea, Adlens, Vlurg
-- **Script:** Pyrrhith Runic — angular, carved notation designed for stone and bark. Ink versions exist but are considered informal.
-- **Relation to Other Languages:** No known structural relatives. Pre-dates the Crimson Convergence. Its phonological roots diverged before the Convergence and was not meaningfully influenced by it.
+- **Type:** Living language (isolated)
+- **Speaker Population:** The people of Zhuiburn — spoken by no other community on the continent
+- **Script:** A written form exists but is held exclusively within Zhuiburn and is not shared with outsiders.
+- **Relation to Other Languages:** No known structural relatives. Origins unknown. Does not share meaningful structural ancestry with Common, Sylvaren, Tharnic, or any other documented language in Criozevan.
 
-Pyrrhith is built on a consonant foundation — five dominant sounds (*vr, thk, al, dun, ss*) recur at a disproportionate rate across its vocabulary, giving it a characteristic texture that most non-speakers describe as grinding or low. Vowels are short and unstressed; they serve as connective tissue between consonant clusters rather than as stressed syllables. Prosody is falling — sentences begin loud and high, then drop. Questions do not rise; they fall harder.
+Pyrrhith is built almost entirely from fricatives and plosives. Vowels are short and unstressed; they exist primarily to prevent adjacent consonant clusters from becoming unpronounceable, not to carry meaning. Prosody is flat and low — speakers do not raise their voices for emphasis. Loudness is considered a form of incoherence. Silence carries the weight that other languages place on stress.
 
-**Written Form:** Pyrrhith Runic was designed to be cut, not drawn — the angular forms are an artifact of carving. Ink writing using Pyrrhith Runic is technically correct but considered informal or impermanent by speakers.
+**Written Form:** A written form exists within Zhuiburn but is not accessible to outsiders. No verified written record has ever been produced by a non-speaker.
 
-**Status:** Endangered. The internal collapse of the Darkmane Realm following the Betrayal of Vaelith the Hollow (937–940 ACC) displaced much of the population and disrupted transmission of the language to younger generations. Diaspora communities maintain partial use, but full fluency is declining. No formal institutional support exists for preservation.
+**Status:** Active within Zhuiburn. Not taught to outsiders. No translation resource exists. Contact with Pyrrhith speakers is rare and typically not voluntary on their part.
 
 ---
 

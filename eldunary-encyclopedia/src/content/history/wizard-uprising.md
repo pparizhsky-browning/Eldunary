@@ -6,6 +6,7 @@ aliases: ["Wizard Uprising"]
 era: "Recent History"
 date: "c. 880–890 ACC"
 dateSortKey: 880
+importance: 2
 accentColor: "#8B0000"
 keyCharacters: ["velho", "anton", "veles", "selvarin", "sunlee"]
 relatedKingdoms: ["republic-of-oredsy"]

@@ -22,7 +22,7 @@ summary: "Isolated northeastern technocracy. Magic banned, replaced by holotech.
 ## Capital & Settlements
 
 - Ovodon (Capital): A large city on the northeastern peninsula, dominated by a towering castle dubbed the 'Gilded Cradle,' where the Goldhelm royal family resides. Not friendly to outsiders.
-- Ibeson: Scientific capital of Criozevan. Hosts many public and private labs. Built above and around the massive crater created by the Equinox of Power (795 ACC) — the three-way battle of the Masters that ended the Golden War. The Goldhelm government constructed their most sensitive underground research laboratories in the caverns beneath the crater.
+- Ibeson: Scientific capital of Criozevan. Hosts many public and private labs. Built above and around the massive crater created by the Equinox of Power (795 ACC) — the three-way battle of the Masters that ended the Great War. The Goldhelm government constructed their most sensitive underground research laboratories in the caverns beneath the crater.
 
 ## Geography & Environment
 
@@ -63,6 +63,6 @@ Highly elitist. Citizens are obsessed with rising through the social hierarchy. 
 
 ## Notable History
 
-**The Golden War (795–800 ACC):** A civil war fought between the North and South of the kingdom. The southern territories revolted demanding political autonomy. The North was backed by the Republic of Frada. The war ended with the Equinox of Power — the three-way battle of the Masters that left an enormous crater in the Ibeson region. Ibeson was later built above it.
+**The Great War (795–800 ACC):** A civil war fought between the North and South of the kingdom. Also known as the Golden War. The southern territories revolted demanding political autonomy. The North was backed by the Republic of Frada. The war ended with the Equinox of Power — the three-way battle of the Masters that left an enormous crater in the Ibeson region. Ibeson was later built above it.
 
 **The True Founding:** The anti-magic ban and the development of holotech are publicly attributed to Goldhelm cultural superiority and the rejection of primitive practices. The actual reason — that the founding royal family carried the Devourer ability and designed the entire kingdom to prevent harm to magic users in their proximity — is sealed in the oldest section of the Gilded Cradle archive. The archive door bears an inscription in old Solaran that has never been correctly translated by modern scholars: *“We left so that you would live.”* See: The Goldhelm Exodus (History).

@@ -6,6 +6,7 @@ aliases: []
 era: "Early Post-Convergence"
 date: "712 ACC"
 dateSortKey: 712
+importance: 3
 accentColor: "#8B0000"
 keyCharacters: ["crimson-knight"]
 relatedKingdoms: ["kingdom-of-vacron"]

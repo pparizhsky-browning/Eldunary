@@ -6,6 +6,7 @@ aliases: []
 era: "Recent History"
 date: "820–847 ACC"
 dateSortKey: 820
+importance: 2
 accentColor: "#2D5A27"
 keyCharacters: ["vorryn", "vorvax", "lucifer", "azaraith", "varnokh", "vulkran"]
 relatedKingdoms: ["kingdom-of-fodon"]

@@ -6,6 +6,7 @@ aliases: ["Wrofast Noble Killing"]
 era: "Recent History"
 date: "993 ACC"
 dateSortKey: 993
+importance: 3
 accentColor: "#708090"
 keyCharacters: ["nebbio"]
 relatedKingdoms: ["republic-of-oredsy"]

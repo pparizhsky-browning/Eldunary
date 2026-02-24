@@ -6,6 +6,7 @@ aliases: []
 era: "Founding Era"
 date: "Year 0"
 dateSortKey: 0
+importance: 1
 accentColor: "#8B0000"
 keyCharacters: ["golem-king", "fluffy"]
 relatedEvents: []

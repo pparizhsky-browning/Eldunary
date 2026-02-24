@@ -62,7 +62,7 @@ Exports masterwork blades, armour, and steel. Markets operate under civic guild 
 
 ## Notable History
 
-**Selvarin and the Golden War (795–800 ACC):** Before the Golden War, the territory that is now the Republic of Oredsy was a collection of small, independent entities with no unified government. Selvarin joined the Northern Goldhelm faction during the war — not out of political conviction, but because the Goldhelm Kingdom had been helping him forge a sword, and he honored that working relationship. When the war ended with the Equinox of Power, Selvarin founded the Republic of Oredsy by uniting those formerly independent territories under a single flag and the principles of the Free Assembly.
+**Selvarin and the Great War (795–800 ACC):** Before the Great War (also known as the Golden War), the territory that is now the Republic of Oredsy was a collection of small, independent entities with no unified government. Selvarin joined the Northern Goldhelm faction during the war — not out of political conviction, but because the Goldhelm Kingdom had been helping him forge a sword, and he honored that working relationship. When the war ended with the Equinox of Power, Selvarin founded the Republic of Oredsy by uniting those formerly independent territories under a single flag and the principles of the Free Assembly.
 
 ## Language — Tharnic
 

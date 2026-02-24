@@ -17,6 +17,10 @@ const sorted = events.sort((a, b) => {
         <span class="listing-type">Echoes of the Past</span>
         <h1 class="listing-title">History & Events</h1>
         <p class="listing-desc">From the tragedy of the First Great War to the shifting tides of the Golden War—explore the events that scarred the world.</p>
+        <a href="/timeline" class="timeline-btn">
+          <span class="timeline-btn-icon">—</span>
+          View Chronological Timeline
+        </a>
       </div>
       <div class="header-accent" style="background: #C4895C; box-shadow: 0 0 15px #C4895C;"></div>
     </header>
@@ -60,6 +64,31 @@ const sorted = events.sort((a, b) => {
     font-size: 1.25rem;
     line-height: 1.6;
     font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+  .timeline-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 1.25rem;
+    font-size: 0.78rem;
+    font-family: var(--font-cinzel), serif;
+    letter-spacing: 0.1em;
+    color: #C4895C;
+    border: 1px solid rgba(196,137,92,0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    background: rgba(196,137,92,0.06);
+    transition: all 0.2s ease;
+  }
+  .timeline-btn:hover {
+    background: rgba(196,137,92,0.14);
+    border-color: rgba(196,137,92,0.6);
+    color: #e0a870;
+  }
+  .timeline-btn-icon {
+    font-size: 1rem;
+    opacity: 0.6;
   }
   .header-accent {
     position: absolute;

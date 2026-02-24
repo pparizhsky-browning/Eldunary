@@ -44,7 +44,7 @@ Elite force of Spellers trained in sacred speech-based magic called Kōtoba. Wor
 
 ## Notable History
 
-**Veles and the Golden War (795–800 ACC):** Veles was born in Iyhago and had long been respected across the continent before the Golden War. During the war, he sided with the South Goldhelm faction because he genuinely believed their fight for political autonomy was a just cause. When the war ended with the Equinox of Power, the people of Iyhago voted him to the throne in recognition of his role in the conflict. He expanded the kingdom’s territory to its current borders over the following decades.
+**Veles and the Great War (795–800 ACC):** Veles was born in Iyhago and had long been respected across the continent before the Great War (also known as the Golden War). During the war, he sided with the South Goldhelm faction because he genuinely believed their fight for political autonomy was a just cause. When the war ended with the Equinox of Power, the people of Iyhago voted him to the throne in recognition of his role in the conflict. He expanded the kingdom’s territory to its current borders over the following decades.
  Built on tone, breath, posture, and silence as much as vocabulary. Key terms: sha (balance), thi (form), vala (voice), yunai (silence), eshar (erasure). Kōtoba is a refined form of Shayathi used only by the Resonant Guard. Unauthorized use of advanced Shayathi is forbidden and spiritually dangerous.
 ## Pre-Kingdom History — The Vehalo Territories
 
@@ -52,6 +52,6 @@ Before Veles took power and established the Kingdom of Iyhago, the territory tha
 
 The Vehalo Territories were not a kingdom or a formal state — they operated as a loose semi-autonomous region with no centralized government and no territorial ambitions. They were known primarily as a port of spiritual significance and a minor trade point.
 
-Veles was born in Iyhago when it was still part of the Vehalo Territories. He had already become a widely recognized and respected figure on the continent before the Golden War. When the war ended and Veles returned home, the people of the Vehalo Territories voted him to leadership. He renamed the settlement Iyhago Prime, established the Kingdom of Iyhago, and began a quiet, steady expansion of territory over the following decades that brought the kingdom to its current borders.
+Veles was born in Iyhago when it was still part of the Vehalo Territories. He had already become a widely recognized and respected figure on the continent before the Great War. When the war ended and Veles returned home, the people of the Vehalo Territories voted him to leadership. He renamed the settlement Iyhago Prime, established the Kingdom of Iyhago, and began a quiet, steady expansion of territory over the following decades that brought the kingdom to its current borders.
 
 The **Eshar-Thi** — a union of Uyrand and Andport that had been conquered by Frada in 730 ACC — was eventually absorbed into Iyhago's expanding territory as the Azure Paladin's grip on the region dissolved following his departure from Frada. The exact circumstances and date of this absorption are not well-documented.

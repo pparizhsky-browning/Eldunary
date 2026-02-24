@@ -1,5 +1,6 @@
 ---
 import registry from '@generated/entity-registry.json';
+import Logo from './Logo.astro';
 
 const navLinks = [
   { label: 'Races', href: '/races' },
@@ -29,8 +30,8 @@ const currentPath = Astro.url.pathname;
 <header class="navbar" id="site-navbar" transition:persist>
   <nav class="navbar-inner">
     <a href="/" class="navbar-brand">
-      <span class="brand-icon">⚔</span>
-      <span class="brand-text">Eldunary</span>
+      <Logo class="brand-logo" />
+      <span class="brand-text">ldunary</span>
     </a>
 
     <ul class="navbar-links">
@@ -86,6 +87,14 @@ const currentPath = Astro.url.pathname;
       </button>
     </div>
 
+    <!-- Mobile-only search trigger (left of hamburger) -->
+    <button class="mobile-search-btn" id="mobile-search-btn" aria-label="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </button>
+
     <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
@@ -121,8 +130,9 @@ const currentPath = Astro.url.pathname;
   const closeBtn   = document.getElementById('navbar-search-close') as HTMLButtonElement;
   const triggerBtn = document.getElementById('search-trigger') as HTMLButtonElement;
   const suggBox    = document.getElementById('navbar-search-suggestions') as HTMLElement;
-  const mobileToggle = document.getElementById('mobile-menu-toggle');
-  const mobileMenu   = document.getElementById('mobile-menu');
+  const mobileToggle      = document.getElementById('mobile-menu-toggle');
+  const mobileMenu        = document.getElementById('mobile-menu');
+  const mobileTriggerBtn  = document.getElementById('mobile-search-btn') as HTMLButtonElement;
 
   mobileToggle?.addEventListener('click', () => mobileMenu?.classList.toggle('open'));
 
@@ -132,13 +142,16 @@ const currentPath = Astro.url.pathname;
   const actionsEl = navbar.querySelector('.navbar-actions') as HTMLElement;
 
   function updateSearchBounds() {
-    if (!navInner || !brandEl || !actionsEl) return;
+    if (!navInner || !brandEl) return;
+    const isMobile = window.innerWidth <= 900;
+    // On mobile, CSS vars are set via stylesheet — no JS needed
+    if (isMobile) return;
+
+    if (!actionsEl || !triggerBtn) return;
     const navRect     = navInner.getBoundingClientRect();
     const brandRect   = brandEl.getBoundingClientRect();
     const triggerRect = triggerBtn.getBoundingClientRect();
-    // left: gap after the brand's right edge, relative to navInner left edge
     const left  = Math.round(brandRect.right  - navRect.left + 14);
-    // right: align overlay right edge with trigger button right edge
     const right = Math.max(4, Math.round(navRect.right - triggerRect.right - 4));
     navInner.style.setProperty('--search-expand-left',  left  + 'px');
     navInner.style.setProperty('--search-expand-right', right + 'px');
@@ -189,7 +202,11 @@ const currentPath = Astro.url.pathname;
     hideSuggestions();
   }
 
-  triggerBtn.addEventListener('click', openSearch);
+  triggerBtn?.addEventListener('click', openSearch);
+  mobileTriggerBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.remove('open'); // close hamburger menu if open
+    openSearch();
+  });
   closeBtn.addEventListener('click', closeSearch);
 
   document.addEventListener('keydown', (e: KeyboardEvent) => {
@@ -300,7 +317,8 @@ const currentPath = Astro.url.pathname;
 
   document.addEventListener('click', (e: MouseEvent) => {
     const target = e.target as Node;
-    const insideSearch = expandEl.contains(target) || suggBox.contains(target) || triggerBtn.contains(target);
+    const insideSearch = expandEl.contains(target) || suggBox.contains(target)
+      || triggerBtn?.contains(target) || mobileTriggerBtn?.contains(target);
     if (!insideSearch) {
       closeSearch();
     } else if (!suggBox.contains(target) && target !== inputEl) {
@@ -333,7 +351,7 @@ const currentPath = Astro.url.pathname;
   .navbar-brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.15rem;
     text-decoration: none;
     color: #fff;
     font-family: var(--font-cinzel), serif;
@@ -349,9 +367,10 @@ const currentPath = Astro.url.pathname;
     color: var(--accent);
     text-shadow: 0 0 15px rgba(196, 155, 92, 0.5);
   }
-  .brand-icon {
-    font-size: 1.5rem;
-    filter: drop-shadow(0 0 5px var(--accent));
+  .brand-logo {
+    height: 2rem;
+    width: auto;
+    color: inherit;
   }
   .navbar-links {
     display: flex;
@@ -467,7 +486,7 @@ const currentPath = Astro.url.pathname;
     align-items: center;
     gap: 0.75rem;
     padding: 0 1rem 0 1.1rem;
-    background: rgba(14, 14, 18, 0.97);
+    background: #0e0e12;
     border: 1px solid rgba(196,155,92,0.25);
     border-radius: 7px;
     /* start clipped from the right (button's position) */
@@ -578,13 +597,76 @@ const currentPath = Astro.url.pathname;
   }
   .mobile-nav-link:hover { color: var(--accent); }
 
+  /* Mobile-only search trigger button */
+  .mobile-search-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    color: #888;
+    cursor: pointer;
+    padding: 6px 8px;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+  }
+  .mobile-search-btn:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(196,155,92,0.45);
+    color: var(--accent, #C49B5C);
+  }
+
   /* ── Breakpoints ─────────────────────────────────────────────────────── */
   @media (max-width: 1200px) { .navbar-links { display: none !important; } }
   @media (max-width: 900px) {
+    /* Push brand to the left, cluster all buttons on the right */
+    .navbar-brand { margin-right: auto; }
+    .mobile-menu-btn { margin-left: 0; }
+
+    /* brand-text is transitionable — collapses after expand finishes */
+    .brand-text {
+      display: inline-block;
+      max-width: 200px;
+      overflow: hidden;
+      white-space: nowrap;
+      transition: max-width 0.2s ease 0.34s,
+                  opacity   0.2s ease 0.34s;
+    }
+
     .navbar-actions .nav-search-btn { display: none; }
     .mobile-menu-btn { display: flex; }
-    .navbar-search-expand { display: none !important; }
-    .search-suggestions { display: none !important; }
+    .mobile-search-btn { display: flex; }
+
+    /* Set expand position via CSS so it works without JS measurement */
+    .navbar-inner {
+      --search-expand-left: 52px;
+      --search-expand-right: 10px;
+    }
+
+    /* Don't hide suggestions on mobile — just constrain height */
+    .search-suggestions { max-height: 55vh; }
+
+    /* Hide buttons when search is active */
+    .navbar.search-active .mobile-menu-btn   { opacity: 0; pointer-events: none; visibility: hidden; }
+    .navbar.search-active .mobile-search-btn { opacity: 0; pointer-events: none; visibility: hidden; }
+    /* navbar-actions already fades via the existing desktop rule */
+
+    /* After expand finishes: collapse brand-text, then slide E into center of left strip */
+    .navbar.search-active .brand-text {
+      max-width: 0;
+      opacity: 0;
+    }
+    .navbar.search-active .navbar-brand {
+      /* Once brand-text is gone, translate the logo to the center of the left strip.
+         strip width = --search-expand-left (52px), padding = 2rem (32px).
+         Logo is ~20px wide, sits at x≈32px. Center of strip = 26px.
+         So shift left by ~6px, with a delay matching the text collapse. */
+      transform: translateX(-13px);
+      transition: transform 0.22s ease 0.44s;
+    }
+    .navbar-brand {
+      transition: transform 0.22s ease;
+    }
   }
 </style>
 

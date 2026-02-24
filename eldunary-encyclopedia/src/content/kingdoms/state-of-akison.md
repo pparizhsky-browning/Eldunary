@@ -44,7 +44,7 @@ Neruvalis (Mainland): The 'Disappearing City' — built on a slope into the wate
 
 ## Notable History
 
-**The Golden War and Renaming (795–800 ACC):** The State of Akison was formerly known as the **Republic of Shimaguni**. Shimaguni backed the South Goldhelm faction during the Golden War, believing in the southern territories' cause for autonomy. When the war ended with the Equinox of Power, the South had been defeated. The people of Shimaguni elected **Sunlee** as its new head. He renamed the nation the **State of Akison** and established the **Iron Path** doctrine — the governing philosophy of discipline, clarity, and personal strength that defines the kingdom today.
+**The Great War and Renaming (795–800 ACC):** The State of Akison was formerly known as the **Republic of Shimaguni**. Shimaguni backed the South Goldhelm faction during the Great War (also known as the Golden War), believing in the southern territories' cause for autonomy. When the war ended with the Equinox of Power, the South had been defeated. The people of Shimaguni elected **Sunlee** as its new head. He renamed the nation the **State of Akison** and established the **Iron Path** doctrine — the governing philosophy of discipline, clarity, and personal strength that defines the kingdom today.
 
  (wild jungles, brackish rivers, towering canopies, and hidden labs) and a mountain-and-blossom island (political and cultural heart of the kingdom).
 

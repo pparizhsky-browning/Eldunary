@@ -6,6 +6,7 @@ aliases: []
 era: "Recent History"
 date: "c. 900 ACC"
 dateSortKey: 900
+importance: 2
 accentColor: "#1A6DC0"
 keyCharacters: []
 relatedKingdoms: ["ipadora-kingdom", "kingdom-of-fodon", "republic-of-frada"]

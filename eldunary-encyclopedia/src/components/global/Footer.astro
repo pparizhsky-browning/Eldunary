@@ -1,11 +1,14 @@
 ---
+import Logo from './Logo.astro';
 const currentYear = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <span class="footer-logo">⚔ Tales of Eldunary</span>
+      <span class="footer-logo">
+        Tales of <Logo class="footer-logo-img" height="1.1rem" />ldunary
+      </span>
       <p class="footer-tagline">The complete encyclopedia of Criozevan.</p>
     </div>
     <nav class="footer-nav">
@@ -63,6 +66,11 @@ const currentYear = new Date().getFullYear();
     color: var(--accent);
     display: block;
     margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+  .footer-logo-img {
+    margin: 0 0.05em;
+    color: inherit;
   }
   .footer-tagline {
     color: var(--text-muted);

@@ -6,6 +6,7 @@ aliases: []
 era: "Various (Pre-Convergence to 957 ACC)"
 date: "Pre-Convergence – 957 ACC"
 dateSortKey: 960
+importance: 3
 accentColor: "#FFFFFF"
 keyCharacters: ["fluffy", "crimson-knight", "golem-king"]
 relatedKingdoms: []
@@ -38,7 +39,7 @@ The elves did not stop. They had no way to know what they had seen. The account 
 
 ## The Third Appearance — The Equinox of Power *(795 ACC)*
 
-The most documented of Fluffy's appearances occurred during the three-way battle of the Masters that ended the Golden War. The Equinox of Power produced so much concentrated magical energy in a single location — three beings of near-equal power fighting at full force, half a million soldiers dying around them — that the ambient magical field in the region was fundamentally destabilized for days afterward.
+The most documented of Fluffy's appearances occurred during the three-way battle of the Masters that ended the Great War. The Equinox of Power produced so much concentrated magical energy in a single location — three beings of near-equal power fighting at full force, half a million soldiers dying around them — that the ambient magical field in the region was fundamentally destabilized for days afterward.
 
 In the final minutes of the battle, as the three Masters reached their stalemate and the destruction around them became total, multiple independent witnesses across the battlefield reported the same thing: a figure in an enormous fleece, at a distance, not on the battlefield but visible from it. It did not participate. It did not speak. Those who saw it from farther away described a shape at the edge of the carnage. Those who saw it from closer — including, reportedly, the three Masters themselves, though none has discussed it publicly — described the sense of being seen in return.
 

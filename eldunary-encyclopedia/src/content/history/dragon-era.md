@@ -6,6 +6,7 @@ aliases: ["Pre-Convergence Era"]
 era: "Pre-Convergence"
 date: "Pre-Convergence"
 dateSortKey: -10000
+importance: 1
 accentColor: "#4A0E0E"
 keyCharacters: ["zunarorth", "golem-king", "fluffy"]
 relatedEvents: ["crimson-convergence"]

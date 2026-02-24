@@ -8,7 +8,7 @@ accentColor: "#4A2D6B"
 currentHead: "vaelith-the-hollow"
 notableMembers: ["vaelith-the-hollow", "sael"]
 relatedCities: ["grousea", "wrediff", "adlens"]
-relatedEvents: []
+relatedEvents: ["fall-of-darkmane-kingdom"]
 summary: "Once unified the dark elf realm under their rule. The treachery of Vaelith the Hollow — who sold his own brother Thalrith to a Goldhelm scientist in 937 ACC — fractured the family and triggered the collapse of the Darkmane Realm into warring tribes. Notable figures: Vaelith the Hollow (former head, 896–938 ACC) and Sael (warrior leader, granddaughter of Vaelith, seeks to reunify the Darkmane realm)."
 ---
 

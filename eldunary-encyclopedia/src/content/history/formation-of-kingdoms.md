@@ -6,6 +6,7 @@ aliases: []
 era: "Early Post-Convergence"
 date: "c. 500–700 ACC"
 dateSortKey: 500
+importance: 2
 accentColor: "#8B6914"
 keyCharacters: []
 relatedKingdoms: ["goldhelm-kingdom"]

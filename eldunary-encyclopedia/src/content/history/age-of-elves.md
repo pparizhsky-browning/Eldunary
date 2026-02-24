@@ -6,6 +6,7 @@ aliases: []
 era: "Pre-Convergence"
 date: "Pre-Convergence"
 dateSortKey: -5000
+importance: 2
 accentColor: "#2E8B57"
 keyCharacters: ["golem-king"]
 relatedKingdoms: ["warring-darkmane-realm"]

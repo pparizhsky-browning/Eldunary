@@ -6,6 +6,7 @@ aliases: []
 era: "Post-Convergence"
 date: "c. 1–100 ACC"
 dateSortKey: 50
+importance: 2
 accentColor: "#C9A84C"
 keyCharacters: ["king-aldric", "princess-seraphina"]
 relatedKingdoms: ["goldhelm-kingdom"]

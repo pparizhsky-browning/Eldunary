@@ -6,6 +6,7 @@ aliases: []
 era: "Recent History"
 date: "738–780 ACC"
 dateSortKey: 738
+importance: 3
 accentColor: "#9370DB"
 keyCharacters: []
 relatedKingdoms: ["republic-of-oredsy", "kingdom-of-iyhago", "state-of-akison"]

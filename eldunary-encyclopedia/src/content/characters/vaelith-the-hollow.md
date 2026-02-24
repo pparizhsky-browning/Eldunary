@@ -11,7 +11,7 @@ magiType: null
 accentColor: "#4A2D6B"
 location: "Unknown"
 relatedCharacters: ["sael"]
-relatedEvents: []
+relatedEvents: ["fall-of-darkmane-kingdom"]
 summary: "Former head of the Darkmane Family (896–938 ACC). Sael's grandfather. Sold his own brother Thalrith to a Goldhelm scientist in 937 ACC, creating the first of the Fallen. His betrayal fractured the Darkmane Family and collapsed the unified Darkmane Realm into the warring tribes that persist today."
 ---
 

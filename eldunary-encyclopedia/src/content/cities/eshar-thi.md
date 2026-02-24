@@ -46,7 +46,7 @@ The Eshar-Thi conquest was conducted under the Azure Paladin's direct authority.
 
 The Republic of Frada retained the territory in name for some period afterward, but without the Azure Paladin's driving ambition, the republic's attention contracted back toward its own borders. The Eshar-Thi settlements — geographically distant and culturally distinct from Frada's core — were not held with the same investment they had been under conquest.
 
-As the **Kingdom of Iyhago** expanded its territory under Veles in the decades following the Golden War (795 ACC), the settlements previously known as Eshar-Thi were absorbed into Iyhago's governance through negotiation. They have since been known simply as **Uyrand** and **Andport** — named for what they always were, without reference to the union that once connected them.
+As the **Kingdom of Iyhago** expanded its territory under Veles in the decades following the Great War (795 ACC), the settlements previously known as Eshar-Thi were absorbed into Iyhago's governance through negotiation. They have since been known simply as **Uyrand** and **Andport** — named for what they always were, without reference to the union that once connected them.
 
 ## What Remained
 
