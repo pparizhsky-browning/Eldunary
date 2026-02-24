@@ -646,6 +646,9 @@ const currentPath = Astro.url.pathname;
     /* Don't hide suggestions on mobile — just constrain height */
     .search-suggestions { max-height: 55vh; }
 
+    /* Prevent iOS Safari from zooming on input focus (requires font-size >= 16px) */
+    .navbar-search-input { font-size: 16px; }
+
     /* Hide buttons when search is active */
     .navbar.search-active .mobile-menu-btn   { opacity: 0; pointer-events: none; visibility: hidden; }
     .navbar.search-active .mobile-search-btn { opacity: 0; pointer-events: none; visibility: hidden; }
