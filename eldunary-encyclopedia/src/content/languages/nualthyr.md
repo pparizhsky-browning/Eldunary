@@ -9,6 +9,8 @@ status: "Active (regional)"
 usedIn: ["grousea", "vlurg", "wrediff", "adlens"]
 script: "Oral (no external script confirmed)"
 relatedCharacters: ["vaelith-the-hollow"]
+relatedKingdoms: ["warring-darkmane-realm"]
+relatedRaces: ["darkmane-elves"]
 summary: "The Darkmane Elf language. Clan-dialects with tonal variance. Spoken secretly among elves who do not wish to be understood."
 ---
 

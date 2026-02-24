@@ -30,6 +30,10 @@ const relatedEntities = [
   ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
   ...((d.notableMembers ?? d.notable_members) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
   ...((d.related_kingdoms ?? d.relatedKingdoms ?? _relKingdom)).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.related_events ?? d.relatedEvents) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'history' })),
+  ...((d.related_organizations ?? d.relatedOrganizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ...((d.relatedRaces ?? d.related_races) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
 ];
 ---
 <EntityLayout

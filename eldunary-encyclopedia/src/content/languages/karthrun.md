@@ -9,6 +9,8 @@ status: "Active (specialized)"
 usedIn: ["suudon", "cridbury", "klosdon"]
 script: "Rune-Script (the inscribed form IS the language)"
 relatedCharacters: ["golem-king"]
+relatedKingdoms: ["nikolem-kingdom"]
+relatedRaces: ["golems"]
 summary: "The Golem language. Inscribed in chiseled glyph-code."
 ---
 

@@ -11,7 +11,8 @@ magiType: "Meta"
 accentColor: "#FFFFFF"
 location: "Unknown"
 relatedCharacters: ["crimson-knight", "golem-king", "zunarorth"]
-relatedEvents: ["dragon-era", "crimson-convergence", "equinox-of-power", "five-appearances-of-fluffy"]
+relatedEvents: ["dragon-era", "crimson-convergence", "equinox-of-power", "five-appearances-of-fluffy", "ipadora-land-war"]
+relatedMagicTypes: ["metas"]
 summary: "Power Rank #1. The most powerful known being in Eldunary. Primordial entity — predates the Crimson Convergence by thousands of years. Regarded as the god of all magic users. Publicly sighted exactly five times in the thousand years since the Convergence. Non-interventionist by consistent practice — though the fourth appearance (Ipadora Atrocities, 901 ACC) remains the deepest source of controversy among magic users."
 ---
 

@@ -6,6 +6,7 @@ category: "Dimension / Dark Magic"
 accentColor: "#1a0000"
 relatedCharacters: ["berserk"]
 relatedCities: ["anehull"]
+relatedKingdoms: ["kingdom-of-vacron"]
 relatedOrganizations: []
 summary: "Hell is a separate dimension — not a metaphor or theological construct, but a real place physically distinct from Eldunary that can be accessed through specific dark magical practices. Hell Malefici (approximately 2% of Dark Malefici) specialize in opening connections to this dimension for summoning purposes. What governs it and what its inhabitants want are unknown. Berserk (#2 Arashi) made a direct pact with a being from this dimension."
 ---

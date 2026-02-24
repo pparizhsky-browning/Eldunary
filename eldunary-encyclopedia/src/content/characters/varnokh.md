@@ -14,7 +14,8 @@ location: "fodon"
 weapons: ["Scythe-axe linked to necromantic energy"]
 abilities: ["Necromantic energy", "Death rituals", "Executions"]
 relatedCharacters: ["lucifer", "azaraith", "vorvax", "vulkran"]
-relatedEvents: []
+relatedEvents: ["war-of-fodon"]
+relatedMagicTypes: ["malefici"]
 summary: "Former Death District leader of Fodon. A towering armored construct powered by a magenta arcane core. Ruled without emotion through death rituals and executions. His core was destroyed by Lucifer (#6 Arashi). His body was never recovered."
 ---
 

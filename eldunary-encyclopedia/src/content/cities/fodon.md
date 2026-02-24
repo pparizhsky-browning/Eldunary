@@ -19,6 +19,7 @@ organizationsPresent: ["arashi"]
 charactersPresent: ["vorvax", "azaraith", "varnokh", "vulkran", "lucifer"]
 relatedEvents: ["war-of-fodon"]
 mapCoordinates: [165, 280]
+relatedLanguages: ["common", "tharnexi"]
 summary: "Capital of the Kingdom of Fodon. Second largest city in Criozevan. Four war-torn districts unified by Lucifer killing all district leaders. Arid desert next to the sea. Extremely diverse."
 ---
 

@@ -12,6 +12,7 @@ accentColor: "#C9A84C"
 location: "ovodon"
 relatedCharacters: ["king-aldric", "elric", "isolde"]
 relatedEvents: ["golden-war"]
+relatedMagicTypes: ["devourers"]
 summary: "Princess of the Goldhelm Kingdom. Daughter of King Aldric. Heir to the Goldhelm throne. Carries the full re-expression of the Goldhelm bloodline's Devourer ability — the first in centuries. She is not aware of this."
 ---
 

@@ -14,7 +14,7 @@ location: "fodon"
 weapons: ["Shifting armor that sensed incoming danger"]
 abilities: ["Shifting armor with danger detection", "Self-destruct and regrow (armor)"]
 relatedCharacters: ["vorryn", "lucifer", "azaraith", "varnokh", "vulkran"]
-relatedEvents: []
+relatedEvents: ["war-of-fodon"]
 summary: "Former Bug District leader of Fodon. Rumored to be the last matriarch of the Tharnex. Ruled from the shadows with shifting armor that sensed incoming danger. Killed by Lucifer (#6 Arashi) during the fall of the Fodon districts. Once she was killed, the rest of the Tharnex race perished."
 ---
 

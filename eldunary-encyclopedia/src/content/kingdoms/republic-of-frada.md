@@ -10,9 +10,11 @@ biome: "River Valley, Plains"
 governmentType: "The Bronze Chain (Senate + Command Council)"
 accentColor: "#FF7F00"
 accentColorLight: "#FFA040"
-relatedOrganizations: []
-relatedEvents: ["war-of-fodon"]
+relatedOrganizations: ["magic-societies"]
+relatedEvents: ["war-of-fodon", "ipadora-land-war"]
 relatedCharacters: []
+relatedLanguages: ["common"]
+relatedMagicTypes: ["holotech"]
 mapCoordinates: [200, 480]
 summary: "Military republic producing holotech weapons. Universal service, pragmatic governance. Only trade partner of the Goldhelm Kingdom."
 ---

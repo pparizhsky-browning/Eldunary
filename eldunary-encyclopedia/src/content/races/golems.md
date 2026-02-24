@@ -19,6 +19,7 @@ notableFigures:
 relatedKingdoms: ["nikolem-kingdom"]
 relatedOrganizations: []
 relatedEvents: ["crimson-convergence"]
+relatedMagicTypes: ["runestones"]
 relatedCities: ["suudon", "cridbury", "klosdon", "phaaross", "adlens"]
 summary: "Immortal stone beings created by the Golem King. Live in Nikolem Kingdom. High rune magic affinity."
 ---

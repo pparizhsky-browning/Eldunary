@@ -35,7 +35,12 @@ if (d.magiType) quickFacts['Magic Type'] = d.magiType;
 
 const relatedEntities = [
   ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
-  ...((d.related_organizations ?? d.relatedOrganizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ...((d.related_organizations ?? d.relatedOrganizations ?? (d.organization ? [d.organization] : [])) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ...((d.related_kingdoms ?? d.relatedKingdoms ?? (d.kingdom ? [d.kingdom] : [])) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+  ...((d.related_events ?? d.relatedEvents) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'history' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.relatedFamily ?? (d.family ? [d.family] : [])) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'family' })),
+  ...((d.relatedMagicTypes ?? d.related_magic_types) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'magic' })),
 ];
 ---
 <EntityLayout

@@ -8,7 +8,8 @@ accentColor: "#C9A84C"
 currentHead: "king-aldric"
 notableMembers: ["king-aldric", "princess-seraphina"]
 relatedCities: ["ovodon", "ibeson"]
-relatedEvents: ["golden-war"]
+relatedEvents: ["golden-war", "goldhelm-exodus"]
+relatedRaces: ["goldhelms"]
 summary: "The royal and only family of the Goldhelm race. All Goldhelms descend from this line. King Aldric is head and ruler. Princess Seraphina is the heir."
 ---
 

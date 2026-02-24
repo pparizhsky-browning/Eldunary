@@ -25,8 +25,8 @@ export const SHAPE_CONFIG: Record<string, ShapeConfig> = {
 };
 
 /** Base symbol size in square-pixels for the D3 symbol generator */
-export const BASE_SYMBOL_SIZE = 72;
-export const HIGHLIGHT_SYMBOL_SIZE = 144;
+export const BASE_SYMBOL_SIZE = 96;
+export const HIGHLIGHT_SYMBOL_SIZE = 180;
 
 /**
  * Returns an SVG path `d` string for a custom shield shape

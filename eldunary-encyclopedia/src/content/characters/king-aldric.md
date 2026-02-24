@@ -10,8 +10,8 @@ family: "goldhelm-family"
 magiType: null
 accentColor: "#C9A84C"
 location: "ovodon"
-relatedCharacters: ["princess-seraphina"]
-relatedEvents: ["golden-war"]
+relatedCharacters: ["princess-seraphina", "elric", "isolde"]
+relatedEvents: ["golden-war", "goldhelm-exodus"]
 summary: "King of the Goldhelm Kingdom. Resides in Ovodon. Head of the Goldhelm Family. Ideology: Technocratic Isolationism. Governs with a council of advisors from each sector."
 ---
 

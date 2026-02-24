@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [248, 190]
+relatedLanguages: ["karthrun", "common"]
 summary: "Peaceful Golem forest town. Few rules, few visitors. Famous for strange glowing plants at night."
 ---
 

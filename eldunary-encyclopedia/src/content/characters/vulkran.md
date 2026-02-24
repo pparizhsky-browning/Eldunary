@@ -14,7 +14,9 @@ location: "plodrough"
 weapons: ["Lava-blade", "Obsidian shield"]
 abilities: ["Volcanic power", "Molten steel armor that could melt sand into glass", "Burning eye-core"]
 relatedCharacters: ["lucifer", "azaraith", "varnokh", "vorvax"]
-relatedEvents: []
+relatedEvents: ["war-of-fodon"]
+relatedCities: ["zhuiburn"]
+relatedMagicTypes: ["malefici"]
 summary: "Former Fire District leader of Fodon. A knight of molten steel and volcanic power. Slain by Lucifer (#6 Arashi) during the collapse of the Warring Districts. Born in Zhuiburn. Remains lie entombed in a fire-cracked canyon near Plodrough — still warm to this day."
 ---
 

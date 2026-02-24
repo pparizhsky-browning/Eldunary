@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [172, 290]
+relatedLanguages: ["common"]
 summary: "Dry plains farming town. River agricultural port. The most peaceful settlement in the Kingdom of Fodon."
 ---
 

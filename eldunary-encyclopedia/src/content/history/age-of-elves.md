@@ -10,6 +10,7 @@ importance: 2
 accentColor: "#2E8B57"
 keyCharacters: ["golem-king"]
 relatedKingdoms: ["warring-darkmane-realm"]
+racesAffected: ["darkmane-elves"]
 relatedCities: []
 relatedEvents: ["crimson-convergence"]
 summary: "The long era before the Crimson Convergence, when elves dominated Criozevan with a vast, advanced civilization. The Golem King slept dormant in the Jagged Mountains throughout this period. The Convergence destroyed elf civilization in 40 days."

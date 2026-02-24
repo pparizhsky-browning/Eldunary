@@ -11,6 +11,8 @@ publicFacing: false
 relatedCharacters: []
 relatedCities: ["adlens"]
 relatedEvents: ["war-of-fodon"]
+relatedKingdoms: ["warring-darkmane-realm", "goldhelm-kingdom", "kingdom-of-fodon"]
+relatedRaces: ["tharnex"]
 summary: "Elite mercenary organization of exactly 52 members divided into four Suits (Spades, Diamonds, Hearts, Clubs) of 13 ranked members each. Led by the Ace of Spades. Every member wears a mask and suit displaying their card designation. First confirmed appearance: War of Fodon (820–847 ACC), hired to protect the Bug District. Currently holds a law enforcement contract in Adlens. Less publicly documented than even the Arashi."
 ---
 

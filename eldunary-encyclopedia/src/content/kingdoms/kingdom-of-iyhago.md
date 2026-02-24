@@ -12,9 +12,10 @@ biome: "Plains, Forest, Island"
 governmentType: "The Quiet Harmonic (Religious Theocracy)"
 accentColor: "#FF66FF"
 accentColorLight: "#FF99FF"
-relatedOrganizations: ["rose", "crimson-rooks"]
+relatedOrganizations: ["rose", "crimson-rooks", "magic-societies"]
 relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
 relatedCharacters: ["veles"]
+relatedLanguages: ["shayathi", "kotoba", "common"]
 mapCoordinates: [380, 400]
 summary: "Silent theocracy where prayer is movement and speech is sacred. Ruled by Veles, Master of Magic. Rose HQ in Uyrand."
 ---

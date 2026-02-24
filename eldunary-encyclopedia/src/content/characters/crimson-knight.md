@@ -11,8 +11,8 @@ family: null
 magiType: null
 accentColor: "#8B0000"
 location: "vacron"
-relatedCharacters: ["fluffy", "golem-king", "zunarorth"]
-relatedEvents: ["crimson-convergence"]
+relatedCharacters: ["fluffy", "golem-king", "zunarorth", "azure-paladin", "dark-paladin"]
+relatedEvents: ["crimson-convergence", "founding-of-crimson-rooks", "first-great-war", "golden-war", "equinox-of-power"]
 summary: "Power Rank #2. Folkwynd — born in Vacron. Founder and leader of the Crimson Rooks. Wields the indestructible Crimson Blazer (gift from Fluffy) and the Crimson Greatsword (steel gifted by the Golem King). No magic — pure combat mastery and legendary charisma. True name never publicly revealed."
 ---
 

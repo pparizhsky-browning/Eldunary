@@ -6,6 +6,7 @@ aliases: []
 accentColor: "#C9A84C"
 relatedKingdoms: ["goldhelm-kingdom", "republic-of-frada"]
 relatedCities: ["ovodon", "ibeson", "hiypolis"]
+relatedRaces: ["goldhelms"]
 summary: "Technology that mimics magic. Developed solely by the Goldhelm Kingdom. Used in place of magic for everyday life, warfare, and industry. Frada also produces holotech, exported to Goldhelm and Oredsy."
 ---
 

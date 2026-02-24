@@ -31,6 +31,7 @@ organizationsPresent: ["pegasus", "crimson-rooks"]
 charactersPresent: ["sunlee", "biruda"]
 relatedEvents: ["golden-war", "first-great-war", "equinox-of-power"]
 mapCoordinates: [380, 310]
+relatedLanguages: ["common", "katorr"]
 summary: "The cherry blossom capital that encompasses its whole island. Five petal-districts. Trade hub to other continents. Ruled from the Iron Bloom."
 ---
 

@@ -10,6 +10,7 @@ importance: 2
 accentColor: "#4A2D6B"
 keyCharacters: ["vaelith-the-hollow"]
 relatedKingdoms: ["warring-darkmane-realm"]
+racesAffected: ["darkmane-elves"]
 relatedCities: ["grousea"]
 relatedEvents: ["crimson-convergence", "age-of-elves"]
 relatedFamilies: ["darkmane-family"]

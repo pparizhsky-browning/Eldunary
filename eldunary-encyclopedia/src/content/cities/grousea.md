@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [200, 150]
+relatedLanguages: ["nualthyr", "common"]
 summary: "De facto capital of the Warring Darkmane Realm. Extremely dangerous. The criminal hub of the northwest."
 ---
 

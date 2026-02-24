@@ -16,10 +16,11 @@ accentColorLight: "#2EB8B8"
 notableFigures:
   - slug: "queen-nayele"
     label: "Queen Nayele of the Tide"
-relatedKingdoms: ["ipadora-kingdom"]
+relatedKingdoms: ["ipadora-kingdom", "kingdom-of-iyhago", "state-of-akison"]
 relatedOrganizations: []
-relatedEvents: ["crimson-convergence", "war-of-fodon"]
+relatedEvents: ["crimson-convergence", "war-of-fodon", "ipadora-land-war"]
 relatedCities: ["ipadora-sanctuary", "glaril"]
+relatedFamilies: ["ipadora-family"]
 summary: "Humanoid aquatics with tentacle limbs and chromatophores. Control all waterways in Criozevan. Matriarchal and ancient."
 ---
 

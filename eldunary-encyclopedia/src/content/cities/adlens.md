@@ -11,6 +11,7 @@ organizationsPresent: ["ace"]
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [205, 145]
+relatedLanguages: ["nualthyr", "common"]
 summary: "The rare peaceful settlement in the Darkmane Realm. Dark elves who reject violence, defector Golems, and refugee Goldhelms coexist here."
 ---
 

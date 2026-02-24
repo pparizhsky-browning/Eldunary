@@ -13,8 +13,11 @@ governmentType: "Technocratic Monarchy"
 accentColor: "#FFD700"
 accentColorLight: "#FFE444"
 relatedOrganizations: ["arashi"]
-relatedEvents: ["golden-war", "crimson-convergence"]
+relatedEvents: ["golden-war", "crimson-convergence", "goldhelm-exodus"]
 relatedCharacters: ["king-aldric", "princess-seraphina", "kaboom", "helm"]
+relatedLanguages: ["solaran", "common"]
+relatedFamilies: ["goldhelm-family"]
+relatedMagicTypes: ["holotech", "devourers"]
 mapCoordinates: [900, 920]
 summary: "Isolated northeastern technocracy. Magic banned, replaced by holotech. Ruled by King Aldric from the Gilded Cradle."
 ---

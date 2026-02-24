@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [190, 175]
+relatedLanguages: ["nualthyr"]
 summary: "Hidden dark elf warrior training ground. Shielded by magic. No trade — only forges, shrines, and poison-makers."
 ---
 

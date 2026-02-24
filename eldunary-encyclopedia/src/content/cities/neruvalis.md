@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedCities: ["okbridge", "glaril"]
 mapCoordinates: [410, 370]
+relatedLanguages: ["common", "katorr"]
 summary: "The Disappearing City — built on a slope into the water, sometimes submerged by tides. Midway port to Glaril. Underwater tech salvage point."
 ---
 

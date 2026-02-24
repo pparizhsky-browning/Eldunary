@@ -12,9 +12,11 @@ biome: "Mountains, Swamp, Forest"
 governmentType: "Rune Monarchy (Golem King)"
 accentColor: "#9932CC"
 accentColorLight: "#BB55EE"
-relatedOrganizations: []
+relatedOrganizations: ["magic-societies"]
 relatedEvents: ["crimson-convergence"]
 relatedCharacters: ["golem-king", "nebbio"]
+relatedLanguages: ["karthrun", "common"]
+relatedMagicTypes: ["runestones"]
 mapCoordinates: [630, 580]
 summary: "Mountain and swamp kingdom ruled by the immortal Golem King. Rich in rune magic. Vast underground tunnel network."
 ---

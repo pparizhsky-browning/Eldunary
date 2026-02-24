@@ -29,9 +29,10 @@ if (_regions) quickFacts['Region'] = String(_regions);
 if (d.race) quickFacts['Primary Race'] = d.race;
 
 const relatedEntities = [
-  ...((d.related_races ?? d.relatedRaces) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
+  ...((d.related_races ?? d.relatedRaces ?? d.nativeSpeakers) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
   ...((d.related_kingdoms ?? d.relatedKingdoms) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
-  ...((d.relatedCities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.relatedCities ?? d.usedIn) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
 ];
 ---
 <EntityLayout

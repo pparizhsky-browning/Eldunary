@@ -9,6 +9,7 @@ practitioners: ["princess-seraphina"]
 relatedKingdoms: ["goldhelm-kingdom"]
 relatedEvents: ["crimson-convergence", "goldhelm-exodus"]
 relatedCharacters: ["princess-seraphina", "king-aldric"]
+relatedFamilies: ["goldhelm-family"]
 governedBy: []
 summary: "An extraordinarily rare hereditary magi classification. Devourers do not cast, channel, or store magic — they absorb it from living sources passively and involuntarily. The only confirmed Devourer bloodline is the Goldhelm royal line. One known active carrier: Princess Seraphina."
 ---

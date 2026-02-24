@@ -10,6 +10,7 @@ organizationsPresent: ["butterfly", "magic-societies"]
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [310, 255]
+relatedLanguages: ["common"]
 summary: "HQ of the Butterfly organization. Meeting point for all Magic Societies. 90% magic-user population. Peninsula between two rivers."
 ---
 

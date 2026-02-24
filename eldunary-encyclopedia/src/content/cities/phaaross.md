@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [260, 200]
+relatedLanguages: ["karthrun", "common"]
 summary: "Bridge city between Nikolem and Vacron. Strong Golem military presence. Critical trade hub between northwest and northeast."
 ---
 

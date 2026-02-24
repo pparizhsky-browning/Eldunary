@@ -11,6 +11,7 @@ magicPolicy: "Banned"
 charactersPresent: ["berserk"]
 relatedEvents: []
 mapCoordinates: [370, 290]
+relatedLanguages: ["common"]
 summary: "Pegasus' hidden operational HQ. No magic practitioners, no Rose, no Butterfly allowed. Home of the Signal Harvest collection ritual."
 ---
 

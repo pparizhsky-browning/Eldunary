@@ -11,6 +11,7 @@ magicPolicy: "Uncontrolled"
 charactersPresent: ["dark-paladin"]
 relatedEvents: []
 mapCoordinates: [490, 420]
+relatedLanguages: ["common", "tharnic"]
 summary: "Ancient magic site under the town square. Magic is unstable inside town — rumored to be cursed. Holotech and runestones do not function here. Secret Butterfly monitoring station."
 ---
 

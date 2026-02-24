@@ -9,6 +9,9 @@ subtypes: ["Scarlets (0.275%)", "Hell Dark Malefici (~0.27%)", "Pure Dark Malefi
 bannedIn: ["goldhelm-kingdom"]
 practitioners: []
 governedBy: ["magic-societies", "butterfly"]
+relatedOrganizations: ["magic-societies", "butterfly"]
+relatedEvents: ["wizard-uprising"]
+relatedKingdoms: ["goldhelm-kingdom"]
 summary: "Magic users whose powers are split into Scarlets, Dark Malefici, and Mages. Total 27.5% of all Magi."
 ---
 

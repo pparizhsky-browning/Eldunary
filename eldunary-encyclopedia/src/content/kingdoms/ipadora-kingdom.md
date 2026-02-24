@@ -12,9 +12,11 @@ biome: "Island, Underwater"
 governmentType: "Matriarchal Monarchy"
 accentColor: "#FFFF00"
 accentColorLight: "#FFFF66"
-relatedOrganizations: []
-relatedEvents: ["war-of-fodon"]
+relatedOrganizations: ["magic-societies"]
+relatedEvents: ["war-of-fodon", "ipadora-land-war"]
 relatedCharacters: ["queen-nayele"]
+relatedLanguages: ["sylvaren", "common", "sailor-speak"]
+relatedFamilies: ["ipadora-family", "house-abyrath"]
 mapCoordinates: [100, 850]
 summary: "Mostly underwater kingdom controlling all of Criozevan's waterways. Near-zero crime sanctuary above, vast fortress below."
 ---

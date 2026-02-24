@@ -18,8 +18,10 @@ notableFigures:
     label: "Vaelith the Hollow"
 relatedKingdoms: ["warring-darkmane-realm"]
 relatedOrganizations: ["arashi"]
-relatedEvents: ["crimson-convergence"]
+relatedEvents: ["crimson-convergence", "fall-of-darkmane-kingdom", "age-of-elves"]
 relatedCities: ["grousea", "wrediff", "vlurg", "adlens"]
+relatedFamilies: ["darkmane-family"]
+relatedMagicTypes: ["corrupted-runes"]
 summary: "Forest-dwelling dark elves, marked by grey skin and bioluminescent eyes. Fractured by internal corruption."
 ---
 

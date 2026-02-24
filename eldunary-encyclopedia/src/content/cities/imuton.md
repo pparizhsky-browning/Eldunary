@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedCities: ["wrofast", "oredsy"]
 mapCoordinates: [510, 400]
+relatedLanguages: ["common", "tharnic"]
 summary: "Forest town surrounded by grand trees. Residents live inside enormous tree trunks."
 ---
 

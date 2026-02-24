@@ -10,6 +10,8 @@ usedIn: ["wrofast", "glaril", "neruvalis", "ipadora-sanctuary"]
 script: "None — transmitted through immersion and use only"
 parentLanguages: ["common", "sylvaren"]
 relatedCharacters: []
+relatedKingdoms: ["republic-of-oredsy", "ipadora-kingdom"]
+relatedRaces: ["folkwynd", "ipadoras"]
 summary: "Maritime creole spoken natively in Wrofast and understood functionally by experienced sea traders from Glaril, Neruvalis, and Ipadora Sanctuary. Parent languages are Common and Sylvaren. Belongs fully to neither. No written form. Trust currency among sailors."
 ---
 

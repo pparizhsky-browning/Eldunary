@@ -10,6 +10,8 @@ memberCount: "Unknown"
 publicFacing: true
 relatedCharacters: []
 relatedCities: ["klanron", "icogas"]
+relatedKingdoms: ["kingdom-of-vacron", "republic-of-oredsy"]
+relatedOrganizations: ["magic-societies"]
 summary: "Organization of the most powerful Metas. Fights against corruption and crime syndicates — Rose, Pegasus, and Arashi. Helps forge alliances between magic societies. HQ in Klanron, secret monitoring station in Icogas."
 ---
 

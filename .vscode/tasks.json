@@ -7,6 +7,13 @@
 			"command": "cd ${workspaceFolder}/eldunary-encyclopedia && npx astro dev --port 4322",
 			"isBackground": true,
 			"problemMatcher": []
+		},
+		{
+			"label": "Build Data",
+			"type": "shell",
+			"command": "cd ${workspaceFolder}/eldunary-encyclopedia && npm run build:data",
+			"isBackground": false,
+			"problemMatcher": []
 		}
 	]
 }

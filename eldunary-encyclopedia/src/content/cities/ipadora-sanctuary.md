@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["queen-nayele"]
 relatedEvents: []
 mapCoordinates: [280, 520]
+relatedLanguages: ["sylvaren", "common", "sailor-speak"]
 summary: "True sanctuary — almost no crime. Welcomes outsiders, refugees, and peaceful travelers. Surface and underwater city. The Ipadora Palace lies beneath the island in a heavily secured cavern."
 ---
 

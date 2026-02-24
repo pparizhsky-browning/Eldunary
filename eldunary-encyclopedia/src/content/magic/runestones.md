@@ -8,6 +8,7 @@ percentage: "45% of all Magi"
 practitioners: ["golem-king"]
 governedBy: ["magic-societies"]
 relatedKingdoms: ["nikolem-kingdom"]
+relatedRaces: ["golems"]
 summary: "People who can only control their power through a runestone, weapon, or item. The most common magi type at 45% of all Magi. Golems have high affinity to rune magic."
 ---
 

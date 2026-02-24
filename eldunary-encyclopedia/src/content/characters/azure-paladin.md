@@ -12,7 +12,7 @@ magiType: null
 accentColor: "#4A90C4"
 location: "frada"
 relatedCharacters: ["crimson-knight", "dark-paladin"]
-relatedEvents: ["founding-of-crimson-rooks"]
+relatedEvents: ["founding-of-crimson-rooks", "golden-war", "first-great-war", "equinox-of-power", "wizard-uprising"]
 summary: "The man who became the Dark Paladin. Born in Vacron in 692 ACC. Childhood companion of the Crimson Knight. Founded the Republic of Frada in 715 with the goal of ending the continent's disorder through centralized conquest. Turned to dark magic in 732 ACC after watching Fluffy gift the Crimson Knight the indestructible blazer. He stopped aging at that moment. He has not been the Azure Paladin since."
 ---
 

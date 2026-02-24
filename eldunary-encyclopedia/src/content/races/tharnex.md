@@ -19,8 +19,8 @@ notableFigures:
   - slug: "vorvax"
     label: "Vorvax, former Bug District leader of Fodon"
 relatedKingdoms: ["kingdom-of-fodon"]
-relatedOrganizations: ["arashi"]
-relatedEvents: ["crimson-convergence", "war-of-fodon"]
+relatedOrganizations: ["arashi", "ace"]
+relatedEvents: ["crimson-convergence", "war-of-fodon", "ipadora-land-war"]
 relatedCities: ["fodon"]
 summary: "Insectoid race, nearly extinct after the War of Fodon. One known survivor remains on Criozevan."
 ---

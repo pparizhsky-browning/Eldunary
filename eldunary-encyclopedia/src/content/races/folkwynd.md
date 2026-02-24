@@ -20,7 +20,7 @@ notableFigures:
     label: "Elric"
   - slug: "princess-seraphina"
     label: "Princess Seraphina (Goldhelm descent)"
-relatedKingdoms: ["kingdom-of-vacron", "republic-of-frada", "state-of-akison", "republic-of-oredsy"]
+relatedKingdoms: ["kingdom-of-vacron", "republic-of-frada", "state-of-akison", "republic-of-oredsy", "kingdom-of-fodon", "kingdom-of-iyhago"]
 relatedOrganizations: ["crimson-rooks"]
 relatedEvents: ["crimson-convergence"]
 relatedCities: ["vacron", "frada", "oredsy", "akison"]

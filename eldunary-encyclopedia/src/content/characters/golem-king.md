@@ -13,6 +13,7 @@ accentColor: "#8B7355"
 location: "nikolem-kingdom"
 relatedCharacters: ["fluffy", "crimson-knight", "zunarorth"]
 relatedEvents: ["crimson-convergence"]
+relatedMagicTypes: ["runestones"]
 summary: "Power Rank #4. Creator of all Golems. Primordial entity — approximately 100 feet tall, covered in thousands of runes. Resides in the largest, most isolated mountain in Nikolem. Has never left it since the Crimson Convergence. Believed equal in power to Fluffy but chooses never to exercise it fully."
 ---
 

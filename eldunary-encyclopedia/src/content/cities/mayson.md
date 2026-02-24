@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [155, 295]
+relatedLanguages: ["common"]
 summary: "Desert town. Many crypts beneath the town square. Residents do not excavate."
 ---
 

@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [235, 160]
+relatedLanguages: ["karthrun", "common"]
 summary: "Mountain foothills mining town. Famous for rare minerals. Outsiders get 'lost' in tunnels without Golem guides."
 ---
 

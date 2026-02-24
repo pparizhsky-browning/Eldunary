@@ -6,6 +6,7 @@ aliases: []
 accentColor: "#4A2D6B"
 practitioners: []
 relatedKingdoms: ["warring-darkmane-realm"]
+relatedRaces: ["darkmane-elves"]
 summary: "Massive, unstable runes left by the Golem King in the Warring Darkmane Realm forests. Became unstable after the Golem King stopped maintaining them. Prone to explosions. Emit dark magic that can infect the mind — often fatal. Dark elves draw corrupted energy from them."
 ---
 

@@ -20,8 +20,10 @@ notableFigures:
     label: "Princess Seraphina"
 relatedKingdoms: ["goldhelm-kingdom"]
 relatedOrganizations: []
-relatedEvents: ["crimson-convergence", "golden-war"]
+relatedEvents: ["crimson-convergence", "golden-war", "goldhelm-exodus"]
 relatedCities: ["ovodon", "ibeson"]
+relatedFamilies: ["goldhelm-family"]
+relatedMagicTypes: ["holotech","devourers"]
 summary: "Tall, golden-eyed technocrats who banned magic and developed holotech in its place. Rulers of the isolated northeastern peninsula."
 ---
 

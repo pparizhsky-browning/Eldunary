@@ -11,7 +11,7 @@ accentColor: "#8B6914"
 keyCharacters: []
 relatedKingdoms: ["goldhelm-kingdom"]
 relatedCities: []
-relatedEvents: []
+relatedEvents: ["crimson-convergence", "goldhelm-exodus"]
 summary: "c. 500–700 ACC. For the first five centuries after the Convergence, Criozevan had no centralized governments. The Goldhelms were the first to consolidate, around Year 700, acting as a catalyst for every other kingdom to follow."
 ---
 

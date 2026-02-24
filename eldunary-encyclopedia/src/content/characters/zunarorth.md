@@ -15,7 +15,7 @@ location: "Unknown"
 weapons: []
 abilities: []
 relatedCharacters: ["fluffy", "golem-king", "crimson-knight"]
-relatedEvents: []
+relatedEvents: ["dragon-era", "crimson-convergence"]
 summary: "Power Rank #3. Dragon — the last surviving dragon. Has not been reliably seen in hundreds of years. Sightings reported roughly every 100 years. Ancient and feared."
 ---
 

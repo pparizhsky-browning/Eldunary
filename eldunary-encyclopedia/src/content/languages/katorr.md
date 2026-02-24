@@ -9,6 +9,8 @@ status: "Active (regional, maritime)"
 usedIn: ["glaril"]
 script: "Unwritten (gesture and pressure-based)"
 relatedCharacters: ["rabuka"]
+relatedKingdoms: ["state-of-akison", "ipadora-kingdom"]
+relatedRaces: ["sharkai"]
 summary: "The Sharkai language. Guttural, gesture-based, and used underwater. Rabuka speaks it natively."
 ---
 

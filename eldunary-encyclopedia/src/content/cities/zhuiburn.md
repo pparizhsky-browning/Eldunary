@@ -11,6 +11,7 @@ magicPolicy: "Fire Magic Dominant"
 charactersPresent: ["lucifer"]
 relatedEvents: []
 mapCoordinates: [530, 410]
+relatedLanguages: ["pyrrhith"]
 summary: "Surrounded by perpetual flames. Extremely hostile to outsiders. Pyrrhith language spoken exclusively. Lucifer (#6 Arashi) was born here."
 ---
 

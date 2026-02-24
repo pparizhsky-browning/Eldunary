@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["golem-king", "nebbio"]
 relatedEvents: []
 mapCoordinates: [240, 180]
+relatedLanguages: ["karthrun", "common"]
 summary: "The mist-shrouded swamp capital of Nikolem. Home of the Golem King. Rumored underground city beneath the Great Lake."
 ---
 

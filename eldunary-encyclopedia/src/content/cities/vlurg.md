@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [195, 165]
+relatedLanguages: ["nualthyr", "common"]
 summary: "The black market capital. Town built around its central market. Elves speak Nualthyr when they prefer not to be understood."
 ---
 

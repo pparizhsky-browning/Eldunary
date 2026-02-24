@@ -10,6 +10,7 @@ organizationsPresent: ["rose", "crimson-rooks"]
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [315, 240]
+relatedLanguages: ["common"]
 summary: "Ghost town rebuilt into a war relic resort. Rose covert meetings. Crimson Rooks constant surveillance. Magic dampeners always active."
 ---
 

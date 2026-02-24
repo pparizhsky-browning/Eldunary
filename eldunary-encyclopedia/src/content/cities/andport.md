@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["spector"]
 relatedCities: ["uyrand", "frada"]
 mapCoordinates: [440, 410]
+relatedLanguages: ["shayathi", "common"]
 summary: "Iyhago's western gate and primary trade hub. The famous bridge to Frada. Ritual oath-walking tradition. Birthplace of Spector (#11 Arashi)."
 ---
 

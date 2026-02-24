@@ -10,6 +10,7 @@ organizationsPresent: ["pegasus"]
 charactersPresent: []
 relatedCities: ["oredsy"]
 mapCoordinates: [520, 360]
+relatedLanguages: ["sailor-speak", "common"]
 summary: "Oredsy's primary maritime port. The metallic blue 'W'-emblazoned ships of Wrofast are the most distinctive merchant fleet in Criozevan. Sailor Speak originated here."
 ---
 

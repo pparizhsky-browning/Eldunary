@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [160, 305]
+relatedLanguages: ["common"]
 summary: "Desert canyon town with an underground city carved vertically into the cliff walls. Near where Vulkran's remains rest."
 ---
 

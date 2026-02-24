@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: ["founding-of-crimson-rooks"]
 relatedCharacters: ["dark-paladin"]
+relatedLanguages: ["shayathi", "common"]
 summary: "A small independent union nation that occupied the territory now held by Uyrand and Andport in the Kingdom of Iyhago. Conquered by the Azure Paladin's Republic of Frada in 730 ACC. Dissolved following his corruption and departure from Frada. Its territory was eventually absorbed into Iyhago. The name derives from eshar (erasure) and thi (form) — a people whose architecture and philosophy centered on the extensive use of mirrored surfaces to dissolve the boundaries of visible form."
 accentColor: "#7A6642"
 ---

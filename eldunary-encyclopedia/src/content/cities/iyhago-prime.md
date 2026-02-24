@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["veles"]
 relatedEvents: []
 mapCoordinates: [460, 420]
+relatedLanguages: ["shayathi", "kotoba", "common"]
 summary: "The Sanctum Spiral. The Quiet Harmonic theocracy's capital, built on the north end of Vehalo (Iyhago Island). Three sacred bridges connect it to outer districts. Veles, Master of Magic, resides here."
 ---
 

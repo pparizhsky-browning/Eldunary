@@ -13,7 +13,9 @@ location: "Jagged Mountains (former)"
 weapons: []
 abilities: ["Volatile Scarlet magic", "Dark energy waves", "Psychological manipulation"]
 relatedCharacters: ["helm", "oto", "spector", "princess-seraphina"]
-relatedEvents: ["wizard-uprising"]
+relatedOrganizations: ["butterfly"]
+relatedEvents: ["wizard-uprising", "crimson-convergence"]
+relatedMagicTypes: ["malefici"]
 summary: "The Scarlet Mage. Active since at least 885 ACC — over 115 years old but appearing no older than thirty. Participated in and likely led the Wizard Uprising. Spent over a century in hiding, assembling knowledge via a Butterfly archive operative from the Uprising. His goal: trigger a second Crimson Convergence using Princess Seraphina as a living catalyst. He found out what caused the original Convergence. He died before anyone could ask him."
 ---
 

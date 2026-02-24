@@ -10,6 +10,7 @@ organizationsPresent: ["crimson-rooks"]
 charactersPresent: []
 relatedCities: ["uyrand"]
 mapCoordinates: [455, 430]
+relatedLanguages: ["shayathi", "common"]
 summary: "Crimson Rooks outpost and the black market technology capital of Criozevan. Holotech components unavailable elsewhere flow through Ubraamore's shadow markets."
 ---
 

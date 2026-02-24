@@ -9,6 +9,8 @@ status: "Active (regional)"
 usedIn: ["iyhago-prime", "uyrand", "andport"]
 script: "Harmonic Script (resonance-encoded)"
 relatedCharacters: ["veles"]
+relatedKingdoms: ["kingdom-of-iyhago"]
+relatedRaces: ["folkwynd"]
 summary: "The Iyhago Kingdom language. Harmonic Script encodes tonal resonance — written text has acoustic properties. Used in magical ritual contexts. Veles prefers Kōtoba but Shayathi is the kingdom's official language."
 ---
 

@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedCities: ["frada", "ipadora-sanctuary"]
 mapCoordinates: [140, 460]
+relatedLanguages: ["common"]
 summary: "Frada's naval capital. Houses the Holo-Tech Forge Docks, War College, and the closest Criozevan surface city to Ipadora Sanctuary."
 ---
 

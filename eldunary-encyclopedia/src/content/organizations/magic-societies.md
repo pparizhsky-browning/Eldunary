@@ -10,6 +10,8 @@ memberCount: "Unknown"
 publicFacing: true
 relatedCharacters: []
 relatedCities: ["klanron"]
+relatedKingdoms: ["kingdom-of-vacron", "republic-of-oredsy", "kingdom-of-fodon", "kingdom-of-iyhago", "ipadora-kingdom", "state-of-akison", "nikolem-kingdom", "republic-of-frada"]
+relatedOrganizations: ["butterfly"]
 summary: "Official Magic Societies exist in every kingdom in Criozevan except the Goldhelm Kingdom (where magic is prohibited under penalty of death). Named after their host kingdom. Function as part of each kingdom's formal government. All hold continental meetings in Klanron. Work with the Butterfly organization on cross-kingdom magical coordination."
 ---
 

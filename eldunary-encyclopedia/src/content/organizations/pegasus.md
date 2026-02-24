@@ -10,6 +10,8 @@ memberCount: "Unknown"
 publicFacing: false
 relatedCharacters: []
 relatedCities: ["oniofast", "oredsy"]
+relatedKingdoms: ["republic-of-oredsy", "state-of-akison"]
+relatedEvents: ["formation-of-pegasus-and-rose"]
 summary: "Founded in Year 738 with a genuinely idealistic purpose: to unite warring independent territories and broker lasting peace. Succeeded for ~30 years before internal corruption collapsed it. Now operates as a vigilante group. Controls or heavily influences the Republic of Oredsy. Covert HQ in Oniofast, State of Akison."
 ---
 

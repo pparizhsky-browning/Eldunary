@@ -13,7 +13,8 @@ location: "ovodon"
 weapons: ["Holotech sword"]
 abilities: ["Goldhelm military doctrine", "Advanced tactics", "Holotech weaponry"]
 relatedCharacters: ["king-aldric", "princess-seraphina", "isolde"]
-relatedEvents: []
+relatedEvents: ["golden-war"]
+relatedMagicTypes: ["holotech"]
 summary: "Captain of the Goldhelm Royal Guard. King Aldric's most trusted military officer and personal protector of the royal family. Mentor to Princess Seraphina."
 ---
 

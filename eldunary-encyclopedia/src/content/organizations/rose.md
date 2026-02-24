@@ -10,6 +10,8 @@ memberCount: "Unknown"
 publicFacing: false
 relatedCharacters: []
 relatedCities: ["uyrand", "anehull", "clocester"]
+relatedKingdoms: ["kingdom-of-iyhago", "kingdom-of-vacron"]
+relatedEvents: ["formation-of-pegasus-and-rose"]
 summary: "Founded in Year 780 by ex-Pegasus members to specifically destroy Pegasus. A crime syndicate in method but ideological in origin. HQ in Uyrand. Covert meetings in Anehull. Protects the neutral forge in Clocester. Currently at war with Pegasus — strikes almost weekly."
 ---
 

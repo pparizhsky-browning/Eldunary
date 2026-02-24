@@ -10,6 +10,7 @@ importance: 2
 accentColor: "#C9A84C"
 keyCharacters: ["king-aldric", "princess-seraphina"]
 relatedKingdoms: ["goldhelm-kingdom"]
+racesAffected: ["goldhelms", "folkwynd"]
 relatedCities: ["ovodon"]
 relatedEvents: ["crimson-convergence"]
 summary: "In the years immediately following the Crimson Convergence, a family of Folkwynd discovered they carried a hereditary power to passively drain magic from living sources. Terrified of the harm this caused those they loved, they fled and founded what became the Goldhelm Kingdom. This is the true origin of the anti-magic ban and holotech."

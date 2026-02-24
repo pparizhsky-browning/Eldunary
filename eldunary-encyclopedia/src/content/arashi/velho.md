@@ -13,7 +13,8 @@ power: "Necromancy"
 trait:
   name: "Heaven's Chains"
   type: "Domain"
-relatedCharacters: ["veles"]
+relatedCharacters: ["veles", "selvarin"]
+relatedOrganizations: ["arashi", "magic-societies"]
 relatedEvents: ["wizard-uprising"]
 summary: "Arashi #5. Former Master of Magic (846–889 ACC). Killed during the Wizard Uprising by a mob of over one hundred revolutionary Malefici after offering them a compromise peace. His death accelerated the Uprising's collapse. Resurrected under unknown circumstances. Has not visibly aged since his death. Now holds the #5 rank in the Arashi."
 ---

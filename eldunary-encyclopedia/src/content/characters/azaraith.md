@@ -14,7 +14,8 @@ location: "fodon"
 weapons: ["Arcane staff"]
 abilities: ["Dark arcane power", "Magic bending"]
 relatedCharacters: ["lucifer", "vorvax", "varnokh", "vulkran"]
-relatedEvents: []
+relatedEvents: ["war-of-fodon"]
+relatedMagicTypes: ["malefici"]
 summary: "Former ruler of the Magic District of Fodon. Cloaked in shifting darkness, she bent arcane forces with her staff. No one knows what lies behind her mask. Killed by Lucifer (#6 Arashi)."
 ---
 

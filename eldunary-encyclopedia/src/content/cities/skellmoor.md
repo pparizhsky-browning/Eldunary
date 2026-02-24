@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [330, 260]
+relatedLanguages: ["common"]
 summary: "A floating steampunk city suspended above the cloud layer over the northern sea. Permanently invisible. No laws — governed by competing interests, informal contracts, and mutual deterrence. Home to the most comprehensive technology black market on the continent. Officially: does not exist. The Crimson Rooks have investigated seven times and confirmed nothing."
 ---
 

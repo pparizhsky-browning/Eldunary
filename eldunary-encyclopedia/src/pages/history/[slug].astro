@@ -33,9 +33,15 @@ if (d.era) quickFacts['Era'] = d.era;
 
 const _keyChars = d.keyCharacters ?? d.relatedCharacters ?? d.related_characters ?? [];
 const _keyOrgs = d.relatedOrganizations ?? d.related_organizations ?? d.factionsInvolved ?? [];
+const _keyKingdoms = (d.related_kingdoms ?? d.relatedKingdoms ?? d.kingdomsInvolved ?? []).filter((s: string) => !_keyOrgs.includes(s));
 const relatedEntities = [
   ..._keyChars.map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
   ..._keyOrgs.filter((s: string) => !_keyChars.includes(s)).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ..._keyKingdoms.map((s: string) => ({ name: _sn(s), slug: s, type: 'kingdom' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...((d.related_events ?? d.relatedEvents) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'history' })),
+  ...((d.related_races ?? d.racesAffected) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
+  ...((d.relatedFamilies ?? d.related_families) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'family' })),
 ];
 ---
 <EntityLayout

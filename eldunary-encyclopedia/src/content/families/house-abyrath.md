@@ -11,6 +11,7 @@ currentHead: "prince-vaelen"
 notableMembers: ["prince-vaelen"]
 relatedCities: ["glaril", "ipadora-sanctuary"]
 relatedEvents: []
+relatedRaces: ["ipadoras"]
 summary: "A cadet branch of House Nereval (the Ipadora royal family), established in 996 ACC when Queen Nayele appointed her younger brother Prince Vaelen to govern Glaril. Operates under Ipadora's broader political umbrella but governs Glaril with significant autonomy. The relationship between Abyrath and the main Nereval line is cooperative rather than subordinate in practice."
 ---
 

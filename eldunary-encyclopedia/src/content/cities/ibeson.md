@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["kaboom", "helm"]
 relatedEvents: ["equinox-of-power", "golden-war"]
 mapCoordinates: [118, 100]
+relatedLanguages: ["solaran", "common"]
 summary: "Scientific capital of all Criozevan. Built above the crater from the Equinox of Power (795 ACC). Public labs above, secret government installations in the caverns below. The underground facility — run by the Department of Holometric Advancement — has produced the majority of modern holotech advancements across all fields. Birthplace of Kaboom."
 ---
 

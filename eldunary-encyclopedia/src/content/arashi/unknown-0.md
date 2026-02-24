@@ -12,6 +12,7 @@ trait:
   name: "Unknown"
   type: "Unknown"
 relatedCharacters: []
+relatedOrganizations: ["arashi"]
 summary: "Arashi #0. Currently under investigation. Identity and motives are classified."
 ---
 

@@ -378,13 +378,6 @@
     "summary": "The man who became the Dark Paladin. Born in Vacron in 692 ACC. Childhood companion of the Crimson Knight. Founded the Republic of Frada in 715 with the goal of ending the continent's disorder through centralized conquest. Turned to dark magic in 732 ACC after watching Fluffy gift the Crimson Knight the indestructible blazer. He stopped aging at that moment. He has not been the Azure Paladin since."
   },
   {
-    "slug": "butterfly-scholar",
-    "type": "character",
-    "name": "Ossivael",
-    "accentColor": "#3D7A3D",
-    "summary": "Ipadora scholar within the Butterfly organization, Klanron chapter. Has spent years studying a single pre-Convergence text fragment about 'the hungry ones.' Developed a partial theory connecting it to anomalous magical phenomena near the Goldhelm border across centuries. Cannot prove it. Has not been able to stop."
-  },
-  {
     "slug": "crimson-knight",
     "type": "character",
     "name": "Crimson Knight",
@@ -427,13 +420,6 @@
     "summary": "King of the Goldhelm Kingdom. Resides in Ovodon. Head of the Goldhelm Family. Ideology: Technocratic Isolationism. Governs with a council of advisors from each sector."
   },
   {
-    "slug": "new-goldhelm-general",
-    "type": "character",
-    "name": "The New Goldhelm General",
-    "accentColor": "#C9A84C",
-    "summary": "A senior military general serving under King Aldric. Title unknown; referred to as the General."
-  },
-  {
     "slug": "prince-vaelen",
     "type": "character",
     "name": "Prince Vaelen",
@@ -453,13 +439,6 @@
     "name": "Queen Nayele",
     "accentColor": "#006994",
     "summary": "Queen of the Ipadora Kingdom. Head of House Nereval. Ascended in 996 ACC. Genuinely compassionate — not as a political style but as a sincere orientation toward the world. Has restructured Ipadora's waterway tax system and expanded the Ipadora Justice System's continental reputation. Appointed her brother Prince Vaelen to govern Glaril upon taking power."
-  },
-  {
-    "slug": "sael",
-    "type": "character",
-    "name": "Sael",
-    "accentColor": "#4A2D6B",
-    "summary": "Leader of the main branch Darkmane warrior order. Granddaughter of Vaelith the Hollow. Known for brokering protection deals with travelers crossing the Warring Darkmane Realm. Seeks to reunify the Darkmane as a single kingdom."
   },
   {
     "slug": "selvarin",
@@ -735,7 +714,18 @@
     "name": "The Equinox of Power",
     "aliases": [],
     "accentColor": "#7B68EE",
-    "summary": "The battle between the three Masters — Sunlee, Selvarin, and Veles — that ended the Golden War. 500,000 soldiers killed total. The crater formed by the battle became the foundation beneath Ibeson. All three chose peace when they saw the destruction. The definitive proof of the Masters' equal power."
+    "summary": "The battle between the three Masters — Sunlee, Selvarin, and Veles — that ended the Great War (also known as the Golden War). 500,000 soldiers killed total. The crater formed by the battle became the foundation beneath Ibeson. All three chose peace when they saw the destruction. The definitive proof of the Masters' equal power."
+  },
+  {
+    "slug": "fall-of-darkmane-kingdom",
+    "type": "history",
+    "name": "Fall of the Darkmane Kingdom",
+    "aliases": [
+      "The Darkmane Collapse",
+      "The Breaking of the Darkmane Realm"
+    ],
+    "accentColor": "#4A2D6B",
+    "summary": "The unified Darkmane Realm collapsed between 937 and 940 ACC following the betrayal of Vaelith the Hollow, head of the ruling Darkmane Family, who sold his own brother Thalrith to a Goldhelm scientist. The act created the first of the Fallen — dark-magic-possessed husks — and shattered the family's internal trust beyond repair. By 940 ACC, a realm that had existed for centuries fractured into the warring tribes it remains today."
   },
   {
     "slug": "first-great-war",
@@ -745,7 +735,7 @@
       "The Golden War"
     ],
     "accentColor": "#CD7F32",
-    "summary": "Alternate name for the Golden War (795–800 ACC) — the civil war in the Goldhelm Kingdom that drew in all three Masters and ended with the Equinox of Power stalemate. See: The Golden War."
+    "summary": "Alternate name for the Great War (795–800 ACC) — the civil war in the Goldhelm Kingdom that drew in all three Masters and ended with the Equinox of Power stalemate. See: The Great War."
   },
   {
     "slug": "five-appearances-of-fluffy",
@@ -754,6 +744,58 @@
     "aliases": [],
     "accentColor": "#FFFFFF",
     "summary": "In the one thousand years since the Crimson Convergence, Fluffy has been publicly sighted exactly five times. Each appearance is treated as a sacred historical event — witnessed with reverence and inadequacy. The accounts survive in fragments, folktales, and institutional archives that often contradict in detail while agreeing on the essential fact: Fluffy appeared, and then it was gone."
+  },
+  {
+    "slug": "fluffy-fifth-appearance",
+    "type": "history",
+    "name": "Fluffy — The Fifth Appearance",
+    "aliases": [
+      "Fluffy Earthquake Sighting",
+      "Northern Earthquake Sighting"
+    ],
+    "accentColor": "#FFFFFF",
+    "summary": "In 957 ACC, an anomalous earthquake rattled the northern half of the continent. At the peak of the tremors, Fluffy was sighted floating above the northern face of the Jagged Mountains — stationary, visible for approximately three minutes, and then gone. No explanation for the earthquake or Fluffy's presence was ever established."
+  },
+  {
+    "slug": "fluffy-first-appearance",
+    "type": "history",
+    "name": "Fluffy — The First Appearance",
+    "aliases": [
+      "Fluffy Dragon Era Sighting"
+    ],
+    "accentColor": "#FFFFFF",
+    "summary": "During the final phase of the Dragon Era, witnesses in surviving elf communities reported seeing something in the sky above the Shadow's killing grounds that was neither the Shadow nor any dragon — moving against its path, always arriving slightly too late, or choosing not to close the distance."
+  },
+  {
+    "slug": "fluffy-fourth-appearance",
+    "type": "history",
+    "name": "Fluffy — The Fourth Appearance",
+    "aliases": [
+      "Fluffy Ipadora Sighting",
+      "Ipadora Atrocities Sighting"
+    ],
+    "accentColor": "#FFFFFF",
+    "summary": "During the Fradan re-occupation of Ipadoran territory (901 ACC), Fluffy appeared above one of the burning settlements. It did not prevent the atrocities. But in that settlement, in that hour, the killing paused. Fluffy left. The account was suppressed by Fradan command. It survives in Ipadoran oral tradition with complicated bitterness: Fluffy came, and then it left."
+  },
+  {
+    "slug": "fluffy-second-appearance",
+    "type": "history",
+    "name": "Fluffy — The Second Appearance",
+    "aliases": [
+      "Fluffy Convergence Sighting"
+    ],
+    "accentColor": "#FFFFFF",
+    "summary": "A small group of elves fleeing the Crimson Convergence looked back through the canopy and saw, above the burning open land — something large, patient, and watching. It did not follow them. It did not intervene. It watched."
+  },
+  {
+    "slug": "fluffy-third-appearance",
+    "type": "history",
+    "name": "Fluffy — The Third Appearance",
+    "aliases": [
+      "Fluffy Equinox Sighting"
+    ],
+    "accentColor": "#FFFFFF",
+    "summary": "During the Equinox of Power, multiple independent witnesses across the battlefield reported a figure in an enormous fleece at the edge of the carnage. Those closest described the sense of being seen in return. It was gone before the silence settled. The Masters stopped fighting. They have never fought each other again."
   },
   {
     "slug": "formation-of-kingdoms",
@@ -782,10 +824,12 @@
   {
     "slug": "golden-war",
     "type": "history",
-    "name": "The Golden War",
-    "aliases": [],
+    "name": "The Great War",
+    "aliases": [
+      "The Golden War"
+    ],
     "accentColor": "#FFD700",
-    "summary": "Civil war fought 795–800 ACC between the North and South of the Goldhelm Kingdom. Ended with the Equinox of Power — the three-way battle of the Masters. 500,000 soldiers killed. Led to the reshaping of three kingdoms."
+    "summary": "Civil war fought 795–800 ACC between the North and South of the Goldhelm Kingdom. Also known as the Golden War. Ended with the Equinox of Power — the three-way battle of the Masters. 500,000 soldiers killed. Led to the reshaping of three kingdoms."
   },
   {
     "slug": "goldhelm-exodus",

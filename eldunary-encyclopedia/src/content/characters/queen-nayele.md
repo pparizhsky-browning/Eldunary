@@ -11,7 +11,7 @@ magiType: null
 accentColor: "#006994"
 location: "ipadora-sanctuary"
 relatedCharacters: ["prince-vaelen"]
-relatedEvents: []
+relatedEvents: ["ipadora-land-war"]
 summary: "Queen of the Ipadora Kingdom. Head of House Nereval. Ascended in 996 ACC. Genuinely compassionate — not as a political style but as a sincere orientation toward the world. Has restructured Ipadora's waterway tax system and expanded the Ipadora Justice System's continental reputation. Appointed her brother Prince Vaelen to govern Glaril upon taking power."
 ---
 

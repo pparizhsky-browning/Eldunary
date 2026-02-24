@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedCities: ["akison", "neruvalis"]
 mapCoordinates: [400, 350]
+relatedLanguages: ["common"]
 summary: "The gateway between Akison's main island and the Criozevan mainland. Heavy customs inspection. Engineer guilds run the bridge mechanisms."
 ---
 

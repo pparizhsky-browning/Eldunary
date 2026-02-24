@@ -12,9 +12,10 @@ biome: "Jungle, Island, Underwater"
 governmentType: "The Iron Path"
 accentColor: "#DC143C"
 accentColorLight: "#FF3355"
-relatedOrganizations: ["pegasus", "crimson-rooks"]
+relatedOrganizations: ["pegasus", "crimson-rooks", "magic-societies"]
 relatedEvents: ["golden-war", "first-great-war", "equinox-of-power"]
 relatedCharacters: ["sunlee", "biruda"]
+relatedLanguages: ["common", "katorr"]
 mapCoordinates: [780, 280]
 summary: "Island city and jungle mainland. Ruled by Sunlee, Master of Martial Arts. Japanese-inspired cherry blossom architecture."
 ---

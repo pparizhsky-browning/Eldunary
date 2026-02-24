@@ -31,6 +31,10 @@ if (d.notable_landmarks) quickFacts['Landmarks'] = d.notable_landmarks;
 const relatedEntities = [
   ...((d.related_characters ?? d.charactersPresent) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
   ...((d.related_organizations ?? d.organizationsPresent) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ...((d.related_events ?? d.relatedEvents) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'history' })),
+  ...((d.relatedCities ?? d.related_cities) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
+  ...(d.kingdom ? [{ name: _sn(d.kingdom), slug: d.kingdom, type: 'kingdom' }] : []),
+  ...((d.relatedLanguages ?? d.related_languages) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'language' })),
 ];
 ---
 <EntityLayout

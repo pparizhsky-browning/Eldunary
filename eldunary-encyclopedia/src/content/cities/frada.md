@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [150, 430]
+relatedLanguages: ["common"]
 summary: "The Glass Bastion. Military republic capital. Grid-street city built for logistics. Senate sits here. Universal military service required of all citizens."
 ---
 

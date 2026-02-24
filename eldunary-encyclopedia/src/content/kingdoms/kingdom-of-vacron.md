@@ -10,9 +10,10 @@ biome: "River Valley"
 governmentType: "Strict Legal Democracy"
 accentColor: "#00FFFF"
 accentColorLight: "#66FFFF"
-relatedOrganizations: ["crimson-rooks", "rose", "butterfly"]
-relatedEvents: ["first-great-war"]
+relatedOrganizations: ["crimson-rooks", "rose", "butterfly", "magic-societies"]
+relatedEvents: ["first-great-war", "founding-of-crimson-rooks"]
 relatedCharacters: ["crimson-knight"]
+relatedLanguages: ["common"]
 mapCoordinates: [580, 450]
 summary: "Largest city on the continent at its center. Strict law, diverse population. Crimson Rooks HQ. Continental trade nexus."
 ---

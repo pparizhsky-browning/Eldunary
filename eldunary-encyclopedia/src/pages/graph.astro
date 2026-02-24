@@ -14,7 +14,7 @@ const graphData = existsSync(graphFile)
     <header class="graph-header">
       <h1 class="graph-title">Connection Graph</h1>
       <p class="graph-desc">
-        {graphData.nodes.length} entities · {graphData.edges.length} connections
+        {graphData.nodes.length} entities &nbsp;·&nbsp; {graphData.edges.length} connections
       </p>
     </header>
     <div class="graph-container">
@@ -25,10 +25,40 @@ const graphData = existsSync(graphFile)
 
 <style>
   .graph-page { display: flex; flex-direction: column; height: calc(100vh - 64px); }
-  .graph-header { padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0; }
-  .graph-title { font-family: var(--font-cinzel), serif; font-size: 1.5rem; color: var(--text-primary); margin: 0 0 0.25rem; }
-  .graph-desc { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
-  .graph-container { flex: 1; min-height: 0; position: relative; }
+
+  .graph-header {
+    padding: 1rem 1.5rem 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    flex-shrink: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 1.2rem;
+    background: linear-gradient(to bottom, rgba(20,14,8,0.55), transparent);
+  }
+  .graph-title {
+    font-family: var(--font-cinzel), serif;
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    margin: 0;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 30px rgba(196,155,92,0.25);
+  }
+  .graph-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.7;
+  }
+
+  .graph-container {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    /* subtle dot-grid atmosphere */
+    background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
   .graph-container > * { height: 100% !important; }
   .graph-container astro-island,
   .graph-container astro-island > div { display: block !important; height: 100% !important; }

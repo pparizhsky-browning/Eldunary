@@ -13,8 +13,10 @@ power: "Black Magic"
 trait:
   name: "Dark Sanctuary"
   type: "Domain"
-relatedCharacters: ["crimson-knight", "azure-paladin"]
-relatedEvents: ["wizard-uprising"]
+relatedCharacters: ["crimson-knight", "azure-paladin", "velho", "fluffy"]
+relatedOrganizations: ["arashi"]
+relatedCities: ["icogas", "vacron"]
+relatedEvents: ["wizard-uprising", "founding-of-crimson-rooks", "golden-war", "first-great-war", "equinox-of-power"]
 summary: "Arashi #1. Born in Vacron in 692 ACC under the name Azure Paladin — childhood companion of the Crimson Knight. Founded the Republic of Frada in 715 with the goal of continental unification through conquest. Turned to dark magic in 732 after Fluffy gifted the Crimson Knight the crimson blazer. Has not aged since his corruption. Holds the #1 rank in the Arashi by virtue of being the most dangerous active member by a significant margin."
 ---
 

@@ -10,6 +10,7 @@ importance: 2
 accentColor: "#1A6DC0"
 keyCharacters: []
 relatedKingdoms: ["ipadora-kingdom", "kingdom-of-fodon", "republic-of-frada"]
+racesAffected: ["ipadoras", "tharnex"]
 relatedCities: []
 relatedEvents: []
 summary: "c. 900 ACC. A war triggered when a criminal in Ipadora territory killed a Fodon Bug District Tharnex. Fodon and Frada drove Ipadora off the mainland. Ipadora's military — built for sea combat — was ill-suited for land defence. The manmade river dividing the territories remains as a permanent monument to the conflict."

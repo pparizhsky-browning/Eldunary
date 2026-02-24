@@ -14,6 +14,8 @@ trait:
   name: "Deal With the Devil"
   type: "Death Eye"
 relatedCharacters: []
+relatedOrganizations: ["arashi"]
+relatedCities: ["oniofast"]
 relatedEvents: []
 summary: "Arashi #2. A savage warrior who made a pact with the devil to become stronger."
 ---

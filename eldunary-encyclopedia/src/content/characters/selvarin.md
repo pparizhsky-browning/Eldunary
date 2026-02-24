@@ -12,7 +12,8 @@ magiType: null
 accentColor: "#C0C0C0"
 location: "oredsy"
 relatedCharacters: ["veles", "sunlee"]
-relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
+relatedOrganizations: ["pegasus"]
+relatedEvents: ["golden-war", "equinox-of-power", "first-great-war", "formation-of-pegasus-and-rose", "wizard-uprising", "mist-family-massacre"]
 summary: "Power Rank #5. Master of Swords. Leader of the Republic of Oredsy."
 ---
 

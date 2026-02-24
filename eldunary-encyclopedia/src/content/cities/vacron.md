@@ -10,6 +10,7 @@ organizationsPresent: ["crimson-rooks"]
 charactersPresent: ["crimson-knight"]
 relatedEvents: []
 mapCoordinates: [300, 250]
+relatedLanguages: ["common"]
 summary: "Largest city on the continent. Central hub for trade and commerce. Strict law. Crimson Rooks HQ. Where the Crimson Knight lives."
 ---
 

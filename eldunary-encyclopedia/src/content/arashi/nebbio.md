@@ -14,6 +14,8 @@ trait:
   name: "Mist Nebula"
   type: "Domain"
 relatedCharacters: []
+relatedOrganizations: ["arashi"]
+relatedCities: ["suudon", "wrofast"]
 relatedEvents: ["mist-family-massacre"]
 summary: "Arashi #3. Born into the Mist family — a Folkwynd noble line that served as Wrofast's de facto ruling family. Rejected in childhood for being too weak. Returned in 993 ACC and killed every member of the household. Wrofast has had no formal noble leadership since."
 ---

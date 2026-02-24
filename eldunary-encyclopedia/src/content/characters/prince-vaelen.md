@@ -11,6 +11,7 @@ magiType: null
 accentColor: "#006994"
 location: "glaril"
 relatedCharacters: ["queen-nayele"]
+relatedCities: ["glaril"]
 relatedEvents: []
 summary: "Governor of Glaril — the largest underwater city in Criozevan. Younger brother of Queen Nayele. Appointed by his sister upon her ascension in 996 ACC. Governs as a just and considered monarch with a representative democratic structure. Commands one of the most diverse and smallest military forces on the continent."
 ---

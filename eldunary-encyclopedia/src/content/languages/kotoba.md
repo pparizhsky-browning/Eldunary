@@ -9,6 +9,7 @@ status: "Active (scholarly, high-prestige)"
 usedIn: ["iyhago-prime", "uyrand"]
 script: "Advanced Shayathi notation (Harmonic Script)"
 relatedCharacters: ["veles"]
+relatedKingdoms: ["kingdom-of-iyhago"]
 summary: "A refined form of Shayathi used only by the Resonant Guard. High-prestige in Iyhago; uncommon everywhere else. Unauthorized use is forbidden and spiritually dangerous."
 ---
 

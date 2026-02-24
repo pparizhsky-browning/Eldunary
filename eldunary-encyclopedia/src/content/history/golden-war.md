@@ -9,7 +9,9 @@ dateSortKey: 795
 importance: 1
 accentColor: "#FFD700"
 keyCharacters: ["sunlee", "selvarin", "veles", "king-aldric"]
-relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago", "republic-of-frada"]
+relatedOrganizations: ["crimson-rooks"]
+racesAffected: ["goldhelms", "folkwynd"]
 relatedCities: ["ovodon", "ibeson"]
 relatedEvents: ["equinox-of-power"]
 summary: "Civil war fought 795–800 ACC between the North and South of the Goldhelm Kingdom. Also known as the Golden War. Ended with the Equinox of Power — the three-way battle of the Masters. 500,000 soldiers killed. Led to the reshaping of three kingdoms."

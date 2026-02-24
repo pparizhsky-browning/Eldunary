@@ -9,6 +9,8 @@ status: "Active (continental standard)"
 usedIn: ["vacron", "fodon", "frada", "akison", "oredsy", "adlens"]
 script: "Standard Script"
 relatedCharacters: []
+relatedKingdoms: ["kingdom-of-vacron", "kingdom-of-fodon", "republic-of-frada", "state-of-akison", "republic-of-oredsy", "nikolem-kingdom", "kingdom-of-iyhago", "warring-darkmane-realm"]
+relatedRaces: ["folkwynd"]
 summary: "The continental trade and diplomatic language. Spoken as first or second language by every race. The default language of government, commerce, and inter-faction communication."
 ---
 

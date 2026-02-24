@@ -10,6 +10,7 @@ organizationsPresent: ["arashi"]
 charactersPresent: ["rabuka"]
 relatedCities: ["ipadora-sanctuary", "neruvalis"]
 mapCoordinates: [300, 500]
+relatedLanguages: ["sylvaren", "katorr", "sailor-speak"]
 summary: "The largest underwater city in Criozevan. Ipadora family faction governs but piracy is rampant. Rabuka (#4 Arashi), the Shark warrior, makes his home here."
 ---
 

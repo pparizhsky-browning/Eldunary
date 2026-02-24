@@ -10,6 +10,7 @@ importance: 3
 accentColor: "#9370DB"
 keyCharacters: []
 relatedKingdoms: ["republic-of-oredsy", "kingdom-of-iyhago", "state-of-akison"]
+relatedOrganizations: ["pegasus", "rose"]
 relatedCities: ["oniofast", "uyrand", "anehull"]
 relatedEvents: []
 summary: "Pegasus was founded in Year 738 with a genuinely idealistic purpose and succeeded for ~30 years before collapsing through internal theft. Rose was founded in Year 780 by ex-Pegasus members specifically to destroy it. The two organizations have been at war ever since."

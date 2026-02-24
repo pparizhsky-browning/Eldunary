@@ -9,6 +9,8 @@ status: "Active (regional)"
 usedIn: ["oredsy", "wrofast", "imuton"]
 script: "Unknown"
 relatedCharacters: ["selvarin"]
+relatedKingdoms: ["republic-of-oredsy"]
+relatedRaces: ["folkwynd"]
 summary: "The Oredsy Republic language. Selvarin's native tongue."
 ---
 

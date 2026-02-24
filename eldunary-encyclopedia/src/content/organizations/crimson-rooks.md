@@ -10,6 +10,8 @@ memberCount: "Unknown"
 publicFacing: true
 relatedCharacters: ["crimson-knight"]
 relatedCities: ["vacron", "ubraamore", "anehull"]
+relatedKingdoms: ["kingdom-of-vacron", "kingdom-of-iyhago"]
+relatedEvents: ["founding-of-crimson-rooks", "first-great-war"]
 summary: "World peacekeeping organization. HQ in Vacron. Outpost in Ubraamore. Keeps Anehull under constant surveillance. Many citizens see them as both protectors and watchers."
 ---
 

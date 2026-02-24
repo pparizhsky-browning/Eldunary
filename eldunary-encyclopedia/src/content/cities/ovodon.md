@@ -10,6 +10,7 @@ organizationsPresent: []
 charactersPresent: ["king-aldric", "princess-seraphina"]
 relatedEvents: ["golden-war"]
 mapCoordinates: [120, 80]
+relatedLanguages: ["solaran", "common"]
 summary: "Capital of the Goldhelm Kingdom. Home of the Gilded Cradle castle. Hostile to outsiders."
 ---
 

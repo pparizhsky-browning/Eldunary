@@ -11,8 +11,9 @@ family: null
 magiType: null
 accentColor: "#7B68EE"
 location: "iyhago-prime"
-relatedCharacters: ["selvarin", "sunlee"]
-relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
+relatedCharacters: ["selvarin", "sunlee", "velho"]
+relatedOrganizations: ["magic-societies"]
+relatedEvents: ["golden-war", "equinox-of-power", "first-great-war", "wizard-uprising", "formation-of-pegasus-and-rose"]
 summary: "Power Rank #5. Master of Magic. Leader of the Kingdom of Iyhago. Speaks only through harmonic pulses interpreted by chosen attendants."
 ---
 

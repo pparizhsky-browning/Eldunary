@@ -14,6 +14,8 @@ trait:
   name: "Junkyard"
   type: "Domain"
 relatedCharacters: []
+relatedOrganizations: ["arashi"]
+relatedCities: ["akison"]
 relatedEvents: []
 summary: "Arashi #7. Born on Akison and learned the way of the Oni Samurai. An outcast as a child, he left to learn forging and engineering. Upgraded himself by attaching parts of his metallic creations directly to his body."
 ---

@@ -10,9 +10,10 @@ biome: "Desert, Plains"
 governmentType: "The Dune Accord (Council)"
 accentColor: "#FF0000"
 accentColorLight: "#FF5555"
-relatedOrganizations: ["arashi"]
-relatedEvents: ["war-of-fodon", "crimson-convergence"]
+relatedOrganizations: ["arashi", "ace", "magic-societies"]
+relatedEvents: ["war-of-fodon", "crimson-convergence", "ipadora-land-war"]
 relatedCharacters: ["vorvax", "azaraith", "varnokh", "vulkran", "lucifer"]
+relatedLanguages: ["common", "tharnexi"]
 mapCoordinates: [320, 750]
 summary: "Desert kingdom. Four historic war-torn districts unified after Lucifer killed all four district leaders. Harsh but stable."
 ---

@@ -13,7 +13,8 @@ accentColor: "#4A90D9"
 location: "akison"
 weapons: ["Black Root — a metalwood staff from the old jungle"]
 relatedCharacters: ["selvarin", "veles"]
-relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
+relatedOrganizations: ["pegasus", "crimson-rooks"]
+relatedEvents: ["golden-war", "equinox-of-power", "first-great-war", "formation-of-pegasus-and-rose"]
 summary: "Power Rank #5. Master of Martial Arts. Leader of the State of Akison. Carries only the Black Root. No armor, no magic."
 ---
 

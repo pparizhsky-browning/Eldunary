@@ -12,9 +12,10 @@ biome: "Plains, Forest"
 governmentType: "The Free Assembly"
 accentColor: "#0000FF"
 accentColorLight: "#4466FF"
-relatedOrganizations: ["pegasus"]
-relatedEvents: ["golden-war", "equinox-of-power", "first-great-war"]
+relatedOrganizations: ["pegasus", "butterfly", "magic-societies"]
+relatedEvents: ["golden-war", "equinox-of-power", "first-great-war", "mist-family-massacre"]
 relatedCharacters: ["selvarin"]
+relatedLanguages: ["common", "tharnic", "pyrrhith", "sailor-speak"]
 mapCoordinates: [500, 220]
 summary: "Sword-philosophy republic controlled by Pegasus. Duels resolve civic disputes. Master of Swords Selvarin rules."
 ---

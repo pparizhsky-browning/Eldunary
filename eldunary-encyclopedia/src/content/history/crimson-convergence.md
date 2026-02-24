@@ -9,7 +9,9 @@ dateSortKey: 0
 importance: 1
 accentColor: "#8B0000"
 keyCharacters: ["golem-king", "fluffy"]
-relatedEvents: []
+racesAffected: ["folkwynd", "darkmane-elves", "golems", "tharnex", "ipadoras", "sharkai"]
+relatedKingdoms: ["warring-darkmane-realm"]
+relatedEvents: ["dragon-era", "age-of-elves"]
 summary: "The defining cosmological event of Eldunary — the moment from which all years are measured (ACC = After Crimson Convergence). A red star appeared for exactly 40 days, drew magic out of the earth, and caused millions of years of evolution to occur."
 ---
 

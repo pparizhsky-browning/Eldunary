@@ -35,6 +35,12 @@ const _cities = d.notable_cities ?? [...(d.otherCities ?? []), ...(d.capital ? [
 const relatedEntities = [
   ..._cities.map((s: string) => ({ name: _sn(s), slug: s, type: 'city' })),
   ...((d.related_organizations ?? d.relatedOrganizations) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'organization' })),
+  ...((d.related_characters ?? d.relatedCharacters) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'character' })),
+  ...((d.related_events ?? d.relatedEvents) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'history' })),
+  ...((d.related_races ?? d.mainRaces) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'race' })),
+  ...((d.relatedLanguages ?? d.related_languages) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'language' })),
+  ...((d.relatedFamilies ?? d.related_families) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'family' })),
+  ...((d.relatedMagicTypes ?? d.related_magic_types) ?? []).map((s: string) => ({ name: _sn(s), slug: s, type: 'magic' })),
 ];
 ---
 <EntityLayout

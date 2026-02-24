@@ -14,6 +14,11 @@
       "name": "Darkmane Family",
       "slug": "darkmane-family",
       "type": "family"
+    },
+    {
+      "name": "Fall of the Darkmane Kingdom",
+      "slug": "fall-of-darkmane-kingdom",
+      "type": "history"
     }
   ],
   "wrediff": [
@@ -129,6 +134,11 @@
       "type": "kingdom"
     },
     {
+      "name": "Anton",
+      "slug": "anton",
+      "type": "character"
+    },
+    {
       "name": "Crimson Knight",
       "slug": "crimson-knight",
       "type": "character"
@@ -144,6 +154,11 @@
       "type": "character"
     },
     {
+      "name": "Zunarorth",
+      "slug": "zunarorth",
+      "type": "character"
+    },
+    {
       "name": "The Age of Elves",
       "slug": "age-of-elves",
       "type": "history"
@@ -154,8 +169,23 @@
       "type": "history"
     },
     {
+      "name": "Fall of the Darkmane Kingdom",
+      "slug": "fall-of-darkmane-kingdom",
+      "type": "history"
+    },
+    {
       "name": "The Five Public Appearances of Fluffy",
       "slug": "five-appearances-of-fluffy",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Second Appearance",
+      "slug": "fluffy-second-appearance",
+      "type": "history"
+    },
+    {
+      "name": "The Formation of Kingdoms",
+      "slug": "formation-of-kingdoms",
       "type": "history"
     },
     {
@@ -167,6 +197,55 @@
       "name": "Devourers",
       "slug": "devourers",
       "type": "magic"
+    }
+  ],
+  "fall-of-darkmane-kingdom": [
+    {
+      "name": "Darkmane Elves",
+      "slug": "darkmane-elves",
+      "type": "race"
+    },
+    {
+      "name": "Warring Darkmane Realm",
+      "slug": "warring-darkmane-realm",
+      "type": "kingdom"
+    },
+    {
+      "name": "Vaelith the Hollow",
+      "slug": "vaelith-the-hollow",
+      "type": "character"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Darkmane Family",
+      "slug": "darkmane-family",
+      "type": "family"
+    }
+  ],
+  "age-of-elves": [
+    {
+      "name": "Darkmane Elves",
+      "slug": "darkmane-elves",
+      "type": "race"
+    },
+    {
+      "name": "Warring Darkmane Realm",
+      "slug": "warring-darkmane-realm",
+      "type": "kingdom"
+    },
+    {
+      "name": "The Crimson Convergence",
+      "slug": "crimson-convergence",
+      "type": "history"
+    },
+    {
+      "name": "Fall of the Darkmane Kingdom",
+      "slug": "fall-of-darkmane-kingdom",
+      "type": "history"
     }
   ],
   "arashi": [
@@ -219,6 +298,81 @@
       "name": "Zhuiburn",
       "slug": "zhuiburn",
       "type": "city"
+    },
+    {
+      "name": "Berserk",
+      "slug": "berserk",
+      "type": "arashi"
+    },
+    {
+      "name": "Biruda",
+      "slug": "biruda",
+      "type": "arashi"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
+      "name": "Kaboom",
+      "slug": "kaboom",
+      "type": "arashi"
+    },
+    {
+      "name": "Lucifer",
+      "slug": "lucifer",
+      "type": "arashi"
+    },
+    {
+      "name": "Nebbio",
+      "slug": "nebbio",
+      "type": "arashi"
+    },
+    {
+      "name": "Oto",
+      "slug": "oto",
+      "type": "arashi"
+    },
+    {
+      "name": "Rabuka",
+      "slug": "rabuka",
+      "type": "arashi"
+    },
+    {
+      "name": "Ryobik",
+      "slug": "ryobik",
+      "type": "arashi"
+    },
+    {
+      "name": "Spector",
+      "slug": "spector",
+      "type": "arashi"
+    },
+    {
+      "name": "Unknown",
+      "slug": "unknown-0",
+      "type": "arashi"
+    },
+    {
+      "name": "Velho",
+      "slug": "velho",
+      "type": "arashi"
+    },
+    {
+      "name": "The Mist Family Massacre",
+      "slug": "mist-family-massacre",
+      "type": "history"
+    },
+    {
+      "name": "War of Fodon",
+      "slug": "war-of-fodon",
+      "type": "history"
     }
   ],
   "warring-darkmane-realm": [
@@ -248,14 +402,19 @@
       "type": "city"
     },
     {
-      "name": "Sael",
-      "slug": "sael",
-      "type": "character"
-    },
-    {
       "name": "Vaelith the Hollow",
       "slug": "vaelith-the-hollow",
       "type": "character"
+    },
+    {
+      "name": "Ace",
+      "slug": "ace",
+      "type": "organization"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
     },
     {
       "name": "Darkmane Family",
@@ -268,9 +427,29 @@
       "type": "history"
     },
     {
+      "name": "The Crimson Convergence",
+      "slug": "crimson-convergence",
+      "type": "history"
+    },
+    {
+      "name": "Fall of the Darkmane Kingdom",
+      "slug": "fall-of-darkmane-kingdom",
+      "type": "history"
+    },
+    {
       "name": "Corrupted Runes",
       "slug": "corrupted-runes",
       "type": "magic"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Nualthyr",
+      "slug": "nualthyr",
+      "type": "language"
     }
   ],
   "vaelith-the-hollow": [
@@ -283,11 +462,6 @@
       "name": "Warring Darkmane Realm",
       "slug": "warring-darkmane-realm",
       "type": "kingdom"
-    },
-    {
-      "name": "Sael",
-      "slug": "sael",
-      "type": "character"
     },
     {
       "name": "Darkmane Family",
@@ -310,6 +484,11 @@
       "name": "Kingdom of Vacron",
       "slug": "kingdom-of-vacron",
       "type": "kingdom"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
     },
     {
       "name": "Crimson Rooks",
@@ -393,6 +572,11 @@
       "type": "city"
     },
     {
+      "name": "Biruda",
+      "slug": "biruda",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -438,6 +622,21 @@
       "name": "Vacron",
       "slug": "vacron",
       "type": "city"
+    },
+    {
+      "name": "Sunlee",
+      "slug": "sunlee",
+      "type": "character"
+    },
+    {
+      "name": "The Founding of the Crimson Rooks",
+      "slug": "founding-of-crimson-rooks",
+      "type": "history"
+    },
+    {
+      "name": "The Great War",
+      "slug": "golden-war",
+      "type": "history"
     }
   ],
   "kingdom-of-vacron": [
@@ -467,19 +666,49 @@
       "type": "city"
     },
     {
-      "name": "Ossivael",
-      "slug": "butterfly-scholar",
-      "type": "character"
-    },
-    {
       "name": "Crimson Knight",
       "slug": "crimson-knight",
       "type": "character"
     },
     {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Butterfly",
+      "slug": "butterfly",
+      "type": "organization"
+    },
+    {
+      "name": "Crimson Rooks",
+      "slug": "crimson-rooks",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Rose",
+      "slug": "rose",
+      "type": "organization"
+    },
+    {
       "name": "The Founding of the Crimson Rooks",
       "slug": "founding-of-crimson-rooks",
       "type": "history"
+    },
+    {
+      "name": "Hell",
+      "slug": "hell",
+      "type": "magic"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
     }
   ],
   "republic-of-frada": [
@@ -504,6 +733,21 @@
       "type": "character"
     },
     {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Fluffy — The Fourth Appearance",
+      "slug": "fluffy-fourth-appearance",
+      "type": "history"
+    },
+    {
+      "name": "The Great War",
+      "slug": "golden-war",
+      "type": "history"
+    },
+    {
       "name": "The Ipadora Land War",
       "slug": "ipadora-land-war",
       "type": "history"
@@ -512,12 +756,22 @@
       "name": "Holotech",
       "slug": "holotech",
       "type": "magic"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
     }
   ],
   "state-of-akison": [
     {
       "name": "Folkwynd",
       "slug": "folkwynd",
+      "type": "race"
+    },
+    {
+      "name": "Ipadoras",
+      "slug": "ipadoras",
       "type": "race"
     },
     {
@@ -556,6 +810,21 @@
       "type": "character"
     },
     {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Pegasus",
+      "slug": "pegasus",
+      "type": "organization"
+    },
+    {
       "name": "The Equinox of Power",
       "slug": "equinox-of-power",
       "type": "history"
@@ -571,9 +840,19 @@
       "type": "history"
     },
     {
-      "name": "The Golden War",
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Ka'torr",
+      "slug": "katorr",
+      "type": "language"
     }
   ],
   "republic-of-oredsy": [
@@ -613,6 +892,26 @@
       "type": "character"
     },
     {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Butterfly",
+      "slug": "butterfly",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Pegasus",
+      "slug": "pegasus",
+      "type": "organization"
+    },
+    {
       "name": "The Equinox of Power",
       "slug": "equinox-of-power",
       "type": "history"
@@ -628,7 +927,7 @@
       "type": "history"
     },
     {
-      "name": "The Golden War",
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
     },
@@ -641,6 +940,205 @@
       "name": "The Wizard Uprising",
       "slug": "wizard-uprising",
       "type": "history"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Pyrrhith",
+      "slug": "pyrrhith",
+      "type": "language"
+    },
+    {
+      "name": "Sailor Speak",
+      "slug": "sailor-speak",
+      "type": "language"
+    },
+    {
+      "name": "Tharnic",
+      "slug": "tharnic",
+      "type": "language"
+    }
+  ],
+  "kingdom-of-fodon": [
+    {
+      "name": "Folkwynd",
+      "slug": "folkwynd",
+      "type": "race"
+    },
+    {
+      "name": "Tharnex",
+      "slug": "tharnex",
+      "type": "race"
+    },
+    {
+      "name": "Fodon",
+      "slug": "fodon",
+      "type": "city"
+    },
+    {
+      "name": "Mayson",
+      "slug": "mayson",
+      "type": "city"
+    },
+    {
+      "name": "Plodrough",
+      "slug": "plodrough",
+      "type": "city"
+    },
+    {
+      "name": "Sloumont",
+      "slug": "sloumont",
+      "type": "city"
+    },
+    {
+      "name": "Azaraith",
+      "slug": "azaraith",
+      "type": "character"
+    },
+    {
+      "name": "Varnokh",
+      "slug": "varnokh",
+      "type": "character"
+    },
+    {
+      "name": "Vorvax",
+      "slug": "vorvax",
+      "type": "character"
+    },
+    {
+      "name": "Vulkran",
+      "slug": "vulkran",
+      "type": "character"
+    },
+    {
+      "name": "Ace",
+      "slug": "ace",
+      "type": "organization"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "The Ipadora Land War",
+      "slug": "ipadora-land-war",
+      "type": "history"
+    },
+    {
+      "name": "War of Fodon",
+      "slug": "war-of-fodon",
+      "type": "history"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Tharnexi",
+      "slug": "tharnexi",
+      "type": "language"
+    }
+  ],
+  "kingdom-of-iyhago": [
+    {
+      "name": "Folkwynd",
+      "slug": "folkwynd",
+      "type": "race"
+    },
+    {
+      "name": "Ipadoras",
+      "slug": "ipadoras",
+      "type": "race"
+    },
+    {
+      "name": "Andport",
+      "slug": "andport",
+      "type": "city"
+    },
+    {
+      "name": "Iyhago Prime",
+      "slug": "iyhago-prime",
+      "type": "city"
+    },
+    {
+      "name": "Ubraamore",
+      "slug": "ubraamore",
+      "type": "city"
+    },
+    {
+      "name": "Uyrand",
+      "slug": "uyrand",
+      "type": "city"
+    },
+    {
+      "name": "Veles",
+      "slug": "veles",
+      "type": "character"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Crimson Rooks",
+      "slug": "crimson-rooks",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Rose",
+      "slug": "rose",
+      "type": "organization"
+    },
+    {
+      "name": "The Equinox of Power",
+      "slug": "equinox-of-power",
+      "type": "history"
+    },
+    {
+      "name": "The First Great War",
+      "slug": "first-great-war",
+      "type": "history"
+    },
+    {
+      "name": "The Formation of Pegasus and Rose",
+      "slug": "formation-of-pegasus-and-rose",
+      "type": "history"
+    },
+    {
+      "name": "The Great War",
+      "slug": "golden-war",
+      "type": "history"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Kōtoba",
+      "slug": "kotoba",
+      "type": "language"
+    },
+    {
+      "name": "Shayathi",
+      "slug": "shayathi",
+      "type": "language"
     }
   ],
   "crimson-knight": [
@@ -699,6 +1197,11 @@
     {
       "name": "Lady Isolde",
       "slug": "isolde",
+      "type": "character"
+    },
+    {
+      "name": "King Aldric",
+      "slug": "king-aldric",
       "type": "character"
     },
     {
@@ -781,7 +1284,7 @@
       "type": "family"
     },
     {
-      "name": "The Golden War",
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
     },
@@ -808,6 +1311,16 @@
       "type": "kingdom"
     },
     {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
+      "name": "Kaboom",
+      "slug": "kaboom",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -828,7 +1341,12 @@
       "type": "history"
     },
     {
-      "name": "The Golden War",
+      "name": "Fluffy — The Third Appearance",
+      "slug": "fluffy-third-appearance",
+      "type": "history"
+    },
+    {
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
     },
@@ -885,6 +1403,26 @@
       "type": "city"
     },
     {
+      "name": "The Azure Paladin",
+      "slug": "azure-paladin",
+      "type": "character"
+    },
+    {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
+      "name": "Sir Elric",
+      "slug": "elric",
+      "type": "character"
+    },
+    {
+      "name": "Lady Isolde",
+      "slug": "isolde",
+      "type": "character"
+    },
+    {
       "name": "King Aldric",
       "slug": "king-aldric",
       "type": "character"
@@ -910,6 +1448,11 @@
       "type": "character"
     },
     {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
       "name": "Goldhelm Family",
       "slug": "goldhelm-family",
       "type": "family"
@@ -923,6 +1466,43 @@
       "name": "The First Great War",
       "slug": "first-great-war",
       "type": "history"
+    },
+    {
+      "name": "Fluffy — The Third Appearance",
+      "slug": "fluffy-third-appearance",
+      "type": "history"
+    }
+  ],
+  "goldhelm-exodus": [
+    {
+      "name": "Goldhelms",
+      "slug": "goldhelms",
+      "type": "race"
+    },
+    {
+      "name": "Goldhelm Kingdom",
+      "slug": "goldhelm-kingdom",
+      "type": "kingdom"
+    },
+    {
+      "name": "King Aldric",
+      "slug": "king-aldric",
+      "type": "character"
+    },
+    {
+      "name": "Goldhelm Family",
+      "slug": "goldhelm-family",
+      "type": "family"
+    },
+    {
+      "name": "The Formation of Kingdoms",
+      "slug": "formation-of-kingdoms",
+      "type": "history"
+    },
+    {
+      "name": "Devourers",
+      "slug": "devourers",
+      "type": "magic"
     }
   ],
   "goldhelm-kingdom": [
@@ -957,14 +1537,24 @@
       "type": "character"
     },
     {
-      "name": "The New Goldhelm General",
-      "slug": "new-goldhelm-general",
-      "type": "character"
-    },
-    {
       "name": "Princess Seraphina",
       "slug": "princess-seraphina",
       "type": "character"
+    },
+    {
+      "name": "Kaboom",
+      "slug": "kaboom",
+      "type": "arashi"
+    },
+    {
+      "name": "Ace",
+      "slug": "ace",
+      "type": "organization"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
     },
     {
       "name": "Goldhelm Family",
@@ -987,7 +1577,7 @@
       "type": "history"
     },
     {
-      "name": "The Golden War",
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
     },
@@ -1005,6 +1595,16 @@
       "name": "Holotech",
       "slug": "holotech",
       "type": "magic"
+    },
+    {
+      "name": "Malefici",
+      "slug": "malefici",
+      "type": "magic"
+    },
+    {
+      "name": "Solaran",
+      "slug": "solaran",
+      "type": "language"
     }
   ],
   "king-aldric": [
@@ -1031,11 +1631,6 @@
     {
       "name": "Lady Isolde",
       "slug": "isolde",
-      "type": "character"
-    },
-    {
-      "name": "The New Goldhelm General",
-      "slug": "new-goldhelm-general",
       "type": "character"
     },
     {
@@ -1071,6 +1666,11 @@
       "type": "kingdom"
     },
     {
+      "name": "Nebbio",
+      "slug": "nebbio",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -1090,6 +1690,11 @@
     {
       "name": "The Five Public Appearances of Fluffy",
       "slug": "five-appearances-of-fluffy",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Fifth Appearance",
+      "slug": "fluffy-fifth-appearance",
       "type": "history"
     }
   ],
@@ -1149,9 +1754,29 @@
       "type": "character"
     },
     {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
       "name": "Runestones",
       "slug": "runestones",
       "type": "magic"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Karthrun",
+      "slug": "karthrun",
+      "type": "language"
     }
   ],
   "golem-king": [
@@ -1240,6 +1865,16 @@
       "type": "city"
     },
     {
+      "name": "Prince Vaelen",
+      "slug": "prince-vaelen",
+      "type": "character"
+    },
+    {
+      "name": "Rabuka",
+      "slug": "rabuka",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -1287,14 +1922,96 @@
       "type": "city"
     },
     {
+      "name": "Azaraith",
+      "slug": "azaraith",
+      "type": "character"
+    },
+    {
+      "name": "Varnokh",
+      "slug": "varnokh",
+      "type": "character"
+    },
+    {
       "name": "Vorryn",
       "slug": "vorryn",
       "type": "character"
     },
     {
+      "name": "Vorvax",
+      "slug": "vorvax",
+      "type": "character"
+    },
+    {
+      "name": "Vulkran",
+      "slug": "vulkran",
+      "type": "character"
+    },
+    {
+      "name": "Lucifer",
+      "slug": "lucifer",
+      "type": "arashi"
+    },
+    {
       "name": "Ace",
       "slug": "ace",
       "type": "organization"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    }
+  ],
+  "ipadora-land-war": [
+    {
+      "name": "Ipadoras",
+      "slug": "ipadoras",
+      "type": "race"
+    },
+    {
+      "name": "Tharnex",
+      "slug": "tharnex",
+      "type": "race"
+    },
+    {
+      "name": "Ipadora Kingdom",
+      "slug": "ipadora-kingdom",
+      "type": "kingdom"
+    },
+    {
+      "name": "Kingdom of Fodon",
+      "slug": "kingdom-of-fodon",
+      "type": "kingdom"
+    },
+    {
+      "name": "Republic of Frada",
+      "slug": "republic-of-frada",
+      "type": "kingdom"
+    },
+    {
+      "name": "Fluffy",
+      "slug": "fluffy",
+      "type": "character"
+    },
+    {
+      "name": "Queen Nayele",
+      "slug": "queen-nayele",
+      "type": "character"
+    },
+    {
+      "name": "Ipadora Family",
+      "slug": "ipadora-family",
+      "type": "family"
+    },
+    {
+      "name": "The Five Public Appearances of Fluffy",
+      "slug": "five-appearances-of-fluffy",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Fourth Appearance",
+      "slug": "fluffy-fourth-appearance",
+      "type": "history"
     }
   ],
   "ipadora-kingdom": [
@@ -1324,6 +2041,16 @@
       "type": "character"
     },
     {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
       "name": "House Abyrath",
       "slug": "house-abyrath",
       "type": "family"
@@ -1334,9 +2061,29 @@
       "type": "family"
     },
     {
+      "name": "Fluffy — The Fourth Appearance",
+      "slug": "fluffy-fourth-appearance",
+      "type": "history"
+    },
+    {
       "name": "The Ipadora Land War",
       "slug": "ipadora-land-war",
       "type": "history"
+    },
+    {
+      "name": "Ka'torr",
+      "slug": "katorr",
+      "type": "language"
+    },
+    {
+      "name": "Sailor Speak",
+      "slug": "sailor-speak",
+      "type": "language"
+    },
+    {
+      "name": "Sylvaren",
+      "slug": "sylvaren",
+      "type": "language"
     }
   ],
   "queen-nayele": [
@@ -1432,56 +2179,21 @@
       "type": "history"
     }
   ],
-  "kingdom-of-fodon": [
+  "ace": [
     {
       "name": "Tharnex",
       "slug": "tharnex",
       "type": "race"
     },
     {
-      "name": "Fodon",
-      "slug": "fodon",
+      "name": "Kingdom of Fodon",
+      "slug": "kingdom-of-fodon",
+      "type": "kingdom"
+    },
+    {
+      "name": "Adlens",
+      "slug": "adlens",
       "type": "city"
-    },
-    {
-      "name": "Mayson",
-      "slug": "mayson",
-      "type": "city"
-    },
-    {
-      "name": "Plodrough",
-      "slug": "plodrough",
-      "type": "city"
-    },
-    {
-      "name": "Sloumont",
-      "slug": "sloumont",
-      "type": "city"
-    },
-    {
-      "name": "Azaraith",
-      "slug": "azaraith",
-      "type": "character"
-    },
-    {
-      "name": "Varnokh",
-      "slug": "varnokh",
-      "type": "character"
-    },
-    {
-      "name": "Vorvax",
-      "slug": "vorvax",
-      "type": "character"
-    },
-    {
-      "name": "Vulkran",
-      "slug": "vulkran",
-      "type": "character"
-    },
-    {
-      "name": "The Ipadora Land War",
-      "slug": "ipadora-land-war",
-      "type": "history"
     },
     {
       "name": "War of Fodon",
@@ -1560,6 +2272,11 @@
       "type": "city"
     },
     {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -1582,6 +2299,16 @@
       "type": "character"
     },
     {
+      "name": "Oto",
+      "slug": "oto",
+      "type": "arashi"
+    },
+    {
+      "name": "Spector",
+      "slug": "spector",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -1592,6 +2319,93 @@
       "name": "Goldhelm Kingdom",
       "slug": "goldhelm-kingdom",
       "type": "kingdom"
+    },
+    {
+      "name": "Goldhelm Family",
+      "slug": "goldhelm-family",
+      "type": "family"
+    },
+    {
+      "name": "Holotech",
+      "slug": "holotech",
+      "type": "magic"
+    },
+    {
+      "name": "Solaran",
+      "slug": "solaran",
+      "type": "language"
+    }
+  ],
+  "magic-societies": [
+    {
+      "name": "Ipadora Kingdom",
+      "slug": "ipadora-kingdom",
+      "type": "kingdom"
+    },
+    {
+      "name": "Kingdom of Fodon",
+      "slug": "kingdom-of-fodon",
+      "type": "kingdom"
+    },
+    {
+      "name": "Kingdom of Iyhago",
+      "slug": "kingdom-of-iyhago",
+      "type": "kingdom"
+    },
+    {
+      "name": "Kingdom of Vacron",
+      "slug": "kingdom-of-vacron",
+      "type": "kingdom"
+    },
+    {
+      "name": "Nikolem Kingdom",
+      "slug": "nikolem-kingdom",
+      "type": "kingdom"
+    },
+    {
+      "name": "Republic of Frada",
+      "slug": "republic-of-frada",
+      "type": "kingdom"
+    },
+    {
+      "name": "Republic of Oredsy",
+      "slug": "republic-of-oredsy",
+      "type": "kingdom"
+    },
+    {
+      "name": "State of Akison",
+      "slug": "state-of-akison",
+      "type": "kingdom"
+    },
+    {
+      "name": "Klanron",
+      "slug": "klanron",
+      "type": "city"
+    },
+    {
+      "name": "Veles",
+      "slug": "veles",
+      "type": "character"
+    },
+    {
+      "name": "Velho",
+      "slug": "velho",
+      "type": "arashi"
+    },
+    {
+      "name": "Butterfly",
+      "slug": "butterfly",
+      "type": "organization"
+    },
+    {
+      "name": "Malefici",
+      "slug": "malefici",
+      "type": "magic"
+    },
+    {
+      "name": "Metas",
+      "slug": "metas",
+      "type": "magic"
     }
   ],
   "ipadoras": [
@@ -1609,6 +2423,26 @@
       "name": "State of Akison",
       "slug": "state-of-akison",
       "type": "kingdom"
+    },
+    {
+      "name": "House Abyrath",
+      "slug": "house-abyrath",
+      "type": "family"
+    },
+    {
+      "name": "Ipadora Family",
+      "slug": "ipadora-family",
+      "type": "family"
+    },
+    {
+      "name": "Sailor Speak",
+      "slug": "sailor-speak",
+      "type": "language"
+    },
+    {
+      "name": "Sylvaren",
+      "slug": "sylvaren",
+      "type": "language"
     }
   ],
   "sharkai": [
@@ -1621,6 +2455,16 @@
       "name": "State of Akison",
       "slug": "state-of-akison",
       "type": "kingdom"
+    },
+    {
+      "name": "Rabuka",
+      "slug": "rabuka",
+      "type": "arashi"
+    },
+    {
+      "name": "Ka'torr",
+      "slug": "katorr",
+      "type": "language"
     }
   ],
   "azaraith": [
@@ -1812,6 +2656,26 @@
       "name": "State of Akison",
       "slug": "state-of-akison",
       "type": "kingdom"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "type": "language"
+    },
+    {
+      "name": "Sailor Speak",
+      "slug": "sailor-speak",
+      "type": "language"
+    },
+    {
+      "name": "Shayathi",
+      "slug": "shayathi",
+      "type": "language"
+    },
+    {
+      "name": "Tharnic",
+      "slug": "tharnic",
+      "type": "language"
     }
   ],
   "tharnex": [
@@ -1819,6 +2683,16 @@
       "name": "Kingdom of Fodon",
       "slug": "kingdom-of-fodon",
       "type": "kingdom"
+    },
+    {
+      "name": "Ace",
+      "slug": "ace",
+      "type": "organization"
+    },
+    {
+      "name": "Tharnexi",
+      "slug": "tharnexi",
+      "type": "language"
     }
   ],
   "veles": [
@@ -1890,6 +2764,16 @@
       "type": "city"
     },
     {
+      "name": "The Azure Paladin",
+      "slug": "azure-paladin",
+      "type": "character"
+    },
+    {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
       "name": "Fluffy",
       "slug": "fluffy",
       "type": "character"
@@ -1910,6 +2794,11 @@
       "type": "character"
     },
     {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
       "name": "The First Great War",
       "slug": "first-great-war",
       "type": "history"
@@ -1920,7 +2809,12 @@
       "type": "history"
     },
     {
-      "name": "The Golden War",
+      "name": "Fluffy — The Third Appearance",
+      "slug": "fluffy-third-appearance",
+      "type": "history"
+    },
+    {
+      "name": "The Great War",
       "slug": "golden-war",
       "type": "history"
     },
@@ -1962,6 +2856,16 @@
       "type": "city"
     },
     {
+      "name": "The Azure Paladin",
+      "slug": "azure-paladin",
+      "type": "character"
+    },
+    {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
       "name": "Selvarin",
       "slug": "selvarin",
       "type": "character"
@@ -1975,6 +2879,16 @@
       "name": "Veles",
       "slug": "veles",
       "type": "character"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
+      "name": "Crimson Rooks",
+      "slug": "crimson-rooks",
+      "type": "organization"
     },
     {
       "name": "The Equinox of Power",
@@ -2007,6 +2921,11 @@
       "name": "Uyrand",
       "slug": "uyrand",
       "type": "city"
+    },
+    {
+      "name": "The Formation of Pegasus and Rose",
+      "slug": "formation-of-pegasus-and-rose",
+      "type": "history"
     }
   ],
   "andport": [
@@ -2014,6 +2933,11 @@
       "name": "Kingdom of Iyhago",
       "slug": "kingdom-of-iyhago",
       "type": "kingdom"
+    },
+    {
+      "name": "Spector",
+      "slug": "spector",
+      "type": "arashi"
     },
     {
       "name": "Arashi",
@@ -2072,10 +2996,47 @@
       "type": "city"
     }
   ],
+  "founding-of-crimson-rooks": [
+    {
+      "name": "Kingdom of Vacron",
+      "slug": "kingdom-of-vacron",
+      "type": "kingdom"
+    },
+    {
+      "name": "Eshar-Thi",
+      "slug": "eshar-thi",
+      "type": "city"
+    },
+    {
+      "name": "The Azure Paladin",
+      "slug": "azure-paladin",
+      "type": "character"
+    },
+    {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
+      "name": "Crimson Rooks",
+      "slug": "crimson-rooks",
+      "type": "organization"
+    }
+  ],
   "butterfly": [
     {
       "name": "Kingdom of Vacron",
       "slug": "kingdom-of-vacron",
+      "type": "kingdom"
+    },
+    {
+      "name": "Republic of Oredsy",
+      "slug": "republic-of-oredsy",
       "type": "kingdom"
     },
     {
@@ -2087,6 +3048,26 @@
       "name": "Klanron",
       "slug": "klanron",
       "type": "city"
+    },
+    {
+      "name": "Anton",
+      "slug": "anton",
+      "type": "character"
+    },
+    {
+      "name": "Magic Societies",
+      "slug": "magic-societies",
+      "type": "organization"
+    },
+    {
+      "name": "Malefici",
+      "slug": "malefici",
+      "type": "magic"
+    },
+    {
+      "name": "Metas",
+      "slug": "metas",
+      "type": "magic"
     }
   ],
   "clocester": [
@@ -2123,6 +3104,11 @@
       "name": "Kingdom of Vacron",
       "slug": "kingdom-of-vacron",
       "type": "kingdom"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
     },
     {
       "name": "Crimson Rooks",
@@ -2167,6 +3153,16 @@
       "name": "Nikolem Kingdom",
       "slug": "nikolem-kingdom",
       "type": "kingdom"
+    },
+    {
+      "name": "Runestones",
+      "slug": "runestones",
+      "type": "magic"
+    },
+    {
+      "name": "Karthrun",
+      "slug": "karthrun",
+      "type": "language"
     }
   ],
   "hiypolis": [
@@ -2203,9 +3199,36 @@
       "type": "character"
     },
     {
+      "name": "Velho",
+      "slug": "velho",
+      "type": "arashi"
+    },
+    {
       "name": "Tharnic",
       "slug": "tharnic",
       "type": "language"
+    }
+  ],
+  "mist-family-massacre": [
+    {
+      "name": "Republic of Oredsy",
+      "slug": "republic-of-oredsy",
+      "type": "kingdom"
+    },
+    {
+      "name": "Selvarin",
+      "slug": "selvarin",
+      "type": "character"
+    },
+    {
+      "name": "Nebbio",
+      "slug": "nebbio",
+      "type": "arashi"
+    },
+    {
+      "name": "Arashi",
+      "slug": "arashi",
+      "type": "organization"
     }
   ],
   "pegasus": [
@@ -2238,6 +3261,21 @@
       "name": "Wrofast",
       "slug": "wrofast",
       "type": "city"
+    },
+    {
+      "name": "Selvarin",
+      "slug": "selvarin",
+      "type": "character"
+    },
+    {
+      "name": "Sunlee",
+      "slug": "sunlee",
+      "type": "character"
+    },
+    {
+      "name": "The Formation of Pegasus and Rose",
+      "slug": "formation-of-pegasus-and-rose",
+      "type": "history"
     }
   ],
   "wrofast": [
@@ -2250,6 +3288,11 @@
       "name": "Imuton",
       "slug": "imuton",
       "type": "city"
+    },
+    {
+      "name": "Nebbio",
+      "slug": "nebbio",
+      "type": "arashi"
     },
     {
       "name": "The Mist Family Massacre",
@@ -2271,6 +3314,11 @@
       "type": "kingdom"
     },
     {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -2286,6 +3334,16 @@
       "name": "Republic of Oredsy",
       "slug": "republic-of-oredsy",
       "type": "kingdom"
+    },
+    {
+      "name": "Vulkran",
+      "slug": "vulkran",
+      "type": "character"
+    },
+    {
+      "name": "Lucifer",
+      "slug": "lucifer",
+      "type": "arashi"
     },
     {
       "name": "Arashi",
@@ -2346,6 +3404,11 @@
       "type": "kingdom"
     },
     {
+      "name": "Berserk",
+      "slug": "berserk",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -2378,13 +3441,21 @@
       "name": "Warring Darkmane Realm",
       "slug": "warring-darkmane-realm",
       "type": "kingdom"
-    }
-  ],
-  "ace": [
+    },
     {
-      "name": "Adlens",
-      "slug": "adlens",
-      "type": "city"
+      "name": "Darkmane Family",
+      "slug": "darkmane-family",
+      "type": "family"
+    },
+    {
+      "name": "Corrupted Runes",
+      "slug": "corrupted-runes",
+      "type": "magic"
+    },
+    {
+      "name": "Nualthyr",
+      "slug": "nualthyr",
+      "type": "language"
     }
   ],
   "spector": [
@@ -2399,56 +3470,19 @@
       "type": "character"
     },
     {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
+      "name": "Oto",
+      "slug": "oto",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
-    }
-  ],
-  "kingdom-of-iyhago": [
-    {
-      "name": "Andport",
-      "slug": "andport",
-      "type": "city"
-    },
-    {
-      "name": "Iyhago Prime",
-      "slug": "iyhago-prime",
-      "type": "city"
-    },
-    {
-      "name": "Ubraamore",
-      "slug": "ubraamore",
-      "type": "city"
-    },
-    {
-      "name": "Uyrand",
-      "slug": "uyrand",
-      "type": "city"
-    },
-    {
-      "name": "Veles",
-      "slug": "veles",
-      "type": "character"
-    },
-    {
-      "name": "The Equinox of Power",
-      "slug": "equinox-of-power",
-      "type": "history"
-    },
-    {
-      "name": "The First Great War",
-      "slug": "first-great-war",
-      "type": "history"
-    },
-    {
-      "name": "The Formation of Pegasus and Rose",
-      "slug": "formation-of-pegasus-and-rose",
-      "type": "history"
-    },
-    {
-      "name": "The Golden War",
-      "slug": "golden-war",
-      "type": "history"
     }
   ],
   "dark-paladin": [
@@ -2468,21 +3502,14 @@
       "type": "character"
     },
     {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
-    }
-  ],
-  "founding-of-crimson-rooks": [
-    {
-      "name": "Eshar-Thi",
-      "slug": "eshar-thi",
-      "type": "city"
-    },
-    {
-      "name": "The Azure Paladin",
-      "slug": "azure-paladin",
-      "type": "character"
     }
   ],
   "absorbed": [
@@ -2501,13 +3528,6 @@
     {
       "name": "Skellmoor",
       "slug": "skellmoor",
-      "type": "city"
-    }
-  ],
-  "magic-societies": [
-    {
-      "name": "Klanron",
-      "slug": "klanron",
       "type": "city"
     }
   ],
@@ -2535,6 +3555,16 @@
       "type": "character"
     },
     {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
+      "name": "Spector",
+      "slug": "spector",
+      "type": "arashi"
+    },
+    {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
@@ -2547,14 +3577,39 @@
       "type": "character"
     },
     {
+      "name": "The Azure Paladin",
+      "slug": "azure-paladin",
+      "type": "character"
+    },
+    {
+      "name": "Selvarin",
+      "slug": "selvarin",
+      "type": "character"
+    },
+    {
+      "name": "Veles",
+      "slug": "veles",
+      "type": "character"
+    },
+    {
       "name": "Dark Paladin",
       "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
+      "name": "Helm",
+      "slug": "helm",
       "type": "arashi"
     },
     {
       "name": "Velho",
       "slug": "velho",
       "type": "arashi"
+    },
+    {
+      "name": "Malefici",
+      "slug": "malefici",
+      "type": "magic"
     }
   ],
   "fluffy": [
@@ -2572,6 +3627,16 @@
       "name": "Zunarorth",
       "slug": "zunarorth",
       "type": "character"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    },
+    {
+      "name": "Metas",
+      "slug": "metas",
+      "type": "magic"
     }
   ],
   "zunarorth": [
@@ -2596,10 +3661,27 @@
       "type": "character"
     }
   ],
+  "azure-paladin": [
+    {
+      "name": "Crimson Knight",
+      "slug": "crimson-knight",
+      "type": "character"
+    },
+    {
+      "name": "Dark Paladin",
+      "slug": "dark-paladin",
+      "type": "arashi"
+    }
+  ],
   "isolde": [
     {
       "name": "Sir Elric",
       "slug": "elric",
+      "type": "character"
+    },
+    {
+      "name": "King Aldric",
+      "slug": "king-aldric",
       "type": "character"
     },
     {
@@ -2615,8 +3697,23 @@
       "type": "character"
     },
     {
+      "name": "Zunarorth",
+      "slug": "zunarorth",
+      "type": "character"
+    },
+    {
+      "name": "The Crimson Convergence",
+      "slug": "crimson-convergence",
+      "type": "history"
+    },
+    {
       "name": "The Five Public Appearances of Fluffy",
       "slug": "five-appearances-of-fluffy",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The First Appearance",
+      "slug": "fluffy-first-appearance",
       "type": "history"
     }
   ],
@@ -2625,6 +3722,31 @@
       "name": "Fluffy",
       "slug": "fluffy",
       "type": "character"
+    },
+    {
+      "name": "Fluffy — The Fifth Appearance",
+      "slug": "fluffy-fifth-appearance",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The First Appearance",
+      "slug": "fluffy-first-appearance",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Fourth Appearance",
+      "slug": "fluffy-fourth-appearance",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Second Appearance",
+      "slug": "fluffy-second-appearance",
+      "type": "history"
+    },
+    {
+      "name": "Fluffy — The Third Appearance",
+      "slug": "fluffy-third-appearance",
+      "type": "history"
     }
   ],
   "prince-vaelen": [
@@ -2644,6 +3766,33 @@
       "type": "family"
     }
   ],
+  "formation-of-pegasus-and-rose": [
+    {
+      "name": "Selvarin",
+      "slug": "selvarin",
+      "type": "character"
+    },
+    {
+      "name": "Sunlee",
+      "slug": "sunlee",
+      "type": "character"
+    },
+    {
+      "name": "Veles",
+      "slug": "veles",
+      "type": "character"
+    },
+    {
+      "name": "Pegasus",
+      "slug": "pegasus",
+      "type": "organization"
+    },
+    {
+      "name": "Rose",
+      "slug": "rose",
+      "type": "organization"
+    }
+  ],
   "sael": [
     {
       "name": "Vaelith the Hollow",
@@ -2656,25 +3805,38 @@
       "type": "family"
     }
   ],
-  "azure-paladin": [
+  "velho": [
+    {
+      "name": "Veles",
+      "slug": "veles",
+      "type": "character"
+    },
     {
       "name": "Dark Paladin",
       "slug": "dark-paladin",
       "type": "arashi"
-    }
-  ],
-  "mist-family-massacre": [
-    {
-      "name": "Nebbio",
-      "slug": "nebbio",
-      "type": "arashi"
-    }
-  ],
-  "velho": [
+    },
     {
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
+    }
+  ],
+  "anton": [
+    {
+      "name": "Helm",
+      "slug": "helm",
+      "type": "arashi"
+    },
+    {
+      "name": "Oto",
+      "slug": "oto",
+      "type": "arashi"
+    },
+    {
+      "name": "Spector",
+      "slug": "spector",
+      "type": "arashi"
     }
   ],
   "ryobik": [
@@ -2689,20 +3851,6 @@
       "name": "Arashi",
       "slug": "arashi",
       "type": "organization"
-    }
-  ],
-  "ipadora-land-war": [
-    {
-      "name": "The Five Public Appearances of Fluffy",
-      "slug": "five-appearances-of-fluffy",
-      "type": "history"
-    }
-  ],
-  "goldhelm-exodus": [
-    {
-      "name": "Devourers",
-      "slug": "devourers",
-      "type": "magic"
     }
   ]
 }

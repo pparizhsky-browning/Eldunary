@@ -10,6 +10,8 @@ importance: 2
 accentColor: "#2D5A27"
 keyCharacters: ["vorryn", "vorvax", "lucifer", "azaraith", "varnokh", "vulkran"]
 relatedKingdoms: ["kingdom-of-fodon"]
+relatedOrganizations: ["ace", "arashi"]
+racesAffected: ["tharnex", "folkwynd"]
 relatedCities: ["fodon"]
 relatedEvents: []
 summary: "Civil conflict within the Kingdom of Fodon (820–847 ACC) between four warring districts. Drove the Tharnex race to near-extinction. Ended when Lucifer (#6 Arashi) killed all four district leaders, allowing the Dune Accord to be formed."

@@ -9,7 +9,8 @@ accentColor: "#006994"
 currentHead: "queen-nayele"
 notableMembers: ["queen-nayele", "prince-vaelen"]
 relatedCities: ["ipadora-sanctuary", "glaril"]
-relatedEvents: []
+relatedEvents: ["ipadora-land-war"]
+relatedRaces: ["ipadoras"]
 summary: "Formally known as House Nereval — the ruling family of the Ipadora Kingdom. The throne passes through the female line. Queen Nayele is current head. A cadet branch — House Abyrath — governs Glaril under Prince Vaelen, Nayele's younger brother."
 ---
 

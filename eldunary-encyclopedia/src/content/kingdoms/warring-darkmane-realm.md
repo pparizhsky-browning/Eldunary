@@ -11,8 +11,11 @@ governmentType: "Tribal Warbands (no central authority)"
 accentColor: "#008000"
 accentColorLight: "#00AA00"
 relatedOrganizations: ["arashi"]
-relatedEvents: ["crimson-convergence", "fall-of-darkmane-kingdom"]
+relatedEvents: ["crimson-convergence", "fall-of-darkmane-kingdom", "age-of-elves"]
 relatedCharacters: ["vaelith-the-hollow"]
+relatedLanguages: ["nualthyr", "common"]
+relatedFamilies: ["darkmane-family"]
+relatedMagicTypes: ["corrupted-runes"]
 mapCoordinates: [740, 680]
 summary: "A fractured dark elf realm of warring tribes. No central government. Ancient forest scarred by generations of internal conflict."
 ---

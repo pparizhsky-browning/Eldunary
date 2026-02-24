@@ -10,6 +10,8 @@ importance: 3
 accentColor: "#708090"
 keyCharacters: ["nebbio"]
 relatedKingdoms: ["republic-of-oredsy"]
+relatedOrganizations: ["arashi"]
+racesAffected: ["folkwynd"]
 relatedCities: ["wrofast"]
 relatedEvents: []
 summary: "In 993 ACC, every member of the Mist family — the Folkwynd noble line that served as Wrofast's de facto ruling family — was killed in a single night by Nebbio, the individual who would later become #3 in the Arashi organization. Nebbio had been born into the family and rejected as too weak in childhood. He returned with power the family had no framework to understand. Wrofast has had no formal noble leadership since."

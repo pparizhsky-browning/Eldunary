@@ -10,6 +10,7 @@ organizationsPresent: ["rose"]
 charactersPresent: []
 relatedEvents: []
 mapCoordinates: [285, 270]
+relatedLanguages: ["common"]
 summary: "Former mining colony at a tunnel junction. Crystal caverns, frequent ground collapses. Criminal meeting ground. Rose-protected neutral forge."
 ---
 

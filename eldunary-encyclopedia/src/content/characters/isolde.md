@@ -13,7 +13,8 @@ location: "ovodon"
 weapons: ["Holotech staff"]
 abilities: ["Holometric healing fields", "Protective energy barriers", "Diagnostic systems", "Holotech medicine"]
 relatedCharacters: ["king-aldric", "princess-seraphina", "elric"]
-relatedEvents: []
+relatedEvents: ["golden-war"]
+relatedMagicTypes: ["holotech"]
 summary: "Royal Archmedic of Holometric Sciences. Senior advisor to King Aldric. Personal mentor and protector to Princess Seraphina. One of the most accomplished holotech specialists in the Goldhelm Kingdom."
 ---
 

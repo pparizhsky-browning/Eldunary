@@ -11,6 +11,7 @@ accentColor: "#7B68EE"
 factionsInvolved: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
 keyCharacters: ["sunlee", "selvarin", "veles"]
 relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+relatedOrganizations: []
 relatedCities: ["ibeson"]
 relatedEvents: ["golden-war", "first-great-war"]
 summary: "The battle between the three Masters — Sunlee, Selvarin, and Veles — that ended the Great War (also known as the Golden War). 500,000 soldiers killed total. The crater formed by the battle became the foundation beneath Ibeson. All three chose peace when they saw the destruction. The definitive proof of the Masters' equal power."

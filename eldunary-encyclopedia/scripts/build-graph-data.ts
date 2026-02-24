@@ -118,12 +118,16 @@ async function main() {
       for (const t of slugsFromField(fm.family)) addEdge(edgeMap, s, t, 'member-of', knownSlugs);
       for (const t of slugsFromField(fm.relatedCharacters)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedCities)) addEdge(edgeMap, s, t, 'located-in', knownSlugs);
+      for (const t of slugsFromField(fm.relatedMagicTypes)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.location)) addEdge(edgeMap, s, t, 'located-in', knownSlugs);
     } else if (e.type === 'race') {
       for (const t of slugsFromField(fm.relatedKingdoms)) addEdge(edgeMap, s, t, 'lives-in', knownSlugs);
       for (const t of slugsFromField(fm.relatedCities)) addEdge(edgeMap, s, t, 'lives-in', knownSlugs);
       for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedFamilies)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedMagicTypes)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.notableFigures)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'kingdom') {
       for (const t of slugsFromField(fm.capital)) addEdge(edgeMap, s, t, 'capital-of', knownSlugs);
@@ -134,15 +138,23 @@ async function main() {
       for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedCharacters)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedLanguages)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedFamilies)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedMagicTypes)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'city') {
       for (const t of slugsFromField(fm.kingdom)) addEdge(edgeMap, s, t, 'located-in', knownSlugs);
       for (const t of slugsFromField(fm.charactersPresent)) addEdge(edgeMap, s, t, 'present-in', knownSlugs);
       for (const t of slugsFromField(fm.organizationsPresent)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedLanguages)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'organization') {
       for (const t of slugsFromField(fm.relatedCharacters)) addEdge(edgeMap, s, t, 'member-of', knownSlugs);
       for (const t of slugsFromField(fm.relatedCities)) addEdge(edgeMap, s, t, 'located-in', knownSlugs);
       for (const t of slugsFromField(fm.controlledKingdoms)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedKingdoms)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'allied-with', knownSlugs);
+      for (const t of slugsFromField(fm.relatedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       if (fm.foundingEvent && typeof fm.foundingEvent === 'string')
         addEdge(edgeMap, s, fm.foundingEvent, 'founded-in', knownSlugs);
     } else if (e.type === 'arashi') {
@@ -156,18 +168,25 @@ async function main() {
       for (const t of slugsFromField(fm.members)) addEdge(edgeMap, s, t, 'member-of', knownSlugs);
       for (const t of slugsFromField(fm.relatedKingdoms)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'history') {
       for (const t of slugsFromField(fm.relatedKingdoms)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedCharacters)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.involvedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.racesAffected)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedFamilies)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedCities)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'magic') {
       for (const t of slugsFromField(fm.relatedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedKingdoms)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedCharacters)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedOrganizations)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedFamilies)) addEdge(edgeMap, s, t, 'related', knownSlugs);
+      for (const t of slugsFromField(fm.relatedEvents)) addEdge(edgeMap, s, t, 'related', knownSlugs);
     } else if (e.type === 'language') {
       for (const t of slugsFromField(fm.spokenBy)) addEdge(edgeMap, s, t, 'related', knownSlugs);
       for (const t of slugsFromField(fm.relatedRaces)) addEdge(edgeMap, s, t, 'related', knownSlugs);

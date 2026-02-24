@@ -10,6 +10,7 @@ organizationsPresent: ["rose"]
 charactersPresent: []
 relatedCities: ["iyhago-prime"]
 mapCoordinates: [470, 400]
+relatedLanguages: ["shayathi", "common"]
 summary: "Plains town with memory archives and mirrored halls in skyscraper-like buildings. Rose HQ."
 ---
 

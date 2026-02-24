@@ -10,6 +10,7 @@ importance: 3
 accentColor: "#8B0000"
 keyCharacters: ["crimson-knight"]
 relatedKingdoms: ["kingdom-of-vacron"]
+relatedOrganizations: ["crimson-rooks"]
 relatedCities: ["vacron"]
 relatedEvents: []
 summary: "The Crimson Rooks were founded in Year 712 ACC, at the same time as the formal establishment of the Kingdom of Vacron. Over three centuries they grew into the continent's primary peacekeeping institution."
