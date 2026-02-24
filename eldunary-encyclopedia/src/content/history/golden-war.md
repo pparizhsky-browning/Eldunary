@@ -1,24 +1,46 @@
 ---
 type: history
-name: "The Golden War"
+name: "The Great War"
 slug: "golden-war"
-aliases: ["The Goldhelm Conflict", "The Isolation War", "Expansion Stopped"]
-era: "Early Modern History"
-approximate_date: "~300 years before present"
+aliases: ["The Golden War"]
+era: "Recent History"
+date: "795–800 ACC"
+dateSortKey: 795
+importance: 1
 accentColor: "#FFD700"
-causedBy: ["goldhelm-expansion", "anti-magic-technology-spread"]
-outcome: "Goldhelm Kingdom retreated to defensible borders and adopted isolationism. Frada emerged with holotech adaptation knowledge. Magic-tech conflict established as defining tension."
-factionsInvolved: ["goldhelm-kingdom", "republic-of-frada", "kingdom-of-vacron"]
-keyCharacters: ["king-aldric", "golem-king"]
-relatedCities: ["ovodon", "ibeson", "frada", "hiypolis"]
-relatedEvents: ["first-great-war", "crimson-convergence"]
-summary: "The Goldhelm Kingdom's expansionist phase ended by coalition resistance. Frada adapted holotech from captured equipment. King Aldric's isolationism is a direct result. The conflict that defined the magic-vs-technology divide."
+keyCharacters: ["sunlee", "selvarin", "veles", "king-aldric"]
+relatedKingdoms: ["goldhelm-kingdom", "state-of-akison", "republic-of-oredsy", "kingdom-of-iyhago"]
+relatedCities: ["ovodon", "ibeson"]
+relatedEvents: ["equinox-of-power"]
+summary: "Civil war fought 795–800 ACC between the North and South of the Goldhelm Kingdom. Also known as the Golden War. Ended with the Equinox of Power — the three-way battle of the Masters. 500,000 soldiers killed. Led to the reshaping of three kingdoms."
 ---
 
-The **Golden War** began as a Goldhelm expansion — a systematic effort to extend the Kingdom's anti-magic technology zone outward from its mountain stronghold into the broader continent, backed by the Auric Vanguard at a strength level the Kingdom has not since assembled for offensive purposes. The holotech advantage was real: in direct military engagement, the Goldhelm forces' technology-based weaponry performed decisively against conventional military and magic-dependent opponents.
+The **Great War** (795–800 ACC), also called the **Golden War**, was a civil war fought between the North and South of the Goldhelm Kingdom. The southern territories revolted, demanding political autonomy from the northern crown.
 
-The expansion failed because it solved the wrong problem. The Goldhelm strategy was designed to win military engagements; it was not designed to hold territory in a continent where every opposing power knew that the Goldhelm anti-magic enforcement would eventually turn on their own practitioners. The coalition that formed against the expansion was not motivated by military alliance logic but by a shared understanding that Goldhelm territorial control meant enforced technology-over-magic governance — a cultural imposition that magic-practicing populations across the spectrum of ideology agreed in opposing.
+## Alliances
 
-**Frada's** role in the war's resolution was critical and has been the most consequential long-term outcome: the republic's engineers, working from equipment captured over the war's middle period, reverse-engineered enough of holotech's principles to produce manufacturable civilian and military applications. The Goldhelm monopoly on the technology ended. Frada became the technology export hub for the rest of Criozevan. The Goldhelm Kingdom's advantage narrowed to the territory it actually controlled directly.
+The Northern faction was backed by the **Republic of Frada**. The Southern faction was backed by the **Republic of Shimaguni** (the nation now known as the State of Akison).
 
-King Aldric's isolationism is not merely policy — it is the institutional memory of a war whose lesson was that engaging with the outside world produced a technology transfer that couldn't be undone. The fortress mentality has a specific defeat to learn from.
+## The Three Masters
+
+All three Masters were drawn into the conflict, each for different reasons:
+
+- **Veles** sided with the South. He genuinely believed in the freedom cause — that the southern territories' fight for independence was just and noble.
+- **Selvarin** joined the North. His reason was not political conviction: the Goldhelm Kingdom had been helping him forge a sword, and he honored that working relationship by backing them.
+- **Sunlee** took no side. He attempted to stop the conflict entirely, traveling between factions to broker peace. When negotiation failed, he fought both sides simultaneously in an effort to end the war by force.
+
+## The Equinox of Power
+
+The war's climax was a three-way battle between all three Masters known as the **Equinox of Power**. The battle ended in a complete stalemate. Upon witnessing the destruction around them, all three chose peace over continuation.
+
+The conflict later became known colloquially as the **Golden War** — a name derived from the Goldhelm Kingdom at its centre.
+
+Approximately **500,000 soldiers** were killed across the war. The final battle left an enormous crater in the Ibeson region — the Goldhelm government later built Ibeson's underground laboratories in the caverns beneath it.
+
+## Aftermath
+
+The war reshaped three kingdoms:
+
+- **Sunlee** was elected head of the defeated Republic of Shimaguni. He renamed the nation the **State of Akison** and established the Iron Path doctrine.
+- **Selvarin** founded the **Republic of Oredsy** by uniting the collection of small independent territories that had existed in that region before the war.
+- **Veles** was voted to the throne of the **Kingdom of Iyhago** by its people, recognizing his role in the conflict. He expanded the kingdom's territory to its current borders over the following decades.

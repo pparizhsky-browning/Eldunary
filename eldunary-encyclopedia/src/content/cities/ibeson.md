@@ -8,19 +8,23 @@ climate: "Temperate, Coastal"
 outsiderFriendliness: "Neutral"
 organizationsPresent: []
 charactersPresent: ["kaboom", "helm"]
-relatedEvents: []
+relatedEvents: ["equinox-of-power", "golden-war"]
 mapCoordinates: [118, 100]
-summary: "Scientific capital of all Criozevan. Public labs above, secret government installations below. Birthplace of Kaboom."
+summary: "Scientific capital of all Criozevan. Built above the crater from the Equinox of Power (795 ACC). Public labs above, secret government installations in the caverns below. The underground facility — run by the Department of Holometric Advancement — has produced the majority of modern holotech advancements across all fields. Birthplace of Kaboom."
 ---
 
-*In Ibeson, every building is a lab and every lab has a basement that doesn't appear on any map.*
+Scientific capital of Criozevan. Home to many public and private labs. Built above and around the massive crater created by the Equinox of Power (795 ACC) — the three-way battle of the Masters that ended the Great War.
 
-**Ibeson** is the scientific capital not just of the Goldhelm Kingdom but of all Criozevan — the concentration of research institutions, private laboratories, and government-funded experimental programs here exceeds any other city. The skyline is defined by towers with filtered glass windows, observation platforms, and emission stacks from contained experiments.
+## The Underground Research Facility
 
-The public face of Ibeson is legitimately impressive: the *Department of Holometric Advancement* operates its largest campus here, advancing holotech year by year. Students from Frada (the only foreigners allowed extended stays) arrive on research exchange programs. Peer-reviewed findings are published and shared — selectively.
+The underground research facility beneath Ibeson was not part of the city's original design. When the Goldhelm government first built Ibeson above the crater, the crater was considered primarily a historical site — the location of the battle that ended the Great War, and an inconvenient geological feature to build around. The underground dimensions of the crater were treated as a curiosity rather than an opportunity.
 
-Beneath that public face, the Goldhelm government conducts experiments it has not disclosed to any council, including its own advisory sectors. **Kaboom** was created here — a being of pure explosive energy, engineered as a destructive weapon by government scientists, who escaped the facility and eventually joined the Arashi. **Helm** works here, his poison manipulation accident the product of exactly the kind of unregulated pharmaceutical experimentation the government denies.
+Over time, the Goldhelm scientific apparatus — specifically the **Department of Holometric Advancement** — recognized that the cavern system beneath the crater offered something uniquely valuable: an existing, stable underground structure of significant size, isolated from surface observation, and already inaccessible to casual inspection by virtue of the city built above it. The facility was expanded gradually, without announcement, and without any public disclosure of its existence or purpose.
 
-Entry is easier than Ovodon for foreigners, but the monitoring is just as thorough. Fradan research visitors are processed, logged, and tracked during their stay. Research outputs are reviewed for strategic sensitivity before publication approval.
+Above ground, Ibeson is the scientific capital of Criozevan — known for its public and private research institutions. Below ground, it is something else.
 
-The Auric Vanguard presence here focuses less on military parade and more on quiet, pervasive observation. The lab coats and the armor are calibrated to coexist invisibly.
+The facility has produced the majority of modern holotech advancements across all fields, including medicine, military applications, energy systems, and communications infrastructure. It investigates all known forms of magic and technology encountered on the continent, with the stated internal purpose of understanding and countering magical capabilities through technological means. It also develops weapons — some of which have entered Goldhelm's military arsenal without public knowledge of their origin.
+
+**Kaboom (#9 Arashi)** was created in this facility and escaped it.
+
+The facility is known only to the Goldhelm royal government, the Department of Holometric Advancement's senior leadership, and those few individuals who have worked within it and survived. It does not appear in any public record.

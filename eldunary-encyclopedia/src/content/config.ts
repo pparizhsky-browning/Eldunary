@@ -177,6 +177,7 @@ const historyCollection = defineCollection({
     name: z.string(),
     date: z.string().optional().nullable(),
     dateSortKey: z.number().optional().nullable(),
+    importance: z.number().optional().nullable(), // 1=critical, 2=major, 3=minor
     location: z.string().optional().nullable(),
     racesAffected: z.array(z.string()).optional().default([]),
     kingdomsInvolved: z.array(z.string()).optional().default([]),

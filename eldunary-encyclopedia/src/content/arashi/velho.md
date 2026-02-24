@@ -4,8 +4,8 @@ name: "Velho"
 slug: "velho"
 rank: 5
 arashiRank: 5
-aliases: ["Rank Five", "The Patient One", "Old World"]
-race: "Unknown (appears Folkwynd)"
+aliases: ["The Abyssal Monarch", "Former Master of Magic"]
+race: "Folkwynd"
 status: "Active"
 location: "Unknown"
 powerClass: "Domain"
@@ -13,17 +13,21 @@ power: "Necromancy"
 trait:
   name: "Heaven's Chains"
   type: "Domain"
-  description: "A Domain ability that extends chains of binding force from the user's will — chains that reach not merely into physical space but into the passage between life and death. The Heaven's Chains can hold entities in states they should not occupy: the dead restored to motion, the living prevented from dying, or the divine held at distance."
-abilities: ["Old World Expansion: temporal decay environment", "Accelerated aging on contact (organic and inorganic)", "Historical reconstruction (can show what an area looked like centuries ago)", "Immunity to own Expansion effects"]
-relatedCharacters: ["dark-paladin", "fluffy"]
-relatedEvents: ["first-great-war", "crimson-convergence"]
-summary: "Arashi Rank #5. Unknown location. Realm Expansion ability ages the surrounding environment into a ruined ancient state. The most ancient-seeming Arashi member. May have been present at the First Great War."
+relatedCharacters: ["veles"]
+relatedEvents: ["wizard-uprising"]
+summary: "Arashi #5. Former Master of Magic (846–889 ACC). Killed during the Wizard Uprising by a mob of over one hundred revolutionary Malefici after offering them a compromise peace. His death accelerated the Uprising's collapse. Resurrected under unknown circumstances. Has not visibly aged since his death. Now holds the #5 rank in the Arashi."
 ---
 
-**Velho** appears old in a way that is categorically different from age — not the aged-ness of a body that has lived a long time, but the aged-ness of a thing that was present when everything around it was being formed and has simply not stopped. The name itself means *old one* in a dialect of Common that has not been currentspoken for several centuries, which is the primary evidence for the theory that Velho has been in operation longer than any other Arashi member.
+Arashi #5. Former Master of Magic.
 
-The **Old World Expansion** is the most environmentally destructive Domain-class ability in the documented Arashi roster: it transforms the surrounding region into a state of advanced temporal decay, which in practice means buildings crumble, materials return to their degraded end-state, and anything that does not belong to the "old world" configuration of the area becomes structurally and physically unstable. Fighting Velho in his Expansion is fighting in a collapsing ruin where the ground, walls, and air are all actively trending toward dissolution.
+## Profile
 
-Documented sightings are old — the most recent confirmed one is from before the Crimson Convergence, and even that record is disputed. The Arashi's internal structure accounts for him as active; external intelligence organizations account for him as somewhere between active and mythological, which is an uncomfortable category to maintain in planning documents but accurately reflects the data.
+Before Veles held the title of Master of Magic, it belonged to **Velho** — a Folkwynd mage of extraordinary power who served as Master from **846 ACC** until his death in **889 ACC** during the Wizard Uprising.
 
-The theory that he was present at the **First Great War** rests on two pieces: architectural degradation patterns at one First Great War site that match Old World Expansion characteristics, and a handwritten account in Pegasus historical archives that describes a figure matching Velho's described appearance observed at the conflict's resolution point. The account does not describe what he did there. It notes that he came, stood at the edge, watched, and left before anyone spoke to him.
+Velho was, by most accounts, a sincere believer in the idea that the radical insurgents at the heart of the Uprising could be brought back from extremism through dialogue. He spent the Uprising's final years attempting to function as a mediator between the most violent faction of the revolutionary Malefici and the kingdom governments demanding their suppression. He was not naive about the violence they had committed. He believed, regardless, that the alternative — a continent-wide purge of magic users by frightened governments — would be worse for everyone in the long term, and that a negotiated framework, however uncomfortable, was better than a decade of retaliatory killings.
+
+In **889 ACC**, a mob of more than one hundred revolutionary Malefici raided his home. He offered them a compromise peace. They killed him.
+
+His death was the most significant single event of the Uprising's closing phase. The faction that claimed magic users deserved to rule the world had killed the most powerful recognized magic user on the continent because he asked them to stop. The contradiction collapsed whatever remained of the insurgency's ideological coherence. The Uprising's practical disintegration followed within the year.
+
+How Velho was resurrected is not known. The circumstances remain one of the more carefully guarded mysteries in Criozevan. What is known is that he began appearing again around the time the Arashi first emerged as a formal organization, and that he has not visibly aged since his death. He now holds the rank of **#5** in the Arashi.

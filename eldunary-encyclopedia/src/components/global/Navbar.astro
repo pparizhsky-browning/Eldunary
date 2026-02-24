@@ -1,4 +1,7 @@
 ---
+import registry from '@generated/entity-registry.json';
+import Logo from './Logo.astro';
+
 const navLinks = [
   { label: 'Races', href: '/races' },
   { label: 'Kingdoms', href: '/kingdoms' },
@@ -12,14 +15,23 @@ const navLinks = [
   { label: 'Languages', href: '/languages' },
 ];
 
+const typeRoutes: Record<string, string> = {
+  race: 'races', kingdom: 'kingdoms', city: 'cities', character: 'characters',
+  arashi: 'arashi', organization: 'organizations', family: 'families',
+  history: 'history', magic: 'magic', language: 'languages',
+};
+
+// Slim payload for autocomplete
+const entityData = (registry as any[]).map(e => ({ n: e.name, t: e.type, s: e.slug }));
+
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="navbar">
+<header class="navbar" id="site-navbar" transition:persist>
   <nav class="navbar-inner">
     <a href="/" class="navbar-brand">
-      <span class="brand-icon">⚔</span>
-      <span class="brand-text">Eldunary</span>
+      <Logo class="brand-logo" />
+      <span class="brand-text">ldunary</span>
     </a>
 
     <ul class="navbar-links">
@@ -35,6 +47,28 @@ const currentPath = Astro.url.pathname;
       ))}
     </ul>
 
+    <!-- Expanding search overlay (clip-path animated from button's left edge) -->
+    <div class="navbar-search-expand" id="navbar-search-expand" aria-hidden="true">
+      <svg class="search-expand-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      <input
+        type="text"
+        id="navbar-search-input"
+        class="navbar-search-input"
+        placeholder="Search Eldunary..."
+        autocomplete="off"
+        spellcheck="false"
+        tabindex="-1"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="navbar-search-suggestions"
+      />
+      <button class="navbar-search-close" id="navbar-search-close" aria-label="Close search" tabindex="-1">✕</button>
+    </div>
+
     <div class="navbar-actions">
       <a href="/map" class="nav-action-link" title="World Map">🗺</a>
       <a href="/graph" class="nav-action-link" title="Relation Graph">🕸</a>
@@ -42,10 +76,10 @@ const currentPath = Astro.url.pathname;
       <button
         id="search-trigger"
         class="nav-search-btn"
-        aria-label="Search (Cmd+K)"
-        title="Search (Cmd+K)"
+        aria-label="Search (Ctrl+K)"
+        title="Search (Ctrl+K)"
       >
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <circle cx="11" cy="11" r="8"></circle>
           <path d="m21 21-4.35-4.35"></path>
         </svg>
@@ -53,11 +87,23 @@ const currentPath = Astro.url.pathname;
       </button>
     </div>
 
+    <!-- Mobile-only search trigger (left of hamburger) -->
+    <button class="mobile-search-btn" id="mobile-search-btn" aria-label="Search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </button>
+
     <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
+
+    <!-- Autocomplete suggestions (absolute within navbar-inner) -->
+    <div class="search-suggestions" id="navbar-search-suggestions" role="listbox" aria-label="Search suggestions"></div>
   </nav>
 
+  <!-- Mobile nav dropdown -->
   <div class="mobile-menu" id="mobile-menu">
     <ul>
       {navLinks.map((link) => (
@@ -70,46 +116,242 @@ const currentPath = Astro.url.pathname;
   </div>
 </header>
 
-<script>
-  const toggle = document.getElementById('mobile-menu-toggle');
-  const menu = document.getElementById('mobile-menu');
-  toggle?.addEventListener('click', () => menu?.classList.toggle('open'));
+<!-- Entity data injected for JS autocomplete -->
+<script is:inline define:vars={{ entityData, typeRoutes }}>
+  window.__eldunaryEntities = entityData;
+  window.__eldunaryTypeRoutes = typeRoutes;
+</script>
 
-  // Cmd+K to open search
-  document.addEventListener('keydown', (e) => {
-    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-      e.preventDefault();
-      document.getElementById('search-modal')?.classList.add('open');
-    }
+<script>
+  // ── DOM refs ───────────────────────────────────────────────────────
+  const navbar     = document.getElementById('site-navbar') as HTMLElement;
+  const expandEl   = document.getElementById('navbar-search-expand') as HTMLElement;
+  const inputEl    = document.getElementById('navbar-search-input') as HTMLInputElement;
+  const closeBtn   = document.getElementById('navbar-search-close') as HTMLButtonElement;
+  const triggerBtn = document.getElementById('search-trigger') as HTMLButtonElement;
+  const suggBox    = document.getElementById('navbar-search-suggestions') as HTMLElement;
+  const mobileToggle      = document.getElementById('mobile-menu-toggle');
+  const mobileMenu        = document.getElementById('mobile-menu');
+  const mobileTriggerBtn  = document.getElementById('mobile-search-btn') as HTMLButtonElement;
+
+  mobileToggle?.addEventListener('click', () => mobileMenu?.classList.toggle('open'));
+
+  // ── Position search expand precisely around brand + actions ────────
+  const navInner = navbar.querySelector('.navbar-inner') as HTMLElement;
+  const brandEl  = navbar.querySelector('.navbar-brand') as HTMLElement;
+  const actionsEl = navbar.querySelector('.navbar-actions') as HTMLElement;
+
+  function updateSearchBounds() {
+    if (!navInner || !brandEl) return;
+    const isMobile = window.innerWidth <= 900;
+    // On mobile, CSS vars are set via stylesheet — no JS needed
+    if (isMobile) return;
+
+    if (!actionsEl || !triggerBtn) return;
+    const navRect     = navInner.getBoundingClientRect();
+    const brandRect   = brandEl.getBoundingClientRect();
+    const triggerRect = triggerBtn.getBoundingClientRect();
+    const left  = Math.round(brandRect.right  - navRect.left + 14);
+    const right = Math.max(4, Math.round(navRect.right - triggerRect.right - 4));
+    navInner.style.setProperty('--search-expand-left',  left  + 'px');
+    navInner.style.setProperty('--search-expand-right', right + 'px');
+  }
+
+  updateSearchBounds();
+  window.addEventListener('resize', updateSearchBounds);
+
+  // ── Keep active link in sync after View Transitions ────────────────
+  function updateActiveLink() {
+    const path = window.location.pathname;
+    navbar.querySelectorAll<HTMLAnchorElement>('.nav-link').forEach(a => {
+      const href = a.getAttribute('href') ?? '';
+      a.classList.toggle('active', href !== '/' && path.startsWith(href));
+    });
+  }
+  document.addEventListener('astro:page-load', updateActiveLink);
+
+  type Entity = { n: string; t: string; s: string };
+  const entities: Entity[] = (window as any).__eldunaryEntities ?? [];
+  const typeRoutes: Record<string, string> = (window as any).__eldunaryTypeRoutes ?? {};
+
+  function entityUrl(type: string, slug: string) {
+    return '/' + (typeRoutes[type] ?? type + 's') + '/' + slug;
+  }
+
+  // ── Open / close ───────────────────────────────────────────────────
+  let isOpen = false;
+
+  function openSearch() {
+    if (isOpen) return;
+    isOpen = true;
+    navbar.classList.add('search-active');
+    expandEl.removeAttribute('aria-hidden');
+    inputEl.removeAttribute('tabindex');
+    closeBtn.removeAttribute('tabindex');
+    setTimeout(() => inputEl.focus(), 60);
+  }
+
+  function closeSearch() {
+    if (!isOpen) return;
+    isOpen = false;
+    navbar.classList.remove('search-active');
+    expandEl.setAttribute('aria-hidden', 'true');
+    inputEl.setAttribute('tabindex', '-1');
+    closeBtn.setAttribute('tabindex', '-1');
+    inputEl.value = '';
+    hideSuggestions();
+  }
+
+  triggerBtn?.addEventListener('click', openSearch);
+  mobileTriggerBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.remove('open'); // close hamburger menu if open
+    openSearch();
   });
-  document.getElementById('search-trigger')?.addEventListener('click', () => {
-    document.getElementById('search-modal')?.classList.add('open');
+  closeBtn.addEventListener('click', closeSearch);
+
+  document.addEventListener('keydown', (e: KeyboardEvent) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); return; }
+    if (e.key === 'Escape' && isOpen)               { e.preventDefault(); closeSearch(); return; }
+    if (!isOpen) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); moveCursor(1);  return; }
+    if (e.key === 'ArrowUp')   { e.preventDefault(); moveCursor(-1); return; }
+    if (e.key === 'Enter')     { e.preventDefault(); confirmSelection(); return; }
+  });
+
+  // ── Autocomplete ───────────────────────────────────────────────────
+  let suggestions: Entity[] = [];
+  let cursor = -1;
+
+  function esc(s: string) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function highlight(name: string, query: string): string {
+    const safeQ = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return esc(name).replace(new RegExp(`(${safeQ})`, 'gi'), '<mark>$1</mark>');
+  }
+
+  function renderSuggestions(query: string) {
+    const q = query.trim().toLowerCase();
+    if (!q) { hideSuggestions(); return; }
+
+    suggestions = entities.filter(e => e.n.toLowerCase().includes(q)).slice(0, 8);
+    if (!suggestions.length) { hideSuggestions(); return; }
+
+    const typeColors: Record<string, string> = {
+      character: '#9B7EDC', arashi: '#C49B5C', race: '#5CA87A', kingdom: '#5C9BC4',
+      city: '#C4845C', organization: '#C45C5C', family: '#C4B85C',
+      history: '#8A8A9A', magic: '#7A5CC4', language: '#5CB8C4',
+    };
+    const typeBg: Record<string, string> = {
+      character: 'rgba(155,126,220,0.12)', arashi: 'rgba(196,155,92,0.14)', race: 'rgba(92,168,122,0.12)',
+      kingdom: 'rgba(92,155,196,0.12)', city: 'rgba(196,132,92,0.12)', organization: 'rgba(196,92,92,0.12)',
+      family: 'rgba(196,184,92,0.12)', history: 'rgba(138,138,154,0.12)', magic: 'rgba(122,92,196,0.12)',
+      language: 'rgba(92,184,196,0.12)',
+    };
+
+    const rows = suggestions.map((e, i) => {
+      const color = typeColors[e.t] ?? '#888';
+      const bg    = typeBg[e.t]   ?? 'rgba(128,128,128,0.1)';
+      const active = cursor === i ? ' sugg-active' : '';
+      const hi = highlight(e.n, query.trim());
+      return `<div class="sugg-item${active}" data-idx="${i}" role="option" aria-selected="${cursor === i}">` +
+        `<span class="sugg-accent-bar" style="background:${color}"></span>` +
+        `<span class="sugg-name">${hi}</span>` +
+        `<span class="sugg-type-pill" style="color:${color};background:${bg};border-color:${color}30">${e.t}</span>` +
+        `</div>`;
+    }).join('');
+
+    const footer = `<div class="sugg-footer" data-search-all="1">` +
+      `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="opacity:0.45;flex-shrink:0">` +
+      `<circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>` +
+      `<span>Search all results for <em>${esc(query.trim())}</em></span>` +
+      `<span class="sugg-enter-hint">↵ Enter</span>` +
+      `</div>`;
+
+    suggBox.innerHTML = rows + footer;
+    suggBox.classList.add('open');
+    inputEl.setAttribute('aria-expanded', 'true');
+  }
+
+  function hideSuggestions() {
+    suggBox.innerHTML = '';
+    suggBox.classList.remove('open');
+    inputEl.setAttribute('aria-expanded', 'false');
+    cursor = -1;
+    suggestions = [];
+  }
+
+  function moveCursor(dir: number) {
+    if (!suggestions.length) return;
+    cursor = Math.max(-1, Math.min(suggestions.length - 1, cursor + dir));
+    renderSuggestions(inputEl.value);
+    suggBox.querySelector('.sugg-active')?.scrollIntoView({ block: 'nearest' });
+  }
+
+  function confirmSelection() {
+    if (cursor >= 0 && suggestions[cursor]) {
+      const e = suggestions[cursor];
+      window.location.href = entityUrl(e.t, e.s);
+    } else {
+      const q = inputEl.value.trim();
+      if (q) window.location.href = '/search?q=' + encodeURIComponent(q);
+    }
+  }
+
+  inputEl.addEventListener('input', () => { cursor = -1; renderSuggestions(inputEl.value); });
+
+  suggBox.addEventListener('mousedown', (e: MouseEvent) => {
+    e.preventDefault(); // keep focus on input
+    const searchAll = (e.target as HTMLElement).closest('[data-search-all]') as HTMLElement | null;
+    if (searchAll) {
+      const q = inputEl.value.trim();
+      if (q) window.location.href = '/search?q=' + encodeURIComponent(q);
+      return;
+    }
+    const item = (e.target as HTMLElement).closest('[data-idx]') as HTMLElement | null;
+    if (!item) return;
+    const entity = suggestions[parseInt(item.dataset.idx ?? '0', 10)];
+    if (entity) window.location.href = entityUrl(entity.t, entity.s);
+  });
+
+  document.addEventListener('click', (e: MouseEvent) => {
+    const target = e.target as Node;
+    const insideSearch = expandEl.contains(target) || suggBox.contains(target)
+      || triggerBtn?.contains(target) || mobileTriggerBtn?.contains(target);
+    if (!insideSearch) {
+      closeSearch();
+    } else if (!suggBox.contains(target) && target !== inputEl) {
+      hideSuggestions();
+    }
   });
 </script>
 
 <style>
+  /* ── Base navbar ───────────────────────────────────────────────────── */
   .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(10, 10, 12, 0.85);
+    background: rgba(10, 10, 12, 0.88);
     backdrop-filter: blur(20px) saturate(180%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   }
   .navbar-inner {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 2rem;
     height: 72px;
+    gap: 1.5rem;
   }
   .navbar-brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.15rem;
     text-decoration: none;
     color: #fff;
     font-family: var(--font-cinzel), serif;
@@ -118,14 +360,17 @@ const currentPath = Astro.url.pathname;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    flex-shrink: 0;
+    z-index: 2;
   }
   .navbar-brand:hover {
     color: var(--accent);
     text-shadow: 0 0 15px rgba(196, 155, 92, 0.5);
   }
-  .brand-icon {
-    font-size: 1.5rem;
-    filter: drop-shadow(0 0 5px var(--accent));
+  .brand-logo {
+    height: 2rem;
+    width: auto;
+    color: inherit;
   }
   .navbar-links {
     display: flex;
@@ -133,7 +378,10 @@ const currentPath = Astro.url.pathname;
     margin: 0;
     padding: 0;
     gap: 1.5rem;
+    flex: 1;
+    transition: opacity 0.2s ease;
   }
+  .navbar.search-active .navbar-links { opacity: 0; pointer-events: none; }
   .nav-link {
     display: block;
     padding: 0.5rem 0;
@@ -168,41 +416,155 @@ const currentPath = Astro.url.pathname;
     display: flex;
     align-items: center;
     gap: 1.25rem;
+    flex-shrink: 0;
+    z-index: 2;
+    transition: opacity 0.25s ease;
   }
   .nav-action-link {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     text-decoration: none;
     opacity: 0.6;
-    transition: all 0.3s ease;
+    transition: opacity 0.3s, transform 0.3s;
   }
   .nav-action-link:hover { opacity: 1; transform: scale(1.1); }
-  
+
   .nav-search-btn {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 0.6rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
     color: #888;
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 0.9rem;
     border-radius: 6px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    font-family: var(--font-inter), sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    transition: background 0.25s, border-color 0.25s, color 0.25s, opacity 0.25s;
   }
   .nav-search-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: var(--accent);
-    color: #fff;
+    background: rgba(255,255,255,0.09);
+    border-color: rgba(196,155,92,0.45);
+    color: #ddd;
   }
   .nav-search-btn kbd {
-    font-family: inherit;
-    font-size: 0.7rem;
-    background: rgba(0,0,0,0.3);
-    padding: 2px 6px;
+    font-family: var(--font-inter), sans-serif;
+    font-size: 0.68rem;
+    background: rgba(0,0,0,0.35);
+    padding: 2px 5px;
     border-radius: 4px;
-    color: #666;
+    color: #555;
+    border: 1px solid rgba(255,255,255,0.07);
+    line-height: 1.4;
+  }
+  .btn-label { /* hide on narrow screens */ }
+  @media (max-width: 1380px) { .btn-label { display: none; } }
+
+  /* Fade out entire actions row when search is open */
+  .navbar.search-active .navbar-actions {
+    opacity: 0;
+    pointer-events: none;
   }
 
+  /*
+   * ── Expanding search overlay ─────────────────────────────────────────
+   * Absolutely positioned over navbar-inner; clip-path sweeps from the
+   * right (button position) leftward when search-active is toggled.
+   *
+   * inset(0 0 0 100%) = clipped completely (starts at right/button edge)
+   * inset(0 0 0 0)    = fully visible (fills the nav area)
+   */
+  .navbar-search-expand {
+    position: absolute;
+    top: 10px; bottom: 10px;
+    left: var(--search-expand-left, 220px);
+    right: var(--search-expand-right, 0px);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0 1rem 0 1.1rem;
+    background: #0e0e12;
+    border: 1px solid rgba(196,155,92,0.25);
+    border-radius: 7px;
+    /* start clipped from the right (button's position) */
+    clip-path: inset(0 0 0 100% round 7px);
+    transition: clip-path 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+  }
+  .navbar.search-active .navbar-search-expand {
+    clip-path: inset(0 0 0 0 round 7px);
+    pointer-events: all;
+  }
+
+  .search-expand-icon {
+    flex-shrink: 0;
+    color: var(--accent, #C49B5C);
+    opacity: 0.7;
+  }
+  .navbar-search-input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F0EBE2;
+    font-size: 0.85rem;
+    font-family: var(--font-inter), sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    padding: 0;
+    caret-color: var(--accent, #C49B5C);
+  }
+  .navbar-search-input::placeholder {
+    color: rgba(255,255,255,0.22);
+    font-style: italic;
+  }
+  .navbar-search-close {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.28);
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0 0.15rem;
+    line-height: 1;
+    flex-shrink: 0;
+    font-family: var(--font-inter), sans-serif;
+    transition: color 0.18s;
+  }
+  .navbar-search-close:hover { color: rgba(255,255,255,0.85); }
+
+  /* ── Autocomplete dropdown ─────────────────────────────────────────── */
+  .search-suggestions {
+    display: none;
+    position: absolute;
+    left: var(--search-expand-left, 220px);
+    right: var(--search-expand-right, 0px);
+    top: calc(100% + 4px);
+    background: #0d0d15;
+    border: 1px solid rgba(196,155,92,0.22);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.9), 0 0 0 1px rgba(255,255,255,0.03) inset;
+    animation: sugg-drop 0.18s cubic-bezier(0.4,0,0.2,1);
+    z-index: 999;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .search-suggestions.open { display: block; }
+
+  @keyframes sugg-drop {
+    from { opacity: 0; transform: translateY(-8px) scale(0.98); }
+    to   { opacity: 1; transform: translateY(0)    scale(1); }
+  }
+
+  .search-suggestions::-webkit-scrollbar { width: 4px; }
+  .search-suggestions::-webkit-scrollbar-track { background: transparent; }
+  .search-suggestions::-webkit-scrollbar-thumb { background: rgba(196,155,92,0.18); border-radius: 2px; }
+
+  /* ── Mobile menu ────────────────────────────────────────────────────── */
   .mobile-menu-btn {
     display: none;
     flex-direction: column;
@@ -215,15 +577,14 @@ const currentPath = Astro.url.pathname;
   }
   .mobile-menu-btn span {
     display: block;
-    width: 22px;
-    height: 2px;
+    width: 22px; height: 2px;
     background: var(--text-secondary);
     border-radius: 2px;
   }
   .mobile-menu {
     display: none;
     background: rgba(10,10,15,0.98);
-    border-top: 1px solid rgba(196, 155, 92, 0.15);
+    border-top: 1px solid rgba(196,155,92,0.15);
   }
   .mobile-menu.open { display: block; }
   .mobile-menu ul { list-style: none; margin: 0; padding: 0.5rem 0; }
@@ -235,11 +596,188 @@ const currentPath = Astro.url.pathname;
     font-size: 0.9rem;
   }
   .mobile-nav-link:hover { color: var(--accent); }
-  @media (max-width: 1200px) {
-    .navbar-links { display: none; }
+
+  /* Mobile-only search trigger button */
+  .mobile-search-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    color: #888;
+    cursor: pointer;
+    padding: 6px 8px;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
   }
+  .mobile-search-btn:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(196,155,92,0.45);
+    color: var(--accent, #C49B5C);
+  }
+
+  /* ── Breakpoints ─────────────────────────────────────────────────────── */
+  @media (max-width: 1200px) { .navbar-links { display: none !important; } }
   @media (max-width: 900px) {
+    /* Push brand to the left, cluster all buttons on the right */
+    .navbar-brand { margin-right: auto; }
+    .mobile-menu-btn { margin-left: 0; }
+
+    /* brand-text is transitionable — collapses after expand finishes */
+    .brand-text {
+      display: inline-block;
+      max-width: 200px;
+      overflow: hidden;
+      white-space: nowrap;
+      transition: max-width 0.2s ease 0.34s,
+                  opacity   0.2s ease 0.34s;
+    }
+
     .navbar-actions .nav-search-btn { display: none; }
     .mobile-menu-btn { display: flex; }
+    .mobile-search-btn { display: flex; }
+
+    /* Set expand position via CSS so it works without JS measurement */
+    .navbar-inner {
+      --search-expand-left: 52px;
+      --search-expand-right: 10px;
+    }
+
+    /* Don't hide suggestions on mobile — just constrain height */
+    .search-suggestions { max-height: 55vh; }
+
+    /* Prevent iOS Safari from zooming on input focus (requires font-size >= 16px) */
+    .navbar-search-input { font-size: 16px; }
+
+    /* Hide buttons when search is active */
+    .navbar.search-active .mobile-menu-btn   { opacity: 0; pointer-events: none; visibility: hidden; }
+    .navbar.search-active .mobile-search-btn { opacity: 0; pointer-events: none; visibility: hidden; }
+    /* navbar-actions already fades via the existing desktop rule */
+
+    /* After expand finishes: collapse brand-text, then slide E into center of left strip */
+    .navbar.search-active .brand-text {
+      max-width: 0;
+      opacity: 0;
+    }
+    .navbar.search-active .navbar-brand {
+      /* Once brand-text is gone, translate the logo to the center of the left strip.
+         strip width = --search-expand-left (52px), padding = 2rem (32px).
+         Logo is ~20px wide, sits at x≈32px. Center of strip = 26px.
+         So shift left by ~6px, with a delay matching the text collapse. */
+      transform: translateX(-13px);
+      transition: transform 0.22s ease 0.44s;
+    }
+    .navbar-brand {
+      transition: transform 0.22s ease;
+    }
+  }
+</style>
+
+<style is:global>
+  /* ── Autocomplete suggestion items ─────────────────────────────────────
+     These are injected via innerHTML so Astro's scoped CSS won't reach
+     them — styles must be global.
+  ── */
+  .sugg-item {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.62rem 1rem 0.62rem 0;
+    cursor: pointer !important;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: background 0.15s ease;
+    user-select: none;
+    position: relative;
+  }
+  .sugg-item * { pointer-events: none; }
+  .sugg-item:last-of-type { border-bottom: none; }
+  .sugg-item:hover,
+  .sugg-item.sugg-active { background: rgba(196,155,92,0.09); }
+
+  .sugg-accent-bar {
+    display: block;
+    width: 3px;
+    min-height: 2rem;
+    align-self: stretch;
+    flex-shrink: 0;
+    border-radius: 0 2px 2px 0;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+  .sugg-item:hover .sugg-accent-bar,
+  .sugg-item.sugg-active .sugg-accent-bar { opacity: 1; }
+
+  .sugg-name {
+    flex: 1;
+    min-width: 0;
+    font-family: 'Cinzel', serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #F5F0E8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sugg-name mark {
+    background: transparent;
+    color: #C49B5C;
+    font-weight: 800;
+  }
+
+  .sugg-type-pill {
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    line-height: 1.7;
+    margin-right: 0.7rem;
+    white-space: nowrap;
+  }
+
+  .sugg-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.52rem 1rem 0.52rem 0.85rem;
+    cursor: pointer !important;
+    border-top: 1px solid rgba(196,155,92,0.12);
+    background: rgba(196,155,92,0.025);
+    transition: background 0.15s ease;
+    user-select: none;
+  }
+  .sugg-footer * { pointer-events: none; }
+  .sugg-footer:hover { background: rgba(196,155,92,0.07); }
+  .sugg-footer > span {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.35);
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sugg-footer > span em {
+    font-style: normal;
+    color: rgba(255,255,255,0.58);
+    font-weight: 600;
+  }
+  .sugg-enter-hint {
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    color: rgba(255,255,255,0.22);
+    background: rgba(255,255,255,0.05);
+    border-radius: 4px;
+    padding: 1px 5px;
+    border: 1px solid rgba(255,255,255,0.08);
+    white-space: nowrap;
+    letter-spacing: 0;
   }
 </style>

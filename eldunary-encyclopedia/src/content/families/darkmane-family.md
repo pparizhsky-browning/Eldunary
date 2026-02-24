@@ -2,21 +2,30 @@
 type: family
 name: "Darkmane Family"
 slug: "darkmane-family"
-aliases: ["The Shadow Bloodline", "The Hollowed Throne"]
 race: "Darkmane Elf"
 kingdom: "warring-darkmane-realm"
 accentColor: "#4A2D6B"
 currentHead: "vaelith-the-hollow"
-notableMembers: ["vaelith-the-hollow", "azaraith"]
+notableMembers: ["vaelith-the-hollow", "sael"]
 relatedCities: ["grousea", "wrediff", "adlens"]
-relatedEvents: ["first-great-war", "equinox-of-power"]
-summary: "The oldest Darkmane lineage. No formal throne — the Realm has no central government. Vaelith the Hollow and Azaraith are the two most powerful members. Their relationship defines the Darkmane Realm's political future."
+relatedEvents: ["fall-of-darkmane-kingdom"]
+summary: "Once unified the dark elf realm under their rule. The treachery of Vaelith the Hollow — who sold his own brother Thalrith to a Goldhelm scientist in 937 ACC — fractured the family and triggered the collapse of the Darkmane Realm into warring tribes. Notable figures: Vaelith the Hollow (former head, 896–938 ACC) and Sael (warrior leader, granddaughter of Vaelith, seeks to reunify the Darkmane realm)."
 ---
 
-The **Darkmane Family** is less a ruling dynasty than a lineage that has been present at every significant Darkmane cultural turning point — the original corruption of the rune practices that produced the Fallen Way, the schisms that fragmented the Darkmane Realm into its current tribal warband structure, and the ongoing negotiation between factions that produces the temporary peace frameworks the Realm occasionally achieves.
+Location: Warring Darkmane Realm.
 
-The **Warring Darkmane Realm** has no central government, which means the Family has no throne to govern from. What they have instead is historical authority — the weight of being the bloodline that other Darkmane clans reference when they need a mediating tradition — and the individual capabilities of their two most notable current members. **Vaelith the Hollow** and **Azaraith** are the practical embodiment of the family's influence, and their relationship defines more about Darkmane political reality than any governance document.
+Once unified the dark elf realm under their rule. Internal corruption split the family — some members became The Fallen (dark-magic-possessed husks), triggering societal collapse.
 
-The Family's relationship to the **Fallen Way** — the corrupted rune tradition that defines Darkmane culture and was itself corrupted during a period of Family involvement — is complex. They are the tradition's primary custodians by lineage and its most capable practitioners by assessed power. Whether this makes them responsible for its consequences, capable of redirecting it, or simply its most visible expression is the internal debate that has never fully resolved.
+## The Betrayal of Vaelith the Hollow *(937 ACC)*
 
-Their **Adlens peace treaty** representation — Vaelith's tacit permission for the neutral town's existence — is the most visible current Family diplomatic stance. It is not a formal endorsement of peace; it is the absence of opposition to a framework that the Family finds, for now, preferable to the alternative.
+The event that destroyed the Darkmane Family's unity was the act of **Vaelith the Hollow** — head of the family from 896 to 938 ACC. Over his years of rule, Vaelith accepted payment from criminal organizations to allow experiments in the forest, keeping these arrangements hidden from the rest of the family.
+
+In **937 ACC**, the Goldhelm Kingdom's head scientist approached Vaelith with a specific request: access to one of the ancient ruins inside the realm, and a Darkmane Elf to serve as a subject. Vaelith accepted. He ordered his own brother — **Thalrith the Wise** — to be kidnapped and handed over. The rest of the family was not informed.
+
+The next night, a scream was heard from inside the Hidden Royal Palace. It came from **Luthyrra the Silent**, Thalrith's wife. Before dawn, both Thalrith and Luthyrra left their room together, their eyes holding a strange purple glow. Neither spoke. They walked into the deep forest and were never seen again. They were the first of the Fallen.
+
+When the other family branches learned what Vaelith had done, they removed him from leadership immediately. The fracture that followed could not be contained. Between 938 and 940 ACC, the branches turned on each other in cascading recriminations. By **940 ACC**, the unified Darkmane Realm was over. What remained were the scattered warring tribes.
+
+**Notable Figures:**  
+- **Vaelith the Hollow** — former head (896–938 ACC), architect of the family's destruction. Sael's grandfather.  
+- **Sael** — leader of the main branch warrior order, granddaughter of Vaelith, known for brokering protection deals with travelers crossing the Realm — and for seeking to reunify the Darkmane as a single kingdom once again.

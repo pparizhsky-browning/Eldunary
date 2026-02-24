@@ -4,9 +4,7 @@ name: "Kingdom of Vacron"
 slug: "kingdom-of-vacron"
 capital: "vacron"
 otherCities: ["clocester", "klanron", "anehull"]
-ruler:
-  slug: "crimson-knight"
-  title: "Crimson Knight (Enforcer of World Order)"
+ruler: null
 mainRaces: ["folkwynd"]
 biome: "River Valley"
 governmentType: "Strict Legal Democracy"
@@ -19,27 +17,25 @@ mapCoordinates: [580, 450]
 summary: "Largest city on the continent at its center. Strict law, diverse population. Crimson Rooks HQ. Continental trade nexus."
 ---
 
-*Vacron is the city that holds Criozevan together. Whether the continent deserves to be held together is an open philosophical question that Vacron does not have time for.*
-
-The **Kingdom of Vacron** occupies the geographic center of Criozevan, built around river valleys that form the continent's natural crossroads. Every major trade route — north-south, east-west — passes through Vacron's jurisdiction. This position gives it political leverage that its otherwise unremarkable government should not possess, and Vacron exploits this leverage with considerable sophistication.
-
 ## Capital & Settlements
 
-**Vacron** (Capital) is the largest city on the entire continent, sitting at the geographic center of Criozevan. It is the hub for all commerce, a meeting point for every race, and the home of the **Crimson Rooks HQ** — the organization tasked with maintaining world order. The Crimson Knight, Criozevan's second most powerful being, resides here. Law is strict and punishments efficient. Outsiders are welcome, but the enforcers are watching, and the laws apply to everyone equally regardless of race, power, or affiliation.
+- Vacron (Capital): The largest and most populated city on the entire continent of Criozevan. Located at the geographic center of the continent. Known for its towering administrative buildings and bustling marketplaces. A key location for law, politics, and power deals. Hub for trade and commerce. Extremely strict punishments for breaking the law. Friendly to outsiders. HQ for the Crimson Rooks and residence of the Crimson Knight.
+- Clocester: Former mining colony turned town. Known for crystal caverns and unstable ground (frequent collapses from underground duels). Tunnel access to KoF, RoF, and KoI borders. Mixed population of refugees and runaways. Home to a neutral forge with Rose protection. Criminal meeting ground. Central spot between Vacron, Sloumont, and Hiypolis. Town militia uses salvaged war-tech.
+- Klanron: Peninsula between two rivers. Butterfly HQ. Meeting point for all Magic Societies. Population is 90% magic users. Friendly to visitors — changes when non-magis try to stay permanently.
+- Anehull: Ghost town rebuilt into a resort. Former Arashi campaign battleground. Rose leaders use it for covert meetings. Locals profit from war relic tourism. Under constant Crimson Rooks surveillance. Magic dampeners active at all times. Rumors of hell malefici sightings.
 
-**Clocester** is a former mining colony located at a continental tunnel intersection — connecting the Kingdom of Fodon (KoF), Republic of Frada (RoF), and Kingdom of Iyhago (KoI). Crystal caverns beneath the city are beautiful in the way unstable geology is beautiful: worth seeing, possible to die in at any moment (frequent collapses from underground duels). Mixed population of refugees and runaways. A neutral forge operates here under Rose protection. Criminal meeting ground.
+## Geography & Environment
 
-**Klanron** sits on a peninsula between two rivers — the HQ of the **Butterfly** organization, and the designated meeting point for all Magic Societies of Criozevan. Its population is approximately 90% magic users. Friendly to visitors who are just visiting; changes attitude rapidly toward non-magic users who attempt to stay permanently.
+Located at the geographic center of Criozevan. Built around river valleys, forming a natural continental crossroads. Important central location connecting north, south, east, and west trade routes.
 
-**Anehull** was once a ghost town after an Arashi campaign leveled it. It was rebuilt into a resort — war relic tourism proved profitable. Rose leadership uses it for covert meetings. The Crimson Rooks maintain constant surveillance. Magic dampeners are active at all times, making it the only location in Vacron where magic cannot be used. Rumors of hell malefici sightings have not been confirmed or denied.
+## Government & Politics
 
-## Government & Trade
+Highly diverse population. Strict legal code with harsh, efficient punishment for lawbreakers. Famous for its order, stability, and no-nonsense leadership.
 
-Highly diverse population. Strict legal code with harsh, efficient punishment for lawbreakers of any status. The kingdom's position as the continental economic heart means its laws are the de facto standard for international trade agreements. Friendly to outsiders — the law is the law, and if you follow it, Vacron is one of the most comfortable places in Criozevan.
+## Trade & Infrastructure
 
-## Key Organizations Present
+The economic heart of Criozevan. Maintains border access and trade routes to several kingdoms. Friendly to outsiders as long as the law is followed.
 
-- **Crimson Rooks** (HQ in Vacron) — world-order enforcement
-- **Rose** (covert meetings in Anehull) — anti-Pegasus crime syndicate
-- **Butterfly** (HQ in Klanron) — meta-power vigilante organization
-- **Magic Societies** (meeting point in Klanron) — the collective magic governance councils
+## Key Organizations
+
+- Crimson Rooks HQ: Heavily fortified compound within the city. Guarded by elite officers and surveillance technology. The Rooks act as world peacekeepers, often enforcing order where governments collapse. They operate independently but are deeply rooted in Vacron's political system. Many citizens see them as both protectors and watchers.

@@ -13,7 +13,7 @@
     "build:graph": "tsx scripts/build-graph-data.ts",
     "build:tooltips": "tsx scripts/build-tooltips.ts",
     "build:data": "npm run build:registry && npm run build:backlinks && npm run build:graph && npm run build:tooltips",
-    "build:search": "npx pagefind --site dist",
+    "build:search": "npx pagefind --site dist && cp -r dist/pagefind public/pagefind",
     "astro": "astro"
   },
   "dependencies": {

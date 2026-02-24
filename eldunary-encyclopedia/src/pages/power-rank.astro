@@ -1,69 +1,57 @@
 ---
 import { getCollection } from 'astro:content';
 import FullWidthLayout from '../layouts/FullWidthLayout.astro';
-import ArashiRankCard from '../components/cards/ArashiRankCard.astro';
 
-const arashi = await getCollection('arashi');
 const characters = await getCollection('characters');
 
-const ranked = arashi.sort((a, b) => {
-  const ra = a.data.rank ?? a.data.arashiRank ?? 99;
-  const rb = b.data.rank ?? b.data.arashiRank ?? 99;
-  return ra - rb;
-});
-const topChars = characters
+const ranked = characters
   .filter((c) => (c.data.power_rank ?? c.data.powerRank) !== undefined)
   .sort((a, b) => ((a.data.power_rank ?? a.data.powerRank) ?? 999) - ((b.data.power_rank ?? b.data.powerRank) ?? 999));
+
+const rankColors: Record<number, string> = {
+  0: '#FFFFFF', 1: '#FF0000', 2: '#FF4444', 3: '#FF8844',
+  4: '#FFAA44', 5: '#FFCC44', 6: '#DDCC44', 7: '#AABB44',
+  8: '#88BB66', 9: '#66AA88', 10: '#44AABB', 11: '#4488CC', 12: '#6666BB',
+};
 ---
-<FullWidthLayout title="Power Rankings — Eldunary" description="Official Arashi power ranking list">
+<FullWidthLayout title="Power Rankings — Eldunary" description="Official world power ranking list">
   <div class="rank-page">
     <header class="rank-header">
       <span class="rank-type">Official Listing</span>
       <h1 class="rank-title">Power Rankings</h1>
       <p class="rank-desc">
-        The Arashi are the officially ranked beings whose power transcends all conventional limits.
-        Below them, notable characters are ranked by relative combat and magical potency.
+        The strongest known beings in Eldunary, ranked from most powerful to least. This ranking reflects demonstrated or perceived threat level, not raw power. The Golem King (#4) is believed to possess power equal to Fluffy (#1) but is ranked lower because he chooses never to use his full abilities. He has no desire to be the strongest or to control territory beyond Nikolem. The Masters all share a roughly equal power level at rank #5.
       </p>
     </header>
 
     <section class="rank-section">
-      <h2 class="rank-section-title">The Arashi — Ranked</h2>
+      <h2 class="rank-section-title">World Power Rankings</h2>
       <div class="rank-list">
-        {ranked.map((a) => (
-          <ArashiRankCard
-            name={a.data.name}
-            slug={a.slug}
-            rank={a.data.rank ?? a.data.arashiRank ?? 99}
-            powerClass={a.data.power_class ?? a.data.powerClass ?? 'Unknown'}
-            race={a.data.race}
-            location={a.data.current_location ?? a.data.location}
-            summary={a.data.summary}
-          />
-        ))}
+        {ranked.map((c) => {
+          const rank = c.data.power_rank ?? c.data.powerRank ?? 99;
+          const color = rankColors[rank] ?? '#888888';
+          return (
+            <a href={`/characters/${c.slug}`} class="rank-card" style={`--rank-color: ${color}`}>
+              <div class="card-glow" aria-hidden="true" style={`background: radial-gradient(circle at 0% 50%, ${color}15, transparent 70%)`}></div>
+              <div class="rank-column">
+                <div class="rank-badge">#{rank}</div>
+                <div class="power-orb" style={`background: ${color}; box-shadow: 0 0 15px ${color}`}></div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta-row">
+                  {(c.data.power_class ?? c.data.powerClass) && <span class="power-class">{c.data.power_class ?? c.data.powerClass}</span>}
+                  {c.data.race && <span class="race-label">{c.data.race}</span>}
+                </div>
+                <h3 class="char-name">{c.data.name}</h3>
+                {(c.data.current_location ?? c.data.location) && <p class="char-location"><span>📍</span> {c.data.current_location ?? c.data.location}</p>}
+                {c.data.summary && <p class="char-summary">{c.data.summary}</p>}
+              </div>
+              <div class="card-arrow">→</div>
+            </a>
+          );
+        })}
       </div>
     </section>
-
-    {topChars.length > 0 && (
-      <section class="rank-section">
-        <h2 class="rank-section-title">Notable Characters by Power</h2>
-        <div class="char-table">
-          <div class="char-table-header">
-            <span>#</span><span>Name</span><span>Race</span><span>Class</span><span>Affiliation</span>
-          </div>
-          {topChars.map((c) => (
-            <a href={`/characters/${c.slug}`} class="char-row">
-              <span class="char-rank">#{c.data.power_rank ?? c.data.powerRank}</span>
-              <span class="char-name">{c.data.name}</span>
-              <span class="char-race">{c.data.race ?? '—'}</span>
-              <span class="char-class">{c.data.power_class ?? c.data.powerClass ?? '—'}</span>
-              <span class="char-aff">
-                {Array.isArray(c.data.affiliation) ? c.data.affiliation[0] : (c.data.affiliation ?? c.data.organization ?? '—')}
-              </span>
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
   </div>
 </FullWidthLayout>
 
@@ -76,15 +64,36 @@ const topChars = characters
   .rank-section { margin-bottom: 3rem; }
   .rank-section-title { font-family: var(--font-cinzel), serif; font-size: 1.1rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem; border-bottom: 1px solid rgba(196,155,92,0.2); padding-bottom: 0.5rem; }
   .rank-list { display: flex; flex-direction: column; gap: 0.75rem; }
-  .char-table { border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; overflow: hidden; font-size: 0.85rem; }
-  .char-table-header { display: grid; grid-template-columns: 50px 1fr 1fr 1fr 1fr; gap: 1rem; padding: 0.6rem 1rem; background: rgba(255,255,255,0.04); color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; }
-  .char-row { display: grid; grid-template-columns: 50px 1fr 1fr 1fr 1fr; gap: 1rem; padding: 0.65rem 1rem; border-top: 1px solid rgba(255,255,255,0.05); text-decoration: none; transition: background 0.15s; align-items: center; }
-  .char-row:hover { background: rgba(255,255,255,0.03); }
-  .char-rank { color: var(--accent); font-family: var(--font-cinzel), serif; font-weight: 700; }
-  .char-name { color: var(--text-primary); font-weight: 500; }
-  .char-race, .char-class, .char-aff { color: var(--text-muted); }
+
+  .rank-card {
+    display: flex; gap: 2rem;
+    background: rgba(20, 20, 25, 0.7);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-left: 4px solid var(--rank-color);
+    border-radius: 12px; padding: 2rem;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center; position: relative; overflow: hidden;
+  }
+  .rank-card:hover { transform: translateX(4px); background: rgba(30, 30, 35, 0.9); border-color: rgba(255,255,255,0.1); box-shadow: -4px 0 20px var(--rank-color, rgba(0,0,0,0))30; }
+  .card-glow { position: absolute; inset: 0; pointer-events: none; }
+  .rank-column { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; min-width: 60px; }
+  .rank-badge { font-family: var(--font-cinzel), serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); text-shadow: 0 0 8px var(--rank-color); }
+  .power-orb { width: 12px; height: 12px; border-radius: 50%; }
+  .card-body { flex: 1; min-width: 0; }
+  .card-meta-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+  .power-class { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--rank-color); border: 1px solid var(--rank-color); padding: 0.15rem 0.5rem; border-radius: 4px; }
+  .race-label { font-size: 0.7rem; color: var(--text-muted); background: rgba(255,255,255,0.06); padding: 0.15rem 0.5rem; border-radius: 4px; }
+  .char-name { font-family: var(--font-cinzel), serif; font-size: 1.3rem; color: var(--text-primary); margin: 0 0 0.4rem; }
+  .char-location { font-size: 0.8rem; color: var(--text-muted); margin: 0 0 0.5rem; }
+  .char-summary { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-arrow { color: var(--text-muted); font-size: 1.2rem; transition: transform 0.3s; }
+  .rank-card:hover .card-arrow { transform: translateX(4px); color: var(--rank-color); }
+
   @media (max-width: 600px) {
-    .char-table-header, .char-row { grid-template-columns: 40px 1fr 1fr; }
-    .char-class, .char-aff, .char-table-header span:nth-child(4), .char-table-header span:nth-child(5) { display: none; }
+    .rank-card { gap: 1rem; padding: 1rem; }
+    .rank-badge { font-size: 1.1rem; }
+    .char-name { font-size: 1rem; }
+    .card-arrow { display: none; }
   }
 </style>

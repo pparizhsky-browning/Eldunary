@@ -2,27 +2,31 @@
 type: character
 name: "Princess Seraphina"
 slug: "princess-seraphina"
-aliases: ["The Golden Heir", "Seraphina Aurical", "The One Who Asks Why"]
 race: "Goldhelm"
-powerRank: 8
 status: "Active"
 kingdom: "goldhelm-kingdom"
 organization: null
 family: "goldhelm-family"
-magiType: null
+magiType: "Devourer"
 accentColor: "#C9A84C"
 location: "ovodon"
-weapons: ["Luminara — a holotech rapier with adaptive edge modulation", "Tactical Emitter Rings (wrist-mounted holotech projectors)"]
-abilities: ["Advanced holotech engineering", "Tactical analysis", "Political negotiation", "Light Field projection (creates blinding or disorienting holotech illusions)"]
-relatedCharacters: ["king-aldric", "veles", "crimson-knight"]
+relatedCharacters: ["king-aldric", "elric", "isolde"]
 relatedEvents: ["golden-war"]
-summary: "Power Rank #8. Goldhelm heir. Daughter of King Aldric. Privately questions the Kingdom's isolationist policy. The most likely agent of change if the Goldhelm Kingdom ever opens its borders."
+summary: "Princess of the Goldhelm Kingdom. Daughter of King Aldric. Heir to the Goldhelm throne. Carries the full re-expression of the Goldhelm bloodline's Devourer ability — the first in centuries. She is not aware of this."
 ---
 
-**Princess Seraphina** occupies the most politically loaded position in the Goldhelm court: the person who will determine what the kingdom becomes when her father's era ends. King Aldric's policies have given the Goldhelm Kingdom stability, safety, and technological advantage. They have also given it stagnation, ignorance of the world outside its borders, and a defensive posture that every neighboring faction reads as weakness permanently in preparation for the moment it cracks.
+Princess of the Goldhelm Kingdom. Daughter of King Aldric. Heir to the Goldhelm throne.
 
-She has read every diplomatic communication Goldhelm has received and declined since she was old enough to access the court archives. She understands what her father is protecting against — the Golden War is described in sufficient detail in those records that she has genuine sympathy for the isolationist position. But she also understands what the position costs, and the cost rises annually as the world outside develops without Goldhelm's participation.
+**Abilities — Devourer:** Seraphina carries the full re-expression of the Goldhelm bloodline's Devourer ability — the first in centuries. She is not aware of this. Her power operates in two modes:
 
-Her **Luminara** is self-designed — a holotech rapier she engineered over three years as a personal project that, unofficially, demonstrates capabilities beyond what Goldhelm's official engineering corps has achieved. She is a better holotech engineer than most people in the kingdom who hold that title professionally. Her father knows this and does not know what to do with the information.
+**Passive absorption:** Always active and completely unconscious. Magic users in her proximity find their abilities slowly, imperceptibly weakening over time. The rate increases with her emotional state. Crucially, non-magic users (Elric, most Goldhelm soldiers) are entirely unaffected. Holotech is also unaffected, which is why Isolde never triggered the drain and why Seraphina spent her entire childhood surrounded by people she was incapable of harming.
 
-Whether she will hold the kingdom's course when she ascends or alter it substantially, and who she will form alliances with if she chooses to open the borders, is the question that every intelligence organization in Criozevan is spending resources to model. She has not told anyone what she intends. This is, itself, a form of capability.
+**Passive storage:** Having grown up in a kingdom with no magic users around her, Seraphina never drained living sources — but she has spent her entire life unconsciously absorbing ambient residual magical energy from the world around her: the background radiation of the Convergence, trace energies from corrupted runes, the natural magical saturation of the environment. She is a vessel that was never emptied.
+
+**The release:** When Seraphina's power discharges — always involuntarily, always triggered by extreme emotional distress — it radiates as a burst of golden warm light, producing a shockwave of raw undifferentiated magical energy. It does not target. It affects all magic users in range simultaneously. In the hours following a major release she absorbs faster than normal, creating a temporary void state dangerous to any magic user nearby. She experiences this as an unusual calm. The calm is the warning.
+
+**What she does not yet know:** That her power and corrupted rune energy are fundamentally opposed — corrupted runes recoil from her presence. That Isolde's diagnostic instruments detected not her power but the absence of expected ambient energy around her — a small, consistent hole where something was being consumed. Magic is completely banned within the Goldhelm Kingdom under penalty of public execution, making the princess a walking violation of her own kingdom's most fundamental law.
+
+**Personality:** Defiant, perceptive, and resourceful. Seraphina possesses a sharp mind and an unyielding spirit. She is deeply aware of the corruption festering beneath Goldhelm's gilded surface and harbors a genuine desire to see her kingdom reformed. She is not content to be a passive figurehead — she observes, questions, and acts with a courage that often exceeds her station's expectations. Despite her royal upbringing, she is pragmatic and adaptive, capable of enduring hardship without breaking.
+
+**Background:** Raised in the Gilded Cradle of Ovodon, Seraphina grew up surrounded by the wealth and rigid hierarchy of the Goldhelm Kingdom. From a young age, she sensed that something was wrong beneath the kingdom's polished exterior — whispers of backroom deals, clandestine meetings, and corruption among the ruling class.

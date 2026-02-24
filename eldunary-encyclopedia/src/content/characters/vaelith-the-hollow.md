@@ -2,27 +2,37 @@
 type: character
 name: "Vaelith the Hollow"
 slug: "vaelith-the-hollow"
-aliases: ["The Hollow", "Grousea's Shadow", "The Unbound Elf"]
 race: "Darkmane Elf"
-powerRank: 7
-status: "Active"
+status: "Unknown (fate unrecorded)"
 kingdom: "warring-darkmane-realm"
 organization: null
 family: "darkmane-family"
-magiType: "Corrupted Runes"
+magiType: null
 accentColor: "#4A2D6B"
-location: "grousea"
-weapons: ["Shadow Lace — whip-chains of solidified shadow malefici", "Hollow Void (body ability — can absorb attacks into null space)"]
-abilities: ["Corrupted Rune casting", "Shadow manifestation", "Hollow Void absorption", "Soul Read (can detect emotional states through shadow contact)", "Shadowstep teleportation"]
-relatedCharacters: ["fluffy", "crimson-knight"]
-relatedEvents: ["first-great-war", "equinox-of-power"]
-summary: "Power Rank #7. Darkmane Elf. De facto ruler of Grousea. Criminal network operator. The most dangerous Darkmane in Criozevan. Her Hollow Void ability has no known counter."
+location: "Unknown"
+relatedCharacters: ["sael"]
+relatedEvents: ["fall-of-darkmane-kingdom"]
+summary: "Former head of the Darkmane Family (896–938 ACC). Sael's grandfather. Sold his own brother Thalrith to a Goldhelm scientist in 937 ACC, creating the first of the Fallen. His betrayal fractured the Darkmane Family and collapsed the unified Darkmane Realm into the warring tribes that persist today."
 ---
 
-**Vaelith the Hollow** acquired the name she is known by after surviving an attack that should not have been survivable — a concentrated corrupted-rune detonation at contact range that obliterated what should have been substantial parts of her physiology. She survived because the Hollow Void ability had, at that point, already developed enough to route the damage into null space. She came out of the experience changed, the surviving attackers came out of it not at all, and the legend began.
+**Vaelith the Hollow** was head of the Darkmane Family and de facto ruler of the Darkmane Realm from **896 to 938 ACC**. He is Sael's grandfather.
 
-She operates in **Grousea** as its de facto ruler — not by formal appointment, which would require the Darkmane tribal structure to reach consensus, but by the simpler and more durable authority of being the person who no one in Grousea chooses to oppose. The criminal networks that the city hosts pay their arrangements through her. The power-brokers who use Grousea as a neutral meeting point do so with her tacit permission. Her enforcement is invisible until it isn't.
+## Rise to Power
 
-The **Hollow Void** is the most discussed of her abilities because it has no identified counter in any documented engagement. Physical attacks, magical projections, and even reality-level abilities have been absorbed by the void she maintains within her form. The theoretical explanation — that her surviving that original explosion burned a permanent null-space channel into her physical structure that she learned to control — is the most commonly cited one, but no one has confirmed it empirically.
+Vaelith rose to leadership of the family in 896 through a combination of political maneuvering and the particular kind of persuasion that only functions when the people being persuaded want to believe. He was charismatic. He was intelligent. He was, by all accounts of those who knew him before, genuinely capable of leading. He was also, beneath all of it, primarily interested in money — and the Darkmane Realm, with its ancient ruins, its unstable Golem runes, and its impenetrable forest cover, had become increasingly attractive to parties willing to pay for access and discretion.
 
-Her personal motivations are the least well-understood of any major figure in Criozevan — those who have worked with her long enough to develop a sense of what she wants describe conflicting impressions. What is consistent is that she does not operate according to any external organization's framework, and the Darkmane cultural identity she holds is as much a statement of what she left behind as what she still carries.
+Over his years of rule, Vaelith allowed various criminal organizations to conduct experiments in the forest, accepting payment in exchange for territory access and silence. These arrangements were kept from other branches of the family. They were profitable, and for a time, contained.
+
+## The Betrayal *(937 ACC)*
+
+In **937 ACC**, the Goldhelm Kingdom's head scientist approached Vaelith with a specific request: access to one of the ancient ruins inside the realm for a particular experiment — and a Darkmane Elf to serve as a subject. The payment offered was significant. Vaelith accepted.
+
+He ordered his men to kidnap **Thalrith the Wise** — his own brother — and hand him over. They did. Thalrith was taken to the scientist without warning, without explanation, and without any word reaching the rest of the family.
+
+The next night, a scream was heard from inside the Hidden Royal Palace. It came from **Luthyrra the Silent**, Thalrith's wife — a woman known for exactly what her name suggests. Before dawn, Thalrith and Luthyrra left their room together. Both of their eyes held a strange purple glow. Neither spoke. They walked into the deep forest and were never seen again. They were the first of the Fallen.
+
+## Removal and Aftermath *(938–940 ACC)*
+
+When the other branches of the Darkmane Family learned what Vaelith had done, they removed him from leadership immediately and with a completeness that left no room for appeal. The family did not survive the fracture that followed. In the years between 938 and 940, the branches turned on each other in a cascading series of recriminations and counter-accusations, each side convinced the others had known or benefited or enabled. By **940 ACC**, the unified Darkmane Realm was over. What remained were the scattered warring tribes.
+
+Vaelith survived his removal. Where he went and how he died — or whether he died — is not recorded.

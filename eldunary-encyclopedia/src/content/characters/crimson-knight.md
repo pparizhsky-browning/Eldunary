@@ -2,27 +2,36 @@
 type: character
 name: "Crimson Knight"
 slug: "crimson-knight"
-aliases: ["The Red", "Vakros Eld (rumored true name)"]
-race: "Folkwynd (Human)"
+race: "Folkwynd"
 powerRank: 2
 status: "Active"
 kingdom: "kingdom-of-vacron"
 organization: "crimson-rooks"
 family: null
-magiType: "Malefici"
+magiType: null
 accentColor: "#8B0000"
 location: "vacron"
-weapons: ["Crimson Blade — manifests from concentrated malefici energy", "Void Gauntlets"]
-abilities: ["Malefici mastery", "Reality fracture (close-range)", "Crimson Shroud (area intimidation aura)", "Memory extraction"]
-relatedCharacters: ["fluffy", "veles", "selvarin", "sunlee", "golem-king"]
-relatedEvents: ["crimson-convergence", "golden-war", "equinox-of-power"]
-summary: "Power Rank #2. Folkwynd human. Leader of the Crimson Rooks. Governs Vacron from shadow. Has met Fluffy and survived. The most politically powerful individual in surface Criozevan."
+relatedCharacters: ["fluffy", "golem-king", "zunarorth"]
+relatedEvents: ["crimson-convergence"]
+summary: "Power Rank #2. Folkwynd — born in Vacron. Founder and leader of the Crimson Rooks. Wields the indestructible Crimson Blazer (gift from Fluffy) and the Crimson Greatsword (steel gifted by the Golem King). No magic — pure combat mastery and legendary charisma. True name never publicly revealed."
 ---
 
-The **Crimson Knight** does not appear in official governance documents for the Kingdom of Vacron. He does not sign treaties. He does not attend diplomatic functions. He is not listed in the Crimson Rooks' published organizational chart. And yet every person in a position of authority in Criozevan who has been doing that work for more than five years knows that the Crimson Knight is the actual center of Vacron's power, the Rooks' ultimate authority, and the single figure whose approval or opposition determines the outcome of the continent's most significant political decisions.
+**The Crimson Knight** holds Power Rank #2 — the second most powerful known being in Eldunary.
 
-He is Folkwynd — a human, which is to say he began from the same baseline as any other human in Criozevan and reached Power Rank #2 through means that are debated because no one has satisfactorily observed the process. His **Crimson Blade** manifests from his own malefici concentration rather than existing as a physical object, which means it cannot be disarmed, stolen, or destroyed by conventional means. The Void Gauntlets are physical but are treated as near-indestructible by anyone who has seen what happens when he uses them.
+**True Name:** Known only to a select few. Never publicly revealed.
 
-His relationship with **Vacron** is the most successful shadow governance model on the continent: a kingdom that runs efficiently, has loyal military forces, a thriving economy, and a population that is largely unaware of the degree to which their lives are shaped by one person's preferences. The Crimson Rooks execute his directives through a chain of command that is both bureaucratically formal and personally loyal to him specifically.
+**Race / Birthplace:** Folkwynd, born in Vacron. Appears approximately 40 years old. His true age is significantly older — his aging was halted when Fluffy gifted him the enchanted blazer.
 
-The encounter with **Fluffy** is the most discussed fact about him among those who follow the power hierarchy seriously. He has survived a meeting that left others incapacitated or simply unaccounted for. Whether this means he has some quality that Fluffy finds interesting, some quality that Fluffy finds unthreatening, or simply that he was fast enough to leave before consequences arrived — no one outside that encounter knows.
+**Abilities:** The Crimson Knight possesses no magical abilities of his own. His power comes from extraordinary combat skill, two legendary items, and unmatched charisma. He is arguably the greatest pure fighter alive — a master of the greatsword with centuries of accumulated experience. His charisma is legendary: he can charm virtually anyone and convince people of almost anything. He is widely considered the most well-liked being in all of Criozevan.
+
+**Equipment:**
+
+**The Crimson Blazer:** A crimson red velvet blazer worn over his knight's armor. Enchanted by Fluffy to be completely indestructible. The blazer also grants its wearer eternal youth and an extended lifespan. Fluffy gave it to the Crimson Knight as a gift in recognition of his efforts to bring peace to Criozevan — approximately 20 years after he founded the Crimson Rooks.
+
+**The Crimson Greatsword:** A massive sword forged from a special steel accessible only to the Golem King, who gave it to the Crimson Knight as a gift of friendship. The sword absorbs the kinetic energy of every impact it receives. In its base state, the blade is dull and dark gray. As it absorbs more hits, it gradually turns redder and redder. When fully charged, the wielder can release all stored energy in a single swing — making the next strike approximately 100 times more powerful than normal. The longer a fight lasts, the more dangerous the Crimson Knight becomes.
+
+**Personality:** Charismatic, warm, and deeply principled. The Crimson Knight leads through presence and persuasion rather than fear. He is universally respected and genuinely liked across nearly every kingdom in Criozevan. Despite his power and influence, he remains approachable and grounded. He seeks guidance from the Golem King, whom he considers his mentor.
+
+**History:** Born a Folkwynd in Vacron, the Crimson Knight rose to prominence through his vision of a peaceful, ordered world. He founded the Crimson Rooks as a peacekeeping force and built it into the most respected organization on the continent. Approximately 20 years after founding the Rooks, Fluffy appeared and gifted him the indestructible crimson blazer — halting his aging. The Golem King, recognizing a kindred spirit, befriended him and gifted him the special steel for his greatsword.
+
+**Key Relationships:** Fluffy gifted him the blazer — one of only three beings to have interacted with Fluffy. The Golem King is his close friend and mentor, who regularly offers him counsel. Zunarorth is one of the three who have interacted with Fluffy alongside the Crimson Knight.

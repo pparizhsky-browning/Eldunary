@@ -17,35 +17,33 @@ mapCoordinates: [320, 750]
 summary: "Desert kingdom. Four historic war-torn districts unified after Lucifer killed all four district leaders. Harsh but stable."
 ---
 
-*The sand remembers. Fodon's desert holds memory the way the Tharnex said all things did — and in Fodon's case, the memory is mostly violence.*
+## Capital & Settlements
 
-The **Kingdom of Fodon** occupies the northwestern peninsula of Criozevan — harsh desert, dry plains, jagged cliffs, and scorched canyons. Once warmer, now wind-blasted. The land itself seems hostile in a way that goes beyond climate: it resists comfort, discourages softness, and rewards only those who can survive it without complaint.
+- Fodon (Capital): The second largest city in Criozevan. Located on the northwest peninsula. Arid, desert climate next to the sea. Originally divided into four war-torn districts — Bug, Magic, Death, and Fire. The districts fought for decades until Lucifer (#6 Arashi) killed all four district leaders. Now a diverse but tense metropolis marked by old ruins and district pride. Still carries the legacy of violence and survival in its streets and politics.
 
-## Capital & Districts
+District Leaders (now deceased):
+- Vorvax (Bug): Rumored to be the last matriarch of the Tharnex. Ruled from the shadows with shifting armor that sensed incoming danger. She trusted no one but her own. Her eyes missed nothing, and her will to protect the scattered bugfolk was legendary. In a city built on betrayal, Vorvax was the one presence you never saw coming — until it was far too late. Once she was killed, the rest of the Tharnex race perished.
+- Azaraith, the Nightweaver (Magic): Feared ruler of the Magic District. Cloaked in shifting darkness, she bent arcane forces with her staff, her power pulsing like a hidden current beneath the city's sands. No one knows what lies behind her mask, but every rumor agrees on one thing: to speak her name is to tempt fate. She judges all magic users with merciless precision, and even the Arashi once hesitated to challenge her rule.
+- Varnokh (Death): A towering armored construct powered by a magenta arcane core. His armor resembled a spiked exoskeleton, and he wielded a massive scythe-axe linked to necromantic energy. Known for his silence and ceremonial law, Varnokh ruled without emotion through death rituals and executions. His core was destroyed by Lucifer (#6 Arashi) during the fall of the districts. His body was never recovered.
+- Vulkran (Fire): A knight of molten steel and volcanic power. Wielded a lava-blade and obsidian shield, with a burning eye-core at his chest. His armor could melt sand into glass. Vulkran was slain by Lucifer (#6 Arashi) during the collapse of the Warring Districts. His remains lie entombed in a fire-cracked canyon near Plodrough — still warm to this day. Born in Zhuiburn.
 
-**Fodon** (Capital) is the second largest city in Criozevan. The city was defined for decades by division into four war-torn districts — *Bug*, *Magic*, *Death*, and *Fire* — each controlled by a warlord and perpetually at war with the others:
+- Mayson: Desert town in the Kingdom of Fodon. Has many crypts beneath it. Crypt-based desert town with layers of burial tunnels and ruins.
+- Plodrough: Desert town built into a canyon. Canyon-side underground city, carved vertically into the cliffs.
+- Sloumont: Dry plains farming town. Expansive. Near a river. Small agricultural port with a small river port for trade.
 
-- **Vorvax** (Bug District) — Rumored to be the last matriarch of the Tharnex race. Ruled from the shadows with shifting armor that sensed incoming danger. When she was killed by Lucifer, the remaining Tharnex perished.
-- **Azaraith, the Nightweaver** (Magic District) — Cloaked in shifting darkness, she bent arcane forces through a staff. Even the Arashi hesitated to challenge her. Her mask's face was never revealed.
-- **Varnokh** (Death District) — A towering armored construct powered by a magenta arcane core. Wielded a massive scythe-axe linked to necromantic energy. Ruled without emotion through death rituals. His core was destroyed by Lucifer; his body was never recovered.
-- **Vulkran** (Fire District) — A knight of molten steel and volcanic power. His armor could melt sand into glass. Slain by Lucifer. His remains lie entombed in a fire-cracked canyon near Plodrough — still warm to this day.
+## Geography & Environment
 
-**Lucifer** (#6 Arashi), wielding his unique power of Magic Cancellation, killed all four district leaders. The districts, robbed of their defining figures, collapsed into uneasy coexistence. Fodon is now a diverse metropolis marked by old ruins and fierce district pride.
+Northwestern region of Criozevan. Harsh desert with dry plains, jagged cliffs, and scorched canyons. Includes underground towns, ancient crypts, and limited coastal access. Formerly warmer, now dry and wind-blasted.
 
-## Other Settlements
+## Government — The Dune Accord
 
-- **Mayson** — Desert town. Many crypts beneath the town square — residents know not to excavate.
-- **Plodrough** — Canyon town. An underground city carved vertically into the cliffside, districts stacked one above another.
-- **Sloumont** — Dry plains farming town near a river. Small agricultural port providing basic food for the desert settlements.
+A unique governing system born from the civil war. Named after the survival pact signed at the site where Fire District Leader Vulkran erupted in death — melting a canyon into Ashglass Hall. Ashglass Hall: Made of black obsidian and lava glass, glowing with heat veins and scorched stone. Council debates happen beneath molten-stone pillars and hanging lava-stained stalactites. Ashglass Hall itself is a physical reminder of past destruction and the cost of disunity.
 
-## Government: The Dune Accord
+- Four High Seats: Each representing a former district (Bug, Magic, Death, Fire). Elected by district population and surrounding towns. All four seats hold equal voting power.
+- Voice of Sand: A fifth seat elected by the entire kingdom every five years. Holds power to break ties, pass emergency orders, and represent Fodon internationally. Known as 'the Will of the Wastes' — one who speaks not for a city, but for the land. Traditionally seen as a symbol of national unity beyond the fractured district lines.
 
-Named after the pact signed at Ashglass Hall — built on the canyon where Vulkran died, its walls of black obsidian and lava glass still glowing with heat veins.
+The Dune Accord governs all of Fodon, including remote desert outposts and crypt towns. It prioritizes balance between local power and central authority. The system emphasizes pragmatic leadership, war memory, and shared survival in a brutal land.
 
-**Four High Seats** represent the former districts (Bug, Magic, Death, Fire). Each elected by its district population. Equal voting power.
+## Historical Conflicts
 
-**Voice of Sand** — a fifth seat elected by the entire kingdom every five years. Holds tie-breaking power, emergency authority, and international representation. Known as *"the Will of the Wastes."*
-
-## Historical Alliance & War
-
-Fodon allied with Frada in a massive war against the Ipadora Kingdom — driving Ipadora off the mainland and seizing former Ipadora territory. A manmade river was cut to divide Fodon from its defeated foe. The water control situation that followed has been economically disadvantageous for Fodon ever since.
+Allied with Frada in a massive war against Ipadora. The trigger: a criminal from Ipadora killed a Fodon Bug District Tharnex, and Fodon interpreted the act as deliberate aggression by the Ipadora state, declaring war. Ipadora \u2014 whose military was designed around sea and underwater combat \u2014 was poorly equipped for land warfare and was driven off the mainland. Fodon seized the former Ipadora territory. A manmade river was deliberately cut to divide Fodon from its defeated foe. This conquest remains a source of national identity and pride.

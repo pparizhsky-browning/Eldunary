@@ -1,6 +1,6 @@
 import { visit } from 'unist-util-visit';
 import type { Root, Text, Parent, Link, PhrasingContent } from 'mdast';
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, statSync } from 'fs';
 import { join } from 'path';
 
 interface EntityRef {
@@ -17,16 +17,19 @@ const typeToPath: Record<string, string> = {
 };
 
 let registry: EntityRef[] | null = null;
+let registryMtime = 0;
 
 function loadRegistry(): EntityRef[] {
-  if (registry) return registry;
   const registryPath = join(process.cwd(), 'generated', 'entity-registry.json');
   if (!existsSync(registryPath)) return [];
   try {
+    const mtime = statSync(registryPath).mtimeMs;
+    if (registry && mtime === registryMtime) return registry;
     registry = JSON.parse(readFileSync(registryPath, 'utf-8')) as EntityRef[];
+    registryMtime = mtime;
     return registry;
   } catch {
-    return [];
+    return registry ?? [];
   }
 }
 
@@ -47,6 +50,9 @@ function escapeRegex(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// Entity names that are too generic to auto-link (would create false positives)
+const EXCLUDE_FROM_AUTO_LINK = new Set(['unknown']);
+
 export function remarkEntityLinker() {
   return (tree: Root) => {
     const entities = loadRegistry();
@@ -55,14 +61,17 @@ export function remarkEntityLinker() {
     const nameMap = buildNameMap(entities);
 
     // Sort by length descending so longest match wins
-    const sortedNames = [...nameMap.keys()].sort((a, b) => b.length - a.length);
+    const sortedNames = [...nameMap.keys()]
+      .filter((n) => !EXCLUDE_FROM_AUTO_LINK.has(n.toLowerCase()))
+      .sort((a, b) => b.length - a.length);
     const pattern = new RegExp(`\\b(${sortedNames.map(escapeRegex).join('|')})\\b`, 'gi');
 
     visit(tree, 'text', (node: Text, index: number | undefined, parent: Parent | undefined) => {
       if (!parent || index === undefined) return;
 
       // Don't linkify inside headings, links, or code
-      const skipTypes = new Set(['heading', 'link', 'inlineCode', 'code', 'strong', 'emphasis']);
+      // Note: strong/emphasis are intentionally NOT skipped so bolded entity names get linked too
+      const skipTypes = new Set(['heading', 'link', 'inlineCode', 'code']);
       if (skipTypes.has((parent as { type: string }).type)) return;
 
       const text = node.value;

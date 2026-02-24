@@ -2,23 +2,44 @@
 type: organization
 name: "Ace"
 slug: "ace"
-aliases: ["The One Card", "Wild Card"]
-alignment: "Chaotic Neutral"
+alignment: "Mercenary"
 accentColor: "#FFD700"
 headquarters: "adlens"
 controlledKingdoms: []
-memberCount: "Unknown (small, elite)"
+memberCount: "52 (exact)"
 publicFacing: false
-foundingEvent: "first-great-war"
-relatedCharacters: ["crimson-knight"]
-relatedCities: ["adlens", "kusamori", "okbridge"]
-summary: "Small elite covert organization. Enforces the peace in Adlens — the neutral coalition town. No stated ideology. Acts as a wild card in Criozevan's political conflicts. Led by a single figure also called Ace."
+relatedCharacters: []
+relatedCities: ["adlens"]
+relatedEvents: ["war-of-fodon"]
+summary: "Elite mercenary organization of exactly 52 members divided into four Suits (Spades, Diamonds, Hearts, Clubs) of 13 ranked members each. Led by the Ace of Spades. Every member wears a mask and suit displaying their card designation. First confirmed appearance: War of Fodon (820–847 ACC), hired to protect the Bug District. Currently holds a law enforcement contract in Adlens. Less publicly documented than even the Arashi."
 ---
 
-**Ace** is small enough to be dismissed and dangerous enough that dismissal is a consistent error. The organization has no published ideology, no stated mission, and no territorial objective. What it has is reach — connections in every city, capabilities that don't cluster neatly into any power system's classification, and a track record of showing up in Criozevan's crises at the points where a single decisive action would determine the outcome, and taking that action.
+The Ace organization's founding date is not publicly established. Its first confirmed historical appearance is during the **War of Fodon (820–847 ACC)**, when the organization was hired by **Vorvax**, leader of the Bug District, to protect the Tharnex population from the attacks of other districts. During this period, the Aces carried out both defensive operations and targeted assassinations of individuals threatening the Bug District's survival. Whether the organization existed before this engagement or was formed specifically for it is unknown.
 
-The **Adlens peace** is Ace's most publicly visible achievement and ongoing responsibility: the neutral coalition town where representatives of hostile factions coexist requires active enforcement, and the enforcement mechanism is Ace's presence. No faction serious about its own strategic interests wants to be the one responsible for breaking the Adlens arrangement — the diplomatic cost is real — but absent enforcement, calculation about breaking it would begin. Ace's presence is the deterrent that makes those calculations consistently unfavorable.
+## Structure
 
-The organization's leader is known by the same name as the organization — a figure called **Ace** who has been described in records spanning several decades without consistent aging indicators, leading to the theories that either the name passes between successors (possible) or the original holder has unusual longevity (also possible, given the power levels present in Criozevan). The answer has not been confirmed.
+The Ace organization consists of exactly **52 members**, divided into four equal **Suits** (divisions) of 13 members each. The Suits are **Spades**, **Diamonds**, **Hearts**, and **Clubs**. Within each Suit, members hold one of 13 **Ranks**: 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, and Ace — with Ace being the most powerful rank in each Suit and 2 being the lowest. Every rank within every Suit is held by exactly one member.
 
-Their presence in **Kusamori** and **Okbridge** suggests a broader Akison-region operational interest than the Adlens mandate explains — what they are doing in those locations, and how it connects to their Adlens responsibility, is one of the small-organization mysteries that intelligence analysts flag as requiring more data before pattern assessment is meaningful.
+## Chain of Command
+
+The organization is led by the **Ace of Spades**, who holds supreme authority and assigns each Suit its contracted work. The Spades are considered the most elite Suit — the other three Suits are considered equal in standing beneath them, each specializing in different operational domains. Members of higher rank within a Suit carry greater operational authority and are assigned higher-complexity contracts.
+
+## Identifying Markers
+
+Every Ace member wears a mask and a suit. The mask displays the member's Suit symbol and Rank in the playing card notation of their specific designation. A member is never publicly identified by name, only by their card. The mask is never removed in the presence of clients or targets.
+
+## Capabilities
+
+Ace members are considered the finest bounty hunters, trackers, assassins, and protection operatives in the world. The organization accepts contracts for security, assassination, and kidnapping, with no stated ideological position beyond the completion of the paid contract. They are known for operational precision and an exceptional success rate.
+
+## Known Operations
+
+- Protection of the Bug District during the War of Fodon (c. 820–847 ACC)
+- Ongoing law enforcement contract in Adlens, hired by the local government
+- Assassination of political rivals during the Goldhelm succession crisis following Aldric's death, hired by the new Goldhelm General
+
+The full scope of their historical contract work is not publicly documented.
+
+## Public Status
+
+Extremely mysterious. Less publicly documented than even the Arashi. The organization does not announce itself, recruit openly, or negotiate with governments. It is found by those who know how to look.

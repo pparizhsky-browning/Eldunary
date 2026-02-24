@@ -162,6 +162,13 @@
       "val": 3
     },
     {
+      "id": "eshar-thi",
+      "name": "Eshar-Thi",
+      "type": "city",
+      "accentColor": "#7A6642",
+      "val": 3
+    },
+    {
       "id": "fodon",
       "name": "Fodon",
       "type": "city",
@@ -379,6 +386,13 @@
       "val": 3
     },
     {
+      "id": "anton",
+      "name": "Anton",
+      "type": "character",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
       "id": "azaraith",
       "name": "Azaraith",
       "type": "character",
@@ -386,10 +400,31 @@
       "val": 3
     },
     {
+      "id": "azure-paladin",
+      "name": "The Azure Paladin",
+      "type": "character",
+      "accentColor": "#4A90C4",
+      "val": 3
+    },
+    {
+      "id": "butterfly-scholar",
+      "name": "Ossivael",
+      "type": "character",
+      "accentColor": "#3D7A3D",
+      "val": 3
+    },
+    {
       "id": "crimson-knight",
       "name": "Crimson Knight",
       "type": "character",
       "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "elric",
+      "name": "Sir Elric",
+      "type": "character",
+      "accentColor": "#C9A84C",
       "val": 3
     },
     {
@@ -407,10 +442,31 @@
       "val": 3
     },
     {
+      "id": "isolde",
+      "name": "Lady Isolde",
+      "type": "character",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
       "id": "king-aldric",
       "name": "King Aldric",
       "type": "character",
       "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "new-goldhelm-general",
+      "name": "The New Goldhelm General",
+      "type": "character",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "prince-vaelen",
+      "name": "Prince Vaelen",
+      "type": "character",
+      "accentColor": "#006994",
       "val": 3
     },
     {
@@ -425,6 +481,13 @@
       "name": "Queen Nayele",
       "type": "character",
       "accentColor": "#006994",
+      "val": 3
+    },
+    {
+      "id": "sael",
+      "name": "Sael",
+      "type": "character",
+      "accentColor": "#4A2D6B",
       "val": 3
     },
     {
@@ -658,6 +721,13 @@
       "val": 3
     },
     {
+      "id": "house-abyrath",
+      "name": "House Abyrath",
+      "type": "family",
+      "accentColor": "#006994",
+      "val": 3
+    },
+    {
       "id": "ipadora-family",
       "name": "Ipadora Family",
       "type": "family",
@@ -665,10 +735,24 @@
       "val": 3
     },
     {
+      "id": "age-of-elves",
+      "name": "The Age of Elves",
+      "type": "history",
+      "accentColor": "#2E8B57",
+      "val": 3
+    },
+    {
       "id": "crimson-convergence",
       "name": "The Crimson Convergence",
       "type": "history",
       "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
+      "id": "dragon-era",
+      "name": "The Dragon Era",
+      "type": "history",
+      "accentColor": "#4A0E0E",
       "val": 3
     },
     {
@@ -686,10 +770,59 @@
       "val": 3
     },
     {
+      "id": "five-appearances-of-fluffy",
+      "name": "The Five Public Appearances of Fluffy",
+      "type": "history",
+      "accentColor": "#FFFFFF",
+      "val": 3
+    },
+    {
+      "id": "formation-of-kingdoms",
+      "name": "The Formation of Kingdoms",
+      "type": "history",
+      "accentColor": "#8B6914",
+      "val": 3
+    },
+    {
+      "id": "formation-of-pegasus-and-rose",
+      "name": "The Formation of Pegasus and Rose",
+      "type": "history",
+      "accentColor": "#9370DB",
+      "val": 3
+    },
+    {
+      "id": "founding-of-crimson-rooks",
+      "name": "The Founding of the Crimson Rooks",
+      "type": "history",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
       "id": "golden-war",
       "name": "The Golden War",
       "type": "history",
       "accentColor": "#FFD700",
+      "val": 3
+    },
+    {
+      "id": "goldhelm-exodus",
+      "name": "The Goldhelm Exodus",
+      "type": "history",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "ipadora-land-war",
+      "name": "The Ipadora Land War",
+      "type": "history",
+      "accentColor": "#1A6DC0",
+      "val": 3
+    },
+    {
+      "id": "mist-family-massacre",
+      "name": "The Mist Family Massacre",
+      "type": "history",
+      "accentColor": "#708090",
       "val": 3
     },
     {
@@ -700,10 +833,31 @@
       "val": 3
     },
     {
+      "id": "wizard-uprising",
+      "name": "The Wizard Uprising",
+      "type": "history",
+      "accentColor": "#8B0000",
+      "val": 3
+    },
+    {
       "id": "corrupted-runes",
       "name": "Corrupted Runes",
       "type": "magic",
       "accentColor": "#4A2D6B",
+      "val": 3
+    },
+    {
+      "id": "devourers",
+      "name": "Devourers",
+      "type": "magic",
+      "accentColor": "#C9A84C",
+      "val": 3
+    },
+    {
+      "id": "hell",
+      "name": "Hell",
+      "type": "magic",
+      "accentColor": "#1a0000",
       "val": 3
     },
     {
@@ -847,6 +1001,11 @@
     },
     {
       "source": "darkmane-elves",
+      "target": "arashi",
+      "type": "related"
+    },
+    {
+      "source": "darkmane-elves",
       "target": "crimson-convergence",
       "type": "related"
     },
@@ -908,6 +1067,11 @@
     {
       "source": "folkwynd",
       "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "folkwynd",
+      "target": "elric",
       "type": "related"
     },
     {
@@ -1106,6 +1270,11 @@
       "type": "ruled-by"
     },
     {
+      "source": "goldhelm-kingdom",
+      "target": "arashi",
+      "type": "related"
+    },
+    {
       "source": "princess-seraphina",
       "target": "goldhelm-kingdom",
       "type": "located-in"
@@ -1134,11 +1303,6 @@
       "source": "ipadora-kingdom",
       "target": "ipadora-sanctuary",
       "type": "capital-of"
-    },
-    {
-      "source": "ipadora-kingdom",
-      "target": "glaril",
-      "type": "contains"
     },
     {
       "source": "ipadora-kingdom",
@@ -1181,19 +1345,19 @@
       "type": "related"
     },
     {
-      "source": "kingdom-of-fodon",
-      "target": "vorvax",
-      "type": "related"
+      "source": "vorvax",
+      "target": "kingdom-of-fodon",
+      "type": "located-in"
     },
     {
-      "source": "kingdom-of-fodon",
-      "target": "azaraith",
-      "type": "related"
+      "source": "azaraith",
+      "target": "kingdom-of-fodon",
+      "type": "located-in"
     },
     {
-      "source": "kingdom-of-fodon",
-      "target": "varnokh",
-      "type": "related"
+      "source": "varnokh",
+      "target": "kingdom-of-fodon",
+      "type": "located-in"
     },
     {
       "source": "vulkran",
@@ -1262,6 +1426,11 @@
     },
     {
       "source": "kingdom-of-iyhago",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "kingdom-of-iyhago",
       "target": "equinox-of-power",
       "type": "related"
     },
@@ -1292,11 +1461,6 @@
     },
     {
       "source": "kingdom-of-vacron",
-      "target": "crimson-knight",
-      "type": "ruled-by"
-    },
-    {
-      "source": "kingdom-of-vacron",
       "target": "crimson-rooks",
       "type": "related"
     },
@@ -1309,6 +1473,11 @@
       "source": "kingdom-of-vacron",
       "target": "butterfly",
       "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "kingdom-of-vacron",
+      "type": "located-in"
     },
     {
       "source": "kingdom-of-vacron",
@@ -1402,6 +1571,11 @@
     },
     {
       "source": "republic-of-oredsy",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "republic-of-oredsy",
       "target": "equinox-of-power",
       "type": "related"
     },
@@ -1462,6 +1636,11 @@
     },
     {
       "source": "state-of-akison",
+      "target": "golden-war",
+      "type": "related"
+    },
+    {
+      "source": "state-of-akison",
       "target": "first-great-war",
       "type": "related"
     },
@@ -1491,6 +1670,11 @@
       "type": "contains"
     },
     {
+      "source": "warring-darkmane-realm",
+      "target": "arashi",
+      "type": "related"
+    },
+    {
       "source": "vaelith-the-hollow",
       "target": "warring-darkmane-realm",
       "type": "located-in"
@@ -1501,38 +1685,93 @@
       "type": "related"
     },
     {
+      "source": "anton",
+      "target": "helm",
+      "type": "related"
+    },
+    {
+      "source": "anton",
+      "target": "oto",
+      "type": "related"
+    },
+    {
+      "source": "anton",
+      "target": "spector",
+      "type": "related"
+    },
+    {
+      "source": "anton",
+      "target": "princess-seraphina",
+      "type": "related"
+    },
+    {
+      "source": "anton",
+      "target": "wizard-uprising",
+      "type": "related"
+    },
+    {
       "source": "azaraith",
-      "target": "warring-darkmane-realm",
+      "target": "lucifer",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "vorvax",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "varnokh",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "vulkran",
+      "type": "related"
+    },
+    {
+      "source": "azaraith",
+      "target": "fodon",
       "type": "located-in"
     },
     {
-      "source": "azaraith",
-      "target": "darkmane-family",
+      "source": "azure-paladin",
+      "target": "republic-of-frada",
+      "type": "located-in"
+    },
+    {
+      "source": "azure-paladin",
+      "target": "crimson-knight",
+      "type": "related"
+    },
+    {
+      "source": "azure-paladin",
+      "target": "dark-paladin",
+      "type": "related"
+    },
+    {
+      "source": "azure-paladin",
+      "target": "founding-of-crimson-rooks",
+      "type": "related"
+    },
+    {
+      "source": "azure-paladin",
+      "target": "frada",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly-scholar",
+      "target": "kingdom-of-vacron",
+      "type": "located-in"
+    },
+    {
+      "source": "butterfly-scholar",
+      "target": "butterfly",
       "type": "member-of"
     },
     {
-      "source": "azaraith",
-      "target": "vaelith-the-hollow",
-      "type": "related"
-    },
-    {
-      "source": "azaraith",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "azaraith",
-      "target": "first-great-war",
-      "type": "related"
-    },
-    {
-      "source": "azaraith",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "azaraith",
-      "target": "wrediff",
+      "source": "butterfly-scholar",
+      "target": "klanron",
       "type": "located-in"
     },
     {
@@ -1547,22 +1786,12 @@
     },
     {
       "source": "crimson-knight",
-      "target": "veles",
-      "type": "related"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "selvarin",
-      "type": "related"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "sunlee",
-      "type": "related"
-    },
-    {
-      "source": "crimson-knight",
       "target": "golem-king",
+      "type": "related"
+    },
+    {
+      "source": "crimson-knight",
+      "target": "zunarorth",
       "type": "related"
     },
     {
@@ -1572,17 +1801,32 @@
     },
     {
       "source": "crimson-knight",
-      "target": "golden-war",
-      "type": "related"
-    },
-    {
-      "source": "crimson-knight",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "crimson-knight",
       "target": "vacron",
+      "type": "located-in"
+    },
+    {
+      "source": "elric",
+      "target": "goldhelm-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "elric",
+      "target": "king-aldric",
+      "type": "related"
+    },
+    {
+      "source": "elric",
+      "target": "princess-seraphina",
+      "type": "related"
+    },
+    {
+      "source": "elric",
+      "target": "isolde",
+      "type": "related"
+    },
+    {
+      "source": "elric",
+      "target": "ovodon",
       "type": "located-in"
     },
     {
@@ -1592,7 +1836,27 @@
     },
     {
       "source": "fluffy",
+      "target": "zunarorth",
+      "type": "related"
+    },
+    {
+      "source": "fluffy",
+      "target": "dragon-era",
+      "type": "related"
+    },
+    {
+      "source": "fluffy",
+      "target": "crimson-convergence",
+      "type": "related"
+    },
+    {
+      "source": "fluffy",
       "target": "equinox-of-power",
+      "type": "related"
+    },
+    {
+      "source": "fluffy",
+      "target": "five-appearances-of-fluffy",
       "type": "related"
     },
     {
@@ -1602,27 +1866,27 @@
     },
     {
       "source": "golem-king",
-      "target": "nebbio",
+      "target": "crimson-convergence",
       "type": "related"
     },
     {
-      "source": "golem-king",
-      "target": "first-great-war",
+      "source": "isolde",
+      "target": "goldhelm-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "isolde",
+      "target": "king-aldric",
       "type": "related"
     },
     {
-      "source": "golem-king",
-      "target": "golden-war",
+      "source": "isolde",
+      "target": "princess-seraphina",
       "type": "related"
     },
     {
-      "source": "golem-king",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "golem-king",
-      "target": "suudon",
+      "source": "isolde",
+      "target": "ovodon",
       "type": "located-in"
     },
     {
@@ -1637,17 +1901,7 @@
     },
     {
       "source": "king-aldric",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "king-aldric",
       "target": "golden-war",
-      "type": "related"
-    },
-    {
-      "source": "king-aldric",
-      "target": "equinox-of-power",
       "type": "related"
     },
     {
@@ -1656,19 +1910,44 @@
       "type": "located-in"
     },
     {
-      "source": "princess-seraphina",
-      "target": "goldhelm-family",
+      "source": "new-goldhelm-general",
+      "target": "goldhelm-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "new-goldhelm-general",
+      "target": "king-aldric",
+      "type": "related"
+    },
+    {
+      "source": "new-goldhelm-general",
+      "target": "ovodon",
+      "type": "located-in"
+    },
+    {
+      "source": "prince-vaelen",
+      "target": "ipadora-kingdom",
+      "type": "located-in"
+    },
+    {
+      "source": "prince-vaelen",
+      "target": "house-abyrath",
       "type": "member-of"
     },
     {
-      "source": "princess-seraphina",
-      "target": "veles",
+      "source": "prince-vaelen",
+      "target": "queen-nayele",
       "type": "related"
     },
     {
+      "source": "prince-vaelen",
+      "target": "glaril",
+      "type": "located-in"
+    },
+    {
       "source": "princess-seraphina",
-      "target": "crimson-knight",
-      "type": "related"
+      "target": "goldhelm-family",
+      "type": "member-of"
     },
     {
       "source": "princess-seraphina",
@@ -1687,23 +1966,23 @@
     },
     {
       "source": "queen-nayele",
-      "target": "rabuka",
-      "type": "related"
-    },
-    {
-      "source": "queen-nayele",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "queen-nayele",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "queen-nayele",
       "target": "ipadora-sanctuary",
       "type": "located-in"
+    },
+    {
+      "source": "sael",
+      "target": "warring-darkmane-realm",
+      "type": "located-in"
+    },
+    {
+      "source": "sael",
+      "target": "darkmane-family",
+      "type": "member-of"
+    },
+    {
+      "source": "sael",
+      "target": "vaelith-the-hollow",
+      "type": "related"
     },
     {
       "source": "selvarin",
@@ -1717,7 +1996,7 @@
     },
     {
       "source": "selvarin",
-      "target": "fluffy",
+      "target": "golden-war",
       "type": "related"
     },
     {
@@ -1737,17 +2016,12 @@
     },
     {
       "source": "sunlee",
-      "target": "biruda",
-      "type": "related"
-    },
-    {
-      "source": "sunlee",
       "target": "veles",
       "type": "related"
     },
     {
       "source": "sunlee",
-      "target": "fluffy",
+      "target": "golden-war",
       "type": "related"
     },
     {
@@ -1771,58 +2045,23 @@
       "type": "member-of"
     },
     {
-      "source": "vaelith-the-hollow",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "crimson-knight",
-      "type": "related"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "first-great-war",
-      "type": "related"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "vaelith-the-hollow",
-      "target": "grousea",
-      "type": "located-in"
-    },
-    {
       "source": "varnokh",
-      "target": "nikolem-kingdom",
-      "type": "located-in"
-    },
-    {
-      "source": "varnokh",
-      "target": "golem-king",
+      "target": "lucifer",
       "type": "related"
     },
     {
       "source": "varnokh",
-      "target": "zunarorth",
+      "target": "vorvax",
       "type": "related"
     },
     {
       "source": "varnokh",
-      "target": "first-great-war",
+      "target": "vulkran",
       "type": "related"
     },
     {
       "source": "varnokh",
-      "target": "golden-war",
-      "type": "related"
-    },
-    {
-      "source": "varnokh",
-      "target": "cridbury",
+      "target": "fodon",
       "type": "located-in"
     },
     {
@@ -1832,12 +2071,7 @@
     },
     {
       "source": "veles",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "veles",
-      "target": "biruda",
+      "target": "golden-war",
       "type": "related"
     },
     {
@@ -1847,7 +2081,7 @@
     },
     {
       "source": "veles",
-      "target": "crimson-convergence",
+      "target": "first-great-war",
       "type": "related"
     },
     {
@@ -1862,7 +2096,7 @@
     },
     {
       "source": "vorryn",
-      "target": "fluffy",
+      "target": "zunarorth",
       "type": "related"
     },
     {
@@ -1871,33 +2105,23 @@
       "type": "related"
     },
     {
-      "source": "vorryn",
-      "target": "equinox-of-power",
+      "source": "vorvax",
+      "target": "lucifer",
       "type": "related"
     },
     {
       "source": "vorvax",
-      "target": "fluffy",
+      "target": "vulkran",
       "type": "related"
     },
     {
       "source": "vorvax",
-      "target": "war-of-fodon",
-      "type": "related"
-    },
-    {
-      "source": "vorvax",
-      "target": "first-great-war",
-      "type": "related"
+      "target": "fodon",
+      "type": "located-in"
     },
     {
       "source": "vulkran",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "vulkran",
-      "target": "first-great-war",
+      "target": "lucifer",
       "type": "related"
     },
     {
@@ -1906,54 +2130,9 @@
       "type": "located-in"
     },
     {
-      "source": "zunarorth",
-      "target": "nikolem-kingdom",
-      "type": "located-in"
-    },
-    {
-      "source": "zunarorth",
-      "target": "nebbio",
-      "type": "related"
-    },
-    {
-      "source": "zunarorth",
-      "target": "first-great-war",
-      "type": "related"
-    },
-    {
-      "source": "zunarorth",
-      "target": "golden-war",
-      "type": "related"
-    },
-    {
-      "source": "zunarorth",
-      "target": "suudon",
-      "type": "located-in"
-    },
-    {
       "source": "berserk",
       "target": "oniofast",
       "type": "located-in"
-    },
-    {
-      "source": "berserk",
-      "target": "sunlee",
-      "type": "related"
-    },
-    {
-      "source": "berserk",
-      "target": "dark-paladin",
-      "type": "related"
-    },
-    {
-      "source": "berserk",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "berserk",
-      "target": "equinox-of-power",
-      "type": "related"
     },
     {
       "source": "berserk",
@@ -1967,16 +2146,6 @@
     },
     {
       "source": "biruda",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "biruda",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "biruda",
       "target": "arashi",
       "type": "member-of"
     },
@@ -1987,17 +2156,12 @@
     },
     {
       "source": "dark-paladin",
-      "target": "fluffy",
+      "target": "crimson-knight",
       "type": "related"
     },
     {
       "source": "dark-paladin",
-      "target": "veles",
-      "type": "related"
-    },
-    {
-      "source": "dark-paladin",
-      "target": "first-great-war",
+      "target": "wizard-uprising",
       "type": "related"
     },
     {
@@ -2012,31 +2176,6 @@
     },
     {
       "source": "helm",
-      "target": "kaboom",
-      "type": "related"
-    },
-    {
-      "source": "helm",
-      "target": "king-aldric",
-      "type": "related"
-    },
-    {
-      "source": "helm",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "helm",
-      "target": "golden-war",
-      "type": "related"
-    },
-    {
-      "source": "helm",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "helm",
       "target": "arashi",
       "type": "member-of"
     },
@@ -2044,21 +2183,6 @@
       "source": "kaboom",
       "target": "ibeson",
       "type": "located-in"
-    },
-    {
-      "source": "kaboom",
-      "target": "king-aldric",
-      "type": "related"
-    },
-    {
-      "source": "kaboom",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "kaboom",
-      "target": "golden-war",
-      "type": "related"
     },
     {
       "source": "kaboom",
@@ -2072,31 +2196,6 @@
     },
     {
       "source": "lucifer",
-      "target": "sunlee",
-      "type": "related"
-    },
-    {
-      "source": "lucifer",
-      "target": "crimson-knight",
-      "type": "related"
-    },
-    {
-      "source": "lucifer",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "lucifer",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "lucifer",
-      "target": "crimson-convergence",
-      "type": "related"
-    },
-    {
-      "source": "lucifer",
       "target": "arashi",
       "type": "member-of"
     },
@@ -2107,33 +2206,13 @@
     },
     {
       "source": "nebbio",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "nebbio",
-      "target": "equinox-of-power",
+      "target": "mist-family-massacre",
       "type": "related"
     },
     {
       "source": "nebbio",
       "target": "arashi",
       "type": "member-of"
-    },
-    {
-      "source": "oto",
-      "target": "dark-paladin",
-      "type": "related"
-    },
-    {
-      "source": "oto",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "oto",
-      "target": "equinox-of-power",
-      "type": "related"
     },
     {
       "source": "oto",
@@ -2147,33 +2226,8 @@
     },
     {
       "source": "rabuka",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "rabuka",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "rabuka",
       "target": "arashi",
       "type": "member-of"
-    },
-    {
-      "source": "ryobik",
-      "target": "dark-paladin",
-      "type": "related"
-    },
-    {
-      "source": "ryobik",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "ryobik",
-      "target": "equinox-of-power",
-      "type": "related"
     },
     {
       "source": "ryobik",
@@ -2187,33 +2241,8 @@
     },
     {
       "source": "spector",
-      "target": "selvarin",
-      "type": "related"
-    },
-    {
-      "source": "spector",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "spector",
-      "target": "equinox-of-power",
-      "type": "related"
-    },
-    {
-      "source": "spector",
       "target": "arashi",
       "type": "member-of"
-    },
-    {
-      "source": "unknown-0",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "unknown-0",
-      "target": "dark-paladin",
-      "type": "related"
     },
     {
       "source": "unknown-0",
@@ -2222,32 +2251,17 @@
     },
     {
       "source": "velho",
-      "target": "dark-paladin",
+      "target": "veles",
       "type": "related"
     },
     {
       "source": "velho",
-      "target": "fluffy",
-      "type": "related"
-    },
-    {
-      "source": "velho",
-      "target": "first-great-war",
-      "type": "related"
-    },
-    {
-      "source": "velho",
-      "target": "crimson-convergence",
+      "target": "wizard-uprising",
       "type": "related"
     },
     {
       "source": "velho",
       "target": "arashi",
-      "type": "member-of"
-    },
-    {
-      "source": "ace",
-      "target": "crimson-knight",
       "type": "member-of"
     },
     {
@@ -2256,21 +2270,6 @@
       "type": "located-in"
     },
     {
-      "source": "ace",
-      "target": "kusamori",
-      "type": "located-in"
-    },
-    {
-      "source": "ace",
-      "target": "okbridge",
-      "type": "located-in"
-    },
-    {
-      "source": "ace",
-      "target": "first-great-war",
-      "type": "founded-in"
-    },
-    {
       "source": "arashi",
       "target": "icogas",
       "type": "located-in"
@@ -2311,28 +2310,8 @@
       "type": "located-in"
     },
     {
-      "source": "arashi",
-      "target": "equinox-of-power",
-      "type": "founded-in"
-    },
-    {
-      "source": "butterfly",
-      "target": "veles",
-      "type": "member-of"
-    },
-    {
-      "source": "butterfly",
-      "target": "dark-paladin",
-      "type": "member-of"
-    },
-    {
       "source": "butterfly",
       "target": "klanron",
-      "type": "located-in"
-    },
-    {
-      "source": "butterfly",
-      "target": "iyhago-prime",
       "type": "located-in"
     },
     {
@@ -2341,28 +2320,8 @@
       "type": "located-in"
     },
     {
-      "source": "butterfly",
-      "target": "anehull",
-      "type": "located-in"
-    },
-    {
-      "source": "butterfly",
-      "target": "equinox-of-power",
-      "type": "founded-in"
-    },
-    {
       "source": "crimson-rooks",
       "target": "vacron",
-      "type": "located-in"
-    },
-    {
-      "source": "crimson-rooks",
-      "target": "phaaross",
-      "type": "located-in"
-    },
-    {
-      "source": "crimson-rooks",
-      "target": "okbridge",
       "type": "located-in"
     },
     {
@@ -2376,49 +2335,9 @@
       "type": "located-in"
     },
     {
-      "source": "crimson-rooks",
-      "target": "hiypolis",
-      "type": "located-in"
-    },
-    {
-      "source": "crimson-rooks",
-      "target": "crimson-convergence",
-      "type": "founded-in"
-    },
-    {
       "source": "magic-societies",
       "target": "klanron",
       "type": "located-in"
-    },
-    {
-      "source": "magic-societies",
-      "target": "iyhago-prime",
-      "type": "located-in"
-    },
-    {
-      "source": "magic-societies",
-      "target": "anehull",
-      "type": "located-in"
-    },
-    {
-      "source": "magic-societies",
-      "target": "equinox-of-power",
-      "type": "founded-in"
-    },
-    {
-      "source": "pegasus",
-      "target": "selvarin",
-      "type": "member-of"
-    },
-    {
-      "source": "pegasus",
-      "target": "sunlee",
-      "type": "member-of"
-    },
-    {
-      "source": "pegasus",
-      "target": "berserk",
-      "type": "member-of"
     },
     {
       "source": "pegasus",
@@ -2431,38 +2350,8 @@
       "type": "located-in"
     },
     {
-      "source": "pegasus",
-      "target": "akison",
-      "type": "located-in"
-    },
-    {
-      "source": "pegasus",
-      "target": "first-great-war",
-      "type": "founded-in"
-    },
-    {
-      "source": "rose",
-      "target": "veles",
-      "type": "member-of"
-    },
-    {
-      "source": "rose",
-      "target": "crimson-knight",
-      "type": "member-of"
-    },
-    {
       "source": "rose",
       "target": "uyrand",
-      "type": "located-in"
-    },
-    {
-      "source": "rose",
-      "target": "andport",
-      "type": "located-in"
-    },
-    {
-      "source": "rose",
-      "target": "neruvalis",
       "type": "located-in"
     },
     {
@@ -2476,17 +2365,7 @@
       "type": "located-in"
     },
     {
-      "source": "rose",
-      "target": "crimson-convergence",
-      "type": "founded-in"
-    },
-    {
       "source": "darkmane-family",
-      "target": "grousea",
-      "type": "mentioned"
-    },
-    {
-      "source": "first-great-war",
       "target": "grousea",
       "type": "mentioned"
     },
@@ -2501,27 +2380,47 @@
       "type": "mentioned"
     },
     {
-      "source": "frada",
+      "source": "age-of-elves",
       "target": "crimson-convergence",
       "type": "mentioned"
     },
     {
-      "source": "zhuiburn",
+      "source": "dragon-era",
       "target": "crimson-convergence",
       "type": "mentioned"
     },
     {
-      "source": "equinox-of-power",
+      "source": "five-appearances-of-fluffy",
       "target": "crimson-convergence",
       "type": "mentioned"
     },
     {
-      "source": "golden-war",
+      "source": "goldhelm-exodus",
       "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "devourers",
+      "target": "crimson-convergence",
+      "type": "mentioned"
+    },
+    {
+      "source": "fodon",
+      "target": "arashi",
       "type": "mentioned"
     },
     {
       "source": "darkmane-family",
+      "target": "warring-darkmane-realm",
+      "type": "mentioned"
+    },
+    {
+      "source": "age-of-elves",
+      "target": "warring-darkmane-realm",
+      "type": "mentioned"
+    },
+    {
+      "source": "corrupted-runes",
       "target": "warring-darkmane-realm",
       "type": "mentioned"
     },
@@ -2531,17 +2430,7 @@
       "type": "mentioned"
     },
     {
-      "source": "crimson-convergence",
-      "target": "vacron",
-      "type": "mentioned"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "vacron",
-      "type": "mentioned"
-    },
-    {
-      "source": "first-great-war",
+      "source": "founding-of-crimson-rooks",
       "target": "vacron",
       "type": "mentioned"
     },
@@ -2556,32 +2445,12 @@
       "type": "mentioned"
     },
     {
-      "source": "first-great-war",
-      "target": "frada",
-      "type": "mentioned"
-    },
-    {
-      "source": "golden-war",
-      "target": "frada",
-      "type": "mentioned"
-    },
-    {
       "source": "imuton",
       "target": "oredsy",
       "type": "mentioned"
     },
     {
       "source": "wrofast",
-      "target": "oredsy",
-      "type": "mentioned"
-    },
-    {
-      "source": "equinox-of-power",
-      "target": "oredsy",
-      "type": "mentioned"
-    },
-    {
-      "source": "first-great-war",
       "target": "oredsy",
       "type": "mentioned"
     },
@@ -2601,23 +2470,43 @@
       "type": "mentioned"
     },
     {
-      "source": "andport",
-      "target": "crimson-rooks",
+      "source": "founding-of-crimson-rooks",
+      "target": "kingdom-of-vacron",
       "type": "mentioned"
     },
     {
-      "source": "frada",
-      "target": "crimson-rooks",
+      "source": "ipadora-land-war",
+      "target": "republic-of-frada",
       "type": "mentioned"
     },
     {
-      "source": "oredsy",
-      "target": "crimson-rooks",
+      "source": "holotech",
+      "target": "republic-of-frada",
       "type": "mentioned"
     },
     {
-      "source": "wrofast",
-      "target": "crimson-rooks",
+      "source": "formation-of-pegasus-and-rose",
+      "target": "state-of-akison",
+      "type": "mentioned"
+    },
+    {
+      "source": "formation-of-pegasus-and-rose",
+      "target": "republic-of-oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "mist-family-massacre",
+      "target": "republic-of-oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "wizard-uprising",
+      "target": "republic-of-oredsy",
+      "type": "mentioned"
+    },
+    {
+      "source": "devourers",
+      "target": "princess-seraphina",
       "type": "mentioned"
     },
     {
@@ -2636,13 +2525,48 @@
       "type": "mentioned"
     },
     {
+      "source": "goldhelm-exodus",
+      "target": "ovodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "holotech",
+      "target": "ovodon",
+      "type": "mentioned"
+    },
+    {
       "source": "goldhelm-family",
+      "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "equinox-of-power",
+      "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "five-appearances-of-fluffy",
       "target": "ibeson",
       "type": "mentioned"
     },
     {
       "source": "golden-war",
       "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "holotech",
+      "target": "ibeson",
+      "type": "mentioned"
+    },
+    {
+      "source": "akison",
+      "target": "golden-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "oredsy",
+      "target": "golden-war",
       "type": "mentioned"
     },
     {
@@ -2661,23 +2585,63 @@
       "type": "mentioned"
     },
     {
-      "source": "holotech",
-      "target": "golden-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "runestones",
-      "target": "golden-war",
-      "type": "mentioned"
-    },
-    {
       "source": "goldhelm-family",
       "target": "goldhelm-kingdom",
       "type": "mentioned"
     },
     {
+      "source": "equinox-of-power",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "first-great-war",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "formation-of-kingdoms",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "goldhelm-exodus",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "devourers",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "holotech",
+      "target": "goldhelm-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "devourers",
+      "target": "king-aldric",
+      "type": "mentioned"
+    },
+    {
       "source": "solaran",
       "target": "king-aldric",
+      "type": "mentioned"
+    },
+    {
+      "source": "five-appearances-of-fluffy",
+      "target": "cridbury",
+      "type": "mentioned"
+    },
+    {
+      "source": "runestones",
+      "target": "nikolem-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "suudon",
+      "target": "golem-king",
       "type": "mentioned"
     },
     {
@@ -2696,6 +2660,11 @@
       "type": "mentioned"
     },
     {
+      "source": "house-abyrath",
+      "target": "ipadora-sanctuary",
+      "type": "mentioned"
+    },
+    {
       "source": "ipadora-family",
       "target": "ipadora-sanctuary",
       "type": "mentioned"
@@ -2706,6 +2675,11 @@
       "type": "mentioned"
     },
     {
+      "source": "house-abyrath",
+      "target": "glaril",
+      "type": "mentioned"
+    },
+    {
       "source": "ipadora-family",
       "target": "glaril",
       "type": "mentioned"
@@ -2716,8 +2690,13 @@
       "type": "mentioned"
     },
     {
-      "source": "first-great-war",
+      "source": "ace",
       "target": "war-of-fodon",
+      "type": "mentioned"
+    },
+    {
+      "source": "house-abyrath",
+      "target": "ipadora-kingdom",
       "type": "mentioned"
     },
     {
@@ -2726,23 +2705,18 @@
       "type": "mentioned"
     },
     {
+      "source": "ipadora-land-war",
+      "target": "ipadora-kingdom",
+      "type": "mentioned"
+    },
+    {
+      "source": "sylvaren",
+      "target": "queen-nayele",
+      "type": "mentioned"
+    },
+    {
       "source": "okbridge",
       "target": "neruvalis",
-      "type": "mentioned"
-    },
-    {
-      "source": "fodon",
-      "target": "arashi",
-      "type": "mentioned"
-    },
-    {
-      "source": "skellmoor",
-      "target": "arashi",
-      "type": "mentioned"
-    },
-    {
-      "source": "ipadora-family",
-      "target": "rabuka",
       "type": "mentioned"
     },
     {
@@ -2751,48 +2725,13 @@
       "type": "mentioned"
     },
     {
-      "source": "sailor-speak",
-      "target": "rabuka",
+      "source": "ipadora-land-war",
+      "target": "kingdom-of-fodon",
       "type": "mentioned"
     },
     {
       "source": "tharnexi",
       "target": "vorryn",
-      "type": "mentioned"
-    },
-    {
-      "source": "fodon",
-      "target": "vorvax",
-      "type": "mentioned"
-    },
-    {
-      "source": "solaran",
-      "target": "kaboom",
-      "type": "mentioned"
-    },
-    {
-      "source": "solaran",
-      "target": "helm",
-      "type": "mentioned"
-    },
-    {
-      "source": "fodon",
-      "target": "azaraith",
-      "type": "mentioned"
-    },
-    {
-      "source": "nualthyr",
-      "target": "azaraith",
-      "type": "mentioned"
-    },
-    {
-      "source": "fodon",
-      "target": "varnokh",
-      "type": "mentioned"
-    },
-    {
-      "source": "karthrun",
-      "target": "varnokh",
       "type": "mentioned"
     },
     {
@@ -2803,16 +2742,6 @@
     {
       "source": "fodon",
       "target": "lucifer",
-      "type": "mentioned"
-    },
-    {
-      "source": "pyrrhith",
-      "target": "lucifer",
-      "type": "mentioned"
-    },
-    {
-      "source": "war-of-fodon",
-      "target": "mayson",
       "type": "mentioned"
     },
     {
@@ -2831,62 +2760,22 @@
       "type": "mentioned"
     },
     {
-      "source": "ipadora-sanctuary",
+      "source": "oredsy",
       "target": "equinox-of-power",
       "type": "mentioned"
     },
     {
-      "source": "iyhago-prime",
+      "source": "first-great-war",
       "target": "equinox-of-power",
       "type": "mentioned"
     },
     {
-      "source": "oniofast",
+      "source": "five-appearances-of-fluffy",
       "target": "equinox-of-power",
       "type": "mentioned"
     },
     {
-      "source": "zhuiburn",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "goldhelm-family",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "ipadora-family",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "war-of-fodon",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "corrupted-runes",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "holotech",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "malefici",
-      "target": "equinox-of-power",
-      "type": "mentioned"
-    },
-    {
-      "source": "metas",
+      "source": "wizard-uprising",
       "target": "equinox-of-power",
       "type": "mentioned"
     },
@@ -2896,63 +2785,8 @@
       "type": "mentioned"
     },
     {
-      "source": "icogas",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "skellmoor",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "darkmane-family",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "corrupted-runes",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "malefici",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "runestones",
-      "target": "first-great-war",
-      "type": "mentioned"
-    },
-    {
-      "source": "frada",
-      "target": "rose",
-      "type": "mentioned"
-    },
-    {
-      "source": "glaril",
-      "target": "rose",
-      "type": "mentioned"
-    },
-    {
-      "source": "hiypolis",
-      "target": "rose",
-      "type": "mentioned"
-    },
-    {
-      "source": "ipadora-sanctuary",
-      "target": "rose",
-      "type": "mentioned"
-    },
-    {
-      "source": "iyhago-prime",
-      "target": "rose",
-      "type": "mentioned"
-    },
-    {
       "source": "oredsy",
-      "target": "rose",
+      "target": "first-great-war",
       "type": "mentioned"
     },
     {
@@ -2966,27 +2800,27 @@
       "type": "mentioned"
     },
     {
+      "source": "formation-of-pegasus-and-rose",
+      "target": "uyrand",
+      "type": "mentioned"
+    },
+    {
       "source": "uyrand",
       "target": "iyhago-prime",
       "type": "mentioned"
     },
     {
-      "source": "ipadora-sanctuary",
-      "target": "butterfly",
-      "type": "mentioned"
-    },
-    {
-      "source": "uyrand",
-      "target": "butterfly",
-      "type": "mentioned"
-    },
-    {
-      "source": "crimson-convergence",
+      "source": "formation-of-pegasus-and-rose",
       "target": "anehull",
       "type": "mentioned"
     },
     {
-      "source": "golden-war",
+      "source": "hell",
+      "target": "anehull",
+      "type": "mentioned"
+    },
+    {
+      "source": "holotech",
       "target": "hiypolis",
       "type": "mentioned"
     },
@@ -2996,7 +2830,7 @@
       "type": "mentioned"
     },
     {
-      "source": "ubraamore",
+      "source": "akison",
       "target": "pegasus",
       "type": "mentioned"
     },
@@ -3011,23 +2845,53 @@
       "type": "mentioned"
     },
     {
-      "source": "kotoba",
-      "target": "biruda",
+      "source": "mist-family-massacre",
+      "target": "wrofast",
       "type": "mentioned"
     },
     {
-      "source": "imuton",
-      "target": "ace",
+      "source": "formation-of-pegasus-and-rose",
+      "target": "oniofast",
       "type": "mentioned"
     },
     {
-      "source": "uyrand",
-      "target": "magic-societies",
+      "source": "formation-of-pegasus-and-rose",
+      "target": "kingdom-of-iyhago",
       "type": "mentioned"
     },
     {
-      "source": "karthrun",
-      "target": "zunarorth",
+      "source": "eshar-thi",
+      "target": "dark-paladin",
+      "type": "mentioned"
+    },
+    {
+      "source": "eshar-thi",
+      "target": "founding-of-crimson-rooks",
+      "type": "mentioned"
+    },
+    {
+      "source": "hell",
+      "target": "berserk",
+      "type": "mentioned"
+    },
+    {
+      "source": "five-appearances-of-fluffy",
+      "target": "dragon-era",
+      "type": "mentioned"
+    },
+    {
+      "source": "ipadora-family",
+      "target": "prince-vaelen",
+      "type": "mentioned"
+    },
+    {
+      "source": "five-appearances-of-fluffy",
+      "target": "ipadora-land-war",
+      "type": "mentioned"
+    },
+    {
+      "source": "devourers",
+      "target": "goldhelm-exodus",
       "type": "mentioned"
     }
   ]
