@@ -1,6 +1,6 @@
 **The Tales of Eldunary**
 
-*Master Encyclopedia  •  Version 8*
+*Master Encyclopedia  •  Version 9*
 
 # **I.  Maps**
 
