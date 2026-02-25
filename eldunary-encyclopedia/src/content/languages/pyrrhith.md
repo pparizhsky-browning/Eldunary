@@ -11,6 +11,7 @@ script: "Exists — held exclusively within Zhuiburn, not accessible to outsider
 parentLanguages: []
 relatedCharacters: []
 relatedKingdoms: ["republic-of-oredsy"]
+speakerRank: 10
 summary: "Spoken language of Zhuiburn — spoken by no other community and voluntarily taught to no outsider. Origins unknown. No structural ancestry with Common, Sylvaren, Tharnic, or any documented language in Criozevan. Built almost entirely from fricatives and plosives. Minimal vowels. Written form exists but is not shared."
 ---
 

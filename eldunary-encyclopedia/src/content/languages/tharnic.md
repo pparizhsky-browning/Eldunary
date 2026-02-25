@@ -11,6 +11,7 @@ script: "Unknown"
 relatedCharacters: ["selvarin"]
 relatedKingdoms: ["republic-of-oredsy"]
 relatedRaces: ["folkwynd"]
+speakerRank: 4
 summary: "The Oredsy Republic language. Selvarin's native tongue."
 ---
 

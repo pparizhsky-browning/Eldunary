@@ -11,6 +11,7 @@ script: "Circuit Script (modular, assembly-based)"
 relatedCharacters: ["king-aldric", "princess-seraphina"]
 relatedKingdoms: ["goldhelm-kingdom"]
 relatedRaces: ["goldhelms"]
+speakerRank: 6
 summary: "The Goldhelm technical language. Circuit Script is modular and assembly-based — ideal for engineering documentation."
 ---
 

@@ -216,6 +216,7 @@ const languagesCollection = defineCollection({
     relatedCities: z.array(z.string()).optional().default([]),
     relatedRaces: z.array(z.string()).optional().default([]),
     accentColor: z.string().optional().nullable(),
+    speakerRank: z.number().optional(),
     summary: z.string().optional().nullable(),
   }).passthrough(),
 });

@@ -1,0 +1,249 @@
+---
+interface Props {
+  name: string;
+  slug: string;
+  tier: 1 | 2 | 3 | 4;
+  summary?: string | null;
+  accentColor?: string | null;
+  status?: string | null;
+  script?: string | null;
+  nativeSpeakers?: string[];
+  usedIn?: string[];
+  parentLanguages?: string[];
+  opacity?: number;
+}
+
+const {
+  name,
+  slug,
+  tier,
+  summary,
+  accentColor,
+  status,
+  script,
+  nativeSpeakers = [],
+  usedIn = [],
+  parentLanguages = [],
+  opacity = 1,
+} = Astro.props;
+
+// Derive status badge color from status string
+function statusColor(s: string | null | undefined): string {
+  if (!s) return '#888';
+  const lower = s.toLowerCase();
+  if (lower.includes('near-extinct') || lower.includes('extinct')) return '#c0392b';
+  if (lower.includes('exclusive') || lower.includes('isolated') || lower.includes('elite')) return '#e67e22';
+  if (lower.includes('active')) return '#27ae60';
+  if (lower.includes('declining')) return '#d4a017';
+  return '#888';
+}
+
+const badgeColor = statusColor(status);
+const accent = accentColor ?? '#5C89C4';
+
+// Short status label
+function shortStatus(s: string | null | undefined): string {
+  if (!s) return 'Unknown';
+  if (s.includes('—')) return s.split('—')[0].trim();
+  if (s.includes('(')) return s.split('(')[0].trim();
+  return s.length > 28 ? s.slice(0, 28) + '…' : s;
+}
+---
+
+<a
+  href={`/languages/${slug}`}
+  class={`lang-card tier-${tier}`}
+  style={`--accent: ${accent}; --badge: ${badgeColor}; --card-opacity: ${opacity};`}
+>
+  <div class="card-glow"></div>
+
+  {tier <= 2 && script && (
+    <div class="script-tag">{script}</div>
+  )}
+
+  <div class="card-body">
+    <h3 class="card-name">{name}</h3>
+
+    {summary && <p class="card-summary">{summary}</p>}
+
+    <div class="card-meta-row">
+      {nativeSpeakers.length > 0 && (
+        <span class="meta-pill speakers">
+          <span class="meta-icon">◈</span>
+          {nativeSpeakers.map(s => s.replace(/-/g, ' ')).join(', ')}
+        </span>
+      )}
+      {usedIn.length > 0 && tier <= 2 && (
+        <span class="meta-pill regions">
+          <span class="meta-icon">◎</span>
+          {usedIn.slice(0, 3).map(s => s.replace(/-/g, ' ')).join(', ')}{usedIn.length > 3 ? ` +${usedIn.length - 3}` : ''}
+        </span>
+      )}
+      {parentLanguages.length > 0 && (
+        <span class="meta-pill derived">
+          <span class="meta-icon">↳</span>
+          from {parentLanguages.map(s => s.replace(/-/g, ' ')).join(' & ')}
+        </span>
+      )}
+    </div>
+  </div>
+
+  <div class="card-footer">
+    <span class="status-badge" style={`color: var(--badge); border-color: color-mix(in srgb, var(--badge), transparent 70%); background: color-mix(in srgb, var(--badge), transparent 88%);`}>
+      {shortStatus(status)}
+    </span>
+    <span class="card-arrow">→</span>
+  </div>
+</a>
+
+<style>
+  .lang-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-left: 3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent), var(--bg-card, #0f0f14) 93%);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+    opacity: var(--card-opacity, 1);
+    padding: 1.25rem 1.4rem 1rem;
+  }
+  .lang-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px color-mix(in srgb, var(--accent), transparent 78%);
+    border-left-color: color-mix(in srgb, var(--accent), white 15%);
+    opacity: 1 !important;
+  }
+  .card-glow {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--accent), transparent 60%) 0%, transparent 70%);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  .lang-card:hover .card-glow { opacity: 1; }
+
+  /* ── Tier-specific sizing ── */
+  .tier-1 { padding: 1.75rem 2rem 1.4rem; }
+  .tier-1 .card-name { font-size: 1.5rem; }
+  .tier-1 .card-summary { -webkit-line-clamp: 4; font-size: 0.9rem; }
+
+  .tier-2 .card-name { font-size: 1.15rem; }
+  .tier-2 .card-summary { -webkit-line-clamp: 3; }
+
+  .tier-3 .card-name { font-size: 1rem; }
+  .tier-3 .card-summary { -webkit-line-clamp: 2; font-size: 0.8rem; }
+
+  .tier-4 .card-name { font-size: 0.95rem; }
+  .tier-4 .card-summary { -webkit-line-clamp: 2; font-size: 0.78rem; }
+
+  /* ── Script tag (top-right ribbon) ── */
+  .script-tag {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.9rem;
+    font-size: 0.58rem;
+    font-family: var(--font-inter), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent), transparent 88%);
+    border: 1px solid color-mix(in srgb, var(--accent), transparent 72%);
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ── Card body ── */
+  .card-body { flex: 1; }
+  .card-name {
+    font-family: var(--font-cinzel), serif;
+    color: var(--text-primary, #fff);
+    margin: 0.1rem 0 0.6rem;
+    line-height: 1.25;
+    transition: color 0.2s;
+  }
+  .lang-card:hover .card-name { color: var(--accent); }
+
+  .card-summary {
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 0.83rem;
+    color: var(--text-secondary, #9a9a9a);
+    line-height: 1.6;
+    margin: 0 0 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ── Meta pills ── */
+  .card-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+  .meta-pill {
+    font-size: 0.6rem;
+    font-family: var(--font-inter), sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.04em;
+    padding: 0.18rem 0.5rem;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+  .meta-icon { margin-right: 0.25rem; opacity: 0.7; }
+  .speakers {
+    color: color-mix(in srgb, var(--accent), white 30%);
+    background: color-mix(in srgb, var(--accent), transparent 88%);
+    border: 1px solid color-mix(in srgb, var(--accent), transparent 75%);
+  }
+  .regions {
+    color: #a0a0a0;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .derived {
+    color: #b8a0d0;
+    background: rgba(180,140,220,0.08);
+    border: 1px solid rgba(180,140,220,0.2);
+  }
+
+  /* ── Footer ── */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.7rem;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    margin-top: auto;
+  }
+  .status-badge {
+    font-size: 0.58rem;
+    font-family: var(--font-inter), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  .card-arrow {
+    font-size: 0.9rem;
+    color: var(--accent);
+    opacity: 0.6;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .lang-card:hover .card-arrow { transform: translateX(4px); opacity: 1; }
+</style>

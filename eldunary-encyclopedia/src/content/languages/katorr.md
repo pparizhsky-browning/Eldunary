@@ -11,6 +11,7 @@ script: "Unwritten (gesture and pressure-based)"
 relatedCharacters: ["rabuka"]
 relatedKingdoms: ["state-of-akison", "ipadora-kingdom"]
 relatedRaces: ["sharkai"]
+speakerRank: 9
 summary: "The Sharkai language. Guttural, gesture-based, and used underwater. Rabuka speaks it natively."
 ---
 

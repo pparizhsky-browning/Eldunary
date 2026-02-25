@@ -11,6 +11,7 @@ script: "Fluid-Script (flowing, wave-form notation)"
 relatedCharacters: ["queen-nayele"]
 relatedKingdoms: ["ipadora-kingdom"]
 relatedRaces: ["ipadoras"]
+speakerRank: 2
 summary: "The Ipadora language. Fluid-script and voicewave dialect. Spoken throughout the Ipadora Kingdom."
 ---
 

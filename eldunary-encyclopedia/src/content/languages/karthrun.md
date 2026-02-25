@@ -11,6 +11,7 @@ script: "Rune-Script (the inscribed form IS the language)"
 relatedCharacters: ["golem-king"]
 relatedKingdoms: ["nikolem-kingdom"]
 relatedRaces: ["golems"]
+speakerRank: 7
 summary: "The Golem language. Inscribed in chiseled glyph-code."
 ---
 

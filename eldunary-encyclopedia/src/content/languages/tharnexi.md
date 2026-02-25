@@ -11,6 +11,7 @@ script: "Spiral claw-glyph script (etched into carapace plates)"
 relatedCharacters: ["vorryn"]
 relatedKingdoms: ["kingdom-of-fodon"]
 relatedRaces: ["tharnex"]
+speakerRank: 12
 summary: "The Tharnex hive language. Now spoken only by Vorryn, the last Tharnex. Written in spiral claw-glyphs etched into carapace plates."
 ---
 

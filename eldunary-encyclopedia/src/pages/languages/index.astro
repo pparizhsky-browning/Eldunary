@@ -1,53 +1,197 @@
 ---
 import { getCollection } from 'astro:content';
 import FullWidthLayout from '../../layouts/FullWidthLayout.astro';
-import EntityCard from '../../components/cards/EntityCard.astro';
+import LanguageTierCard from '../../components/cards/LanguageTierCard.astro';
 
 const languages = await getCollection('languages');
-const sorted = languages.sort((a, b) => a.data.name.localeCompare(b.data.name));
+const sorted = languages.sort((a, b) => (a.data.speakerRank ?? 99) - (b.data.speakerRank ?? 99));
+
+const tier1 = sorted.filter(l => (l.data.speakerRank ?? 99) <= 2);
+const tier2 = sorted.filter(l => { const r = l.data.speakerRank ?? 99; return r >= 3 && r <= 7; });
+const tier3 = sorted.filter(l => { const r = l.data.speakerRank ?? 99; return r >= 8 && r <= 9; });
+const tier4 = sorted.filter(l => (l.data.speakerRank ?? 99) >= 10);
+
+// Per-card opacity for tier 4: fades as rank increases
+const tier4Opacity: Record<number, number> = { 10: 0.85, 11: 0.65, 12: 0.45 };
 ---
+
 <FullWidthLayout title="Languages of Eldunary" description="Tongues and scripts of Eldunary">
-  <div class="listing-page">
-    <header class="listing-header">
-      <span class="listing-eyebrow">Tongues & Scripts</span>
-      <h1 class="listing-title">Languages of Eldunary</h1>
-      <div class="header-accent"></div>
-      <p class="listing-desc">The tongues, dialects, and writing systems spoken across the world of Eldunary.</p>
+  <div class="languages-page">
+
+    <!-- ── Header ── -->
+    <header class="page-header">
+      <div class="header-content">
+        <span class="eyebrow">Tongues &amp; Scripts</span>
+        <h1 class="page-title">Languages of Eldunary</h1>
+        <div class="header-accent"></div>
+        <p class="page-desc">
+          From the continental tongue spoken by every race to the dying whispers of a near-extinct hive — the languages of Criozevan, ranked by reach.
+        </p>
+      </div>
     </header>
-    <div class="listing-grid">
-      {sorted.map((l) => (
-        <EntityCard name={l.data.name} slug={l.slug} type="language" summary={l.data.summary} accentColor={l.data.accentColor} meta={l.data.spoken_by?.[0]} />
-      ))}
-    </div>
+
+    <!-- ══════════════════════════════════
+         TIER I — Continental Tongues
+    ══════════════════════════════════ -->
+    <section class="tier-section">
+      <div class="tier-divider">
+        <span class="tier-line"></span>
+        <span class="tier-label">
+          <span class="tier-numeral">I</span>
+          Continental Tongues
+        </span>
+        <span class="tier-line"></span>
+      </div>
+      <p class="tier-desc">Spoken as a first or second language across the entire continent.</p>
+      <div class="tier-1-grid">
+        {tier1.map(l => (
+          <LanguageTierCard
+            tier={1}
+            name={l.data.name}
+            slug={l.slug}
+            summary={l.data.summary}
+            accentColor={l.data.accentColor}
+            status={l.data.status}
+            script={l.data.script}
+            nativeSpeakers={l.data.nativeSpeakers ?? []}
+            usedIn={l.data.usedIn ?? []}
+          />
+        ))}
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         TIER II — Kingdom Tongues
+    ══════════════════════════════════ -->
+    <section class="tier-section">
+      <div class="tier-divider">
+        <span class="tier-line"></span>
+        <span class="tier-label">
+          <span class="tier-numeral">II</span>
+          Kingdom Tongues
+        </span>
+        <span class="tier-line"></span>
+      </div>
+      <p class="tier-desc">Each bound to a race or realm. Widely spoken within their homeland; rare beyond it.</p>
+      <div class="tier-2-grid">
+        {tier2.map(l => (
+          <LanguageTierCard
+            tier={2}
+            name={l.data.name}
+            slug={l.slug}
+            summary={l.data.summary}
+            accentColor={l.data.accentColor}
+            status={l.data.status}
+            script={l.data.script}
+            nativeSpeakers={l.data.nativeSpeakers ?? []}
+            usedIn={l.data.usedIn ?? []}
+          />
+        ))}
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         TIER III — Trade & Fringe Tongues
+    ══════════════════════════════════ -->
+    <section class="tier-section">
+      <div class="tier-divider">
+        <span class="tier-line"></span>
+        <span class="tier-label">
+          <span class="tier-numeral">III</span>
+          Trade &amp; Fringe Tongues
+        </span>
+        <span class="tier-line"></span>
+      </div>
+      <p class="tier-desc">Functional rather than native. Spoken in specific trades, environments, or subcultures.</p>
+      <div class="tier-3-grid">
+        {tier3.map(l => (
+          <LanguageTierCard
+            tier={3}
+            name={l.data.name}
+            slug={l.slug}
+            summary={l.data.summary}
+            accentColor={l.data.accentColor}
+            status={l.data.status}
+            script={l.data.script}
+            nativeSpeakers={l.data.nativeSpeakers ?? []}
+            usedIn={l.data.usedIn ?? []}
+            parentLanguages={(l.data as any).parentLanguages ?? []}
+          />
+        ))}
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         TIER IV — Isolated & Dying
+    ══════════════════════════════════ -->
+    <section class="tier-section tier-4-section">
+      <div class="tier-divider">
+        <span class="tier-line tier-line--dim"></span>
+        <span class="tier-label tier-label--dim">
+          <span class="tier-numeral">IV</span>
+          Isolated &amp; Dying
+        </span>
+        <span class="tier-line tier-line--dim"></span>
+      </div>
+      <p class="tier-desc tier-desc--dim">Spoken by only a handful — or one. These languages are disappearing.</p>
+      <div class="tier-4-grid">
+        {tier4.map(l => (
+          <LanguageTierCard
+            tier={4}
+            name={l.data.name}
+            slug={l.slug}
+            summary={l.data.summary}
+            accentColor={l.data.accentColor}
+            status={l.data.status}
+            script={l.data.script}
+            nativeSpeakers={l.data.nativeSpeakers ?? []}
+            usedIn={l.data.usedIn ?? []}
+            opacity={tier4Opacity[l.data.speakerRank ?? 10] ?? 0.45}
+          />
+        ))}
+      </div>
+    </section>
+
   </div>
 </FullWidthLayout>
+
 <style>
-  .listing-page {
+  .languages-page {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 1.5rem 4rem;
-    animation: grid-fade-up 0.7s ease both;
+    padding: 6rem 2rem 6rem;
+    animation: fade-up 0.7s ease both;
   }
-  @keyframes grid-fade-up {
-    from { opacity: 0; transform: translateY(24px); }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
   }
-  .listing-header { margin-bottom: 3.5rem; }
-  .listing-eyebrow {
+
+  /* ── Header ── */
+  .page-header {
+    margin-bottom: 5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+  }
+  .header-content { max-width: 680px; }
+  .eyebrow {
     display: block;
     font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #5C89C4;
     font-family: var(--font-inter), sans-serif;
-    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #5C89C4;
+    margin-bottom: 1rem;
+    opacity: 0.8;
   }
-  .listing-title {
+  .page-title {
     font-family: var(--font-cinzel), serif;
     font-size: clamp(2.5rem, 6vw, 4rem);
-    color: var(--text-primary);
-    margin: 0 0 1rem;
-    line-height: 1.1;
+    font-weight: 900;
+    color: var(--text-primary, #fff);
+    margin: 0 0 1.25rem;
+    line-height: 1.05;
     letter-spacing: 0.02em;
   }
   .header-accent {
@@ -55,21 +199,105 @@ const sorted = languages.sort((a, b) => a.data.name.localeCompare(b.data.name));
     height: 3px;
     background: #5C89C4;
     border-radius: 2px;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 0 12px #5C89C4;
   }
-  .listing-desc {
-    color: var(--text-secondary);
+  .page-desc {
     font-family: var(--font-lora), serif;
     font-style: italic;
     font-size: 1.05rem;
+    color: var(--text-secondary, #9a9a9a);
+    line-height: 1.75;
     max-width: 560px;
-    line-height: 1.7;
     margin: 0;
   }
-  .listing-grid {
+
+  /* ── Tier sections ── */
+  .tier-section { margin-bottom: 5rem; }
+
+  /* ── Tier dividers ── */
+  .tier-divider {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  .tier-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+  }
+  .tier-line--dim { background: rgba(255,255,255,0.045); }
+  .tier-label {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-inter), sans-serif;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: rgba(255,255,255,0.55);
+    white-space: nowrap;
+  }
+  .tier-label--dim { color: rgba(255,255,255,0.28); }
+  .tier-numeral {
+    font-family: var(--font-cinzel), serif;
+    font-size: 0.75rem;
+    color: #5C89C4;
+    opacity: 0.85;
+  }
+  .tier-label--dim .tier-numeral { color: rgba(180,140,100,0.6); }
+
+  .tier-desc {
+    font-family: var(--font-lora), serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--text-secondary, #9a9a9a);
+    margin: 0 0 1.75rem;
+    opacity: 0.7;
+  }
+  .tier-desc--dim { opacity: 0.4; }
+
+  /* ── Grid layouts ── */
+  .tier-1-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
+  .tier-2-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  /* 5 cards, 3-col grid: last row has 2 items at col1+col2.
+     Push the 2nd-of-row card (nth-child 3n-1) if it's also
+     the last child, to col 3 so both outer columns are filled. */
+  .tier-2-grid > *:nth-child(3n-1):last-child {
+    grid-column-start: 3;
+  }
+  .tier-3-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .tier-4-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.9rem;
+  }
+
+  @media (max-width: 900px) {
+    .tier-2-grid { grid-template-columns: repeat(2, 1fr); }
+    .tier-2-grid > *:nth-child(3n-1):last-child { grid-column-start: unset; }
+    .tier-4-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .tier-1-grid,
+    .tier-2-grid,
+    .tier-3-grid,
+    .tier-4-grid {
+      grid-template-columns: 1fr;
+    }
+    .tier-2-grid > *:nth-child(3n-1):last-child { grid-column-start: unset; }
   }
 </style>
